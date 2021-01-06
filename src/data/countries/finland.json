@@ -1,0 +1,71 @@
+[
+    {
+        "shortName": "DNA",
+        "longName": "DNA FI",
+        "homePage": "https://dna.fi",
+        "backgroundColor": "#ff007d",
+        "textColor": "White",
+        "Data": {
+            "frequencies": [
+                {
+                    "band": 28,
+                    "downLink": {
+                        "start": 703,
+                        "end": 713
+                    },
+                    "upLink": {
+                        "start": 758,
+                        "end": 768
+                    }
+                },
+                {
+                    "band": 20,
+                    "downLink": {
+                        "start": 832,
+                        "end": 842
+                    },
+                    "upLink": {
+                        "start": 791,
+                        "end": 801
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "shortName": "Elisa",
+        "longName": "Elisa FI",
+        "homePage": "https://elisa.fi",
+        "backgroundColor": "#0019af",
+        "textColor": "White",
+        "Data": {
+            "frequencies": [
+                {
+                    "band": 28,
+                    "downLink": {
+                        "start": 713,
+                        "end": 723
+                    },
+                    "upLink": {
+                        "start": 768,
+                        "end": 778
+                    }
+                },
+                {
+                    "band": 20,
+                    "downLink": {
+                        "start": 852,
+                        "end": 862
+                    },
+                    "upLink": {
+                        "start": 811,
+                        "end": 821
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "shortName": "Telia"
+    }
+]
