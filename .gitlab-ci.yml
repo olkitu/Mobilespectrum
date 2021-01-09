@@ -5,5 +5,8 @@ pages:
   - yarn
   - ng build --prod
   - cp -r dist/MobileSpectrum public
+  artifacts:
+    paths:
+      - public
   only:
   - main
