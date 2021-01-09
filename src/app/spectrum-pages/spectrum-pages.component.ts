@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { networkInterfaces } from 'os';
-import { logging } from 'protractor';
-import { CommonServiceService, Network } from '../common-service.service';
+import { CommonServiceService, Frequency, Network } from '../common-service.service';
 
+export interface BandData {
+  band: number;
+}
 
 @Component({
   selector: 'app-spectrum-pages',
@@ -19,7 +20,7 @@ export class SpectrumPagesComponent implements OnInit {
   }
 
   country: string = "";
-  network: Network | undefined;
+  networks: Network[] = [];
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
@@ -34,7 +35,7 @@ export class SpectrumPagesComponent implements OnInit {
   doGetCountryData(country: string) {
     this.commonService.doGetNetworkData(country).subscribe(data => 
       {
-        this.network = data[0];
+        this.networks = data;
       })
   }
 
