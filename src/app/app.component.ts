@@ -9,6 +9,8 @@ import { faGitlab } from '@fortawesome/free-brands-svg-icons';
 export class AppComponent {
   title = 'MobileSpectrum';
 
+  navbarCollapsed = true;
+
   faGitlab = faGitlab;
 
 }

@@ -1,0 +1,9 @@
+pages:
+  images: node:12.18-buster
+  script:
+  - npm install -g @angular/cli
+  - yarn
+  - ng build --prod
+  - cp dist/MobileSpectrum public
+  only:
+  - main
