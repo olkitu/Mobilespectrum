@@ -4,6 +4,6 @@ pages:
   - npm install -g @angular/cli
   - yarn
   - ng build --prod
-  - cp dist/MobileSpectrum public
+  - cp -r dist/MobileSpectrum public
   only:
   - main
