@@ -10,7 +10,7 @@ build:
   stage: build
   image: docker:latest
   tags:
-  - build
+  - docker
   services:
     - docker:dind
   script:
