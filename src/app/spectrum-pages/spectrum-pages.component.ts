@@ -19,7 +19,7 @@ export class SpectrumPagesComponent implements OnInit {
   constructor(
     private commonService: CommonServiceService,
     private route: ActivatedRoute,
-    private titleService: Title
+    private titleService: Title,
   ) {
   }
 
@@ -30,7 +30,7 @@ export class SpectrumPagesComponent implements OnInit {
     this.titleService.setTitle('MobileSpectrum');
     this.route.params.subscribe(params => {
       this.country = params['country'];
-      this.titleService.setTitle(this.country + ' | MobileSpectrum');
+      this.titleService.setTitle(this.country.charAt(0).toUpperCase() + this.country.slice(1) + ' | MobileSpectrum');
       this.doGetCountryData(this.country);
     })
   }
