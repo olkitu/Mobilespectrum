@@ -1,5 +1,29 @@
 [
     {
+        "band": 31,
+        "providers": [
+            {
+                "provider": {
+                    "name": "EDZCOM",
+                    "longName": "Edcom",
+                    "homePage": "https://www.edzcom.com/",
+                    "backgroundColor": "#f6ea50",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 452.425,
+                        "end": 456.925
+                    },
+                    "upLink": {
+                        "start": 462.425,
+                        "end": 466.925
+                    }
+                }
+            }
+        ]
+    },
+    {
         "band": 28,
         "providers": [
             {
