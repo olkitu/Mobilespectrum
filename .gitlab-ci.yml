@@ -1,5 +1,6 @@
 stages:
 - build
+- page
 
 variables:
   TAG_LATEST: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:latest
@@ -22,6 +23,7 @@ build:
 
 
 pages:
+  stage: page
   image: node:14.5-buster
   script:
   - npm install -g @angular/cli
