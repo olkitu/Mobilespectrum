@@ -1,41 +1,49 @@
 <div class="container">
     <h1>{{country | titlecase}}</h1>
-    <h2> 800 MHz (B20)</h2>
-    <div class="row">
-        <div class="col-md">
-            <div class="table-responsive">
-                <table class="table">
-                    <tr>
-                        <th colspan="3">Downlink</th>
-                    </tr>
-                    <tr>
-                        <td title="DNA" style="color:white;background:#ff007d">DNA</td>
-                        <td title="Telia" style="color:white;background:#990ae3">Telia</td>
-                        <td title="Elisa" style="color:white;background:#0019af">Elisa</td>
-        
-                    </tr>
-                    <tr>
-                        <td>791 MHz (10 MHz)</td><td> 801 MHz (10 MHz)</td><td>852 MHz (10 MHz)</td>
-                    </tr>
-                </table>
+    <ng-container *ngFor="let frequency of frequencies">
+        <h2>Band {{frequency.band}}</h2>
+        <div class="row">
+            <div class="col-md">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tr>
+                            <th colspan="3">Downlink</th>
+                        </tr>
+                        <tr>
+                            <ng-container *ngFor="let providers of frequency.providers">
+                                <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor"> {{providers.provider.name}}</td>
+                            </ng-container>
+            
+                        </tr>
+                        <tr>
+                            <ng-container *ngFor="let provider of frequency.providers">
+                                <td>{{provider.frequency.downLink.start}} MHz</td>
+                            </ng-container>
+                         </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="table-responsive">
+                    <ng-container *ngFor="let provider of frequency.providers"></ng-container>
+                    <table class="table">
+                        <tr>
+                            <th colspan="3">Downlink</th>
+                        </tr>
+                        <tr>
+                            <ng-container *ngFor="let providers of frequency.providers">
+                                <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                            </ng-container>
+            
+                        </tr>
+                        <tr>
+                            <ng-container *ngFor="let provider of frequency.providers">
+                                <td>{{provider.frequency.upLink.start}} MHz</td>
+                            </ng-container>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
-        <div class="col-md">
-            <div class="table-responsive">
-                <table class="table">
-                    <tr>
-                        <th colspan="3">Uplink</th>
-                    </tr>
-                    <tr>
-                        <td title="DNA" style="color:white;background-color: #ff007d;">DNA</td>
-                        <td title="Telia" style="color:white;background:#990ae3">Telia</td>
-                        <td title="Elisa" style="color:white;background:#0019af">Elisa</td>
-                    </tr>
-                    <tr>
-                        <td>832 MHz (10 MHz)</td><td> 842 MHz (10 MHz)</td><td>852 MHz (10 MHz)</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
+    </ng-container>
 </div>

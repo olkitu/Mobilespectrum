@@ -1,14 +1,16 @@
 [
     {
-        "shortName": "DNA",
-        "longName": "DNA FI",
-        "homePage": "https://dna.fi",
-        "backgroundColor": "#ff007d",
-        "textColor": "White",
-        "Data": {
-            "frequencies": [
-                {
-                    "band": 28,
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
                     "downLink": {
                         "start": 703,
                         "end": 713
@@ -17,9 +19,60 @@
                         "start": 758,
                         "end": 768
                     }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
                 },
-                {
-                    "band": 20,
+                "frequency": {
+                    "downLink": {
+                        "start": 713,
+                        "end": 723
+                    },
+                    "upLink": {
+                        "start": 768,
+                        "end": 778
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 723,
+                        "end": 733
+                    },
+                    "upLink": {
+                        "start": 778,
+                        "end": 788
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
                     "downLink": {
                         "start": 832,
                         "end": 842
@@ -29,30 +82,35 @@
                         "end": 801
                     }
                 }
-            ]
-        }
-    },
-    {
-        "shortName": "Elisa",
-        "longName": "Elisa FI",
-        "homePage": "https://elisa.fi",
-        "backgroundColor": "#0019af",
-        "textColor": "White",
-        "Data": {
-            "frequencies": [
-                {
-                    "band": 28,
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
                     "downLink": {
-                        "start": 713,
-                        "end": 723
+                        "start": 842,
+                        "end": 852
                     },
                     "upLink": {
-                        "start": 768,
-                        "end": 778
+                        "start": 801,
+                        "end": 811
                     }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
                 },
-                {
-                    "band": 20,
+                "frequency": {
                     "downLink": {
                         "start": 852,
                         "end": 862
@@ -62,10 +120,7 @@
                         "end": 821
                     }
                 }
-            ]
-        }
-    },
-    {
-        "shortName": "Telia"
+            }
+        ]
     }
 ]

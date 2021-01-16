@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
-import { CommonServiceService, Frequency, Network } from '../common-service.service';
+import { CommonServiceService, Frequencies } from '../common-service.service';
 
-export interface BandData {
-  band: number;
-}
 
 @Component({
   selector: 'app-spectrum-pages',
@@ -16,15 +14,18 @@ export class SpectrumPagesComponent implements OnInit {
   constructor(
     private commonService: CommonServiceService,
     private route: ActivatedRoute,
+    private titleService: Title
   ) {
   }
 
   country: string = "";
-  networks: Network[] = [];
+  frequencies: Frequencies[] = [];
 
   ngOnInit(): void {
+    this.titleService.setTitle('MobileSpectrum');
     this.route.params.subscribe(params => {
       this.country = params['country'];
+      this.titleService.setTitle(this.country + ' | MobileSpectrum');
       this.doGetCountryData(this.country);
     })
   }
@@ -33,10 +34,10 @@ export class SpectrumPagesComponent implements OnInit {
 
 
   doGetCountryData(country: string) {
-    this.commonService.doGetNetworkData(country).subscribe(data => 
+    this.commonService.doGetFrequencyData(country).subscribe(data => 
       {
-        this.networks = data;
-      })
+        this.frequencies = data;
+      }
+    )
   }
-
 }

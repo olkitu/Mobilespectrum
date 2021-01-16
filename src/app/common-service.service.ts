@@ -3,6 +3,14 @@ import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
+export interface Provider2 {
+  name: string;
+  longName: string;
+  homePage: string;
+  backgroundColor: string;
+  textColor: string;
+}
+
 export interface DownLink {
   start: number;
   end: number;
@@ -14,23 +22,20 @@ export interface UpLink {
 }
 
 export interface Frequency {
-  band: number;
   downLink: DownLink;
   upLink: UpLink;
 }
 
-export interface Data {
-  frequencies: Frequency[];
+export interface Provider {
+  provider: Provider2;
+  frequency: Frequency;
 }
 
-export interface Network {
-  shortName: string;
-  longName: string;
-  homePage: string;
-  backgroundColor: string;
-  textColor: string;
-  Data: Data;
+export interface Frequencies {
+  band: number;
+  providers: Provider[];
 }
+
 
 @Injectable({
   providedIn: 'root'
@@ -44,8 +49,8 @@ export class CommonServiceService {
   ) { }
 
 
-  doGetNetworkData(country: string): Observable<Network[]> {
-    return this.http.get<Network[]>(this.apiUrl + '/countries/' + country +  '.json')
+  doGetFrequencyData(country: string): Observable<Frequencies[]> {
+    return this.http.get<Frequencies[]>(this.apiUrl + '/countries/' + country +  '.json')
       .pipe(
         catchError(this.handleError())
       );
