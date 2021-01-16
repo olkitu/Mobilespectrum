@@ -17,7 +17,7 @@
                         </tr>
                         <tr>
                             <ng-container *ngFor="let provider of frequency.providers">
-                                <td>{{provider.frequency.downLink.start}} MHz</td>
+                                <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start}} MHz)</td>
                             </ng-container>
                          </tr>
                     </table>
@@ -38,7 +38,7 @@
                         </tr>
                         <tr>
                             <ng-container *ngFor="let provider of frequency.providers">
-                                <td>{{provider.frequency.upLink.start}} MHz</td>
+                                <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start}} MHz)</td>
                             </ng-container>
                         </tr>
                     </table>
