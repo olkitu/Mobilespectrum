@@ -1,3 +1,26 @@
+stages:
+- build
+
+variables:
+  TAG_LATEST: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:latest
+  TAG_COMMIT: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
+
+build:
+  stage: build
+  image: docker:latest
+  tags:
+  - build
+  services:
+    - docker:dind
+  script:
+  - docker build -t $TAG_COMMIT -t $TAG_LATEST .
+  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+  - docker push $TAG_COMMIT
+  - docker push $TAG_LATEST
+  only:
+  - main
+
+
 pages:
   image: node:14.5-buster
   script:
