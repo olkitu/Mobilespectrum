@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
-import { type } from 'os';
 import { CommonServiceService, Frequencies } from '../common-service.service';
 
 export interface Bands {
