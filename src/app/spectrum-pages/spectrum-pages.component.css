@@ -1,3 +1,7 @@
 .table th {
     border: 0;
 }
+
+.table td {
+    text-align: center;
+}
