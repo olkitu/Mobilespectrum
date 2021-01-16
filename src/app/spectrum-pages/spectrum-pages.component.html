@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container body-container">
     <h1>{{country | titlecase}}</h1>
     <ng-container *ngFor="let frequency of frequencies">
         <h2>{{getBandName(frequency.band)}} - Band {{frequency.band}}</h2>
@@ -6,7 +6,7 @@
             <ng-container *ngIf="getBandType(frequency.band) == 'FDD'">
                 <div class="col-md">
                     <div class="table-responsive">
-                        <table class="table">
+                        <table class="table table-sm">
                             <tr>
                                 <th colspan="3">FDD Downlink</th>
                             </tr>
@@ -27,7 +27,7 @@
                 <div class="col-md">
                     <div class="table-responsive">
                         <ng-container *ngFor="let provider of frequency.providers"></ng-container>
-                        <table class="table">
+                        <table class="table table-sm">
                             <tr>
                                 <th colspan="3">FDD Uplink</th>
                             </tr>
@@ -49,7 +49,7 @@
                 <div class="col-md">
                     <div class="table-responsive">
                         <ng-container *ngFor="let provider of frequency.providers"></ng-container>
-                        <table class="table">
+                        <table class="table table-sm">
                             <tr>
                                 <th colspan="3">TDD Downlink/Uplink</th>
                             </tr>
