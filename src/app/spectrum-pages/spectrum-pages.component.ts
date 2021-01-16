@@ -25,6 +25,7 @@ export class SpectrumPagesComponent implements OnInit {
 
   country: string = "";
   frequencies: Frequencies[] = [];
+  
 
   ngOnInit(): void {
     this.titleService.setTitle('MobileSpectrum');
