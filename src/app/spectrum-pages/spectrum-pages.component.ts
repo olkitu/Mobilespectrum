@@ -3,6 +3,11 @@ import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { CommonServiceService, Frequencies } from '../common-service.service';
 
+export interface Bands {
+  band: number;
+  type: 'FDD' | 'TDD' | 'SDL' | 'SUL';
+  name: string;
+}
 
 @Component({
   selector: 'app-spectrum-pages',
@@ -32,6 +37,22 @@ export class SpectrumPagesComponent implements OnInit {
 
   test: string = "";
 
+  band: Bands[] = [
+    {band: 1, type: 'FDD', name: '2100 MHz'},
+    {band: 2, type: 'FDD', name: '1900 MHz'},
+    {band: 3, type: 'FDD', name: '1800 MHz'},
+    {band: 4, type: 'FDD', name: '1700/2100 MHz'},
+    {band: 5, type: 'FDD', name: '850 MHz'},
+    {band: 7, type: 'FDD', name: '2600 MHz'},
+    {band: 8, type: 'FDD', name: '900 MHz'},
+    {band: 20, type: 'FDD', name: '800 MHz'},
+    {band: 28, type: 'FDD', name: '700 MHz'},
+    {band: 32, type: 'SDL', name: '1500 MHz'},
+    {band: 38, type: 'TDD', name: '2600 MHz'},
+    {band: 40, type: 'TDD', name: '2300 MHz'}
+  ]
+    
+
 
   doGetCountryData(country: string) {
     this.commonService.doGetFrequencyData(country).subscribe(data => 
@@ -40,4 +61,15 @@ export class SpectrumPagesComponent implements OnInit {
       }
     )
   }
+
+  getBandName(band: number) {
+    let bandName = this.band.find((item) => item.band == band)
+    return bandName?.name;
+  }
+
+  getBandType(band: number) {
+    let bandName = this.band.find((item) => item.band == band)
+    return bandName?.type;
+  }
+
 }

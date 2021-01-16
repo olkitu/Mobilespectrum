@@ -122,5 +122,277 @@
                 }
             }
         ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 880.100,
+                        "end": 891.700 
+                    },
+                    "upLink": {
+                        "start": 925.100,
+                        "end": 936.700
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 891.9,
+                        "end": 903.3
+                    },
+                    "upLink": {
+                        "start": 936.9,
+                        "end": 948.3
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 903.500,
+                        "end": 914.900
+                    },
+                    "upLink": {
+                        "start": 948.500,
+                        "end": 959.900
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1710.100,
+                        "end": 1734.900
+                    },
+                    "upLink": {
+                        "start": 1805.100,
+                        "end": 1829.900
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1735.100,
+                        "end": 1759.900
+                    },
+                    "upLink": {
+                        "start": 1830.100,
+                        "end": 1854.900
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1760.100,
+                        "end": 1784.900
+                    },
+                    "upLink": {
+                        "start": 1855.100,
+                        "end": 1879.900
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1920.300,
+                        "end": 1940.100
+                    },
+                    "upLink": {
+                        "start": 2110.300,
+                        "end": 2130.100
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1940.100,
+                        "end": 1959.900
+                    },
+                    "upLink": {
+                        "start": 2130.100,
+                        "end": 2149.900
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1959.900,
+                        "end": 1979.700
+                    },
+                    "upLink": {
+                        "start": 2149.900,
+                        "end": 2169.70
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2500,
+                        "end": 2520
+                    },
+                    "upLink": {
+                        "start": 2620,
+                        "end": 2640
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2520,
+                        "end": 2545
+                    },
+                    "upLink": {
+                        "start": 2640,
+                        "end": 2665
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2545,
+                        "end": 2570
+                    },
+                    "upLink": {
+                        "start": 2665,
+                        "end": 2690
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2620
+                    },
+                    "upLink": {
+                        "start": 2570,
+                        "end": 2620
+                    }
+                }
+            }
+        ]
     }
 ]

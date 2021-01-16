@@ -1,49 +1,94 @@
 <div class="container">
     <h1>{{country | titlecase}}</h1>
     <ng-container *ngFor="let frequency of frequencies">
-        <h2>Band {{frequency.band}}</h2>
+        <h2>{{getBandName(frequency.band)}} - Band {{frequency.band}}</h2>
         <div class="row">
-            <div class="col-md">
-                <div class="table-responsive">
-                    <table class="table">
-                        <tr>
-                            <th colspan="3">Downlink</th>
-                        </tr>
-                        <tr>
-                            <ng-container *ngFor="let providers of frequency.providers">
-                                <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor"> {{providers.provider.name}}</td>
-                            </ng-container>
-            
-                        </tr>
-                        <tr>
-                            <ng-container *ngFor="let provider of frequency.providers">
-                                <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start}} MHz)</td>
-                            </ng-container>
-                         </tr>
-                    </table>
+            <ng-container *ngIf="getBandType(frequency.band) == 'FDD'">
+                <div class="col-md">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tr>
+                                <th colspan="3">FDD Downlink</th>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let providers of frequency.providers">
+                                    <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor"> {{providers.provider.name}}</td>
+                                </ng-container>
+                
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let provider of frequency.providers">
+                                    <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                </ng-container>
+                             </tr>
+                        </table>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md">
-                <div class="table-responsive">
-                    <ng-container *ngFor="let provider of frequency.providers"></ng-container>
-                    <table class="table">
-                        <tr>
-                            <th colspan="3">Downlink</th>
-                        </tr>
-                        <tr>
-                            <ng-container *ngFor="let providers of frequency.providers">
-                                <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
-                            </ng-container>
-            
-                        </tr>
-                        <tr>
-                            <ng-container *ngFor="let provider of frequency.providers">
-                                <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start}} MHz)</td>
-                            </ng-container>
-                        </tr>
-                    </table>
+                <div class="col-md">
+                    <div class="table-responsive">
+                        <ng-container *ngFor="let provider of frequency.providers"></ng-container>
+                        <table class="table">
+                            <tr>
+                                <th colspan="3">FDD Uplink</th>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let providers of frequency.providers">
+                                    <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                </ng-container>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let provider of frequency.providers">
+                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</td>
+                                </ng-container>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-            </div>
+            </ng-container>
+            <ng-container *ngIf="getBandType(frequency.band) == 'TDD'">
+                <div class="col-md">
+                    <div class="table-responsive">
+                        <ng-container *ngFor="let provider of frequency.providers"></ng-container>
+                        <table class="table">
+                            <tr>
+                                <th colspan="3">TDD Downlink/Uplink</th>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let providers of frequency.providers">
+                                    <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                </ng-container>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let provider of frequency.providers">
+                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                </ng-container>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="getBandType(frequency.band) == 'SDL'">
+                <div class="col-md">
+                    <div class="table-responsive">
+                        <ng-container *ngFor="let provider of frequency.providers"></ng-container>
+                        <table class="table">
+                            <tr>
+                                <th colspan="3">SDL Downlink</th>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let providers of frequency.providers">
+                                    <td title="{{providers.provider.name}}" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                </ng-container>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let provider of frequency.providers">
+                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                </ng-container>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </ng-container>
         </div>
     </ng-container>
 </div>
