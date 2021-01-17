@@ -59,7 +59,7 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let provider of frequency.providers">
-                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                    <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -81,7 +81,29 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let provider of frequency.providers">
-                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                    <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                </ng-container>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="getBandType(frequency.band) == 'SUL'">
+                <div class="col-md">
+                    <div class="table-responsive">
+                        <ng-container *ngFor="let provider of frequency.providers"></ng-container>
+                        <table class="table">
+                            <tr>
+                                <th colspan="3">SDL Downlink</th>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let providers of frequency.providers">
+                                    <td title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                </ng-container>
+                            </tr>
+                            <tr>
+                                <ng-container *ngFor="let provider of frequency.providers">
+                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</td>
                                 </ng-container>
                             </tr>
                         </table>
