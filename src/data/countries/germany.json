@@ -273,7 +273,7 @@
         ]
     },
     {
-        "band": 8,
+        "band": 32,
         "providers": [
             {
                "provider": {
