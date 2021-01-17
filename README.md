@@ -10,22 +10,31 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Build and Deploy to production
 
-### Without Docker
-
-```
-ng build --prod
-```
-
-And copy static `dist/MobileSpectrum` to webserver root directory. 
-
 ### Docker
+
+Use Docker and Docker Compose to set up production enviroment.
 
 ```
 docker-compose build
 docker-compose up -d
 ```
 
+The site will available on port 80.
+
+### Without Docker
+
+Use yarn to build Node modules and build to production
+
+```
+yarn
+ng build --prod
+```
+
+And copy static `dist/MobileSpectrum` to webserver root directory. 
+
 ## Development
+
+Run `yarn` to install Node-modules
 
 ### Development server
 
