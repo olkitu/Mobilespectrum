@@ -198,7 +198,7 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
                                           <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
@@ -256,7 +256,7 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
                                           <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
