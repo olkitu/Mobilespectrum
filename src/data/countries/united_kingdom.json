@@ -423,6 +423,51 @@
     ]
   },
   {
+    "band": 7,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2620,
+            "end": 2640
+          },
+          "upLink": {
+            "start": 2500,
+            "end": 2520
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2640,
+            "end": 2690
+          },
+          "upLink": {
+            "start": 2520,
+            "end": 2570
+          }
+        },
+        "source": []
+      }
+    ]
+  },
+  {
     "band": 40,
     "providers": [
       {
