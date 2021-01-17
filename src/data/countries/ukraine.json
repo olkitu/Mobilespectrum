@@ -2,7 +2,7 @@
     {
         "band": 1,
         "providers": [
-            {            
+            {
             "provider": {
                     "name": "TriMob",
                     "longName": "TriMob",
@@ -17,7 +17,7 @@
                     },
                     "upLink": {
                         "start": 2130,
-                        "end": 2135 
+                        "end": 2135
                     }
                 },
                 "technology": [
@@ -27,6 +27,90 @@
                     {
                         "name": "National Commission for the State Regulation of Communications and Informatization",
                         "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=422&id=8955&language=uk"
+                    }
+                ]
+            },
+            {
+            "provider": {
+                    "name": "VodafoneUA",
+                    "longName": "VodafoneUA",
+                    "homePage": "https://www.vodafone.ua/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1950,
+                        "end": 1965
+                    },
+                    "upLink": {
+                        "start": 2140,
+                        "end": 2155
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
+                    }
+                ]
+            },
+            {
+            "provider": {
+                    "name": "Kyivstar",
+                    "longName": "Kyivstar",
+                    "homePage": "https://kyivstar.ua/",
+                    "backgroundColor": "#229fff",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1965,
+                        "end": 1980
+                    },
+                    "upLink": {
+                        "start": 2155,
+                        "end": 2170
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
+                    }
+                ]
+            },
+            {
+            "provider": {
+                    "name": "lifecell",
+                    "longName": "lifecell",
+                    "homePage": "https://www.lifecell.ua",
+                    "backgroundColor": "#ffc40c",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1920,
+                        "end": 1935
+                    },
+                    "upLink": {
+                        "start": 2110,
+                        "end": 2125
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
                     }
                 ]
             }
@@ -50,7 +134,7 @@
                     },
                     "upLink": {
                         "start": 900,
-                        "end": 905 
+                        "end": 905
                     }
                 },
                 "technology": [
@@ -64,7 +148,7 @@
                     }
                 ]
             },
-            {            
+            {
             "provider": {
                     "name": "Kyivstar",
                     "longName": "Kyivstar",
@@ -79,7 +163,7 @@
                     },
                     "upLink": {
                         "start": 888.8,
-                        "end": 895 
+                        "end": 895
                     }
                 },
                 "technology": [
@@ -93,7 +177,7 @@
                     }
                 ]
             },
-            {            
+            {
             "provider": {
                     "name": "lifecell",
                     "longName": "lifecell",
@@ -108,7 +192,7 @@
                     },
                     "upLink": {
                         "start": 895,
-                        "end": 900 
+                        "end": 900
                     }
                 },
                 "technology": [
@@ -119,6 +203,215 @@
                     {
                         "name": "National Commission for the State Regulation of Communications and Informatization",
                         "url": "https://nkrzi.gov.ua/index.php?r=site%2Findex&pg=444&id=9035&language=uk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "VodafoneUA",
+                    "longName": "Vodafone Ukraine",
+                    "homePage": "https://www.vodafone.ua/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1845,
+                        "end": 1865
+                    },
+                    "downLink": {
+                        "start": 1750,
+                        "end": 1770
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7556&language=uk"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Kyivstar",
+                    "longName": "Kyivstar JSC",
+                    "homePage": "https://kyivstar.ua/",
+                    "backgroundColor": "#229fff",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1820,
+                        "end": 1845
+                    },
+                    "downLink": {
+                        "start": 1725,
+                        "end": 1750
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7556&language=uk"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "lifecell",
+                    "longName": "lifecell",
+                    "homePage": "https://www.lifecell.ua",
+                    "backgroundColor": "#ffc40c",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1805,
+                        "end": 1820
+                    },
+                    "downLink": {
+                        "start": 1710,
+                        "end": 1725
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7556&language=uk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "VodafoneUA",
+                    "longName": "Vodafone Ukraine",
+                    "homePage": "https://www.vodafone.ua/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 2510,
+                        "end": 2520
+                    },
+                    "downLink": {
+                        "start": 2630,
+                        "end": 2640
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7492&language=uk"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Kyivstar",
+                    "longName": "Kyivstar JSC",
+                    "homePage": "https://kyivstar.ua/",
+                    "backgroundColor": "#229fff",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 2520,
+                        "end": 2535
+                    },
+                    "downLink": {
+                        "start": 2640,
+                        "end": 2655
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7492&language=uk"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "lifecell",
+                    "longName": "lifecell",
+                    "homePage": "https://www.lifecell.ua",
+                    "backgroundColor": "#ffc40c",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 2535,
+                        "end": 2545
+                    },
+                    "downLink": {
+                        "start": 2655,
+                        "end": 2665
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7492&language=uk"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "lifecell",
+                    "longName": "lifecell",
+                    "homePage": "https://www.lifecell.ua",
+                    "backgroundColor": "#ffc40c",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 2565,
+                        "end": 2570
+                    },
+                    "downLink": {
+                        "start": 2685,
+                        "end": 2690
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7492&language=uk"
                     }
                 ]
             }
