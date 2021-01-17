@@ -1,5 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
+.loader-ieonly {
+    display: none;
+  }
+  
+  @media screen and (-ms-high-contrast: active),
+  (-ms-high-contrast: none) {
+    .loader-ieonly {
+      display: block;
+    }
+  }
+  
+
 .body-container {
     margin-bottom: 50px
 }
