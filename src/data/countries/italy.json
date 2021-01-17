@@ -73,6 +73,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                "arfcn": [
+                        6200
+                    ],
                     "downLink": {
                         "start": 791,
                         "end": 801
@@ -92,6 +95,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        6300
+                    ],
                     "downLink": {
                         "start": 801,
                         "end": 811
@@ -111,6 +117,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        6400
+                    ],
                     "downLink": {
                         "start": 811,
                         "end": 821
@@ -135,6 +144,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        2938
+                    ],
                     "downLink": {
                         "start": 925.1,
                         "end": 930.1
@@ -154,6 +166,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        2963, 3526
+                    ],
                     "downLink": {
                         "start": 930.2,
                         "end": 940 
@@ -173,6 +188,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        3038, 3676
+                    ],
                     "downLink": {
                         "start": 940.4,
                         "end": 950
@@ -192,6 +210,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        3063
+                    ],
                     "downLink": {
                         "start": 950.2,
                         "end": 959.8
@@ -216,6 +237,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        10020
+                    ],
                     "downLink": {
                         "start": 1452,
                         "end": 1472
@@ -235,6 +259,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        10220
+                    ],
                     "downLink": {
                         "start": 1472,
                         "end": 1492
@@ -260,6 +287,9 @@
                     "textColor": "black"
                 },
                 "frequency": {
+                    "arfcn": [
+                        1225
+                    ],
                     "downLink": {
                         "start": 1805,
                         "end": 1810
@@ -279,6 +309,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        1350
+                    ],
                     "downLink": {
                         "start": 1810,
                         "end": 1830
@@ -298,6 +331,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        1500
+                    ],
                     "downLink": {
                         "start": 1830,
                         "end": 1840
@@ -317,6 +353,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        1650, 368890, 371530
+                    ],
                     "downLink": {
                         "start": 1840,
                         "end": 1860
@@ -336,6 +375,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        1850
+                    ],
                     "downLink": {
                         "start": 1860,
                         "end": 1880
@@ -360,6 +402,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        10563, 10588, 150
+                    ],
                     "downLink": {
                         "start": 2110,
                         "end": 2130
@@ -379,6 +424,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        10663, 10688, 10713, 300
+                    ],
                     "downLink": {
                         "start": 2130,
                         "end": 2145
@@ -398,6 +446,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        400
+                    ],
                     "downLink": {
                         "start": 2145,
                         "end": 2155
@@ -417,6 +468,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        10838, 501, 525, 432050, 432500
+                    ],
                     "downLink": {
                         "start": 2155,
                         "end": 2170
@@ -441,6 +495,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        37900, 40540
+                    ],
                     "downLink": {
                         "start": 2570,
                         "end": 2600
@@ -484,6 +541,9 @@
                     "textColor": "black"
                 },
                 "frequency": {
+                    "arfcn": [
+                        2800
+                    ],
                     "downLink": {
                         "start": 2620,
                         "end": 2630
@@ -503,6 +563,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        2900
+                    ],
                     "downLink": {
                         "start": 2630,
                         "end": 2640
@@ -522,6 +585,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        3025
+                    ],
                     "downLink": {
                         "start": 2640,
                         "end": 2655
@@ -541,6 +607,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        3175
+                    ],
                     "downLink": {
                         "start": 2655,
                         "end": 2670
@@ -560,6 +629,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        3350, 535010, 537410
+                    ],
                     "downLink": {
                         "start": 2670,
                         "end": 2690
@@ -603,6 +675,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        638976, 640320
+                    ],
                     "downLink": {
                         "start": 3600,
                         "end": 3620
@@ -622,6 +697,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        642048
+                    ],
                     "downLink": {
                         "start": 3620,
                         "end": 3640
@@ -641,6 +719,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        643296, 644640, 645312
+                    ],
                     "downLink": {
                         "start": 3640,
                         "end": 3720
@@ -660,6 +741,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        648384, 650654, 650688
+                    ],
                     "downLink": {
                         "start": 3720,
                         "end": 3800
