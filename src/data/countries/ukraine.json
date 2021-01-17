@@ -12,12 +12,12 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 1940,
-                        "end": 1945
-                    },
-                    "upLink": {
                         "start": 2130,
                         "end": 2135
+                    },
+                    "upLink": {
+                        "start": 1940,
+                        "end": 1945
                     }
                 },
                 "technology": [
@@ -40,12 +40,12 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 1950,
-                        "end": 1965
-                    },
-                    "upLink": {
                         "start": 2140,
                         "end": 2155
+                    },
+                    "upLink": {
+                        "start": 1950,
+                        "end": 1965
                     }
                 },
                 "technology": [
@@ -68,12 +68,12 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 1965,
-                        "end": 1980
-                    },
-                    "upLink": {
                         "start": 2155,
                         "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1965,
+                        "end": 1980
                     }
                 },
                 "technology": [
@@ -96,12 +96,12 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 1920,
-                        "end": 1935
-                    },
-                    "upLink": {
                         "start": 2110,
                         "end": 2125
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1935
                     }
                 },
                 "technology": [
@@ -221,12 +221,12 @@
                 },
                 "frequency": {
                     "upLink": {
-                        "start": 1845,
-                        "end": 1865
-                    },
-                    "downLink": {
                         "start": 1750,
                         "end": 1770
+                    },
+                    "downLink": {
+                        "start": 1845,
+                        "end": 1865
                     }
                 },
                 "technology": [
@@ -250,12 +250,12 @@
                 },
                 "frequency": {
                     "upLink": {
-                        "start": 1820,
-                        "end": 1845
-                    },
-                    "downLink": {
                         "start": 1725,
                         "end": 1750
+                    },
+                    "downLink": {
+                        "start": 1820,
+                        "end": 1845
                     }
                 },
                 "technology": [
@@ -279,12 +279,12 @@
                 },
                 "frequency": {
                     "upLink": {
-                        "start": 1805,
-                        "end": 1820
-                    },
-                    "downLink": {
                         "start": 1710,
                         "end": 1725
+                    },
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1820
                     }
                 },
                 "technology": [
