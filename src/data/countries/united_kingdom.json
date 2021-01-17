@@ -376,5 +376,115 @@
         "source": []
       }
     ]
+  },
+  {
+    "band": 38,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2570,
+            "end": 2595
+          },
+          "upLink": {
+            "start": 2570,
+            "end": 2595
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "BT",
+          "longName": "British Telecom",
+          "homePage": "https://www.bt.co.uk",
+          "backgroundColor": "#5514b4",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2595,
+            "end": 2620
+          },
+          "upLink": {
+            "start": 2595,
+            "end": 2620
+          }
+        },
+        "source": []
+      }
+    ]
+  },
+  {
+    "band": 40,
+    "providers": [
+      {
+        "provider": {
+          "name": "MOD",
+          "longName": "Ministry of Defence",
+          "homePage": "https://mod.uk",
+          "backgroundColor": "#eee",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2300,
+            "end": 2350
+          },
+          "upLink": {
+            "start": 2300,
+            "end": 2350
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2350,
+            "end": 2390
+          },
+          "upLink": {
+            "start": 2350,
+            "end": 2390
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "MOD",
+          "longName": "Ministry of Defence",
+          "homePage": "https://mod.uk",
+          "backgroundColor": "#eee",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2390,
+            "end": 2400
+          },
+          "upLink": {
+            "start": 2390,
+            "end": 2400
+          }
+        },
+        "source": []
+      }
+    ]
   }
 ]
