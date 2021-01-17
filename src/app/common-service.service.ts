@@ -29,6 +29,19 @@ export interface Frequency {
 export interface Provider {
   provider: Provider2;
   frequency: Frequency;
+  technology?: string[];
+  source?: Source[];
+  valid?: Valid;
+}
+
+export interface Source {
+  name: string;
+  url:  string;
+}
+
+export interface Valid {
+  start: string;
+  end:   string;
 }
 
 export interface Frequencies {

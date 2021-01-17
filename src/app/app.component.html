@@ -2,14 +2,35 @@
   <a class="navbar-brand" routerLink="">
     {{title}}
   </a>
+  <button (click)="navbarCollapsed = !navbarCollapsed" [attr.aria-expanded]="!navbarCollapsed" class="navbar-toggler"
+    type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div [ngbCollapse]="navbarCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
+      <li ngbDropdown class="nav-item dropdown">
+        <a ngbDropdownToggle class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Tools
+        </a>
+        <div ngbDropdownMenu aria-labelledby="navbarDropdown">
+          <a ngbDropdownItem target="_blank" rel="noopener" href="https://cacombos.com/"
+            (click)="navbarCollapsed = true"> 4G and 5G Bands and Combos</a>
+          <a ngbDropdownItem target="_blank" rel="noopener" href="https://tools.pedroc.co.uk/4g-speed/"
+            (click)="navbarCollapsed = true"> 4G Speed Calculator</a>
+          <a ngbDropdownItem target="_blank" rel="noopener" href="https://tools.pedroc.co.uk/5g-speed/"
+            (click)="navbarCollapsed = true"> 5G Speed Calculator</a>
+        </div>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li><a class="nav-link" target="_blank" rel="noopener" title="Contribute in Gitlab"
+          href="https://gitlab.com/mobilespectrum/MobileSpectrum" (click)="navbarCollapsed = true">
+          <fa-icon [icon]="faGitlab"></fa-icon> Contribute
+        </a></li>
     </ul>
   </div>
-  <ul class="nav navbar-nav">
-    <li><a class="nav-link" target="_blank" rel="noopener" title="Contribute in Gitlab" href="https://gitlab.com/mobilespectrum/MobileSpectrum"><fa-icon [icon]="faGitlab"></fa-icon></a></li>
-  </ul>
 </nav>
 <router-outlet></router-outlet>
 <footer class="container">

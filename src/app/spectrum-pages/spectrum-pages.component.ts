@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
+import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { CommonServiceService, Frequencies } from '../common-service.service';
 
 export interface Bands {
@@ -20,9 +21,12 @@ export class SpectrumPagesComponent implements OnInit {
     private commonService: CommonServiceService,
     private route: ActivatedRoute,
     private titleService: Title,
+    private modalService: NgbModal
   ) {
   }
 
+
+  loaded: boolean = false;
   country: string = "";
   frequencies: Frequencies[] = [];
   
@@ -74,12 +78,33 @@ export class SpectrumPagesComponent implements OnInit {
     {band: 258, type: 'TDD', name: '26 GHz'}
   ]
     
+  closeResult = '';
+
+  open(content: any) {
+    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
+
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return `with: ${reason}`;
+    }
+  }
 
 
   doGetCountryData(country: string) {
+    this.loaded = false;
     this.commonService.doGetFrequencyData(country).subscribe(data => 
       {
         this.frequencies = data;
+        this.loaded = true;
       }
     )
   }

@@ -1,4 +1,12 @@
-<div class="container body-container">
+<div class="container body-container" *ngIf="loaded == false">
+    <div class="app-loading">
+        <strong>Loading...</strong>
+        <div class="spinner-border" style="width: 4rem; height: 4rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+</div>
+<div class="container body-container" *ngIf="loaded == true">
     <h1>{{country | titlecase}}</h1>
     <ng-container *ngFor="let frequency of frequencies">
         <h2>{{getBandName(frequency.band)}} - Band {{frequency.band}}</h2>
@@ -12,12 +20,51 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor"> {{providers.provider.name}}</td>
-                                </ng-container>               
+                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor"> {{providers.provider.name}}</td>
+                                    <ng-template #content let-modal>
+                                        <div class="modal-header">
+                                          <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
+                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <table class="table table-borderless">
+                                                <tr>
+                                                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{providers.provider.homePage}}">{{providers.provider.longName}}</a></td>
+                                                </tr>
+                                                <tr *ngIf="providers.technology != null">
+                                                    <th>Technology</th><td>{{providers.technology.join(", ")}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Download Frequency Range</th><td>{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Upload Frequency Range</th><td>{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
+                                                </tr>
+                                                <tr *ngIf="providers.valid != null">
+                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                </tr>
+                                            </table>
+                                            <ng-container *ngIf="providers.source != null">
+                                                <p><strong>Sources:</strong></p>
+                                                <ul>
+                                                    <li *ngFor="let source of providers.source"><a rel="noopener" target="_blank" href="{{source.url}}">{{source.name}}</a></li>
+                                                </ul>
+                                            </ng-container>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                        </div>
+                                    </ng-template>
+                                </ng-container>              
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let provider of frequency.providers">
-                                    <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                    <td><small>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</small></td>
                                 </ng-container>
                              </tr>
                         </table>
@@ -32,12 +79,51 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <ng-template #content let-modal>
+                                        <div class="modal-header">
+                                          <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
+                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <table class="table table-borderless">
+                                                <tr>
+                                                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{providers.provider.homePage}}">{{providers.provider.longName}}</a></td>
+                                                </tr>
+                                                <tr *ngIf="providers.technology != null">
+                                                    <th>Technology</th><td>{{providers.technology.join(", ")}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Download Frequency Range</th><td>{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Upload Frequency Range</th><td>{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
+                                                </tr>
+                                                <tr *ngIf="providers.valid != null">
+                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                </tr>
+                                            </table>
+                                            <ng-container *ngIf="providers.source != null">
+                                                <p><strong>Sources:</strong></p>
+                                                <ul>
+                                                    <li *ngFor="let source of providers.source"><a rel="noopener" target="_blank" href="{{source.url}}">{{source.name}}</a></li>
+                                                </ul>
+                                            </ng-container>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                        </div>
+                                    </ng-template>
                                 </ng-container>
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let provider of frequency.providers">
-                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</td>
+                                    <td><small>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -54,12 +140,48 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <ng-template #content let-modal>
+                                        <div class="modal-header">
+                                          <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
+                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <table class="table table-borderless">
+                                                <tr>
+                                                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{providers.provider.homePage}}">{{providers.provider.longName}}</a></td>
+                                                </tr>
+                                                <tr *ngIf="providers.technology != null">
+                                                    <th>Technology</th><td>{{providers.technology.join(", ")}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Frequency Range</th><td>{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
+                                                </tr>
+                                                <tr *ngIf="providers.valid != null">
+                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                </tr>
+                                            </table>
+                                            <ng-container *ngIf="providers.source != null">
+                                                <p><strong>Sources:</strong></p>
+                                                <ul>
+                                                    <li *ngFor="let source of providers.source"><a rel="noopener" target="_blank" href="{{source.url}}">{{source.name}}</a></li>
+                                                </ul>
+                                            </ng-container>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                        </div>
+                                    </ng-template>
                                 </ng-container>
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let provider of frequency.providers">
-                                    <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                    <td><small>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -77,11 +199,47 @@
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
                                     <td title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <ng-template #content let-modal>
+                                        <div class="modal-header">
+                                          <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
+                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <table class="table table-borderless">
+                                                <tr>
+                                                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{providers.provider.homePage}}">{{providers.provider.longName}}</a></td>
+                                                </tr>
+                                                <tr *ngIf="providers.technology != null">
+                                                    <th>Technology</th><td>{{providers.technology.join(", ")}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Frequency Range</th><td>{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
+                                                </tr>
+                                                <tr *ngIf="providers.valid != null">
+                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                </tr>
+                                            </table>
+                                            <ng-container *ngIf="providers.source != null">
+                                                <p><strong>Sources:</strong></p>
+                                                <ul>
+                                                    <li *ngFor="let source of providers.source"><a rel="noopener" target="_blank" href="{{source.url}}">{{source.name}}</a></li>
+                                                </ul>
+                                            </ng-container>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                        </div>
+                                    </ng-template>
                                 </ng-container>
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let provider of frequency.providers">
-                                    <td>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</td>
+                                    <td><small>{{provider.frequency.downLink.start}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -99,11 +257,47 @@
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
                                     <td title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <ng-template #content let-modal>
+                                        <div class="modal-header">
+                                          <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
+                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <table class="table table-borderless">
+                                                <tr>
+                                                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{providers.provider.homePage}}">{{providers.provider.longName}}</a></td>
+                                                </tr>
+                                                <tr *ngIf="providers.technology != null">
+                                                    <th>Technology</th><td>{{providers.technology.join(", ")}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Frequency Range</th><td>{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Bandwidth</th><td>{{providers.frequency.upLink.end - providers.frequency.upLink.start | number}} MHz</td>
+                                                </tr>
+                                                <tr *ngIf="providers.valid != null">
+                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                </tr>
+                                            </table>
+                                            <ng-container *ngIf="providers.source != null">
+                                                <p><strong>Sources:</strong></p>
+                                                <ul>
+                                                    <li *ngFor="let source of providers.source"><a rel="noopener" target="_blank" href="{{source.url}}">{{source.name}}</a></li>
+                                                </ul>
+                                            </ng-container>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                        </div>
+                                    </ng-template>
                                 </ng-container>
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let provider of frequency.providers">
-                                    <td>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</td>
+                                    <td><small>{{provider.frequency.upLink.start}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -111,5 +305,6 @@
                 </div>
             </ng-container>
         </div>
+
     </ng-container>
 </div>
