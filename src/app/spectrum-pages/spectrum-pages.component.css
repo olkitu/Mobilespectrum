@@ -5,3 +5,6 @@
 .table td {
     text-align: center;
 }
+.pointer {
+    cursor: pointer;
+}
