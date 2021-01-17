@@ -31,3 +31,6 @@ build:
   - docker push $TAG_LATEST
   only:
   - main
+
+include:
+  - template: Dependency-Scanning.gitlab-ci.yml
