@@ -19,14 +19,6 @@ test:jsonlint:
   script:
   - cd ./src/data
   - find . -name "*.json" | xargs -n 1 jsonlint -q
-  only:
-    changes:
-      - "./src/data/**/*"
-    refs:
-    - merge_requests
-    - branches
-    - tags
-    - main
 
 test:karma:
   stage: test
