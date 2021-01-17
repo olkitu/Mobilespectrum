@@ -1,0 +1,487 @@
+[
+  {
+    "band": 28,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone",
+          "homePage": "https://www.vodafone.nl",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 758,
+            "end": 768
+          },
+          "upLink": {
+            "start": 703,
+            "end": 713
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 768,
+            "end": 778
+          },
+          "upLink": {
+            "start": 713,
+            "end": 723
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 778,
+            "end": 788
+          },
+          "upLink": {
+            "start": 723,
+            "end": 733
+          }
+        }
+      }
+    ]
+  },
+  {
+    "band": 20,
+    "providers": [
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 791,
+            "end": 801
+          },
+          "upLink": {
+            "start": 832,
+            "end": 842
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone",
+          "homePage": "https://www.vodafone.nl",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 801,
+            "end": 811
+          },
+          "upLink": {
+            "start": 842,
+            "end": 852
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 811,
+            "end": 821
+          },
+          "upLink": {
+            "start": 852,
+            "end": 862
+          }
+        }
+      }
+    ]
+  },
+  {
+    "band": 8,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone",
+          "homePage": "https://www.vodafone.nl",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 925,
+            "end": 935
+          },
+          "upLink": {
+            "start": 880,
+            "end": 890
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 935,
+            "end": 945
+          },
+          "upLink": {
+            "start": 890,
+            "end": 900
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 945,
+            "end": 960
+          },
+          "upLink": {
+            "start": 900,
+            "end": 915
+          }
+        }
+      }
+    ]
+  },
+  {
+    "band": 32,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone",
+          "homePage": "https://www.vodafone.nl",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1452,
+            "end": 1467
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1467,
+            "end": 1482
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1482,
+            "end": 1492
+          }
+        }
+      }
+    ]
+  },
+
+  {
+    "band": 3,
+    "providers": [
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1805,
+            "end": 1825
+          },
+          "upLink": {
+            "start": 1710,
+            "end": 1730
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone",
+          "homePage": "https://www.vodafone.nl",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1825,
+            "end": 1845
+          },
+          "upLink": {
+            "start": 1730,
+            "end": 1750
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1845,
+            "end": 1875
+          },
+          "upLink": {
+            "start": 1750,
+            "end": 1780
+          }
+        }
+      }
+    ]
+  },
+  {
+    "band": 1,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone",
+          "homePage": "https://www.vodafone.nl",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2110,
+            "end": 2130
+          },
+          "upLink": {
+            "start": 1920,
+            "end": 1940
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2130,
+            "end": 2150
+          },
+          "upLink": {
+            "start": 1940,
+            "end": 1960
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2150,
+            "end": 2170
+          },
+          "upLink": {
+            "start": 1960,
+            "end": 1980
+          }
+        }
+      }
+    ]
+  },
+  {
+    "band": 38,
+    "providers": [
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2565,
+            "end": 2590
+          },
+          "upLink": {
+            "start": 2565,
+            "end": 2590
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2590,
+            "end": 2590
+          },
+          "upLink": {
+            "start": 2620,
+            "end": 2620
+          }
+        }
+      }
+    ]
+  },
+  {
+    "band": 7,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone",
+          "homePage": "https://www.vodafone.nl",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2620,
+            "end": 2650
+          },
+          "upLink": {
+            "start": 2500,
+            "end": 2530
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2650,
+            "end": 2655
+          },
+          "upLink": {
+            "start": 2530,
+            "end": 2535
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "KPN",
+          "longName": "KPN",
+          "homePage": "https://www.kpn.nl",
+          "backgroundColor": "#009900",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2655,
+            "end": 2665
+          },
+          "upLink": {
+            "start": 2535,
+            "end": 2545
+          }
+        }
+      },
+      {
+        "provider": {
+          "name": "T-Mobile",
+          "longName": "T-Mobile",
+          "homePage": "https://www.t-mobile.nl",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2665,
+            "end": 2685
+          },
+          "upLink": {
+            "start": 2545,
+            "end": 2565
+          }
+        }
+      }
+    ]
+  }
+]
