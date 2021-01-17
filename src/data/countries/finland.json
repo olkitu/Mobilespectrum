@@ -637,6 +637,10 @@
                         "end": 3540
                     }
                 },
+                "valid": {
+                    "start": "1.1.2019",
+                    "end": "31.12.2033"
+                },
                 "technology": ["NR"],
                 "source": [
                     {
@@ -663,6 +667,10 @@
                         "end": 3670
                     }
                 },
+                "valid": {
+                    "start": "1.1.2019",
+                    "end": "31.12.2033"
+                },
                 "technology": ["NR"],
                 "source": [
                     {
@@ -688,6 +696,10 @@
                         "start": 3670,
                         "end": 3800
                     }
+                },
+                "valid": {
+                    "start": "1.1.2019",
+                    "end": "31.12.2033"
                 },
                 "technology": ["NR"],
                 "source": [
@@ -716,6 +728,10 @@
                         "end": 25900
                     }
                 },
+                "valid": {
+                    "start": "1.6.2020",
+                    "end": "31.12.2033"
+                },
                 "technology": ["NR"],
                 "source": [
                     {
@@ -738,6 +754,10 @@
                         "end": 26700
                     }
                 },
+                "valid": {
+                    "start": "1.6.2020",
+                    "end": "31.12.2033"
+                },
                 "technology": ["NR"],
                 "source": [
                     {
@@ -759,6 +779,10 @@
                         "start": 26700,
                         "end": 27500
                     }
+                },
+                "valid": {
+                    "start": "1.6.2020",
+                    "end": "31.12.2033"
                 },
                 "technology": ["NR"],
                 "source": [

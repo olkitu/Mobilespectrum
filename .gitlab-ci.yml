@@ -21,6 +21,11 @@ test:jsonlint:
   only:
     changes:
       - "./src/data/countries/*.json"
+    refs:
+    - merge_requests
+    - branches
+    - tags
+    - main
 
 test:karma:
   stage: test
@@ -35,6 +40,7 @@ test:karma:
   script:
   - yarn
   - ./node_modules/@angular/cli/bin/ng test --browsers=ChromeHeadlessCI --no-watch --no-progress
+
 
 build:
   stage: build
