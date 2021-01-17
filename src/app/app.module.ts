@@ -8,6 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SpectrumPagesComponent } from './spectrum-pages/spectrum-pages.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]

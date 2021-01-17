@@ -22,6 +22,20 @@ test:jsonlint:
     changes:
       - "./src/data/countries/*.json"
 
+test:karma:
+  stage: test
+  image: node:14.15-buster
+  allow_failure: false
+  tags:
+  - build
+  before_script:
+  - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+  - echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+  - DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install google-chrome-stable -y -qq
+  script:
+  - yarn
+  - ./node_modules/@angular/cli/bin/ng test --browsers=ChromeHeadlessCI --no-watch --no-progress
+
 build:
   stage: build
   image: docker:latest
