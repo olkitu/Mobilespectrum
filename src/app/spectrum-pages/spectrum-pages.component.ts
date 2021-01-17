@@ -35,10 +35,12 @@ export class SpectrumPagesComponent implements OnInit {
     this.titleService.setTitle('MobileSpectrum');
     this.route.params.subscribe(params => {
       this.country = params['country'];
-      if(this.country != null) {
-        this.titleService.setTitle(this.country.charAt(0).toUpperCase() + this.country.slice(1) + ' | MobileSpectrum');
-      }  
       this.doGetCountryData(this.country);
+      this.country = this.country.split('_').join(' ');
+      if(this.country != null) {
+        this.country = this.country.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+        this.titleService.setTitle(this.country + ' | MobileSpectrum');
+      }  
     })
   }
 
