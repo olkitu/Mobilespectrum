@@ -7,7 +7,7 @@
                     "name": "iliad",
                     "longName": "iliad",
                     "homePage": "https://www.iliad.it",
-                    "backgroundColor": "#44231c",
+                    "backgroundColor": "#c12026",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -26,7 +26,7 @@
                     "name": "TIM",
                     "longName": "TIM",
                     "homePage": "https://www.tim.it",
-                    "backgroundColor": "#004492",
+                    "backgroundColor": "#0033a1",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -45,7 +45,7 @@
                     "name": "Vodafone",
                     "longName": "Vodafone IT",
                     "homePage": "https://www.vodafone.it",
-                    "backgroundColor": "#cf181f",
+                    "backgroundColor": "#e60000",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -69,7 +69,7 @@
                     "name": "WindTre",
                     "longName": "Wind Tre",
                     "homePage": "https://www.windtre.it",
-                    "backgroundColor": "#e48330",
+                    "backgroundColor": "#ff6906",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -88,7 +88,7 @@
                     "name": "TIM",
                     "longName": "TIM",
                     "homePage": "https://www.tim.it",
-                    "backgroundColor": "#004492",
+                    "backgroundColor": "#0033a1",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -107,7 +107,7 @@
                     "name": "Vodafone",
                     "longName": "Vodafone IT",
                     "homePage": "https://www.vodafone.it",
-                    "backgroundColor": "#cf181f",
+                    "backgroundColor": "#e60000",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -131,7 +131,7 @@
                     "name": "iliad",
                     "longName": "iliad",
                     "homePage": "https://www.iliad.it",
-                    "backgroundColor": "#44231c",
+                    "backgroundColor": "#c12026",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -150,7 +150,7 @@
                     "name": "TIM",
                     "longName": "TIM",
                     "homePage": "https://www.tim.it",
-                    "backgroundColor": "#004492",
+                    "backgroundColor": "#0033a1",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -169,7 +169,7 @@
                     "name": "Vodafone",
                     "longName": "Vodafone IT",
                     "homePage": "https://www.vodafone.it",
-                    "backgroundColor": "#cf181f",
+                    "backgroundColor": "#e60000",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -188,7 +188,7 @@
                     "name": "WindTre",
                     "longName": "Wind Tre",
                     "homePage": "https://www.windtre.it",
-                    "backgroundColor": "#e48330",
+                    "backgroundColor": "#ff6906",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -212,7 +212,7 @@
                     "name": "TIM",
                     "longName": "TIM",
                     "homePage": "https://www.tim.it",
-                    "backgroundColor": "#004492",
+                    "backgroundColor": "#0033a1",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -231,7 +231,7 @@
                     "name": "Vodafone",
                     "longName": "Vodafone IT",
                     "homePage": "https://www.vodafone.it",
-                    "backgroundColor": "#cf181f",
+                    "backgroundColor": "#e60000",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -256,8 +256,8 @@
                     "name": "Public safety",
                     "longName": "Ministero della difesa",
                     "homePage": "https://www.difesa.it",
-                    "backgroundColor": "darkgray",
-                    "textColor": "white"
+                    "backgroundColor": "#dbd7d6",
+                    "textColor": "black"
                 },
                 "frequency": {
                     "downLink": {
@@ -275,7 +275,7 @@
                     "name": "TIM",
                     "longName": "TIM",
                     "homePage": "https://www.tim.it",
-                    "backgroundColor": "#004492",
+                    "backgroundColor": "#0033a1",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -294,7 +294,7 @@
                     "name": "iliad",
                     "longName": "iliad",
                     "homePage": "https://www.iliad.it",
-                    "backgroundColor": "#44231c",
+                    "backgroundColor": "#c12026",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -313,7 +313,7 @@
                     "name": "WindTre",
                     "longName": "Wind Tre",
                     "homePage": "https://www.windtre.it",
-                    "backgroundColor": "#e48330",
+                    "backgroundColor": "#ff6906",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -332,7 +332,7 @@
                     "name": "Vodafone",
                     "longName": "Vodafone IT",
                     "homePage": "https://www.vodafone.it",
-                    "backgroundColor": "#cf181f",
+                    "backgroundColor": "#e60000",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -356,7 +356,7 @@
                     "name": "WindTre",
                     "longName": "Wind Tre",
                     "homePage": "https://www.windtre.it",
-                    "backgroundColor": "#e48330",
+                    "backgroundColor": "#ff6906",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -375,7 +375,7 @@
                     "name": "TIM",
                     "longName": "TIM",
                     "homePage": "https://www.tim.it",
-                    "backgroundColor": "#004492",
+                    "backgroundColor": "#0033a1",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -394,7 +394,7 @@
                     "name": "iliad",
                     "longName": "iliad",
                     "homePage": "https://www.iliad.it",
-                    "backgroundColor": "#44231c",
+                    "backgroundColor": "#c12026",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -413,7 +413,7 @@
                     "name": "Vodafone",
                     "longName": "Vodafone IT",
                     "homePage": "https://www.vodafone.it",
-                    "backgroundColor": "#cf181f",
+                    "backgroundColor": "#e60000",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -437,7 +437,7 @@
                     "name": "WindTre",
                     "longName": "Wind Tre",
                     "homePage": "https://www.windtre.it",
-                    "backgroundColor": "#e48330",
+                    "backgroundColor": "#ff6906",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -456,8 +456,8 @@
                     "name": "Public safety",
                     "longName": "Ministero della difesa",
                     "homePage": "https://www.difesa.it",
-                    "backgroundColor": "darkgray",
-                    "textColor": "white"
+                    "backgroundColor": "#dbd7d6",
+                    "textColor": "black"
                 },
                 "frequency": {
                     "downLink": {
@@ -480,8 +480,8 @@
                     "name": "Public safety",
                     "longName": "Ministero della difesa",
                     "homePage": "https://www.difesa.it",
-                    "backgroundColor": "darkgray",
-                    "textColor": "white"
+                    "backgroundColor": "#dbd7d6",
+                    "textColor": "black"
                 },
                 "frequency": {
                     "downLink": {
@@ -499,7 +499,7 @@
                     "name": "iliad",
                     "longName": "iliad",
                     "homePage": "https://www.iliad.it",
-                    "backgroundColor": "#44231c",
+                    "backgroundColor": "#c12026",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -518,7 +518,7 @@
                     "name": "Vodafone",
                     "longName": "Vodafone IT",
                     "homePage": "https://www.vodafone.it",
-                    "backgroundColor": "#cf181f",
+                    "backgroundColor": "#e60000",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -537,7 +537,7 @@
                     "name": "TIM",
                     "longName": "TIM",
                     "homePage": "https://www.tim.it",
-                    "backgroundColor": "#004492",
+                    "backgroundColor": "#0033a1",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -556,7 +556,7 @@
                     "name": "WindTre",
                     "longName": "Wind Tre",
                     "homePage": "https://www.windtre.it",
-                    "backgroundColor": "#e48330",
+                    "backgroundColor": "#ff6906",
                     "textColor": "white"
                 },
                 "frequency": {
