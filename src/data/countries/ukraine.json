@@ -1,0 +1,127 @@
+[
+    {
+        "band": 1,
+        "providers": [
+            {            
+            "provider": {
+                    "name": "TriMob",
+                    "longName": "TriMob",
+                    "homePage": "http://3mob.ua",
+                    "backgroundColor": "#00872c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1940,
+                        "end": 1945
+                    },
+                    "upLink": {
+                        "start": 2130,
+                        "end": 2135 
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=422&id=8955&language=uk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "VodafoneUA",
+                    "longName": "VodafoneUA",
+                    "homePage": "https://www.vodafone.ua/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 950
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 905 
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site%2Findex&pg=444&id=9035&language=uk"
+                    }
+                ]
+            },
+            {            
+            "provider": {
+                    "name": "Kyivstar",
+                    "longName": "Kyivstar",
+                    "homePage": "https://kyivstar.ua/",
+                    "backgroundColor": "#229fff",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 933.8,
+                        "end": 940
+                    },
+                    "upLink": {
+                        "start": 888.8,
+                        "end": 895 
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site%2Findex&pg=444&id=9035&language=uk"
+                    }
+                ]
+            },
+            {            
+            "provider": {
+                    "name": "lifecell",
+                    "longName": "lifecell",
+                    "homePage": "https://www.lifecell.ua",
+                    "backgroundColor": "#ffc40c",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 940,
+                        "end": 945
+                    },
+                    "upLink": {
+                        "start": 895,
+                        "end": 900 
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site%2Findex&pg=444&id=9035&language=uk"
+                    }
+                ]
+            }
+        ]
+    }
+]
