@@ -1,0 +1,575 @@
+[
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "iliad",
+                    "longName": "iliad",
+                    "homePage": "https://www.iliad.it",
+                    "backgroundColor": "#44231c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 758,
+                        "end": 768
+                    },
+                    "upLink": {
+                        "start": 703,
+                        "end": 713
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#004492",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 768,
+                        "end": 778
+                    },
+                    "upLink": {
+                        "start": 713,
+                        "end": 723
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#cf181f",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
+                    },
+                    "upLink": {
+                        "start": 723,
+                        "end": 733
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#e48330",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#004492",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#cf181f",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "iliad",
+                    "longName": "iliad",
+                    "homePage": "https://www.iliad.it",
+                    "backgroundColor": "#44231c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925.1,
+                        "end": 930.1
+                    },
+                    "upLink": {
+                        "start": 880.1,
+                        "end": 885.1 
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#004492",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 930.2,
+                        "end": 940 
+                    },
+                    "upLink": {
+                        "start": 885.2,
+                        "end": 895
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#cf181f",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 940.4,
+                        "end": 950
+                    },
+                    "upLink": {
+                        "start": 895.4,
+                        "end": 905
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#e48330",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 950.2,
+                        "end": 959.8
+                    },
+                    "upLink": {
+                        "start": 905.2,
+                        "end": 914.8
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 32,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#004492",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1452,
+                        "end": 1472
+                    },
+                    "upLink": {
+                        "start": 1452,
+                        "end": 1472
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#cf181f",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1472,
+                        "end": 1492
+                    },
+                    "upLink": {
+                        "start": 1472,
+                        "end": 1492
+                    }
+                }
+            }
+        ]
+    },
+    
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Public safety",
+                    "longName": "Ministero della difesa",
+                    "homePage": "https://www.difesa.it",
+                    "backgroundColor": "darkgray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1810
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1715
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#004492",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1810,
+                        "end": 1830
+                    },
+                    "upLink": {
+                        "start": 1715,
+                        "end": 1735
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "iliad",
+                    "longName": "iliad",
+                    "homePage": "https://www.iliad.it",
+                    "backgroundColor": "#44231c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1830,
+                        "end": 1840
+                    },
+                    "upLink": {
+                        "start": 1735,
+                        "end": 1745
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#e48330",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1840,
+                        "end": 1860
+                    },
+                    "upLink": {
+                        "start": 1745,
+                        "end": 1765
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#cf181f",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1860,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1765,
+                        "end": 1785
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#e48330",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2130
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1940
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#004492",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2130,
+                        "end": 2145
+                    },
+                    "upLink": {
+                        "start": 1940,
+                        "end": 1955
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "iliad",
+                    "longName": "iliad",
+                    "homePage": "https://www.iliad.it",
+                    "backgroundColor": "#44231c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2145,
+                        "end": 2155
+                    },
+                    "upLink": {
+                        "start": 1955,
+                        "end": 1965
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#cf181f",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2155,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1965,
+                        "end": 1980
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#e48330",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2600
+                    },
+                    "upLink": {
+                        "start": 2570,
+                        "end": 2600
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Public safety",
+                    "longName": "Ministero della difesa",
+                    "homePage": "https://www.difesa.it",
+                    "backgroundColor": "darkgray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2600,
+                        "end": 2620
+                    },
+                    "upLink": {
+                        "start": 2600,
+                        "end": 2620
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Public safety",
+                    "longName": "Ministero della difesa",
+                    "homePage": "https://www.difesa.it",
+                    "backgroundColor": "darkgray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2630
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2510
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "iliad",
+                    "longName": "iliad",
+                    "homePage": "https://www.iliad.it",
+                    "backgroundColor": "#44231c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2630,
+                        "end": 2640
+                    },
+                    "upLink": {
+                        "start": 2510,
+                        "end": 2520
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#cf181f",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2640,
+                        "end": 2655
+                    },
+                    "upLink": {
+                        "start": 2520,
+                        "end": 2535
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#004492",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2655,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2535,
+                        "end": 2535
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#e48330",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2570
+                    }
+                }
+            }
+        ]
+    }
+]
