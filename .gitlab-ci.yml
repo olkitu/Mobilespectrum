@@ -17,6 +17,7 @@ test:jsonlint:
   tags:
   - docker
   script:
+  - cd ./src/data
   - find . -name "*.json" | xargs -n 1 jsonlint -q
   only:
     changes:
