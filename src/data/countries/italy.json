@@ -571,5 +571,205 @@
                 }
             }
         ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Regional licenses",
+                    "longName": "Fastweb AIR (formely Aria), Linkem, Telecom Italia, EOLO, Brennercom, GO Internet",
+                    "backgroundColor": "darkgray",
+                    "homePage": "https://efis.cept.org/view/rightofuseinfo.do?command=search&applicationterm=&low=3437&high=3599&unit=MHz&sortRadiopost=1&temppost=-1&user=20",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3437,
+                        "end": 3600
+                    },
+                    "upLink": {
+                        "start": 3437,
+                        "end": 3600
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#ff6906",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3600,
+                        "end": 3620
+                    },
+                    "upLink": {
+                        "start": 3600,
+                        "end": 3620
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "iliad",
+                    "longName": "iliad",
+                    "homePage": "https://www.iliad.it",
+                    "backgroundColor": "#c12026",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3620,
+                        "end": 3640
+                    },
+                    "upLink": {
+                        "start": 3620,
+                        "end": 3640
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3640,
+                        "end": 3720
+                    },
+                    "upLink": {
+                        "start": 3640,
+                        "end": 3720
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#0033a1",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3720,
+                        "end": 3800
+                    },
+                    "upLink": {
+                        "start": 3720,
+                        "end": 3800
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 257,
+        "providers": [
+            {
+                "provider": {
+                    "name": "WindTre",
+                    "longName": "Wind Tre",
+                    "homePage": "https://www.windtre.it",
+                    "backgroundColor": "#ff6906",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26500,
+                        "end": 26700
+                    },
+                    "upLink": {
+                        "start": 26500,
+                        "end": 26700
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "iliad",
+                    "longName": "iliad",
+                    "homePage": "https://www.iliad.it",
+                    "backgroundColor": "#c12026",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26700,
+                        "end": 26900
+                    },
+                    "upLink": {
+                        "start": 26700,
+                        "end": 26900
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM",
+                    "homePage": "https://www.tim.it",
+                    "backgroundColor": "#0033a1",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26900,
+                        "end": 27100
+                    },
+                    "upLink": {
+                        "start": 26900,
+                        "end": 27100
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Fastweb",
+                    "longName": "Fastweb Nexxt",
+                    "backgroundColor": "#fdc400",
+                    "homePage": "https://nexxt.fastweb.it/",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 27100,
+                        "end": 27300
+                    },
+                    "upLink": {
+                        "start": 27100,
+                        "end": 27300
+                    }
+                }
+            }, 
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone IT",
+                    "homePage": "https://www.vodafone.it",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 27300,
+                        "end": 27500
+                    },
+                    "upLink": {
+                        "start": 27300,
+                        "end": 27500
+                    }
+                }
+            }
+        ]
     }
 ]
