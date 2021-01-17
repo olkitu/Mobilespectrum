@@ -27,6 +27,12 @@
                 "technology": [
                     "LTE",
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -53,6 +59,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -79,6 +91,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             }
         ]
@@ -113,6 +131,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -142,6 +170,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -171,6 +209,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             }
         ]
@@ -205,6 +253,20 @@
                 },
                 "technology": [
                     "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    },
+                    {
+                        "name": "AGCOM Delibera 338/20/CONS",
+                        "url": "https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_FnOw5lVOIXoE&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_FnOw5lVOIXoE_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_FnOw5lVOIXoE_assetEntryId=19575041&_101_INSTANCE_FnOw5lVOIXoE_type=document"
+                    }
                 ]
             },
             {
@@ -236,6 +298,16 @@
                     "GSM",
                     "UMTS",
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -267,6 +339,16 @@
                     "GSM",
                     "UMTS",
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -297,6 +379,16 @@
                 "technology": [
                     "GSM",
                     "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             }
         ]
@@ -331,6 +423,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -360,6 +462,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             }
         ]
@@ -391,6 +503,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "AGCOM Delibera 282/11/CONS",
+                        "url": "https://www.agcom.it/documents/10179/539607/Delibera+282-11-CONS/ea288392-3dbb-4709-a085-b21ff17ba66e?version=1.0"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -421,6 +543,16 @@
                 "technology": [
                     "GSM",
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -450,6 +582,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -481,6 +623,16 @@
                     "GSM",
                     "LTE",
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -511,6 +663,16 @@
                 "technology": [
                     "GSM",
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             }
         ]
@@ -546,6 +708,20 @@
                 "technology": [
                     "UMTS",
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "AGCOM Delibera 338/20/CONS",
+                        "url": "https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_FnOw5lVOIXoE&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_FnOw5lVOIXoE_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_FnOw5lVOIXoE_assetEntryId=19575041&_101_INSTANCE_FnOw5lVOIXoE_type=document"
+                    },
+                    {
+                        "name": "AGCOM Allegato B delibera 149/20/CONS",
+                        "url": "https://www.agcom.it/documents/10179/4527308/Allegato+10-4-2020+1586515525382/add7f336-0fd0-435e-ba12-b40ec4cf6956?version=1.0"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -576,6 +752,20 @@
                 "technology": [
                     "UMTS",
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "AGCOM Delibera 338/20/CONS",
+                        "url": "https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_FnOw5lVOIXoE&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_FnOw5lVOIXoE_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_FnOw5lVOIXoE_assetEntryId=19575041&_101_INSTANCE_FnOw5lVOIXoE_type=document"
+                    },
+                    {
+                        "name": "AGCOM Allegato B delibera 149/20/CONS",
+                        "url": "https://www.agcom.it/documents/10179/4527308/Allegato+10-4-2020+1586515525382/add7f336-0fd0-435e-ba12-b40ec4cf6956?version=1.0"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -605,6 +795,24 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "AGCOM Delibera 338/20/CONS",
+                        "url": "https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_FnOw5lVOIXoE&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_FnOw5lVOIXoE_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_FnOw5lVOIXoE_assetEntryId=19575041&_101_INSTANCE_FnOw5lVOIXoE_type=document"
+                    },
+                    {
+                        "name": "AGCOM Allegato B delibera 149/20/CONS",
+                        "url": "https://www.agcom.it/documents/10179/4527308/Allegato+10-4-2020+1586515525382/add7f336-0fd0-435e-ba12-b40ec4cf6956?version=1.0"
+                    },
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -636,6 +844,24 @@
                     "UMTS",
                     "LTE",
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "AGCOM Delibera 338/20/CONS",
+                        "url": "https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_FnOw5lVOIXoE&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_FnOw5lVOIXoE_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_FnOw5lVOIXoE_assetEntryId=19575041&_101_INSTANCE_FnOw5lVOIXoE_type=document"
+                    },
+                    {
+                        "name": "AGCOM Allegato B delibera 149/20/CONS",
+                        "url": "https://www.agcom.it/documents/10179/4527308/Allegato+10-4-2020+1586515525382/add7f336-0fd0-435e-ba12-b40ec4cf6956?version=1.0"
+                    },
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             }
         ]
@@ -670,6 +896,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -689,7 +925,13 @@
                         "start": 2600,
                         "end": 2620
                     }
-                }
+                },
+                "source": [
+                    {
+                        "name": "AGCOM Comunicazione 30/06/2020",
+                        "url": "https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_FnOw5lVOIXoE&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_FnOw5lVOIXoE_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_FnOw5lVOIXoE_assetEntryId=19234568&_101_INSTANCE_FnOw5lVOIXoE_type=document"
+                    }
+                ]
             }
         ]
     },
@@ -719,6 +961,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "AGCOM Comunicazione 30/06/2020",
+                        "url": "https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_FnOw5lVOIXoE&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_FnOw5lVOIXoE_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_FnOw5lVOIXoE_assetEntryId=19234568&_101_INSTANCE_FnOw5lVOIXoE_type=document"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -748,6 +1000,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -777,6 +1039,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -806,6 +1078,16 @@
                 },
                 "technology": [
                     "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             },
             {
@@ -836,6 +1118,16 @@
                 "technology": [
                     "LTE",
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    },
+                    {
+                        "name": "LTE Italy",
+                        "url": "https://lteitaly.it/spectrum.php"
+                    }
                 ]
             }
         ]
@@ -869,6 +1161,12 @@
                     "WiMAX",
                     "LTE",
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -898,6 +1196,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -927,6 +1231,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -956,6 +1266,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -985,6 +1301,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             }
         ]
@@ -1016,6 +1338,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -1042,6 +1370,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -1068,6 +1402,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             },
             {
@@ -1094,6 +1434,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             }, 
             {
@@ -1120,6 +1466,12 @@
                 },
                 "technology": [
                     "NR"
+                ],
+                "source": [
+                    {
+                        "name": "EFIS CEPT",
+                        "url": "https://efis.cept.org/view/rightofuseinfo.do"
+                    }
                 ]
             }
         ]
