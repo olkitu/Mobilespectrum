@@ -1,0 +1,867 @@
+[
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 758,
+                        "end": 768
+                    },
+                    "upLink": {
+                        "start": 703,
+                        "end": 713
+                    }
+                },
+                "technology": [
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+
+            },
+            {
+                "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 768,
+                        "end": 778
+                    },
+                    "upLink": {
+                        "start": 713,
+                        "end": 723
+                    }
+                },
+                 "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
+                    },
+                    "upLink": {
+                        "start": 723,
+                        "end": 733
+                    }
+                } ,
+                "technology": [
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                 "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                },
+                 "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+               "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                } ,
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925,
+                        "end": 935
+                    },
+                    "upLink": {
+                        "start": 880,
+                        "end": 890
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                 "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 935,
+                        "end": 945
+                    },
+                    "upLink": {
+                        "start": 890,
+                        "end": 900
+                    }
+                },
+                 "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+               "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 915
+                    }
+                } ,
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+               "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+               "frequency": {
+                    "downLink": {
+                        "start": 1452,
+                        "end": 1472
+                    }
+                } ,
+                 "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1472,
+                        "end": 1492
+                    }
+                } ,
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                    "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1835
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1740
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+				            "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1835,
+                        "end": 1855
+                    },
+                    "upLink": {
+                        "start": 1740,
+                        "end": 1760
+                    }
+                },
+                 "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                    "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1855,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1760,
+                        "end": 1785
+                    }
+                } ,
+                "technology": [
+                    "GSM",
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                    "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2130
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1940
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+				            "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2130,
+                        "end": 2150
+                    },
+                    "upLink": {
+                        "start": 1940,
+                        "end": 1960
+                    }
+                },
+                 "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                   "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2150,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1960,
+                        "end": 1980
+                    }
+                } ,
+                "technology": [
+                    "UMTS",
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                    "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2580
+                    },
+                    "upLink": {
+                        "start": 2570,
+                        "end": 2580
+                    }
+                },
+                "technology": [
+                    "Not used"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                   "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2580,
+                        "end": 2605
+                    },
+                    "upLink": {
+                        "start": 2580,
+                        "end": 2605
+                    }
+                },
+                 "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+
+                ]
+            },
+            {
+                   "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2605,
+                        "end": 2610
+                    },
+                    "upLink": {
+                        "start": 2605,
+                        "end": 2610
+                    }
+                } ,
+                "technology": [
+                    "Not used"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                    "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2610,
+                        "end": 2620
+                    },
+                    "upLink": {
+                        "start": 2610,
+                        "end": 2620
+                    }
+                },
+                "technology": [
+                    "Not used"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                    "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2640
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2520
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+				            "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2640,
+                        "end": 2660
+                    },
+                    "upLink": {
+                        "start": 2520,
+                        "end": 2540
+                    }
+                },
+                 "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+				           "provider": {
+                    "name": "Drillisch",
+                    "longName": "Drillisch",
+                    "homePage": "https://www.1und1-drillisch.de",
+                    "backgroundColor": "#356ad4",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2550
+                    }
+                } ,
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+				           "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2570
+                    }
+                } ,
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                    "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "https://www.vodafone.de",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3400,
+                        "end": 3490
+                    },
+                    "upLink": {
+                        "start": 3400,
+                        "end": 3490
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+				           	"provider": {
+                    "name": "Drillisch",
+                    "longName": "Drillisch",
+                    "homePage": "https://www.1und1-drillisch.de",
+                    "backgroundColor": "#356ad4",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3490,
+                        "end": 3540
+                    },
+                    "upLink": {
+                        "start": 3490,
+                        "end": 3540
+                    }
+                },
+                 "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                   "provider": {
+                    "name": "Telefónica",
+                    "longName": "Telefónica",
+                    "homePage": "https://www.telefonica.de",
+                    "backgroundColor": "#004080",
+                    "textColor": "#fff"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3540,
+                        "end": 3610
+                    },
+                    "upLink": {
+                        "start": 3540,
+                        "end": 3610
+                    }
+                } ,
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            },
+            {
+                    "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom",
+                    "homePage": "https://www.telekom.de",
+                    "backgroundColor": "#ff0090",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3610,
+                        "end": 3700
+                    },
+                    "upLink": {
+                        "start": 3610,
+                        "end": 3700
+                    }
+                } ,
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Bundesnetzagentur",
+                        "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OffentlicheNetze/Mobilfunk/DrahtloserNetzzugang/Projekt2018/Frequenzen700bis3600_pdf.pdf?__blob=publicationFile&v=4"
+                    }
+                ]
+            }
+        ]
+    }
+
+
+]
