@@ -11,6 +11,7 @@
                     "textColor": "black"
                 },
                 "frequency": {
+                    "arfcn": [],
                     "upLink": {
                         "start": 452.425,
                         "end": 456.925
@@ -19,7 +20,14 @@
                         "start": 462.425,
                         "end": 466.925
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             }
         ]
     },
@@ -35,6 +43,7 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [9260],
                     "upLink": {
                         "start": 703,
                         "end": 713
@@ -43,7 +52,18 @@
                         "start": 758,
                         "end": 768
                     }
-                }
+                },
+                "valid": {
+                    "start": "1.2.2017",
+                    "end": "31.12.2033"
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -62,7 +82,14 @@
                         "start": 768,
                         "end": 778
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -81,7 +108,14 @@
                         "start": 778,
                         "end": 788
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             }
         ]
     },
@@ -105,7 +139,14 @@
                         "start": 791,
                         "end": 801
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -124,7 +165,14 @@
                         "start": 801,
                         "end": 811
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -143,7 +191,14 @@
                         "start": 811,
                         "end": 821
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             }
         ]
     },
@@ -167,7 +222,14 @@
                         "start": 925.100,
                         "end": 936.700
                     }
-                }
+                },
+                "technology": ["GSM", "UMTS"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -186,7 +248,14 @@
                         "start": 936.9,
                         "end": 948.3
                     }
-                }
+                },
+                "technology": ["GSM", "UMTS"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -205,7 +274,14 @@
                         "start": 948.500,
                         "end": 959.900
                     }
-                }
+                },
+                "technology": ["GSM", "UMTS"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             }
         ]
     },
@@ -229,7 +305,14 @@
                         "start": 1805.100,
                         "end": 1829.900
                     }
-                }
+                },
+                "technology": ["GSM", "LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -248,7 +331,14 @@
                         "start": 1830.100,
                         "end": 1854.900
                     }
-                }
+                },
+                "technology": ["GSM", "LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -267,7 +357,14 @@
                         "start": 1855.100,
                         "end": 1879.900
                     }
-                }
+                },
+                "technology": ["GSM", "LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             }
         ]
     },
@@ -291,7 +388,14 @@
                         "start": 2110.300,
                         "end": 2130.100
                     }
-                }
+                },
+                "technology": ["UMTS", "LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -310,7 +414,14 @@
                         "start": 2130.100,
                         "end": 2149.900
                     }
-                }
+                },
+                "technology": ["UMTS", "LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -329,7 +440,14 @@
                         "start": 2149.900,
                         "end": 2169.70
                     }
-                }
+                },
+                "technology": ["UMTS", "LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             }
         ]
     },
@@ -353,7 +471,14 @@
                         "start": 2620,
                         "end": 2640
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -372,7 +497,14 @@
                         "start": 2640,
                         "end": 2665
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             },
             {
                 "provider": {
@@ -391,7 +523,14 @@
                         "start": 2665,
                         "end": 2690
                     }
-                }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
             }
         ]
     },
@@ -414,6 +553,125 @@
                     "downLink": {
                         "start": 2570,
                         "end": 2620
+                    }
+                },
+                "technology": ["LTE"],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 3410,
+                        "end": 3540
+                    },
+                    "downLink": {
+                        "start": 3410,
+                        "end": 3540
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 3540,
+                        "end": 3670
+                    },
+                    "downLink": {
+                        "start": 3540,
+                        "end": 3670
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 3670,
+                        "end": 3800
+                    },
+                    "downLink": {
+                        "start": 3670,
+                        "end": 3800
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "band": 258,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Elisa",
+                    "longName": "Elisa",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 25100,
+                        "end": 25900
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia FI",
+                    "homePage": "https://www.telia.fi",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 25900,
+                        "end": 26700
+                    }
+                }
+            },
+            {
+                "provider": {
+                    "name": "DNA",
+                    "longName": "DNA FI",
+                    "homePage": "https://www.dna.fi",
+                    "backgroundColor": "#ff007d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26700,
+                        "end": 27500
                     }
                 }
             }

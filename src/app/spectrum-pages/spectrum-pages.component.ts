@@ -66,7 +66,12 @@ export class SpectrumPagesComponent implements OnInit {
     {band: 42, type: 'TDD', name: '3500 MHz'},
     {band: 43, type: 'TDD', name: '3700 MHz'},
     {band: 66, type: 'FDD', name: '1700/2100 MHz'},
-    {band: 71, type: 'FDD', name: '600 MHz'}
+    {band: 71, type: 'FDD', name: '600 MHz'},
+    {band: 77, type: 'TDD', name: '3.7 GHz'},
+    {band: 78, type: 'TDD', name: '3.5 GHz'},
+    {band: 79, type: 'TDD', name: '4.7 GHz'},
+    {band: 257, type: 'TDD', name: '28 GHz'},
+    {band: 258, type: 'TDD', name: '26 GHz'}
   ]
     
 
