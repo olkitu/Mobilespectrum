@@ -6,6 +6,11 @@ variables:
   TAG_LATEST: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:latest
   TAG_COMMIT: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
 
+include:
+  - template: Dependency-Scanning.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Security/License-Scanning.gitlab-ci.yml
+
 test:jsonlint:
   stage: test
   image: peterdavehello/jsonlint
@@ -31,6 +36,3 @@ build:
   - docker push $TAG_LATEST
   only:
   - main
-
-include:
-  - template: Dependency-Scanning.gitlab-ci.yml
