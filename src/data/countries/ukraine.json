@@ -1,122 +1,5 @@
 [
-    {
-        "band": 1,
-        "providers": [
-            {
-            "provider": {
-                    "name": "TriMob",
-                    "longName": "TriMob",
-                    "homePage": "http://3mob.ua",
-                    "backgroundColor": "#00872c",
-                    "textColor": "white"
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 2130,
-                        "end": 2135
-                    },
-                    "upLink": {
-                        "start": 1940,
-                        "end": 1945
-                    }
-                },
-                "technology": [
-                    "UMTS"
-                ],
-                "source": [
-                    {
-                        "name": "National Commission for the State Regulation of Communications and Informatization",
-                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=422&id=8955&language=uk"
-                    }
-                ]
-            },
-            {
-            "provider": {
-                    "name": "VodafoneUA",
-                    "longName": "VodafoneUA",
-                    "homePage": "https://www.vodafone.ua/",
-                    "backgroundColor": "#e60000",
-                    "textColor": "white"
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 2140,
-                        "end": 2155
-                    },
-                    "upLink": {
-                        "start": 1950,
-                        "end": 1965
-                    }
-                },
-                "technology": [
-                    "UMTS"
-                ],
-                "source": [
-                    {
-                        "name": "National Commission for the State Regulation of Communications and Informatization",
-                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
-                    }
-                ]
-            },
-            {
-            "provider": {
-                    "name": "Kyivstar",
-                    "longName": "Kyivstar",
-                    "homePage": "https://kyivstar.ua/",
-                    "backgroundColor": "#229fff",
-                    "textColor": "black"
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 2155,
-                        "end": 2170
-                    },
-                    "upLink": {
-                        "start": 1965,
-                        "end": 1980
-                    }
-                },
-                "technology": [
-                    "UMTS"
-                ],
-                "source": [
-                    {
-                        "name": "National Commission for the State Regulation of Communications and Informatization",
-                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
-                    }
-                ]
-            },
-            {
-            "provider": {
-                    "name": "lifecell",
-                    "longName": "lifecell",
-                    "homePage": "https://www.lifecell.ua",
-                    "backgroundColor": "#ffc40c",
-                    "textColor": "black"
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 2110,
-                        "end": 2125
-                    },
-                    "upLink": {
-                        "start": 1920,
-                        "end": 1935
-                    }
-                },
-                "technology": [
-                    "UMTS"
-                ],
-                "source": [
-                    {
-                        "name": "National Commission for the State Regulation of Communications and Informatization",
-                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
-                    }
-                ]
-            }
-        ]
-    },
-    {
+  {
         "band": 8,
         "providers": [
             {
@@ -295,6 +178,123 @@
                     {
                         "name": "National Commission for the State Regulation of Communications and Informatization",
                         "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7556&language=uk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+            "provider": {
+                    "name": "TriMob",
+                    "longName": "TriMob",
+                    "homePage": "http://3mob.ua",
+                    "backgroundColor": "#00872c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2130,
+                        "end": 2135
+                    },
+                    "upLink": {
+                        "start": 1940,
+                        "end": 1945
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=422&id=8955&language=uk"
+                    }
+                ]
+            },
+            {
+            "provider": {
+                    "name": "VodafoneUA",
+                    "longName": "VodafoneUA",
+                    "homePage": "https://www.vodafone.ua/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2140,
+                        "end": 2155
+                    },
+                    "upLink": {
+                        "start": 1950,
+                        "end": 1965
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
+                    }
+                ]
+            },
+            {
+            "provider": {
+                    "name": "Kyivstar",
+                    "longName": "Kyivstar",
+                    "homePage": "https://kyivstar.ua/",
+                    "backgroundColor": "#229fff",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2155,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1965,
+                        "end": 1980
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
+                    }
+                ]
+            },
+            {
+            "provider": {
+                    "name": "lifecell",
+                    "longName": "lifecell",
+                    "homePage": "https://www.lifecell.ua",
+                    "backgroundColor": "#ffc40c",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2125
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1935
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=281&id=5304&language=uk"
                     }
                 ]
             }
