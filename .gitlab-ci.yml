@@ -11,7 +11,7 @@ test:jsonlint:
   image: peterdavehello/jsonlint
   tags:
   - docker
-  scripts:
+  script:
   - find . -name "*.json" | xargs -n 1 jsonlint -q
   only:
     changes:
