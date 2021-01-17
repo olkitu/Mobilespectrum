@@ -1,0 +1,380 @@
+[
+
+  {
+    "band": 20,
+    "providers": [
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 791,
+            "end": 796
+          },
+          "upLink": {
+            "start": 832,
+            "end": 837
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 796,
+            "end": 801
+          },
+          "upLink": {
+            "start": 837,
+            "end": 842
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 801,
+            "end": 811
+          },
+          "upLink": {
+            "start": 842,
+            "end": 852
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 811,
+            "end": 821
+          },
+          "upLink": {
+            "start": 852,
+            "end": 862
+          }
+        },
+        "source": []
+      }
+    ]
+  },
+  {
+    "band": 8,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 925.1,
+            "end": 930.1
+          },
+          "upLink": {
+            "start": 880.1,
+            "end": 885.1
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 930.1,
+            "end": 935.1
+          },
+          "upLink": {
+            "start": 885.1,
+            "end": 890.1
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 935.1,
+            "end": 947.5
+          },
+          "upLink": {
+            "start": 890.1,
+            "end": 902.5
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 947.5,
+            "end": 959.9
+          },
+          "upLink": {
+            "start": 902.5,
+            "end": 914.9
+          }
+        },
+        "source": []
+      }
+    ]
+  },
+  {
+    "band": 32,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1452,
+            "end": 1472
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1472,
+            "end": 1492
+          }
+        },
+        "source": []
+      }
+    ]
+  },
+  {
+    "band": 3,
+    "providers": [
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1805.1,
+            "end": 1810.9
+          },
+          "upLink": {
+            "start": 1704.3,
+            "end": 1710.1
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1810.9,
+            "end": 1816.7
+          },
+          "upLink": {
+            "start": 1710.1,
+            "end": 1715.9
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1816.7,
+            "end": 1831.7
+          },
+          "upLink": {
+            "start": 1721.7,
+            "end": 1736.7
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1831.7,
+            "end": 1876.7
+          },
+          "upLink": {
+            "start": 1736.7,
+            "end": 1781.7
+          }
+        },
+        "source": []
+      }
+    ]
+  },
+  {
+    "band": 1,
+    "providers": [
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2110.3,
+            "end": 2124.9
+          },
+          "upLink": {
+            "start": 1920.3,
+            "end": 1934.9
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2124.9,
+            "end": 2134.9
+          },
+          "upLink": {
+            "start": 1934.9,
+            "end": 1944.9
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2134.9,
+            "end": 2149.7
+          },
+          "upLink": {
+            "start": 1944.9,
+            "end": 1959.7
+          }
+        },
+        "source": []
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2149.7,
+            "end": 2169.7
+          },
+          "upLink": {
+            "start": 1959.7,
+            "end": 1979.7
+          }
+        },
+        "source": []
+      }
+    ]
+  }
+]
