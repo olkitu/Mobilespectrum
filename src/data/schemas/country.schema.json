@@ -1,0 +1,367 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mobilespectrum.org/data/schemas/country.schema.json",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/Country"
+  },
+  "minItems": 1,
+  "uniqueItems": true,
+  "definitions": {
+    "Country": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "band": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "providers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ProviderElement"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "band",
+        "providers"
+      ],
+      "title": "Country"
+    },
+    "ProviderElement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "$ref": "#/definitions/ProvidersProvider"
+        },
+        "frequency": {
+          "$ref": "#/definitions/Frequency"
+        },
+        "technology": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Technology"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Source"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "valid": {
+          "$ref": "#/definitions/Valid"
+        }
+      },
+      "required": [
+        "frequency",
+        "provider",
+        "source"
+      ],
+      "title": "ProviderElement"
+    },
+    "Frequency": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "arfcn": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "upLink": {
+          "$ref": "#/definitions/FrequencyRange"
+        },
+        "downLink": {
+          "$ref": "#/definitions/FrequencyRange"
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "upLink"
+          ]
+        },
+        {
+          "required": [
+            "downLink"
+          ]
+        }
+      ],
+      "title": "Frequency"
+    },
+    "FrequencyRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "number",
+          "minimum": 0
+        },
+        "end": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "end",
+        "start"
+      ],
+      "title": "FrequencyRange"
+    },
+    "ProvidersProvider": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "longName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "homePage": {
+          "type": "string",
+          "format": "uri",
+          "minLength": 1
+        },
+        "backgroundColor": {
+          "$ref": "#/definitions/Color"
+        },
+        "textColor": {
+          "$ref": "#/definitions/Color"
+        }
+      },
+      "required": [
+        "backgroundColor",
+        "homePage",
+        "longName",
+        "name",
+        "textColor"
+      ],
+      "title": "ProvidersProvider"
+    },
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "name",
+        "url"
+      ],
+      "title": "Source"
+    },
+    "Valid": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "end": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": [
+        "end",
+        "start"
+      ],
+      "title": "Valid"
+    },
+    "Technology": {
+      "type": "string",
+      "enum": [
+        "GSM",
+        "CDMA",
+        "UMTS",
+        "LTE",
+        "NR",
+        "WiMAX",
+        "Not used"
+      ],
+      "title": "Technology"
+    },
+    "Color": {
+      "type": "string",
+      "title": "Color",
+      "oneOf": [
+        {
+          "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+        },
+        {
+          "enum": [
+            "aquamarine",
+            "azure",
+            "beige",
+            "bisque",
+            "black",
+            "blanchedalmond",
+            "blue",
+            "blueviolet",
+            "brown",
+            "burlywood",
+            "cadetblue",
+            "chartreuse",
+            "chocolate",
+            "coral",
+            "cornflowerblue",
+            "cornsilk",
+            "crimson",
+            "cyan",
+            "darkblue",
+            "darkcyan",
+            "darkgoldenrod",
+            "darkgray",
+            "darkgrey",
+            "darkgreen",
+            "darkkhaki",
+            "darkmagenta",
+            "darkolivegreen",
+            "darkorange",
+            "darkorchid",
+            "darkred",
+            "darksalmon",
+            "darkseagreen",
+            "darkslateblue",
+            "darkslategray",
+            "darkslategrey",
+            "darkturquoise",
+            "darkviolet",
+            "deeppink",
+            "deepskyblue",
+            "dimgray",
+            "dimgrey",
+            "dodgerblue",
+            "firebrick",
+            "floralwhite",
+            "forestgreen",
+            "fuchsia",
+            "gainsboro",
+            "ghostwhite",
+            "gold",
+            "goldenrod",
+            "gray",
+            "grey",
+            "green",
+            "greenyellow",
+            "honeydew",
+            "hotpink",
+            "indianred",
+            "indigo",
+            "ivory",
+            "khaki",
+            "lavender",
+            "lavenderblush",
+            "lawngreen",
+            "lemonchiffon",
+            "lightblue",
+            "lightcoral",
+            "lightcyan",
+            "lightgoldenrodyellow",
+            "lightgray",
+            "lightgrey",
+            "lightgreen",
+            "lightpink",
+            "lightsalmon",
+            "lightseagreen",
+            "lightskyblue",
+            "lightslategray",
+            "lightslategrey",
+            "lightsteelblue",
+            "lightyellow",
+            "lime",
+            "limegreen",
+            "linen",
+            "magenta",
+            "maroon",
+            "mediumaquamarine",
+            "mediumblue",
+            "mediumorchid",
+            "mediumpurple",
+            "mediumseagreen",
+            "mediumslateblue",
+            "mediumspringgreen",
+            "mediumturquoise",
+            "mediumvioletred",
+            "midnightblue",
+            "mintcream",
+            "mistyrose",
+            "moccasin",
+            "navajowhite",
+            "navy",
+            "oldlace",
+            "olive",
+            "olivedrab",
+            "orange",
+            "orangered",
+            "orchid",
+            "palegoldenrod",
+            "palegreen",
+            "paleturquoise",
+            "palevioletred",
+            "papayawhip",
+            "peachpuff",
+            "peru",
+            "pink",
+            "plum",
+            "powderblue",
+            "purple",
+            "rebeccapurple",
+            "red",
+            "rosybrown",
+            "royalblue",
+            "saddlebrown",
+            "salmon",
+            "sandybrown",
+            "seagreen",
+            "seashell",
+            "sienna",
+            "silver",
+            "skyblue",
+            "slateblue",
+            "slategray",
+            "slategrey",
+            "snow",
+            "springgreen",
+            "steelblue",
+            "tan",
+            "teal",
+            "thistle",
+            "tomato",
+            "turquoise",
+            "violet",
+            "wheat",
+            "white",
+            "whitesmoke",
+            "yellow",
+            "yellowgreen"
+          ]
+        }
+      ]
+    }
+  }
+}
