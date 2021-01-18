@@ -12,14 +12,18 @@ include:
   - template: Security/License-Scanning.gitlab-ci.yml
   - template: Security/Secret-Detection.gitlab-ci.yml
 
-test:jsonlint:
+test:jsonvalidation:
   stage: test
-  image: peterdavehello/jsonlint
+  image: node:14.15-buster
+  allow_failure: false
   tags:
   - docker
-  script:
+  before_script:
+  - npm install -g ajv-cli ajv-formats
   - cd ./src/data
-  - find . -name "*.json" | xargs -n 1 jsonlint -q
+  script:
+  - ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
+  stage: test
 
 test:karma:
   stage: test
