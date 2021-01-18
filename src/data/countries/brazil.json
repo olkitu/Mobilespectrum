@@ -1,0 +1,259 @@
+[
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM Brasil",
+                    "homePage": "https://www.tim.com.br",
+                    "backgroundColor": "#004691",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        9410
+                    ],
+                    "upLink": {
+                        "start": 718,
+                        "end": 728
+                    },
+                    "downLink": {
+                        "start": 773,
+                        "end": 783
+                    }
+                },
+                "valid": {
+                    "start": "2014/12/08",
+                    "end": "2029/12/08"
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Anatel Spectrum-E",
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vivo",
+                    "longName": "Vivo",
+                    "homePage": "https://www.vivo.com.br",
+                    "backgroundColor": "#609",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        9510
+                    ],
+                    "upLink": {
+                        "start": 728,
+                        "end": 738
+                    },
+                    "downLink": {
+                        "start": 783,
+                        "end": 793
+                    }
+                },
+                "valid": {
+                    "start": "2014/12/08",
+                    "end": "2029/12/08"
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Anatel Spectrum-E",
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Claro",
+                    "longName": "Claro Brasil",
+                    "homePage": "https://www.claro.com.br",
+                    "backgroundColor": "#e3262e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        9610
+                    ],
+                    "upLink": {
+                        "start": 738,
+                        "end": 748
+                    },
+                    "downLink": {
+                        "start": 793,
+                        "end": 803
+                    }
+                },
+                "valid": {
+                    "start": "2014/12/08",
+                    "end": "2029/12/08"
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Anatel Spectrum-E",
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Claro",
+                    "longName": "Claro Brasil",
+                    "homePage": "https://www.claro.com.br",
+                    "backgroundColor": "#e3262e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        2950
+                    ],
+                    "downLink": {
+                        "start": 2630,
+                        "end": 2650
+                    },
+                    "upLink": {
+                        "start": 2510,
+                        "end": 2530
+                    }
+                },
+                "valid": {
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Anatel Spectrum-E",
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                    }
+                ]
+
+            },
+            {
+                "provider": {
+                    "name": "TIM",
+                    "longName": "TIM Brasil",
+                    "homePage": "https://www.tim.com.br",
+                    "backgroundColor": "#004691",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        3100
+                    ],
+                    "downLink": {
+                        "start": 2650,
+                        "end": 2660
+                    },
+                    "upLink": {
+                        "start": 2530,
+                        "end": 2540
+                    }
+                },
+                "valid": {
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Anatel Spectrum-E",
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Oi",
+                    "longName": "Oi",
+                    "homePage": "https://www.oi.com.br",
+                    "backgroundColor": "#ffd700",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        3200
+                    ],
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2550
+                    }
+                },
+                "valid": {
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Anatel Spectrum-E",
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vivo",
+                    "longName": "Vivo",
+                    "homePage": "https://www.vivo.com.br",
+                    "backgroundColor": "#609",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        3350
+                    ],
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2570
+                    }
+                },
+                "valid": {
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Anatel Spectrum-E",
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                    }
+                ]
+            }
+            
+        ]
+    }
+]
