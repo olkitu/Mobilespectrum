@@ -20,13 +20,10 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor"> {{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer"> {{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
                                           <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
-                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
                                         </div>
                                         <div class="modal-body">
                                             <table class="table table-borderless">
@@ -57,7 +54,7 @@
                                             </ng-container>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')" ngbAutofocus>Close</button>
                                         </div>
                                     </ng-template>
                                 </ng-container>              
@@ -79,13 +76,10 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
                                           <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
-                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
                                         </div>
                                         <div class="modal-body">
                                             <table class="table table-borderless">
@@ -116,7 +110,7 @@
                                             </ng-container>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')" ngbAutofocus>Close</button>
                                         </div>
                                     </ng-template>
                                 </ng-container>
@@ -140,13 +134,10 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
                                           <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
-                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
                                         </div>
                                         <div class="modal-body">
                                             <table class="table table-borderless">
@@ -174,7 +165,7 @@
                                             </ng-container>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')" ngbAutofocus>Close</button>
                                         </div>
                                     </ng-template>
                                 </ng-container>
@@ -198,13 +189,10 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
                                           <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
-                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
                                         </div>
                                         <div class="modal-body">
                                             <table class="table table-borderless">
@@ -232,7 +220,7 @@
                                             </ng-container>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')" ngbAutofocus>Close</button>
                                         </div>
                                     </ng-template>
                                 </ng-container>
@@ -256,13 +244,10 @@
                             </tr>
                             <tr>
                                 <ng-container *ngFor="let providers of frequency.providers">
-                                    <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor">{{providers.provider.name}}</td>
+                                    <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
                                           <h4 class="modal-title" id="modal-basic-title">{{providers.provider.name}} - Band {{frequency.band}}</h4>
-                                          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
                                         </div>
                                         <div class="modal-body">
                                             <table class="table table-borderless">
@@ -290,7 +275,7 @@
                                             </ng-container>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                                          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')" ngbAutofocus>Close</button>
                                         </div>
                                     </ng-template>
                                 </ng-container>
