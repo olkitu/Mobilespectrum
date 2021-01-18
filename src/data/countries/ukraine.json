@@ -125,6 +125,35 @@
             },
             {
                 "provider": {
+                    "name": "VodafoneUA",
+                    "longName": "Vodafone Ukraine",
+                    "homePage": "https://www.vodafone.ua/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1875,
+                        "end": 1880
+                    },
+                    "downLink": {
+                        "start": 1780,
+                        "end": 1785
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7556&language=uk"
+                    }
+                ]
+            },
+            {
+                "provider": {
                     "name": "Kyivstar",
                     "longName": "Kyivstar JSC",
                     "homePage": "https://kyivstar.ua/",
@@ -139,6 +168,35 @@
                     "downLink": {
                         "start": 1820,
                         "end": 1845
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "National Commission for the State Regulation of Communications and Informatization",
+                        "url": "https://nkrzi.gov.ua/index.php?r=site/index&pg=392&id=7556&language=uk"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Kyivstar",
+                    "longName": "Kyivstar JSC",
+                    "homePage": "https://kyivstar.ua/",
+                    "backgroundColor": "#229fff",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1865,
+                        "end": 1875
+                    },
+                    "downLink": {
+                        "start": 1770,
+                        "end": 1780
                     }
                 },
                 "technology": [
