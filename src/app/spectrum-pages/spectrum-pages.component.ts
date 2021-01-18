@@ -1,6 +1,7 @@
+import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { CommonServiceService, Frequencies } from '../common-service.service';
 
@@ -20,6 +21,7 @@ export class SpectrumPagesComponent implements OnInit {
   constructor(
     private commonService: CommonServiceService,
     private route: ActivatedRoute,
+    private router: Router,
     private titleService: Title,
     private modalService: NgbModal
   ) {
@@ -29,6 +31,7 @@ export class SpectrumPagesComponent implements OnInit {
   loaded: boolean = false;
   country: string = "";
   frequencies: Frequencies[] = [];
+  error: string = "";
   
 
   ngOnInit(): void {
@@ -109,6 +112,11 @@ export class SpectrumPagesComponent implements OnInit {
       {
         this.frequencies = data;
         this.loaded = true;
+      }, error => {
+        this.error = error
+        console.log(error)
+        if (error instanceof HttpErrorResponse && error.status == 404) {}
+        this.router.navigateByUrl('/404', {replaceUrl: true});
       }
     )
   }

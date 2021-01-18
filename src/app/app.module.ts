@@ -10,12 +10,14 @@ import { SpectrumPagesComponent } from './spectrum-pages/spectrum-pages.componen
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    SpectrumPagesComponent
+    SpectrumPagesComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
