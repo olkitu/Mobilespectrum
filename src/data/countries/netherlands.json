@@ -481,11 +481,11 @@
         },
         "frequency": {
           "downLink": {
-            "start": 2565,
+            "start": 2570,
             "end": 2590
           },
           "upLink": {
-            "start": 2565,
+            "start": 2570,
             "end": 2590
           }
         },
@@ -507,10 +507,10 @@
         "frequency": {
           "downLink": {
             "start": 2590,
-            "end": 2590
+            "end": 2620
           },
           "upLink": {
-            "start": 2620,
+            "start": 2590,
             "end": 2620
           }
         },
