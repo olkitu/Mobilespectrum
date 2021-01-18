@@ -12,6 +12,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6175
+          ],
           "downLink": {
             "start": 791,
             "end": 796
@@ -21,6 +24,9 @@
             "end": 837
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -37,6 +43,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6225
+          ],
           "downLink": {
             "start": 796,
             "end": 801
@@ -46,6 +55,9 @@
             "end": 842
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -62,6 +74,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6300
+          ],
           "downLink": {
             "start": 801,
             "end": 811
@@ -71,6 +86,9 @@
             "end": 852
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -87,6 +105,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6400
+          ],
           "downLink": {
             "start": 811,
             "end": 821
@@ -96,6 +117,9 @@
             "end": 862
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -126,6 +150,11 @@
             "end": 885.1
           }
         },
+        "technology": [
+          "GSM",
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -151,6 +180,11 @@
             "end": 890.1
           }
         },
+        "technology": [
+          "GSM",
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -176,6 +210,11 @@
             "end": 902.5
           }
         },
+        "technology": [
+          "GSM",
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -201,6 +240,11 @@
             "end": 914.9
           }
         },
+        "technology": [
+          "GSM",
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -222,11 +266,17 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10020
+          ],
           "downLink": {
             "start": 1452,
             "end": 1472
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -243,11 +293,17 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10220
+          ],
           "downLink": {
             "start": 1472,
             "end": 1492
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -269,6 +325,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1226, 1228
+          ],
           "downLink": {
             "start": 1805.1,
             "end": 1810.9
@@ -278,6 +337,10 @@
             "end": 1710.1
           }
         },
+        "technology": [
+          "GSM",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -294,6 +357,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1288
+          ],
           "downLink": {
             "start": 1810.9,
             "end": 1816.7
@@ -303,6 +369,10 @@
             "end": 1715.9
           }
         },
+        "technology": [
+          "GSM",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -319,6 +389,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1392
+          ],
           "downLink": {
             "start": 1816.7,
             "end": 1831.7
@@ -328,6 +401,9 @@
             "end": 1736.7
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -344,6 +420,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1617, 1667, 1761, 1788, 1791, 1808, 1811, 1815
+          ],
           "downLink": {
             "start": 1831.7,
             "end": 1876.7
@@ -353,6 +432,10 @@
             "end": 1781.7
           }
         },
+        "technology": [
+          "GSM",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -374,6 +457,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10564, 10588, 10612, 76, 99
+          ],
           "downLink": {
             "start": 2110.3,
             "end": 2124.9
@@ -383,6 +469,10 @@
             "end": 1934.9
           }
         },
+        "technology": [
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -399,6 +489,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10661, 10637, 124, 199
+          ],
           "downLink": {
             "start": 2124.9,
             "end": 2134.9
@@ -408,6 +501,10 @@
             "end": 1944.9
           }
         },
+        "technology": [
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -424,6 +521,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10687, 10712, 10736, 299, 323, 347, 372
+          ],
           "downLink": {
             "start": 2134.9,
             "end": 2149.7
@@ -433,6 +533,11 @@
             "end": 1959.7
           }
         },
+        "technology": [
+          "UMTS",
+          "LTE",
+          "NR"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -449,6 +554,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10836, 10811, 10786, 10761, 522, 547
+          ],
           "downLink": {
             "start": 2149.7,
             "end": 2169.7
@@ -458,6 +566,10 @@
             "end": 1979.7
           }
         },
+        "technology": [
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -479,6 +591,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            37900
+          ],
           "downLink": {
             "start": 2570,
             "end": 2595
@@ -488,6 +603,9 @@
             "end": 2595
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -513,6 +631,9 @@
             "end": 2620
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -534,6 +655,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            2850
+          ],
           "downLink": {
             "start": 2620,
             "end": 2640
@@ -543,6 +667,9 @@
             "end": 2520
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -559,6 +686,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            3026, 3029, 3179, 3350
+          ],
           "downLink": {
             "start": 2640,
             "end": 2690
@@ -568,6 +698,9 @@
             "end": 2570
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -614,6 +747,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            39250, 39448
+          ],
           "downLink": {
             "start": 2350,
             "end": 2390
@@ -623,6 +759,9 @@
             "end": 2390
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
@@ -648,6 +787,201 @@
             "end": 2400
           }
         },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 78,
+    "providers": [
+      {
+        "provider": {
+          "name": "MOD",
+          "longName": "Ministry of Defence",
+          "homePage": "https://mod.uk",
+          "backgroundColor": "#eee",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3400,
+            "end": 3410
+          },
+          "upLink": {
+            "start": 3400,
+            "end": 3410
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3410,
+            "end": 3460
+          },
+          "upLink": {
+            "start": 3410,
+            "end": 3460
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3460,
+            "end": 3480
+          },
+          "upLink": {
+            "start": 3460,
+            "end": 3480
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "UKBB",
+          "longName": "Three Broadband (UK Broadband)",
+          "homePage": "https://www.threebroadband.co.uk/relish",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3480,
+            "end": 3500
+          },
+          "upLink": {
+            "start": 3480,
+            "end": 3500
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3500,
+            "end": 3540
+          },
+          "upLink": {
+            "start": 3500,
+            "end": 3540
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3540,
+            "end": 3580
+          },
+          "upLink": {
+            "start": 3540,
+            "end": 3580
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3580,
+            "end": 3680
+          },
+          "upLink": {
+            "start": 3580,
+            "end": 3680
+          }
+        },
+        "technology": [
+          "NR"
+        ],
         "source": [
           {
             "name": "Ofcom Spectrum Map",
