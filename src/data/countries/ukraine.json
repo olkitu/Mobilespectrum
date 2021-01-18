@@ -4,8 +4,8 @@
         "providers": [
             {
                 "provider": {
-                    "name": "VodafoneUA",
-                    "longName": "VodafoneUA",
+                    "name": "Vodafone",
+                    "longName": "Vodafone Ukraine",
                     "homePage": "https://www.vodafone.ua/",
                     "backgroundColor": "#e60000",
                     "textColor": "white"
@@ -96,7 +96,7 @@
         "providers": [
             {
                 "provider": {
-                    "name": "VodafoneUA",
+                    "name": "Vodafone",
                     "longName": "Vodafone Ukraine",
                     "homePage": "https://www.vodafone.ua/",
                     "backgroundColor": "#e60000",
@@ -125,7 +125,7 @@
             },
             {
                 "provider": {
-                    "name": "VodafoneUA",
+                    "name": "Vodafone",
                     "longName": "Vodafone Ukraine",
                     "homePage": "https://www.vodafone.ua/",
                     "backgroundColor": "#e60000",
@@ -274,8 +274,8 @@
             },
             {
             "provider": {
-                    "name": "VodafoneUA",
-                    "longName": "VodafoneUA",
+                    "name": "Vodafone",
+                    "longName": "Vodafone Ukraine",
                     "homePage": "https://www.vodafone.ua/",
                     "backgroundColor": "#e60000",
                     "textColor": "white"
@@ -363,7 +363,7 @@
         "providers": [
             {
                 "provider": {
-                    "name": "VodafoneUA",
+                    "name": "Vodafone",
                     "longName": "Vodafone Ukraine",
                     "homePage": "https://www.vodafone.ua/",
                     "backgroundColor": "#e60000",
