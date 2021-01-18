@@ -1,0 +1,3 @@
+Contact: mailto:contact@mobilespectrum.org
+Preferred-Languages: en
+Canonical: https://mobilespectrum.org/.well-known/security.txt
