@@ -24,8 +24,8 @@
                     }
                 },
                 "valid": {
-                    "start": "08.12.2014",
-                    "end": "08.12.2029"
+                    "start": "2014/12/08",
+                    "end": "2029/12/08"
                 },
                 "technology": [
                     "LTE"
@@ -33,7 +33,7 @@
                 "source": [
                     {
                         "name": "Anatel Spectrum-E",
-                        "url": "http://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
                     }
                 ]
             },
@@ -59,8 +59,8 @@
                     }
                 },
                 "valid": {
-                    "start": "08.12.2014",
-                    "end": "08.12.2029"
+                    "start": "2014/12/08",
+                    "end": "2029/12/08"
                 },
                 "technology": [
                     "LTE"
@@ -68,7 +68,7 @@
                 "source": [
                     {
                         "name": "Anatel Spectrum-E",
-                        "url": "http://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
                     }
                 ]
             },
@@ -94,8 +94,8 @@
                     }
                 },
                 "valid": {
-                    "start": "08.12.2014",
-                    "end": "08.12.2029"
+                    "start": "2014/12/08",
+                    "end": "2029/12/08"
                 },
                 "technology": [
                     "LTE"
@@ -103,7 +103,7 @@
                 "source": [
                     {
                         "name": "Anatel Spectrum-E",
-                        "url": "http://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
                     }
                 ]
             }
@@ -134,8 +134,8 @@
                     }
                 },
                 "valid": {
-                    "start": "18.10.2012",
-                    "end": "18.10.2027"
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
                 },
                 "technology": [
                     "LTE"
@@ -143,7 +143,7 @@
                 "source": [
                     {
                         "name": "Anatel Spectrum-E",
-                        "url": "http://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
                     }
                 ]
 
@@ -170,8 +170,8 @@
                     }
                 },
                 "valid": {
-                    "start": "18.10.2012",
-                    "end": "18.10.2027"
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
                 },
                 "technology": [
                     "LTE"
@@ -179,7 +179,7 @@
                 "source": [
                     {
                         "name": "Anatel Spectrum-E",
-                        "url": "http://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
                     }
                 ]
             },
@@ -205,8 +205,8 @@
                     }
                 },
                 "valid": {
-                    "start": "18.10.2012",
-                    "end": "18.10.2027"
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
                 },
                 "technology": [
                     "LTE"
@@ -214,7 +214,7 @@
                 "source": [
                     {
                         "name": "Anatel Spectrum-E",
-                        "url": "http://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
                     }
                 ]
             },
@@ -240,8 +240,8 @@
                     }
                 },
                 "valid": {
-                    "start": "18.10.2012",
-                    "end": "18.10.2027"
+                    "start": "2012/10/18",
+                    "end": "2027/10/18"
                 },
                 "technology": [
                     "LTE"
@@ -249,7 +249,7 @@
                 "source": [
                     {
                         "name": "Anatel Spectrum-E",
-                        "url": "http://sistemas.anatel.gov.br/se/public/view/b/atorf"
+                        "url": "https://sistemas.anatel.gov.br/se/public/view/b/atorf"
                     }
                 ]
             }
