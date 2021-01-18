@@ -58,8 +58,8 @@
                     }
                 },
                 "valid": {
-                    "start": "1.2.2017",
-                    "end": "31.12.2033"
+                    "start": "2017/02/01",
+                    "end": "2033/12/31"
                 },
                 "technology": [
                     "LTE"
@@ -92,6 +92,10 @@
                 "technology": [
                     "LTE"
                 ],
+                "valid": {
+                    "start": "2017/02/01",
+                    "end": "2033/12/31"
+                },
                 "source": [
                     {
                         "name": "Finnish Transport and Communications Agency - Traficom",
@@ -120,6 +124,10 @@
                 "technology": [
                     "LTE"
                 ],
+                "valid": {
+                    "start": "2017/02/01",
+                    "end": "2033/12/31"
+                },
                 "source": [
                     {
                         "name": "Finnish Transport and Communications Agency - Traficom",
@@ -638,8 +646,8 @@
                     }
                 },
                 "valid": {
-                    "start": "1.1.2019",
-                    "end": "31.12.2033"
+                    "start": "2019/01/01",
+                    "end": "2033/12/31"
                 },
                 "technology": ["NR"],
                 "source": [
@@ -668,8 +676,8 @@
                     }
                 },
                 "valid": {
-                    "start": "1.1.2019",
-                    "end": "31.12.2033"
+                    "start": "2019/01/01",
+                    "end": "2033/12/31"
                 },
                 "technology": ["NR"],
                 "source": [
@@ -698,8 +706,8 @@
                     }
                 },
                 "valid": {
-                    "start": "1.1.2019",
-                    "end": "31.12.2033"
+                    "start": "2019/01/01",
+                    "end": "2033/12/31"
                 },
                 "technology": ["NR"],
                 "source": [
@@ -729,8 +737,8 @@
                     }
                 },
                 "valid": {
-                    "start": "1.6.2020",
-                    "end": "31.12.2033"
+                    "start": "2020/06/01",
+                    "end": "2033/12/31"
                 },
                 "technology": ["NR"],
                 "source": [
@@ -755,8 +763,8 @@
                     }
                 },
                 "valid": {
-                    "start": "1.6.2020",
-                    "end": "31.12.2033"
+                    "start": "2020/06/01",
+                    "end": "2033/12/31"
                 },
                 "technology": ["NR"],
                 "source": [
@@ -781,8 +789,8 @@
                     }
                 },
                 "valid": {
-                    "start": "1.6.2020",
-                    "end": "31.12.2033"
+                    "start": "2020/06/01",
+                    "end": "2033/12/31"
                 },
                 "technology": ["NR"],
                 "source": [
