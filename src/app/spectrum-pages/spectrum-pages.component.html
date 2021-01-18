@@ -43,7 +43,7 @@
                                                     <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
                                                 </tr>
                                                 <tr *ngIf="providers.valid != null">
-                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                    <th>Valid</th><td>{{providers.valid.start | date}} - {{providers.valid.end | date}}</td>
                                                 </tr>
                                             </table>
                                             <ng-container *ngIf="providers.source != null">
@@ -99,7 +99,7 @@
                                                     <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
                                                 </tr>
                                                 <tr *ngIf="providers.valid != null">
-                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                    <th>Valid</th><td>{{providers.valid.start | date}} - {{providers.valid.end | date}}</td>
                                                 </tr>
                                             </table>
                                             <ng-container *ngIf="providers.source != null">
@@ -154,7 +154,7 @@
                                                     <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
                                                 </tr>
                                                 <tr *ngIf="providers.valid != null">
-                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                    <th>Valid</th><td>{{providers.valid.start | date}} - {{providers.valid.end | date}}</td>
                                                 </tr>
                                             </table>
                                             <ng-container *ngIf="providers.source != null">
@@ -209,7 +209,7 @@
                                                     <th>Bandwidth</th><td>{{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz</td>
                                                 </tr>
                                                 <tr *ngIf="providers.valid != null">
-                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                    <th>Valid</th><td>{{providers.valid.start | date}} - {{providers.valid.end | date}}</td>
                                                 </tr>
                                             </table>
                                             <ng-container *ngIf="providers.source != null">
@@ -264,7 +264,7 @@
                                                     <th>Bandwidth</th><td>{{providers.frequency.upLink.end - providers.frequency.upLink.start | number}} MHz</td>
                                                 </tr>
                                                 <tr *ngIf="providers.valid != null">
-                                                    <th>Valid</th><td>{{providers.valid.start}} - {{providers.valid.end}}</td>
+                                                    <th>Valid</th><td>{{providers.valid.start | date}} - {{providers.valid.end | date}}</td>
                                                 </tr>
                                             </table>
                                             <ng-container *ngIf="providers.source != null">
