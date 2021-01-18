@@ -741,5 +741,200 @@
         ]
       }
     ]
+  },
+  {
+    "band": 78,
+    "providers": [
+      {
+        "provider": {
+          "name": "MOD",
+          "longName": "Ministry of Defence",
+          "homePage": "https://mod.uk",
+          "backgroundColor": "#eee",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3400,
+            "end": 3410
+          },
+          "upLink": {
+            "start": 3400,
+            "end": 3410
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3410,
+            "end": 3460
+          },
+          "upLink": {
+            "start": 3410,
+            "end": 3460
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3460,
+            "end": 3480
+          },
+          "upLink": {
+            "start": 3460,
+            "end": 3480
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "UKBB",
+          "longName": "Three Broadband (UK Broadband)",
+          "homePage": "https://www.threebroadband.co.uk/relish",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3480,
+            "end": 3500
+          },
+          "upLink": {
+            "start": 3480,
+            "end": 3500
+          }
+        },
+        "technology": [
+          "Fixed Wireless Access"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3500,
+            "end": 3540
+          },
+          "upLink": {
+            "start": 3500,
+            "end": 3540
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3540,
+            "end": 3580
+          },
+          "upLink": {
+            "start": 3540,
+            "end": 3580
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3580,
+            "end": 3680
+          },
+          "upLink": {
+            "start": 3580,
+            "end": 3680
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      }
+    ]
   }
 ]
