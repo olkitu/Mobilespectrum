@@ -12,6 +12,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6175
+          ],
           "downLink": {
             "start": 791,
             "end": 796
@@ -40,6 +43,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6225
+          ],
           "downLink": {
             "start": 796,
             "end": 801
@@ -68,6 +74,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6300
+          ],
           "downLink": {
             "start": 801,
             "end": 811
@@ -96,6 +105,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            6400
+          ],
           "downLink": {
             "start": 811,
             "end": 821
@@ -254,6 +266,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10020
+          ],
           "downLink": {
             "start": 1452,
             "end": 1472
@@ -278,6 +293,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10220
+          ],
           "downLink": {
             "start": 1472,
             "end": 1492
@@ -307,6 +325,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1226, 1228
+          ],
           "downLink": {
             "start": 1805.1,
             "end": 1810.9
@@ -336,6 +357,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1288
+          ],
           "downLink": {
             "start": 1810.9,
             "end": 1816.7
@@ -365,6 +389,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1392
+          ],
           "downLink": {
             "start": 1816.7,
             "end": 1831.7
@@ -393,6 +420,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            1617, 1667, 1761, 1788, 1791, 1808, 1811, 1815
+          ],
           "downLink": {
             "start": 1831.7,
             "end": 1876.7
@@ -427,6 +457,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10564, 10588, 10612, 76, 99
+          ],
           "downLink": {
             "start": 2110.3,
             "end": 2124.9
@@ -456,6 +489,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10661, 10637, 124, 199
+          ],
           "downLink": {
             "start": 2124.9,
             "end": 2134.9
@@ -485,6 +521,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10687, 10712, 10736, 299, 323, 347, 372
+          ],
           "downLink": {
             "start": 2134.9,
             "end": 2149.7
@@ -515,6 +554,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            10836, 10811, 10786, 10761, 522, 547
+          ],
           "downLink": {
             "start": 2149.7,
             "end": 2169.7
@@ -549,6 +591,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            37900
+          ],
           "downLink": {
             "start": 2570,
             "end": 2595
@@ -610,6 +655,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            2850
+          ],
           "downLink": {
             "start": 2620,
             "end": 2640
@@ -638,6 +686,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            3026, 3029, 3179, 3350
+          ],
           "downLink": {
             "start": 2640,
             "end": 2690
@@ -696,6 +747,9 @@
           "textColor": "white"
         },
         "frequency": {
+          "arfcn": [
+            39250, 39448
+          ],
           "downLink": {
             "start": 2350,
             "end": 2390
