@@ -47,6 +47,10 @@ build:
   - docker
   services:
     - docker:dind
+  before_script:
+  - sed -ri "s|\"VERSION\"|\"$CI_COMMIT_SHA\"|" src/environments/environment.prod.ts
+  - sed -ri "s|"VERSION_LINK"|"$CI_COMMIT_SHORT_SHA"|g" src/app/app.component.html
+  - sed -ri "s|\"VERSION\"|\"$CI_COMMIT_SHA\"|" src/app/app.component.html
   script:
   - docker build -t $TAG_COMMIT -t $TAG_LATEST .
   - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
