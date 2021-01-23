@@ -1,8 +1,8 @@
 stages:
 - test
 - build
-- deploy-stage
-- deploy-prod
+- staging
+- production
 
 variables:
   TAG_LATEST: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:latest
@@ -25,7 +25,6 @@ test:jsonvalidation:
   - cd ./src/data
   script:
   - ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
-  stage: test
 
 test:karma:
   stage: test
@@ -59,10 +58,19 @@ build:
   - docker push $TAG_COMMIT
   - docker push $TAG_LATEST
   only:
-  - stage
+    refs:
+    - stage
+    changes:
+    - Dockerfile
+    - ./*.json
+    - yarn.lock
+    - .editorconfig
+    - .browserslistrc
+    - nginx.conf
+    - src/*
 
 deploy:stage:
-  stage: deploy-stage
+  stage: staging
   image: alpine:latest
   tags:
   - docker
@@ -76,9 +84,11 @@ deploy:stage:
   - curl -X POST $DEPLOY_STAGE
   only:
   - stage
+  needs:
+  - job: build
 
 deploy:production:
-  stage: deploy-prod
+  stage: production
   image: alpine:latest
   tags:
   - docker
@@ -94,3 +104,5 @@ deploy:production:
   - main
   when: manual
   allow_failure: false
+  needs:
+  - build
