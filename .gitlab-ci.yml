@@ -69,7 +69,7 @@ build:
   - docker push $TAG_LATEST
   only:
     refs:
-    - stage
+    - main
     changes:
     - Dockerfile
     - ./*.json
@@ -93,9 +93,9 @@ deploy:stage:
   - echo "Deploying $CI_COMMIT_SHA to stage"
   - curl -X POST $DEPLOY_STAGE
   only:
-  - stage
+  - main
   needs:
-  - job: build
+  - build
 
 deploy:production:
   stage: production
