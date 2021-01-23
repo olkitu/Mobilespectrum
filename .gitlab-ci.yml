@@ -59,7 +59,7 @@ build:
   - docker push $TAG_COMMIT
   - docker push $TAG_LATEST
   only:
-  - main
+  - stage
 
 deploy:stage:
   stage: deploy-stage
