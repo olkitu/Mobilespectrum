@@ -45,6 +45,11 @@ export class SpectrumPagesComponent implements OnInit {
         this.country = this.country.split('_').join(' ');
         this.country = this.country.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
         this.titleService.setTitle(this.country + ' | MobileSpectrum');
+        if(this.region != null) {
+          this.region = this.region.split('_').join(' ');
+          this.region = this.region.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+          this.titleService.setTitle(this.country + ' / ' + this.region + ' | MobileSpectrum');
+        }
       }
     })
   }
