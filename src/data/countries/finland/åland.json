@@ -1,5 +1,38 @@
 [
     {
+        "band": 31,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Ålcom",
+                    "longName": "Ålcom",
+                    "homePage": "https://www.alcom.ax/",
+                    "backgroundColor": "#7e7e7e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 452.425,
+                        "end": 456.925
+                    },
+                    "downLink": {
+                        "start": 462.425,
+                        "end": 466.925
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/frequencies-and-license-holders-public-mobile-networks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "band": 20,
         "providers": [
             {
