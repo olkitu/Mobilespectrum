@@ -62,8 +62,12 @@ export class CommonServiceService {
   ) { }
 
 
-  doGetFrequencyData(country: string): Observable<Frequencies[]> {
-    return this.http.get<Frequencies[]>(this.apiUrl + '/countries/' + country +  '.json')
+  doGetFrequencyData(country: string, region?: string): Observable<Frequencies[]> {
+    let frequencyData = this.http.get<Frequencies[]>(this.apiUrl + '/countries/' + country +  '.json');
+    if(region != null) {
+      frequencyData = this.http.get<Frequencies[]>(this.apiUrl + '/countries/' + country + '/' + region + '.json');
+    }
+    return frequencyData
       .pipe(
         catchError(this.handleError())
       );

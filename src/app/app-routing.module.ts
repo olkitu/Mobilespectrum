@@ -6,6 +6,7 @@ import { SpectrumPagesComponent } from './spectrum-pages/spectrum-pages.componen
 
 const routes: Routes = [
   { path: '404', component: NotFoundPageComponent},
+  { path: ':country/:region', component: SpectrumPagesComponent},
   { path: ':country', component: SpectrumPagesComponent},
   { path: '', component: HomePageComponent},
   { path: '**', redirectTo: '/404'}
