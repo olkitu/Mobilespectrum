@@ -1,0 +1,737 @@
+[
+  {
+    "band": 20,
+    "providers": [
+      {
+        "provider": {
+          "name": "unallocated",
+          "longName": "Unallocated spectrum",
+          "homePage": "http://www.ancom.ro",
+          "backgroundColor": "#c6c6c6",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 832,
+            "end": 837
+          },
+          "upLink": {
+            "start": 791,
+            "end": 796
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "http://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone Romania",
+          "homePage": "https://www.vodafone.ro",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 837,
+            "end": 847
+          },
+          "upLink": {
+            "start": 796,
+            "end": 806
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Orange",
+          "longName": "Orange Romania",
+          "homePage": "https://www.orange.ro",
+          "backgroundColor": "#ff9b00",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 847,
+            "end": 857
+          },
+          "upLink": {
+            "start": 806,
+            "end": 816
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+	        {
+        "provider": {
+          "name": "Telekom",
+          "longName": "Telekom Romania",
+          "homePage": "https://www.telekom.ro",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 857,
+            "end": 862
+          },
+          "upLink": {
+            "start": 816,
+            "end": 821
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+    ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  {
+    "band": 8,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone Romania",
+          "homePage": "https://www.vodafone.ro",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 925,
+            "end": 935
+          },
+          "upLink": {
+            "start": 880,
+            "end": 890
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Digi",
+          "longName": "Digi Romania",
+          "homePage": "https://www.digi.ro",
+          "backgroundColor": "#0018e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 935,
+            "end": 940
+          },
+          "upLink": {
+            "start": 890,
+            "end": 895
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Telekom",
+          "longName": "Telekom Romania",
+          "homePage": "https://www.telekom.ro",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 940,
+            "end": 950
+          },
+          "upLink": {
+            "start": 895,
+            "end": 905
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+	     {
+        "provider": {
+          "name": "Orange",
+          "longName": "Orange Romania",
+          "homePage": "https://www.orange.ro",
+          "backgroundColor": "#ff9b00",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 950,
+            "end": 960
+          },
+          "upLink": {
+            "start": 905,
+            "end": 915
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "band": 3,
+    "providers": [
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone Romania",
+          "homePage": "https://www.vodafone.ro",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1805,
+            "end": 1835
+          },
+          "upLink": {
+            "start": 1710,
+            "end": 1740
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Orange",
+          "longName": "Orange Romania",
+          "homePage": "https://www.orange.ro",
+          "backgroundColor": "#ff9b00",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1835,
+            "end": 1855
+          },
+          "upLink": {
+            "start": 1740,
+            "end": 1760
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Telekom",
+          "longName": "Telekom Romania",
+          "homePage": "https://www.telekom.ro",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1855,
+            "end": 1880
+          },
+          "upLink": {
+            "start": 1760,
+            "end": 1785
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+    ]
+  },
+  
+  
+ 
+  
+  
+  {
+    "band": 1,
+    "providers": [
+      {
+        "provider": {
+          "name": "Digi",
+          "longName": "Digi Romania",
+          "homePage": "https://www.digi.ro",
+          "backgroundColor": "#0018e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2110.3,
+            "end": 2125.3
+          },
+          "upLink": {
+            "start": 1920.3,
+            "end": 1935.3
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Telekom",
+          "longName": "Telekom Romania",
+          "homePage": "https://www.telekom.ro",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2125.3,
+            "end": 2140.1
+          },
+          "upLink": {
+            "start": 1935.3,
+            "end": 1950.1
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Orange",
+          "longName": "Orange Romania",
+          "homePage": "https://www.orange.ro",
+          "backgroundColor": "#ff9b00",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2140.1,
+            "end": 2154.9
+          },
+          "upLink": {
+            "start": 1950.1,
+            "end": 1964.9
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+	        {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone Romania",
+          "homePage": "https://www.vodafone.ro",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2154.9,
+            "end": 2169.7
+          },
+          "upLink": {
+            "start": 1964.9,
+            "end": 1979.7
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+    ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  {
+    "band": 38,
+    "providers": [
+      {
+        "provider": {
+          "name": "Digi",
+          "longName": "Digi Romania",
+          "homePage": "https://www.digi.ro",
+          "backgroundColor": "#0018e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2570,
+            "end": 2600
+          },
+          "upLink": {
+            "start": 2570,
+            "end": 2600
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone Romania",
+          "homePage": "https://www.vodafone.ro",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2600,
+            "end": 2615
+          },
+          "upLink": {
+            "start": 2600,
+            "end": 2615
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+	        {
+        "provider": {
+          "name": "Unallocated",
+          "longName": "Unallocated spectrum",
+          "homePage": "https://www.ancom.ro",
+          "backgroundColor": "#c6c6c6",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2615,
+            "end": 2620
+          },
+          "upLink": {
+            "start": 2615,
+            "end": 2620
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+    ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  {
+    "band": 7,
+    "providers": [
+      {
+        "provider": {
+          "name": "Telekom",
+          "longName": "Telekom Romania",
+          "homePage": "https://www.telekom.ro",
+          "backgroundColor": "#e500e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2620,
+            "end": 2630
+          },
+          "upLink": {
+            "start": 2500,
+            "end": 2510
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Orange",
+          "longName": "Orange Romania",
+          "homePage": "https://www.orange.ro",
+          "backgroundColor": "#ff9b00",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2630,
+            "end": 2650
+          },
+          "upLink": {
+            "start": 2510,
+            "end": 2530
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Unallocated",
+          "longName": "Unallocated spectrum",
+          "homePage": "https://www.ancom.ro",
+          "backgroundColor": "#c6c6c6",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 2650,
+            "end": 2690
+          },
+          "upLink": {
+            "start": 2530,
+            "end": 2570
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+    ]
+  }
+  
+  
+  
+  
+    {
+    "band": 78,
+    "providers": [
+      {
+        "provider": {
+          "name": "Unallocated",
+          "longName": "Unallocated spectrum",
+          "homePage": "https://www.ancom.ro",
+          "backgroundColor": "#c6c6c6",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3400,
+            "end": 3490
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone Romania",
+          "homePage": "https://www.vodafone.ro",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3490,
+            "end": 3530
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Orange",
+          "longName": "Orange Romania",
+          "homePage": "https://www.orange.ro",
+          "backgroundColor": "#ff9b00",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3530,
+            "end": 3645
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+	        {
+        "provider": {
+          "name": "Unallocated",
+          "longName": "Unallocated spectrum",
+          "homePage": "https://www.ancom.ro",
+          "backgroundColor": "#c6c6c6",
+          "textColor": "black"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3645,
+            "end": 3700
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Digi",
+          "longName": "Digi Romania",
+          "homePage": "https://www.digi.ro",
+          "backgroundColor": "#0018e5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3700,
+            "end": 3750
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "SNR",
+          "longName": "SNR Radiocom",
+          "homePage": "https://www.radiocom.ro",
+          "backgroundColor": "#008c1a",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3750,
+            "end": 3800
+          }
+        },
+        "source": [
+          {
+            "name": "ANCOM",
+            "url": "https://www.ancom.ro"
+          }
+        ]
+      }
+    ]
+  },
+  
+  
+  
+  
+]
+
