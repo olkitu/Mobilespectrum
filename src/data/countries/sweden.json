@@ -1,0 +1,161 @@
+[
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 713,
+                        "end": 723
+                    },
+                    "downLink": {
+                        "start": 768,
+                        "end": 778
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/700/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 723,
+                        "end": 733
+                    },
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/700/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 40,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Net1",
+                    "longName": "Teracom Mobil",
+                    "homePage": "https://www.net1.se/",
+                    "backgroundColor": "#4D4D4D",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2300,
+                        "end": 2380
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3400,
+                        "end": 3500
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3500,
+                        "end": 3620
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3620,
+                        "end": 3720
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+
+            }
+        ]
+    }
+]
