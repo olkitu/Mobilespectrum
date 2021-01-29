@@ -118,6 +118,9 @@
         "source": [{
           "name": "Eesti raadiosagedusplaan - Riigi Teataja",
           "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }, {
+          "name": "Article on winners of the 2500 MHz sale contest",
+          "url": "https://foorum.hinnavaatlus.ee/viewtopic.php?p=9619361"
         }]
       },
       {
@@ -147,6 +150,9 @@
         "source": [{
           "name": "Eesti raadiosagedusplaan - Riigi Teataja",
           "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }, {
+          "name": "Article on winners of the 2500 MHz sale contest",
+          "url": "https://foorum.hinnavaatlus.ee/viewtopic.php?p=9619361"
         }]
       },
       {
@@ -177,6 +183,9 @@
         "source": [{
           "name": "Eesti raadiosagedusplaan - Riigi Teataja",
           "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }, {
+          "name": "Article on winners of the 2500 MHz sale contest",
+          "url": "https://foorum.hinnavaatlus.ee/viewtopic.php?p=9619361"
         }]
       }
     ]
@@ -366,35 +375,34 @@
   {
     "band": 38,
     "providers": [{
-        "provider": {
-          "name": "Elisa",
-          "longName": "Elisa Eesti AS",
-          "homePage": "https://www.elisa.ee/",
-          "backgroundColor": "#0019af",
-          "textColor": "white"
-        },
-        "frequency": {
-          "arfcn": [
-            37900,
-            38098
-          ],
-          "upLink": {
-            "start": 2575,
-            "end": 2614.8
-          },
-          "downLink": {
-            "start": 2575,
-            "end": 2614.8
-          }
-        },
-        "technology": [
-          "LTE"
+      "provider": {
+        "name": "Elisa",
+        "longName": "Elisa Eesti AS",
+        "homePage": "https://www.elisa.ee/",
+        "backgroundColor": "#0019af",
+        "textColor": "white"
+      },
+      "frequency": {
+        "arfcn": [
+          37900,
+          38098
         ],
-        "source": [{
-          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
-          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
-        }]
-      }
-    ]
+        "upLink": {
+          "start": 2575,
+          "end": 2614.8
+        },
+        "downLink": {
+          "start": 2575,
+          "end": 2614.8
+        }
+      },
+      "technology": [
+        "LTE"
+      ],
+      "source": [{
+        "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+        "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+      }]
+    }]
   }
 ]
