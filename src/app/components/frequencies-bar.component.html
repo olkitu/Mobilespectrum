@@ -14,14 +14,17 @@
                 <tr *ngIf="provider.technology != null">
                     <th>Technology</th><td>{{provider.technology.join(", ")}}</td>
                 </tr>
-                <tr>
+                <tr *ngIf="provider.frequency.downLink != null">
                     <th>Download Frequency Range</th><td>{{provider.frequency.downLink.start}} - {{provider.frequency.downLink.end}} MHz</td>
                 </tr>
-                <tr>
+                <tr *ngIf="provider.frequency.upLink != null">
                     <th>Upload Frequency Range</th><td>{{provider.frequency.upLink.start}} - {{provider.frequency.upLink.end}} MHz</td>
                 </tr>
                 <tr>
-                    <th>Bandwidth</th><td>{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz</td>
+                    <th>Bandwidth</th><td>
+                        <ng-container *ngIf="provider.frequency.downLink != null" else >{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container>
+                        <ng-container *ngIf="provider.frequency.downLink == null && provider.frequency.upLink != null">{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container> MHz
+                    </td>
                 </tr>
                 <tr *ngIf="provider.valid != null">
                     <th>Valid</th><td>{{provider.valid.start | date}} - {{provider.valid.end | date}}</td>
