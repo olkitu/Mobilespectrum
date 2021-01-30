@@ -1,0 +1,24 @@
+.div__container {
+    height: 30px;
+    /* border: 1px solid #000000; */
+    font-size: medium;
+    display: inherit;
+}
+
+.div__child {
+    float: left;
+    height: 30px;
+    display: inherit;
+}
+
+.div__child span {
+    color: white;
+    mix-blend-mode: difference;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.div__container a {
+    color: inherit;
+    text-decoration: none;
+}

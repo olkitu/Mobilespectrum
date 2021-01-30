@@ -1,0 +1,41 @@
+<div *ngFor="let provider of providers" class="div__container">
+    <div class="div__child" (click)="open(content)" [ngStyle]="{'background-color': provider.provider.backgroundColor, 'width': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + '%'}">
+        <span>{{provider.provider.name}}</span>
+    </div>
+    <ng-template #content let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title" id="modal-basic-title">{{provider.provider.name}} - Band {{frequencyBand}}</h4>
+        </div>
+        <div class="modal-body">
+            <table class="table table-borderless">
+                <tr>
+                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{provider.provider.homePage}}">{{provider.provider.longName}}</a></td>
+                </tr>
+                <tr *ngIf="provider.technology != null">
+                    <th>Technology</th><td>{{provider.technology.join(", ")}}</td>
+                </tr>
+                <tr>
+                    <th>Download Frequency Range</th><td>{{provider.frequency.downLink.start}} - {{provider.frequency.downLink.end}} MHz</td>
+                </tr>
+                <tr>
+                    <th>Upload Frequency Range</th><td>{{provider.frequency.upLink.start}} - {{provider.frequency.upLink.end}} MHz</td>
+                </tr>
+                <tr>
+                    <th>Bandwidth</th><td>{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz</td>
+                </tr>
+                <tr *ngIf="provider.valid != null">
+                    <th>Valid</th><td>{{provider.valid.start | date}} - {{provider.valid.end | date}}</td>
+                </tr>
+            </table>
+            <ng-container *ngIf="provider.source != null">
+                <p><strong>Sources:</strong></p>
+                <ul>
+                    <li *ngFor="let source of provider.source"><a rel="noopener" target="_blank" href="{{source.url}}">{{source.name}}</a></li>
+                </ul>
+            </ng-container>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')" ngbAutofocus>Close</button>
+        </div>
+    </ng-template>
+</div>
