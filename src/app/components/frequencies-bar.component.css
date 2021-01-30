@@ -9,11 +9,12 @@
     float: left;
     height: 30px;
     display: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .div__child span {
-    color: white;
-    mix-blend-mode: difference;
     vertical-align: middle;
     cursor: pointer;
 }
