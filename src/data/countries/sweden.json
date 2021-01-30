@@ -374,7 +374,13 @@
                         "start": 2570,
                         "end": 2620
                     }
-                }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/licences-in-2500-2690-mhz/"
+                    }
+                ]
             }
         ]
     },
