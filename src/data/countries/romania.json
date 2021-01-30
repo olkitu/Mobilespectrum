@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"band": 20,
 		"providers": [
 			{
@@ -10,19 +11,21 @@
 					"textColor": "white"
 				},
 				"frequency": {
-					"downLink": {
+					"upLink": {
 						"start": 837,
 						"end": 847
 					},
-					"upLink": {
+					"downLink": {
 						"start": 796,
 						"end": 806
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -33,19 +36,21 @@
 					"textColor": "white"
 				},
 				"frequency": {
-					"downLink": {
+					"upLink": {
 						"start": 847,
 						"end": 857
 					},
-					"upLink": {
+					"downLink": {
 						"start": 806,
 						"end": 816
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -56,35 +61,28 @@
 					"textColor": "white"
 				},
 				"frequency": {
-					"downLink": {
+					"upLink": {
 						"start": 857,
 						"end": 862
 					},
-					"upLink": {
+					"downLink": {
 						"start": 816,
 						"end": 821
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			}
 		]
 	},
-
-
-
-
-
-
-
-
-
-
 	{
 		"band": 8,
-		"providers": [{
+		"providers": [
+			{
 				"provider": {
 					"name": "Vodafone",
 					"longName": "Vodafone Romania",
@@ -102,10 +100,12 @@
 						"end": 890
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -125,10 +125,12 @@
 						"end": 895
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -148,10 +150,12 @@
 						"end": 905
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -171,25 +175,19 @@
 						"end": 915
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			}
 		]
 	},
-
-
-
-
-
-
-
-
-
 	{
 		"band": 3,
-		"providers": [{
+		"providers": [
+			{
 				"provider": {
 					"name": "Vodafone",
 					"longName": "Vodafone Romania",
@@ -207,10 +205,12 @@
 						"end": 1740
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -230,10 +230,12 @@
 						"end": 1760
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -253,21 +255,19 @@
 						"end": 1785
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			}
 		]
 	},
-
-
-
-
-
 	{
 		"band": 1,
-		"providers": [{
+		"providers": [
+			{
 				"provider": {
 					"name": "Digi",
 					"longName": "Digi Romania",
@@ -285,10 +285,12 @@
 						"end": 1935.3
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -308,10 +310,12 @@
 						"end": 1950.1
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -331,10 +335,12 @@
 						"end": 1964.9
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -354,24 +360,19 @@
 						"end": 1979.7
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			}
 		]
 	},
-
-
-
-
-
-
-
-
 	{
 		"band": 38,
-		"providers": [{
+		"providers": [
+			{
 				"provider": {
 					"name": "Digi",
 					"longName": "Digi Romania",
@@ -389,10 +390,12 @@
 						"end": 2600
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -412,24 +415,19 @@
 						"end": 2615
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			}
 		]
 	},
-
-
-
-
-
-
-
-
 	{
 		"band": 7,
-		"providers": [{
+		"providers": [
+			{
 				"provider": {
 					"name": "Telekom",
 					"longName": "Telekom Romania",
@@ -447,10 +445,12 @@
 						"end": 2510
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -470,17 +470,15 @@
 						"end": 2530
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
 			}
 		]
 	},
-
-
-
-
 	{
 		"band": 78,
 		"providers": [
@@ -498,10 +496,12 @@
 						"end": 3530
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -517,10 +517,12 @@
 						"end": 3645
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -536,10 +538,12 @@
 						"end": 3750
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+					}
+				]
 			},
 			{
 				"provider": {
@@ -555,15 +559,13 @@
 						"end": 3800
 					}
 				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
-				}]
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+					}
+				]
 			}
 		]
 	}
-
-
-
-
 ]
