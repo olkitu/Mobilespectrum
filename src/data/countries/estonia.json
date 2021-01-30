@@ -1,0 +1,408 @@
+[{
+    "band": 20,
+    "providers": [{
+        "provider": {
+          "name": "Elisa",
+          "longName": "Elisa Eesti AS",
+          "homePage": "https://www.elisa.ee/",
+          "backgroundColor": "#0019af",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            6200
+          ],
+          "upLink": {
+            "start": 791,
+            "end": 801
+          },
+          "downLink": {
+            "start": 832,
+            "end": 842
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Telia",
+          "longName": "Telia Eesti AS",
+          "homePage": "https://www.telia.ee/",
+          "backgroundColor": "#990ae3",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            6300
+          ],
+          "upLink": {
+            "start": 801,
+            "end": 811
+          },
+          "downLink": {
+            "start": 842,
+            "end": 852
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 Eesti AS",
+          "homePage": "https://www.tele2.ee/",
+          "backgroundColor": "#000000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            6400
+          ],
+          "upLink": {
+            "start": 811,
+            "end": 821
+          },
+          "downLink": {
+            "start": 852,
+            "end": 862
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      }
+    ]
+  },
+  {
+    "band": 7,
+    "providers": [{
+        "provider": {
+          "name": "Elisa",
+          "longName": "Elisa Eesti AS",
+          "homePage": "https://www.elisa.ee/",
+          "backgroundColor": "#0019af",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            2850
+          ],
+          "upLink": {
+            "start": 2500,
+            "end": 2520
+          },
+          "downLink": {
+            "start": 2620,
+            "end": 2640
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }, {
+          "name": "Article on winners of the 2500 MHz sale contest",
+          "url": "https://www.ttja.ee/et/uudised/selgunud-sagedusala-2500-mhz-avaliku-konkursi-voitjad"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Elisa",
+          "longName": "Elisa Eesti AS",
+          "homePage": "https://www.elisa.ee/",
+          "backgroundColor": "#0019af",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            3400
+          ],
+          "upLink": {
+            "start": 2560,
+            "end": 2570
+          },
+          "downLink": {
+            "start": 2680,
+            "end": 2690
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }, {
+          "name": "Article on winners of the 2500 MHz sale contest",
+          "url": "https://www.ttja.ee/et/uudised/selgunud-sagedusala-2500-mhz-avaliku-konkursi-voitjad"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Telia",
+          "longName": "Telia Eesti AS",
+          "homePage": "https://www.telia.ee/",
+          "backgroundColor": "#990ae3",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            3050,
+            3248
+          ],
+          "upLink": {
+            "start": 2520,
+            "end": 2560
+          },
+          "downLink": {
+            "start": 2640,
+            "end": 2680
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }, {
+          "name": "Article on winners of the 2500 MHz sale contest",
+          "url": "https://www.ttja.ee/et/uudised/selgunud-sagedusala-2500-mhz-avaliku-konkursi-voitjad"
+        }]
+      }
+    ]
+  },
+  {
+    "band": 3,
+    "providers": [{
+        "provider": {
+          "name": "Elisa",
+          "longName": "Elisa Eesti AS",
+          "homePage": "https://www.elisa.ee/",
+          "backgroundColor": "#0019af",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            1849
+          ],
+          "upLink": {
+            "start": 1760.1,
+            "end": 1784.9
+          },
+          "downLink": {
+            "start": 1855.1,
+            "end": 1879.9
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Telia",
+          "longName": "Telia Eesti AS",
+          "homePage": "https://www.telia.ee/",
+          "backgroundColor": "#990ae3",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            1344
+          ],
+          "upLink": {
+            "start": 1710.1,
+            "end": 1734.9
+          },
+          "downLink": {
+            "start": 1805.1,
+            "end": 1829.9
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 Eesti AS",
+          "homePage": "https://www.tele2.ee/",
+          "backgroundColor": "#000000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            1574
+          ],
+          "upLink": {
+            "start": 1735.1,
+            "end": 1759.9
+          },
+          "downLink": {
+            "start": 1830.1,
+            "end": 1854.9
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      }
+    ]
+  },
+  {
+    "band": 1,
+    "providers": [{
+        "provider": {
+          "name": "Elisa",
+          "longName": "Elisa Eesti AS",
+          "homePage": "https://www.elisa.ee/",
+          "backgroundColor": "#0019af",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            549
+          ],
+          "upLink": {
+            "start": 1967.9,
+            "end": 1979.7
+          },
+          "downLink": {
+            "start": 2154.9,
+            "end": 2169.7
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Telia",
+          "longName": "Telia Eesti AS",
+          "homePage": "https://www.telia.ee/",
+          "backgroundColor": "#990ae3",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            399
+          ],
+          "upLink": {
+            "start": 1950.1,
+            "end": 1964.9
+          },
+          "downLink": {
+            "start": 2140.1,
+            "end": 2154.9
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 Eesti AS",
+          "homePage": "https://www.tele2.ee/",
+          "backgroundColor": "#000000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            103
+          ],
+          "upLink": {
+            "start": 1920.3,
+            "end": 1935.3
+          },
+          "downLink": {
+            "start": 2110.3,
+            "end": 2125.3
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [{
+          "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+          "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+        }]
+      }
+    ]
+  },
+  {
+    "band": 38,
+    "providers": [{
+      "provider": {
+        "name": "Elisa",
+        "longName": "Elisa Eesti AS",
+        "homePage": "https://www.elisa.ee/",
+        "backgroundColor": "#0019af",
+        "textColor": "white"
+      },
+      "frequency": {
+        "arfcn": [
+          37900,
+          38098
+        ],
+        "upLink": {
+          "start": 2575,
+          "end": 2614.8
+        },
+        "downLink": {
+          "start": 2575,
+          "end": 2614.8
+        }
+      },
+      "technology": [
+        "LTE"
+      ],
+      "source": [{
+        "name": "Eesti raadiosagedusplaan - Riigi Teataja",
+        "url": "https://www.riigiteataja.ee/akt/125012019006?leiaKehtiv"
+      }]
+    }]
+  }
+]

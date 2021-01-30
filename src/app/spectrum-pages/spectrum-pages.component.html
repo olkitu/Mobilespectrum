@@ -19,7 +19,7 @@
                                 <th colspan="3">FDD Downlink</th>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let providers of frequency.providers">
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
                                     <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer"> {{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
@@ -60,8 +60,8 @@
                                 </ng-container>              
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let provider of frequency.providers">
-                                    <td><small>{{(provider.frequency.downLink.end + provider.frequency.downLink.start) / 2 | number}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</small></td>
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
+                                    <td><small>{{(providers.frequency.downLink.end + providers.frequency.downLink.start) / 2 | number}} MHz ({{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz)</small></td>
                                 </ng-container>
                              </tr>
                         </table>
@@ -75,7 +75,7 @@
                                 <th colspan="3">FDD Uplink</th>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let providers of frequency.providers">
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
                                     <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
@@ -116,8 +116,8 @@
                                 </ng-container>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let provider of frequency.providers">
-                                    <td><small>{{(provider.frequency.upLink.end + provider.frequency.upLink.start) / 2 | number}} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</small></td>
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
+                                    <td><small>{{(providers.frequency.upLink.end + providers.frequency.upLink.start) / 2 | number}} MHz ({{providers.frequency.upLink.end - providers.frequency.upLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -133,7 +133,7 @@
                                 <th colspan="3">TDD Downlink/Uplink</th>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let providers of frequency.providers">
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
                                     <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
@@ -171,8 +171,8 @@
                                 </ng-container>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let provider of frequency.providers">
-                                    <td><small>{{(provider.frequency.downLink.end + provider.frequency.downLink.start) / 2 | number}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</small></td>
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
+                                    <td><small>{{(providers.frequency.downLink.end + providers.frequency.downLink.start) / 2 | number}} MHz ({{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -188,7 +188,7 @@
                                 <th colspan="3">SDL Downlink</th>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let providers of frequency.providers">
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
                                     <td (click)="open(content)" title="{{providers.frequency.downLink.start}} - {{providers.frequency.downLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
@@ -226,8 +226,8 @@
                                 </ng-container>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let provider of frequency.providers">
-                                    <td><small>{{(provider.frequency.downLink.end + provider.frequency.downLink.start) / 2 | number}} MHz ({{provider.frequency.downLink.end - provider.frequency.downLink.start | number}} MHz)</small></td>
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
+                                    <td><small>{{(providers.frequency.downLink.end + providers.frequency.downLink.start) / 2 | number}} MHz ({{providers.frequency.downLink.end - providers.frequency.downLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
@@ -243,7 +243,7 @@
                                 <th colspan="3">SDL Downlink</th>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let providers of frequency.providers">
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
                                     <td (click)="open(content)" title="{{providers.frequency.upLink.start}} - {{providers.frequency.upLink.end}} MHz" [style.color]="providers.provider.textColor" [style.background-color]="providers.provider.backgroundColor" class="pointer">{{providers.provider.name}}</td>
                                     <ng-template #content let-modal>
                                         <div class="modal-header">
@@ -281,8 +281,8 @@
                                 </ng-container>
                             </tr>
                             <tr>
-                                <ng-container *ngFor="let provider of frequency.providers">
-                                    <td><small>{{(provider.frequency.upLink.end + provider.frequency.upLink.start) / 2 | number }} MHz ({{provider.frequency.upLink.end - provider.frequency.upLink.start | number}} MHz)</small></td>
+                                <ng-container *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
+                                    <td><small>{{(providers.frequency.upLink.end + providers.frequency.upLink.start) / 2 | number }} MHz ({{providers.frequency.upLink.end - providers.frequency.upLink.start | number}} MHz)</small></td>
                                 </ng-container>
                             </tr>
                         </table>
