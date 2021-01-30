@@ -141,7 +141,6 @@ export class SpectrumPagesComponent implements OnInit {
   getFrequencyFromBand(band: number) {
     let bandFrequency = this.band.find((item) => item.band == band)
     if(bandFrequency?.frequency == null) {
-      console.log(bandFrequency)
       return 0;
     }
     return bandFrequency?.frequency
