@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { CommonServiceService, Frequencies } from '../common-service.service';
+import { CommonServiceService, Frequencies, Provider } from '../common-service.service';
 
 export interface Bands {
   band: number;
@@ -144,6 +144,16 @@ export class SpectrumPagesComponent implements OnInit {
       return 0;
     }
     return bandFrequency?.frequency
+  }
+
+  sortProviders(data: Provider[], bandType: string = "") {
+    if(bandType == "SUL") {
+      data.sort((a, b) => a.frequency.upLink.start - b.frequency.upLink.start)
+    }
+    else {
+      data.sort((a, b) => a.frequency.downLink.start - b.frequency.downLink.start)
+    }
+    return data;
   }
 
 }
