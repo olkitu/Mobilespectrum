@@ -7,7 +7,7 @@
     </div>
 </div>
 <div class="container body-container" *ngIf="loaded == true">
-    <h1>{{country | titlecase}}</h1>
+    <h1>{{country | titlecase}} <ng-container *ngIf="region != null"> / {{region | titlecase}}</ng-container></h1>
     <ng-container *ngFor="let frequency of frequencies">
         <h2>{{getBandName(frequency.band)}} - Band {{frequency.band}}</h2>
         <div class="row">

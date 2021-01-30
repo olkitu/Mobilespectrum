@@ -1,7 +1,8 @@
 stages:
 - test
 - build
-- deploy
+- staging
+- production
 
 variables:
   TAG_LATEST: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:latest
@@ -24,7 +25,9 @@ test:jsonvalidation:
   - cd ./src/data
   script:
   - ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
-  stage: test
+  only:
+    changes:
+    - src/data/**/*
 
 test:karma:
   stage: test
@@ -39,6 +42,13 @@ test:karma:
   script:
   - yarn
   - ./node_modules/@angular/cli/bin/ng test --browsers=ChromeHeadlessCI --no-watch --no-progress
+  only:
+    changes:
+    - src/**/*
+    - ./*.json
+    - yarn.lock
+    - .editorconfig
+    - .browserslistrc
 
 
 build:
@@ -58,10 +68,37 @@ build:
   - docker push $TAG_COMMIT
   - docker push $TAG_LATEST
   only:
+    refs:
+    - main
+    changes:
+    - Dockerfile
+    - ./*.json
+    - yarn.lock
+    - .editorconfig
+    - .browserslistrc
+    - nginx.conf
+    - src/**/*
+
+deploy:stage:
+  stage: staging
+  image: alpine:latest
+  tags:
+  - docker
+  environment:
+    name: stage
+    url: https://stage.mobilespectrum.org
+  before_script:
+  - apk add --no-cache curl  
+  script:
+  - echo "Deploying $CI_COMMIT_SHA to stage"
+  - curl -X POST $DEPLOY_STAGE
+  only:
   - main
+  needs:
+  - build
 
 deploy:production:
-  stage: deploy
+  stage: production
   image: alpine:latest
   tags:
   - docker
@@ -77,3 +114,5 @@ deploy:production:
   - main
   when: manual
   allow_failure: false
+  needs:
+  - build
