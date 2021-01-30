@@ -1,28 +1,6 @@
 [{
 		"band": 20,
-		"providers": [{
-				"provider": {
-					"name": "unallocated",
-					"longName": "Unallocated spectrum",
-					"homePage": "http://www.ancom.ro",
-					"backgroundColor": "#c6c6c6",
-					"textColor": "black"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 832,
-						"end": 837
-					},
-					"upLink": {
-						"start": 791,
-						"end": 796
-					}
-				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "http://www.ancom.ro"
-				}]
-			},
+		"providers": [
 			{
 				"provider": {
 					"name": "Vodafone",
@@ -43,7 +21,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -66,7 +44,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -89,7 +67,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			}
 		]
@@ -126,7 +104,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -149,7 +127,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -172,7 +150,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -195,7 +173,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			}
 		]
@@ -231,7 +209,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -254,7 +232,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -277,7 +255,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			}
 		]
@@ -309,7 +287,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -332,7 +310,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -355,7 +333,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -378,7 +356,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			}
 		]
@@ -413,7 +391,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -436,30 +414,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
-				}]
-			},
-			{
-				"provider": {
-					"name": "Unallocated",
-					"longName": "Unallocated spectrum",
-					"homePage": "https://www.ancom.ro",
-					"backgroundColor": "#c6c6c6",
-					"textColor": "black"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 2615,
-						"end": 2620
-					},
-					"upLink": {
-						"start": 2615,
-						"end": 2620
-					}
-				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			}
 		]
@@ -494,7 +449,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			},
 			{
@@ -517,30 +472,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
-				}]
-			},
-			{
-				"provider": {
-					"name": "Unallocated",
-					"longName": "Unallocated spectrum",
-					"homePage": "https://www.ancom.ro",
-					"backgroundColor": "#c6c6c6",
-					"textColor": "black"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 2650,
-						"end": 2690
-					},
-					"upLink": {
-						"start": 2530,
-						"end": 2570
-					}
-				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 				}]
 			}
 		]
@@ -551,25 +483,7 @@
 
 	{
 		"band": 78,
-		"providers": [{
-				"provider": {
-					"name": "Unallocated",
-					"longName": "Unallocated spectrum",
-					"homePage": "https://www.ancom.ro",
-					"backgroundColor": "#c6c6c6",
-					"textColor": "black"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 3400,
-						"end": 3490
-					}
-				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
-				}]
-			},
+		"providers": [
 			{
 				"provider": {
 					"name": "Vodafone",
@@ -586,7 +500,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
 				}]
 			},
 			{
@@ -605,26 +519,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
-				}]
-			},
-			{
-				"provider": {
-					"name": "Unallocated",
-					"longName": "Unallocated spectrum",
-					"homePage": "https://www.ancom.ro",
-					"backgroundColor": "#c6c6c6",
-					"textColor": "black"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 3645,
-						"end": 3700
-					}
-				},
-				"source": [{
-					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
 				}]
 			},
 			{
@@ -643,7 +538,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
 				}]
 			},
 			{
@@ -662,7 +557,7 @@
 				},
 				"source": [{
 					"name": "ANCOM",
-					"url": "https://www.ancom.ro"
+					"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
 				}]
 			}
 		]
