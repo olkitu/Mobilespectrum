@@ -13,4 +13,11 @@ export class AppComponent {
 
   faGitlab = faGitlab;
 
+  public constructor(
+  ) {}
+
+  ngOnInit() {
+  }
+
+
 }

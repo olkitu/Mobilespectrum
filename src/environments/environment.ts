@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  version: "VERSION"
+  api_url: '/data',
+  version: 'VERSION'
 };
 
 /*

@@ -5,14 +5,16 @@ COPY package.json yarn.lock ./
 RUN apk --no-cache add yarn
 RUN yarn
 COPY . .
-RUN ./node_modules/@angular/cli/bin/ng build --prod
+RUN yarn run build:ssr
 
 ### STAGE 2: DEPLOY
-FROM nginx:stable-alpine
-WORKDIR /var/www/html
+FROM node:14.15-alpine
+WORKDIR /usr/src/app
+RUN apk --no-cache add curl
 COPY --from=build /usr/src/app/dist/MobileSpectrum ./dist/MobileSpectrum
-COPY nginx.conf /etc/nginx/nginx.conf
 
-EXPOSE 80
+EXPOSE 4000
 
-HEALTHCHECK --interval=1m --timeout=3s CMD curl -f http://localhost:80/ || exit 1
+USER node
+CMD ["node", "dist/MobileSpectrum/server/main.js"]
+HEALTHCHECK --interval=1m --timeout=3s CMD curl -f http://localhost:4000/ || exit 1

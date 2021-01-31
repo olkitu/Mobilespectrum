@@ -22,7 +22,7 @@ import { FrequenciesBarComponent } from './components/frequencies-bar.component'
     FrequenciesBarComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     NgbModule,
     HttpClientModule,

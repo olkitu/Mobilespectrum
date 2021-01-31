@@ -8,9 +8,9 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', async () => {
+  it('should display title', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('MobileSpectrum app is running!');
+    expect(await page.getTitleText()).toEqual('MobileSpectrum');
   });
 
   afterEach(async () => {

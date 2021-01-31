@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { HttpStatusCodeService } from '../http-status-code.service';
 
 @Component({
   selector: 'app-not-found-page',
@@ -9,11 +10,13 @@ import { Title } from '@angular/platform-browser';
 export class NotFoundPageComponent implements OnInit {
 
   constructor(
-    private titleService: Title
+    private titleService: Title,
+    private statusCodeService: HttpStatusCodeService
   ) { }
 
   ngOnInit(): void {
     this.titleService.setTitle('Not Found | MobileSpectrum');
+    this.statusCodeService.setStatus(404, 'Not Found');
   }
 
 }
