@@ -3,5 +3,5 @@ services:
   mobilespectrum:
     build: .
     ports:
-    - 80:80
+    - 4000:4000
     container_name: mobilespectrum

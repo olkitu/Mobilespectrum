@@ -1,8 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
+fa-icon svg {
+  width: 1em;
+  height: 1em;
+}
+
+.alert-status {
+  margin-bottom:0;
+}
+
 .loader-ieonly {
-    display: none;
-  }
+  display: none;
+}
   
   @media screen and (-ms-high-contrast: active),
   (-ms-high-contrast: none) {
@@ -13,7 +22,7 @@
   
 
 .body-container {
-    margin-bottom: 50px
+    margin-bottom: 100px
 }
 
 .app-loading {

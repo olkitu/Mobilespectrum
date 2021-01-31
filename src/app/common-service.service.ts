@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
 
 export interface Provider2 {
   name: string;
@@ -55,7 +56,7 @@ export interface Frequencies {
 })
 export class CommonServiceService {
 
-  apiUrl = "/data";
+  apiUrl = environment.api_url;
 
   constructor(
     private http: HttpClient,

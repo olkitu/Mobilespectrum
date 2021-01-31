@@ -32,6 +32,15 @@
     </ul>
   </div>
 </nav>
+<noscript>
+  <ngb-alert class="alert-status" type="warning" [dismissible]="false">
+      <strong>This website require Javascript to working properly.</strong> Please enable Javascript on your browser
+      settings.
+  </ngb-alert>
+</noscript>
+<ngb-alert class="alert-status loader-ieonly" type="warning" [dismissible]="false">
+  <strong>Internet Explorer is not supported. </strong>Open this site in Microsoft Edge.
+</ngb-alert>
 <router-outlet></router-outlet>
 <footer class="footer">
   <div class="container">
