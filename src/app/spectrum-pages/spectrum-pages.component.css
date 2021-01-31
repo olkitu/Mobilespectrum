@@ -1,5 +1,6 @@
-.table th {
-    border: 0;
+.table {
+    overflow: scroll;
+    min-width: 768px;
 }
 
 .table td {

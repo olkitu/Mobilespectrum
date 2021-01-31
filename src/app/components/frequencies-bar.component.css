@@ -1,5 +1,5 @@
 .div__container {
-    height: 30px;
+    height: 50px;
     /* border: 1px solid #000000; */
     font-size: medium;
     display: inherit;
@@ -7,11 +7,12 @@
 
 .div__child {
     float: left;
-    height: 30px;
+    height: 50px;
     display: inherit;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
 }
 
 .div__child span {

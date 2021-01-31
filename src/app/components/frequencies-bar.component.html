@@ -1,6 +1,9 @@
 <div *ngFor="let provider of providers" class="div__container">
-    <div class="div__child" (click)="open(content)" [ngStyle]="{'background-color': provider.provider.backgroundColor, 'color': provider.provider.textColor, 'width': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + '%'}">
+    <div class="div__child" title="{{provider.provider.name}}"  (click)="open(content)" [ngStyle]="{'background-color': provider.provider.backgroundColor, 'color': provider.provider.textColor, 'width': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + '%'}">
         <span [ngStyle]="{'color': provider.provider.textColor}">{{provider.provider.name}}</span>
+        <br />
+        <span><small><ng-container *ngIf="provider.frequency.downLink != null" else >{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container>
+        <ng-container *ngIf="provider.frequency.downLink == null && provider.frequency.upLink != null">{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container> MHz</small></span>
     </div>
     <ng-template #content let-modal>
         <div class="modal-header">

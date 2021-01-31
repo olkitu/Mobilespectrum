@@ -10,26 +10,19 @@
     <h1>{{country | titlecase}} <ng-container *ngIf="region != null"> / {{region | titlecase}}</ng-container>
     </h1>
     <ng-container *ngFor="let frequency of frequencies">
-        <h2>{{getBandName(frequency.band)}} - Band {{frequency.band}}</h2>
+        <h3>{{getBandName(frequency.band)}} - Band {{frequency.band}}</h3>
         <div class="row">
             <ng-container *ngIf="getBandType(frequency.band) == 'FDD'">
                 <div class="col-md">
                     <div class="table-responsive">
-                        <table class="table table-sm">
+                        <table class="table table-sm table-borderless">
                             <tr>
-                                <th colspan="3">FDD Downlink</th>
+                                <th [attr.colspan]="frequency.providers.length">FDD Downlink</th>
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="frequency.providers" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
-                            </tr>
-                            <tr>
-                                <ng-container
-                                    *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
-                                    <td><small>{{providers.frequency.downLink.end -
-                                            providers.frequency.downLink.start | number}} MHz</small></td>
-                                </ng-container>
                             </tr>
                         </table>
                     </div>
@@ -37,21 +30,14 @@
                 <div class="col-md">
                     <div class="table-responsive">
                         <ng-container *ngFor="let provider of frequency.providers"></ng-container>
-                        <table class="table table-sm">
+                        <table class="table table-sm table-borderless">
                             <tr>
-                                <th colspan="3">FDD Uplink</th>
+                                <th [attr.colspan]="frequency.providers.length">FDD Uplink</th>
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="frequency.providers" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
-                            </tr>
-                            <tr>
-                                <ng-container
-                                    *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
-                                    <td><small>{{providers.frequency.upLink.end -
-                                            providers.frequency.upLink.start | number}} MHz</small></td>
-                                </ng-container>
                             </tr>
                         </table>
                     </div>
@@ -61,21 +47,14 @@
                 <div class="col-md">
                     <div class="table-responsive">
                         <ng-container *ngFor="let provider of frequency.providers"></ng-container>
-                        <table class="table table-sm">
+                        <table class="table table-sm table-borderless">
                             <tr>
-                                <th colspan="3">TDD Downlink/Uplink</th>
+                                <th [attr.colspan]="frequency.providers.length">TDD Downlink/Uplink</th>
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="frequency.providers" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
-                            </tr>
-                            <tr>
-                                <ng-container
-                                    *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
-                                    <td><small>{{providers.frequency.downLink.end -
-                                            providers.frequency.downLink.start | number}} MHz</small></td>
-                                </ng-container>
                             </tr>
                         </table>
                     </div>
@@ -85,21 +64,14 @@
                 <div class="col-md">
                     <div class="table-responsive">
                         <ng-container *ngFor="let provider of frequency.providers"></ng-container>
-                        <table class="table table-sm">
+                        <table class="table table-sm table-borderless">
                             <tr>
-                                <th colspan="3">SDL Downlink</th>
+                                <th [attr.colspan]="frequency.providers.length">SDL Downlink</th>
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="frequency.providers" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
-                            </tr>
-                            <tr>
-                                <ng-container
-                                    *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
-                                    <td><small>{{providers.frequency.downLink.end -
-                                            providers.frequency.downLink.start | number}} MHz</small></td>
-                                </ng-container>
                             </tr>
                         </table>
                     </div>
@@ -109,21 +81,14 @@
                 <div class="col-md">
                     <div class="table-responsive">
                         <ng-container *ngFor="let provider of frequency.providers"></ng-container>
-                        <table class="table table-sm">
+                        <table class="table table-sm table-borderless">
                             <tr>
-                                <th colspan="3">SDL Downlink</th>
+                                <th [attr.colspan]="frequency.providers.length">SDL Downlink</th>
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="frequency.providers" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
-                            </tr>
-                            <tr>
-                                <ng-container
-                                    *ngFor="let providers of sortProviders(frequency.providers, getBandType(frequency.band))">
-                                    <td><small>{{providers.frequency.upLink.end -
-                                            providers.frequency.upLink.start | number}} MHz</small></td>
-                                </ng-container>
                             </tr>
                         </table>
                     </div>
