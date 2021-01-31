@@ -1,5 +1,5 @@
 <div *ngFor="let provider of providers" class="div__container">
-    <div class="div__child" (click)="open(content)" [ngStyle]="{'background-color': provider.provider.backgroundColor, 'width': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + '%'}">
+    <div class="div__child" (click)="open(content)" [ngStyle]="{'background-color': provider.provider.backgroundColor, 'color': provider.provider.textColor, 'width': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + '%'}">
         <span [ngStyle]="{'color': provider.provider.textColor}">{{provider.provider.name}}</span>
     </div>
     <ng-template #content let-modal>
