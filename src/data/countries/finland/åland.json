@@ -253,7 +253,7 @@
                 "frequency": {
                     "downLink": {
                         "start": 1842.500,
-                        "end": 1880.100
+                        "end": 1880
                     },
                     "upLink": {
                         "start": 1747.500,
