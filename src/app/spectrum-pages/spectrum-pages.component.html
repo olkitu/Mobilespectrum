@@ -21,7 +21,7 @@
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
-                                    <frequencies-bar [providers]="frequency.providers" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
+                                    <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
                             </tr>
                         </table>
@@ -36,7 +36,7 @@
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
-                                    <frequencies-bar [providers]="frequency.providers" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
+                                    <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
                             </tr>
                         </table>
@@ -53,7 +53,7 @@
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
-                                    <frequencies-bar [providers]="frequency.providers" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
+                                    <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
                             </tr>
                         </table>
@@ -70,7 +70,7 @@
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
-                                    <frequencies-bar [providers]="frequency.providers" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
+                                    <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
                             </tr>
                         </table>
@@ -87,7 +87,7 @@
                             </tr>
                             <tr>
                                 <td [attr.colspan]="frequency.providers.length">
-                                    <frequencies-bar [providers]="frequency.providers" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
+                                    <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
                             </tr>
                         </table>
