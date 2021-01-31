@@ -1,0 +1,675 @@
+[
+    {
+        "band": 31,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Net1",
+                    "longName": "Teracom Mobil",
+                    "homePage": "https://www.net1.se/",
+                    "backgroundColor": "#4D4D4D",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 425.5,
+                        "end": 457.5
+                    },
+                    "downLink": {
+                        "start": 462.5,
+                        "end": 467.5
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/dokument/beslut/radio/2018/tilldelningsbeslut-450-mhz/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 713,
+                        "end": 723
+                    },
+                    "downLink": {
+                        "start": 768,
+                        "end": 778
+                    }
+                },
+                "technology": [
+                    "NR",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/700/"
+                    },
+                    {
+                        "name": "Ericsson Press Release",
+                        "url": "https://www.ericsson.com/en/press-releases/2020/5/telia-company-launches-ericsson-powered-commercial-5g-in-sweden"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 723,
+                        "end": 733
+                    },
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/700/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/contentassets/2a002b99e7574e1cbf9b57a3cf9667d3/10-10534-results-800mhz.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/contentassets/2a002b99e7574e1cbf9b57a3cf9667d3/10-10534-results-800mhz.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/contentassets/2a002b99e7574e1cbf9b57a3cf9667d3/10-10534-results-800mhz.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 925,
+                        "end": 930
+                    },
+                    "downLink": {
+                        "start": 880,
+                        "end": 885
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 930,
+                        "end": 936
+                    },
+                    "downLink": {
+                        "start": 885,
+                        "end": 891
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 Sverige",
+                    "homePage": "https://tele2.se",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 936,
+                        "end": 945
+                    },
+                    "downLink": {
+                        "start": 891,
+                        "end": 900
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Sverige",
+                    "homePage": "https://www.telenor.se/",
+                    "backgroundColor": "#103af4",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 945,
+                        "end": 950
+                    },
+                    "downLink": {
+                        "start": 900,
+                        "end": 905
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 950,
+                        "end": 960
+                    },
+                    "downLink": {
+                        "start": 905,
+                        "end": 915
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1745,
+                        "end": 1780
+                    },
+                    "downLink":{
+                        "start": 1840,
+                        "end": 1875
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/auktioner/1800-mhz-bandet/tilldelning-2011/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1745
+                    },
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1840
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/auktioner/1800-mhz-bandet/tilldelning-2011/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Sverige",
+                    "homePage": "https://www.telenor.se/",
+                    "backgroundColor": "#103af4",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1920.3,
+                        "end": 1940.1
+                    },
+                    "downLink": {
+                        "start": 2110.3,
+                        "end": 2130.1
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1940.1,
+                        "end": 1959.9
+                    },
+                    "downLink": {
+                        "start": 2130.1,
+                        "end": 2149.9
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SUNAB",
+                    "longName": "Svenska UMTS-nät",
+                    "homePage": "http://www.svenskaumts.se/",
+                    "backgroundColor": "#2c82c9",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1959.9,
+                        "end": 1979.7
+                    },
+                    "downLink": {
+                        "start": 2149.9,
+                        "end": 2169.7
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 40,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Net1",
+                    "longName": "Teracom Mobil",
+                    "homePage": "https://www.net1.se/",
+                    "backgroundColor": "#4D4D4D",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2300,
+                        "end": 2380
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 Sverige",
+                    "homePage": "https://tele2.se",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2640
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2520
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/licences-in-2500-2690-mhz/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2640,
+                        "end": 2650
+                    },
+                    "upLink": {
+                        "start": 2520,
+                        "end": 2530
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/licences-in-2500-2690-mhz/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2650,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2530,
+                        "end": 2550
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/licences-in-2500-2690-mhz/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Sverige",
+                    "homePage": "https://www.telenor.se/",
+                    "backgroundColor": "#103af4",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2570
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/licences-in-2500-2690-mhz/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2620
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/english-b/radio/auctions/licences-in-2500-2690-mhz/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3400,
+                        "end": 3500
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3500,
+                        "end": 3620
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3620,
+                        "end": 3720
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/en/news/press-releases/2021/the-auctions-in-the-3.5-ghz-and-2.3-ghz-bands-are-concluded/"
+                    }
+                ]
+
+            }
+        ]
+    }
+]
