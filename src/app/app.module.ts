@@ -20,7 +20,7 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
     NotFoundPageComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
