@@ -173,6 +173,136 @@
         ]
     },
     {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 925,
+                        "end": 930
+                    },
+                    "downLink": {
+                        "start": 880,
+                        "end": 885
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Net4Mobility",
+                    "longName": "Net4Mobility",
+                    "homePage": "https://net4mobility.com",
+                    "backgroundColor": "#2a2a2a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 930,
+                        "end": 936
+                    },
+                    "downLink": {
+                        "start": 885,
+                        "end": 891
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 Sverige",
+                    "homePage": "https://tele2.se",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 936,
+                        "end": 945
+                    },
+                    "downLink": {
+                        "start": 891,
+                        "end": 900
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Sverige",
+                    "homePage": "https://www.telenor.se/",
+                    "backgroundColor": "#103af4",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 945,
+                        "end": 950
+                    },
+                    "downLink": {
+                        "start": 900,
+                        "end": 905
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Sverige",
+                    "homePage": "https://www.telia.se",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 950,
+                        "end": 960
+                    },
+                    "downLink": {
+                        "start": 905,
+                        "end": 915
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "band": 3,
         "providers": [
             {
@@ -222,6 +352,86 @@
                     {
                         "name": "Swedish Post and Telecom Authority",
                         "url": "https://www.pts.se/sv/bransch/radio/auktioner/1800-mhz-bandet/tilldelning-2011/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Sverige",
+                    "homePage": "https://www.telenor.se/",
+                    "backgroundColor": "#103af4",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1920.3,
+                        "end": 1940.1
+                    },
+                    "downLink": {
+                        "start": 2110.3,
+                        "end": 2130.1
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tre",
+                    "longName": "Hi3G Access",
+                    "homePage": "https://www.tre.se/",
+                    "backgroundColor": "#e1e1e1",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1940.1,
+                        "end": 1959.9
+                    },
+                    "downLink": {
+                        "start": 2130.1,
+                        "end": 2149.9
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SUNAB",
+                    "longName": "Svenska UMTS-nät",
+                    "homePage": "http://www.svenskaumts.se/",
+                    "backgroundColor": "#2c82c9",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 1959.9,
+                        "end": 1979.7
+                    },
+                    "downLink": {
+                        "start": 2149.9,
+                        "end": 2169.7
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Swedish Post and Telecom Authority",
+                        "url": "https://www.pts.se/sv/bransch/radio/blocktillstand/"
                     }
                 ]
             }
