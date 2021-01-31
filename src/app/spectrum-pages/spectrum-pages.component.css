@@ -1,8 +1,3 @@
-.table {
-    overflow: scroll;
-    min-width: 768px;
-}
-
 .table td {
     text-align: center;
     vertical-align: middle;
