@@ -556,10 +556,10 @@
     "providers": [
       {
         "provider": {
-          "name": "dtac",
-          "longName": "Total Access Communication",
-          "homePage": "https://www.dtac.co.th/",
-          "backgroundColor": "#00ace6",
+          "name": "NT",
+          "longName": "National Telecom",
+          "homePage": "https://www.ntplc.co.th/",
+          "backgroundColor": "#312783",
           "textColor": "white"
         },
         "frequency": {
