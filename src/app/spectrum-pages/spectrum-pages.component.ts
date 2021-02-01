@@ -65,6 +65,8 @@ export class SpectrumPagesComponent implements OnInit {
     { band: 5, type: 'FDD', frequency: 850, name: '850 MHz' },
     { band: 7, type: 'FDD', frequency: 2600, name: '2600 MHz' },
     { band: 8, type: 'FDD', frequency: 900, name: '900 MHz' },
+    { band: 9, type: 'FDD', frequency: 1800, name: '1800 MHz' },
+    { band: 11, type: 'FDD', frequency: 2100, name: '2100 MHz'},
     { band: 12, type: 'FDD', frequency: 700, name: '700 MHz' },
     { band: 13, type: 'FDD', frequency: 700, name: '700 MHz' },
     { band: 14, type: 'FDD', frequency: 700, name: '700 MHz' },
@@ -72,6 +74,7 @@ export class SpectrumPagesComponent implements OnInit {
     { band: 18, type: 'FDD', frequency: 800, name: '800 MHz' },
     { band: 19, type: 'FDD', frequency: 900, name: '900 MHz' },
     { band: 20, type: 'FDD', frequency: 800, name: '800 MHz' },
+    { band: 21, type: 'FDD', frequency: 2100, name: '2100 MHz'},
     { band: 25, type: 'FDD', frequency: 1900, name: '1900 MHz' },
     { band: 26, type: 'FDD', frequency: 850, name: '850 MHz' },
     { band: 28, type: 'FDD', frequency: 700, name: '700 MHz' },
@@ -90,7 +93,9 @@ export class SpectrumPagesComponent implements OnInit {
     { band: 78, type: 'TDD', frequency: 3500, name: '3.5 GHz' },
     { band: 79, type: 'TDD', frequency: 4700, name: '4.7 GHz' },
     { band: 257, type: 'TDD', frequency: 28000, name: '28 GHz' },
-    { band: 258, type: 'TDD', frequency: 26000, name: '26 GHz' }
+    { band: 258, type: 'TDD', frequency: 26000, name: '26 GHz' },
+    { band: 260, type: 'TDD', frequency: 39000, name: '39 GHz' },
+    { band: 261, type: 'TDD', frequency: 28000, name: '28 GHz'}
   ]
 
   closeResult = '';

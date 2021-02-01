@@ -1,0 +1,940 @@
+[
+	{
+		"band": 28,
+		"providers": [
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 773,
+						"end": 783
+					},
+					"upLink": {
+						"start": 718,
+						"end": 728
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 783,
+						"end": 793
+					},
+					"upLink": {
+						"start": 728,
+						"end": 738
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 793,
+						"end": 803
+					},
+					"upLink": {
+						"start": 738,
+						"end": 748
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 18,
+		"providers": [
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 860,
+						"end": 875
+					},
+					"upLink": {
+						"start": 815,
+						"end": 830
+					}
+				},
+				"technology": [
+					"UMTS",
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 19,
+		"providers": [
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 875,
+						"end": 890
+					},
+					"upLink": {
+						"start": 830,
+						"end": 845
+					}
+				},
+				"technology": [
+					"UMTS",
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 8,
+		"providers": [
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 945,
+						"end": 960
+					},
+					"upLink": {
+						"start": 900,
+						"end": 915
+					}
+				},
+				"technology": [
+					"UMTS",
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 21,
+		"providers": [
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 1495.9,
+						"end": 1510.9
+					},
+					"upLink": {
+						"start": 1447.9,
+						"end": 1462.9
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 1485.9,
+						"end": 1495.9
+					},
+					"upLink": {
+						"start": 1437.9,
+						"end": 1447.9
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 1475.9,
+						"end": 1485.9
+					},
+					"upLink": {
+						"start": 1427.9,
+						"end": 1437.9
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 3,
+		"providers": [
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 1805,
+						"end": 1825
+					},
+					"upLink": {
+						"start": 1710,
+						"end": 1730
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Rakuten",
+					"longName": "Rakuten Mobile",
+					"homePage": "https://network.mobile.rakuten.co.jp/",
+					"backgroundColor": "#ff008c",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 1825,
+						"end": 1845
+					},
+					"upLink": {
+						"start": 1730,
+						"end": 1750
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 1845,
+						"end": 1860
+					},
+					"upLink": {
+						"start": 1750,
+						"end": 1765
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 1860,
+						"end": 1880
+					},
+					"upLink": {
+						"start": 1765,
+						"end": 1785
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 1,
+		"providers": [
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2110,
+						"end": 2130
+					},
+					"upLink": {
+						"start": 1920,
+						"end": 1940
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2130,
+						"end": 2150
+					},
+					"upLink": {
+						"start": 1940,
+						"end": 1960
+					}
+				},
+				"technology": [
+					"UMTS",
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2150,
+						"end": 2170
+					},
+					"upLink": {
+						"start": 1960,
+						"end": 1980
+					}
+				},
+				"technology": [
+					"UMTS",
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 41,
+		"providers": [
+			{
+				"provider": {
+					"name": "WCP",
+					"longName": "Wireless City Planning",
+					"homePage": "https://www.wirelesscity.jp/",
+					"backgroundColor": "#403889",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2545,
+						"end": 2575
+					},
+					"upLink": {
+						"start": 2545,
+						"end": 2575
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "UQ",
+					"longName": "UQmobile",
+					"homePage": "https://www.uqwimax.jp/",
+					"backgroundColor": "#0092d8",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2595,
+						"end": 2645
+					},
+					"upLink": {
+						"start": 2595,
+						"end": 2645
+					}
+				},
+				"technology": [
+					"WiMAX"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 42,
+		"providers": [
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3480,
+						"end": 3520
+					},
+					"upLink": {
+						"start": 3480,
+						"end": 3520
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3520,
+						"end": 3560
+					},
+					"upLink": {
+						"start": 3520,
+						"end": 3560
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3560,
+						"end": 3600
+					},
+					"upLink": {
+						"start": 3560,
+						"end": 3600
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 78,
+		"providers": [
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3600,
+						"end": 3700
+					},
+					"upLink": {
+						"start": 3600,
+						"end": 3700
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3700,
+						"end": 3800
+					},
+					"upLink": {
+						"start": 3700,
+						"end": 3800
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 77,
+		"providers": [
+			{
+				"provider": {
+					"name": "Rakuten",
+					"longName": "Rakuten Mobile",
+					"homePage": "https://network.mobile.rakuten.co.jp/",
+					"backgroundColor": "#ff008c",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3800,
+						"end": 3900
+					},
+					"upLink": {
+						"start": 3800,
+						"end": 3900
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3900,
+						"end": 4000
+					},
+					"upLink": {
+						"start": 3900,
+						"end": 4000
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 4000,
+						"end": 4100
+					},
+					"upLink": {
+						"start": 4000,
+						"end": 4100
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 79,
+		"providers": [
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 4500,
+						"end": 4600
+					},
+					"upLink": {
+						"start": 4500,
+						"end": 4600
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 257,
+		"providers": [
+			{
+				"provider": {
+					"name": "Rakuten",
+					"longName": "Rakuten Mobile",
+					"homePage": "https://network.mobile.rakuten.co.jp/",
+					"backgroundColor": "#ff008c",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 27000,
+						"end": 27400
+					},
+					"upLink": {
+						"start": 27000,
+						"end": 27400
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "docomo",
+					"longName": "NTT Docomo",
+					"homePage": "https://www.nttdocomo.co.jp/",
+					"backgroundColor": "#cc0033",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 27400,
+						"end": 27800
+					},
+					"upLink": {
+						"start": 27400,
+						"end": 27800
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "au",
+					"longName": "KDDI au",
+					"homePage": "https://www.au.com/",
+					"backgroundColor": "#eb5505",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 27800,
+						"end": 28200
+					},
+					"upLink": {
+						"start": 27800,
+						"end": 28200
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
+					"name": "Softbank",
+					"longName": "Softbank",
+					"homePage": "https://www.softbank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 29100,
+						"end": 29500
+					},
+					"upLink": {
+						"start": 29100,
+						"end": 29500
+					}
+				},
+				"technology": [
+					"NR"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000613734.pdf"
+					}
+				]
+			}
+		]
+	}
+]
