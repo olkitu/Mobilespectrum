@@ -1,7 +1,6 @@
-FROM gitpod/workspace-full
+FROM node:14.15-alpine
 
-# Install custom tools, runtimes, etc.
-# For example "bastet", a command-line tetris clone:
-# RUN brew install bastet
-#
-# More information: https://www.gitpod.io/docs/config-docker/
+RUN apk --no-cache add yarn git 
+
+RUN yarn global add @angular/cli
+RUN yarn global add ajv-cli ajv-formats

@@ -1,6 +1,12 @@
+# The Docker image to run your workspace in.
 image:
   file: .gitpod.Dockerfile
 
+# Command to start on workspace startup
 tasks:
   - init: yarn
     command: ng serve
+# Ports to expose on workspace startup
+ports:
+  - port: 4200
+    onOpen: open-preview
