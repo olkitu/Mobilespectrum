@@ -44,7 +44,9 @@ And copy static `dist/MobileSpectrum` to webserver root directory.
 
 We recommend use Gitpod to setup development enviroment. You can also install it to locally.
 
-### GitPod
+### Gitpod
+
+Just click below to start development in Gitpod. You must register to service with your Gitlab account. 
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/mobilespectrum/MobileSpectrum)
 
