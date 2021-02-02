@@ -1,4 +1,3 @@
-# The Docker image to run your workspace in.
 image:
   file: .gitpod.Dockerfile
 
@@ -10,3 +9,6 @@ tasks:
 ports:
   - port: 4200
     onOpen: open-preview
+vscode:
+  extensions:
+    - angular.ng-template@11.1.1:gz+KMBUNwIOhMWL7i8O1oQ==
