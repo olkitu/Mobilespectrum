@@ -93,9 +93,8 @@ deploy:stage:
   - echo "Deploying $CI_COMMIT_SHA to stage"
   - curl -X POST $DEPLOY_STAGE
   only:
-  - main
-  needs:
-  - build
+    refs:
+    - main
 
 deploy:production:
   stage: production
@@ -111,8 +110,7 @@ deploy:production:
   - echo "Deploying $CI_COMMIT_SHA to production"
   - curl -X POST $DEPLOY_PROD
   only:
-  - main
+    refs:
+    - main
   when: manual
   allow_failure: false
-  needs:
-  - build

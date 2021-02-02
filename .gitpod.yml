@@ -1,3 +1,4 @@
+# The Docker image to run your workspace in.
 image:
   file: .gitpod.Dockerfile
 
