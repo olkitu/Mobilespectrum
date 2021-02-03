@@ -502,6 +502,35 @@
         ]
     },
     {
+        "band": 40,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Regional licenses",
+                    "longName": "Regional licenses",
+                    "homePage": "https://www.traficom.fi/en/communications/communications-networks/use-frequency-band-2300-2320-mhz",
+                    "backgroundColor": "darkgray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2300,
+                        "end": 2320
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name":"Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/en/communications/communications-networks/use-frequency-band-2300-2320-mhz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "band": 7,
         "providers": [
             {
