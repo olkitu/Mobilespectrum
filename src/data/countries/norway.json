@@ -1,0 +1,482 @@
+[
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Norway",
+                    "homePage": "https://www.telenor.no",
+                    "backgroundColor": "#0078cf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 758,
+                        "end": 768
+                    },
+                    "upLink": {
+                        "start": 703,
+                        "end": 713
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]     
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 768,
+                        "end": 778
+                    },
+                    "upLink": {
+                        "start": 713,
+                        "end": 723
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "ice",
+                    "longName": "Ice Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#ffdc4d",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
+                    },
+                    "upLink": {
+                        "start": 723,
+                        "end": 733
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "ice",
+                    "longName": "Ice Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#ffdc4d",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Norway",
+                    "homePage": "https://www.telenor.no",
+                    "backgroundColor": "#0078cf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "ice",
+                    "longName": "Ice Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#ffdc4d",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925,
+                        "end": 930.1
+                    },
+                    "upLink": {
+                        "start": 880,
+                        "end": 885.1
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 930.1,
+                        "end": 945
+                    },
+                    "upLink": {
+                        "start": 885.1,
+                        "end": 900
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Norway",
+                    "homePage": "https://www.telenor.no",
+                    "backgroundColor": "#0078cf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 915
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1810
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1715
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Norway",
+                    "homePage": "https://www.telenor.no",
+                    "backgroundColor": "#0078cf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1810,
+                        "end": 1840
+                    },
+                    "upLink": {
+                        "start": 1715,
+                        "end": 1745
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1840,
+                        "end": 1860
+                    },
+                    "upLink": {
+                        "start": 1745,
+                        "end": 1765
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "ice",
+                    "longName": "Ice Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#ffdc4d",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1860,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1765,
+                        "end": 1785
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2130
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1940
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Norway",
+                    "homePage": "https://www.telenor.no",
+                    "backgroundColor": "#0078cf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2130,
+                        "end": 2150
+                    },
+                    "upLink": {
+                        "start": 1940,
+                        "end": 1960
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "ice",
+                    "longName": "Ice Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#ffdc4d",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2150,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1960,
+                        "end": 1980
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telia",
+                    "longName": "Telia Norway",
+                    "homePage": "https://www.telia.no",
+                    "backgroundColor": "#990ae3",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2640
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2520
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Norway",
+                    "homePage": "https://www.telenor.no",
+                    "backgroundColor": "#0078cf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2640,
+                        "end": 2680
+                    },
+                    "upLink": {
+                        "start": 2520,
+                        "end": 2560
+                    }
+                },
+                "source": [
+                    {
+                        "name": "National Communications Authority",
+                        "url": "https://frekvens.nkom.no/#/spektrum"
+                    }
+                ]
+            }
+        ]
+    }
+]
