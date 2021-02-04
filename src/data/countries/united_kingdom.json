@@ -717,7 +717,7 @@
         "provider": {
           "name": "MOD",
           "longName": "Ministry of Defence",
-          "homePage": "https://mod.uk",
+          "homePage": "https://www.gov.uk/government/organisations/ministry-of-defence",
           "backgroundColor": "#eee",
           "textColor": "black"
         },
@@ -773,7 +773,7 @@
         "provider": {
           "name": "MOD",
           "longName": "Ministry of Defence",
-          "homePage": "https://mod.uk",
+          "homePage": "https://www.gov.uk/government/organisations/ministry-of-defence",
           "backgroundColor": "#eee",
           "textColor": "black"
         },
@@ -803,7 +803,7 @@
         "provider": {
           "name": "MOD",
           "longName": "Ministry of Defence",
-          "homePage": "https://mod.uk",
+          "homePage": "https://www.gov.uk/government/organisations/ministry-of-defence",
           "backgroundColor": "#eee",
           "textColor": "black"
         },
