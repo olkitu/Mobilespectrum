@@ -114,3 +114,16 @@ deploy:production:
     - main
   when: manual
   allow_failure: false
+
+pages:
+  stage: production
+  image: node:14.15-alpine
+  before_script:
+  - npm install -g @compodoc/compodoc
+  script:
+  - npx compodoc -p tsconfig.json -d public -n \"MobileSpectrum Documentation\" src
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'

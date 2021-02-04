@@ -8,12 +8,6 @@ Production: https://mobilespectrum.org
 
 Stage: https://stage.mobilespectrum.org
 
-## Requirements
-
-* NodeJS 14.15
-* Angular CLI
-* Yarn
-
 ## Build and Deploy to production
 
 Install Docker: https://docs.docker.com/get-docker/
@@ -30,6 +24,18 @@ docker-compose up -d
 The site will available on port 80.
 
 ### Without Docker
+
+Requirements:
+
+* NodeJS 14.15
+* Angular CLI
+* Yarn
+
+Clone Repository
+
+```
+git clone https://gitlab.com/mobilespectrum/MobileSpectrum.git
+```
 
 Use yarn to build Node modules and build to production
 
@@ -51,6 +57,18 @@ Just click below to start development in Gitpod. You must register to service wi
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/mobilespectrum/MobileSpectrum)
 
 #### Local
+
+Requirements:
+
+* NodeJS 14.15
+* Angular CLI
+* Yarn
+
+Clone repository
+
+```
+git clone https://gitlab.com/mobilespectrum/MobileSpectrum.git
+```
 
 Run `yarn` to install Node-modules
 
