@@ -1,5 +1,5 @@
 /**
- * Node Server Enviroment Variables
+ * Node Server Environment Variables
  */
 
 export const environment = {
