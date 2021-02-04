@@ -5,12 +5,32 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { CommonServiceService, Frequencies, Provider } from '../common-service.service';
 
+/**
+ * Bands Interface
+ */
+
 export interface Bands {
+  /**
+   * Band Number
+   */
   band: number;
+  /**
+   * Band Type
+   */
   type: 'FDD' | 'TDD' | 'SDL' | 'SUL';
+  /**
+   * Band Frequency
+   */
   frequency: number;
+  /**
+   * Band Name
+   */
   name: string;
 }
+
+/**
+ * Spectum Page component
+*/
 
 @Component({
   selector: 'app-spectrum-pages',
@@ -28,14 +48,22 @@ export class SpectrumPagesComponent implements OnInit {
   ) {
   }
 
-
+  /** Website loading boolean */
   loaded: boolean = false;
+  /** country variable from request_uri */
   country: string = "";
+  /** region variable from request_uri   */
   region: string = "";
+  /** Frequencies Array. Save data to this varialble after data loaded */
   frequencies: Frequencies[] = [];
+  /** Error Message String */
   error: string = "";
 
-
+  /**
+   * Run functions when site loads
+   * * Subscribe from site_url: {country} and {region}
+   * * Load then doGetCountryData() to get country data 
+   */
   ngOnInit(): void {
     this.titleService.setTitle('MobileSpectrum');
     this.route.params.subscribe(params => {
@@ -55,8 +83,9 @@ export class SpectrumPagesComponent implements OnInit {
     })
   }
 
-  test: string = "";
-
+  /**
+   * List of Bands in Array
+   */
   band: Bands[] = [
     { band: 1, type: 'FDD', frequency: 2100, name: '2100 MHz' },
     { band: 2, type: 'FDD', frequency: 1900, name: '1900 MHz' },
@@ -98,6 +127,7 @@ export class SpectrumPagesComponent implements OnInit {
     { band: 261, type: 'TDD', frequency: 28000, name: '28 GHz'}
   ]
 
+  /** Modal Close Result String */
   closeResult = '';
 
   open(content: any) {
@@ -118,6 +148,12 @@ export class SpectrumPagesComponent implements OnInit {
     }
   }
 
+ /**
+ * Get Country Data from CommonService.
+ * If not found, return 404
+ * @param {string} country Country Name
+ * @param {string} [region] Region Name
+ */
 
   doGetCountryData(country: string, region?: string) {
     this.loaded = false;
@@ -133,15 +169,30 @@ export class SpectrumPagesComponent implements OnInit {
     )
   }
 
+/**
+ * Get BandName from Band Number
+ * @param {number} band Band Number
+*/
+
   getBandName(band: number) {
     let bandName = this.band.find((item) => item.band == band)
     return bandName?.name;
   }
 
+/**
+ * Get BandType from Band Number
+ * @param {number} band Band Number
+*/
+
   getBandType(band: number) {
     let bandType = this.band.find((item) => item.band == band)
     return bandType?.type;
   }
+
+  /**
+   * Get Frequency from Band Number
+   * @param band Banmd Number
+   */
 
   getFrequencyFromBand(band: number) {
     let bandFrequency = this.band.find((item) => item.band == band)
@@ -150,6 +201,12 @@ export class SpectrumPagesComponent implements OnInit {
     }
     return bandFrequency?.frequency
   }
+
+/**
+ * Sort Providers
+ * @param {Array} data Array of Providers
+ * @param {string} bandType BandType
+*/
 
   sortProviders(data: Provider[], bandType: string = "") {
     if (bandType == "SUL") {

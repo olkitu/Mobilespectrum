@@ -11,7 +11,8 @@
     "dev:ssr": "ng run MobileSpectrum:serve-ssr",
     "serve:ssr": "node dist/MobileSpectrum/server/main.js",
     "build:ssr": "ng build --prod && ng run MobileSpectrum:server:production",
-    "prerender": "ng run MobileSpectrum:prerender"
+    "prerender": "ng run MobileSpectrum:prerender",
+    "compodoc": "npx compodoc -p tsconfig.json -n \"MobileSpectrum Documentation\" src"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +27,7 @@
     "@angular/platform-server": "~11.0.0",
     "@angular/router": "~11.0.0",
     "@angular/service-worker": "~11.0.0",
+    "@compodoc/compodoc": "^1.1.11",
     "@fortawesome/angular-fontawesome": "^0.8.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
