@@ -1,0 +1,861 @@
+[
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://mts.ru/",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 935,
+                        "end": 939.2
+                    },
+                    "upLink": {
+                        "start": 890,
+                        "end": 894.2
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://mts.ru/",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 952,
+                        "end": 956
+                    },
+                    "upLink": {
+                        "start": 907,
+                        "end": 911
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://mts.ru/",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 956.4,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 911.4,
+                        "end": 915
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 946.6,
+                        "end": 952
+                    },
+                    "upLink": {
+                        "start": 901.6,
+                        "end": 907
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 956,
+                        "end": 956.4
+                    },
+                    "upLink": {
+                        "start": 911,
+                        "end": 911.4
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 934.1,
+                        "end": 935
+                    },
+                    "upLink": {
+                        "start": 889.1,
+                        "end": 890
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 939.2,
+                        "end": 946.6
+                    },
+                    "upLink": {
+                        "start": 894.2,
+                        "end": 901.6
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 933.3,
+                        "end": 933.9
+                    },
+                    "upLink": {
+                        "start": 888.3,
+                        "end": 888.9
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://msk.tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        6175
+                    ],
+                    "downLink": {
+                        "start": 791,
+                        "end": 798.5
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 839.5
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://moskva.mts.ru/personal",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        6275
+                    ],
+                    "downLink": {
+                        "start": 798.5,
+                        "end": 806
+                    },
+                    "upLink": {
+                        "start": 839.5,
+                        "end": 847
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://moscow.megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        6350
+                    ],
+                    "downLink": {
+                        "start": 806,
+                        "end": 813.5
+                    },
+                    "upLink": {
+                        "start": 847,
+                        "end": 854.5
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://moskva.beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+					"arfcn": [
+                        6413
+                    ],
+                    "downLink": {
+                        "start": 813.5,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 854.5,
+                        "end": 862
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://mts.ru/",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1835,
+                        "end": 1858.2
+                    },
+                    "upLink": {
+                        "start": 1740,
+                        "end": 1763.2
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1867.8,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1772.8,
+                        "end": 1785
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1820,
+                        "end": 1835
+                    },
+                    "upLink": {
+                        "start": 1725,
+                        "end": 1740
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1858.2,
+                        "end": 1867.8
+                    },
+                    "upLink": {
+                        "start": 1763.2,
+                        "end": 1772.8
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Motiv",
+                    "longName": "Ekaterinburg-2000",
+                    "homePage": "https://motivtelecom.ru/",
+                    "backgroundColor": "#ff8000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1820
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1725
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://telecom.cnews.ru/news/top/2018-12-21_kak_v_rossii_podeleny_chastoty_mezhdu_mtsbilajnom"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2125
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1935
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2125,
+                        "end": 2140
+                    },
+                    "upLink": {
+                        "start": 1935,
+                        "end": 1950
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://mts.ru/",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2140,
+                        "end": 2155
+                    },
+                    "upLink": {
+                        "start": 1950,
+                        "end": 1965
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2155,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1965,
+                        "end": 1980
+                    }
+                },
+                "technology": [
+                    "UMTS"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 40,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2300,
+                        "end": 2400
+                    },
+                    "upLink": {
+                        "start": 2300,
+                        "end": 2400
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "cnews",
+                        "url": "https://www.cnews.ru/tables/2a61323cf2a9f460ce4e07276b8b1c15be28f815"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://moscow.megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        2850, 3048
+                    ],
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2660
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2540
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://moskva.mts.ru/personal",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        3200
+                    ],
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2550
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://moskva.beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+					"arfcn": [
+                        3300
+                    ],
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2680
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2560
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://msk.tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        3400
+                    ],
+                    "downLink": {
+                        "start": 2680,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2560,
+                        "end": 2570
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Motiv",
+                    "longName": "Ekaterinburg-2000",
+                    "homePage": "https://motivtelecom.ru/",
+                    "backgroundColor": "#ff8000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        37900
+                    ],
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2595
+                    },
+                    "upLink": {
+                        "start": 2570,
+                        "end": 2595
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://mts.ru/",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        38100
+                    ],
+                    "downLink": {
+                        "start": 2595,
+                        "end": 2620
+                    },
+                    "upLink": {
+                        "start": 2595,
+                        "end": 2620
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,388 @@
+[
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://msk.tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        6175
+                    ],
+                    "downLink": {
+                        "start": 791,
+                        "end": 798.5
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 839.5
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://moskva.mts.ru/personal",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        6275
+                    ],
+                    "downLink": {
+                        "start": 798.5,
+                        "end": 806
+                    },
+                    "upLink": {
+                        "start": 839.5,
+                        "end": 847
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://moscow.megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        6350
+                    ],
+                    "downLink": {
+                        "start": 806,
+                        "end": 813.5
+                    },
+                    "upLink": {
+                        "start": 847,
+                        "end": 854.5
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://moskva.beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+					"arfcn": [
+                        6413
+                    ],
+                    "downLink": {
+                        "start": 813.5,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 854.5,
+                        "end": 862
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://moscow.megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2125,
+                        "end": 2140
+                    },
+                    "upLink": {
+                        "start": 1935,
+                        "end": 1950
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://moskva.mts.ru/personal",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2140,
+                        "end": 2155
+                    },
+                    "upLink": {
+                        "start": 1950,
+                        "end": 1965
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://moskva.beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2155,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1965,
+                        "end": 1980
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Megafon",
+                    "longName": "Megafon",
+                    "homePage": "https://moscow.megafon.ru/",
+                    "backgroundColor": "#008000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        2850, 3048
+                    ],
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2660
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2540
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://moskva.mts.ru/personal",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        3200
+                    ],
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2550
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Beeline",
+                    "longName": "Vimpelcom",
+                    "homePage": "https://moskva.beeline.ru",
+                    "backgroundColor": "#ffff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+					"arfcn": [
+                        3300
+                    ],
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2680
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2560
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Tele2",
+                    "longName": "Tele2 (Rostelecom)",
+                    "homePage": "https://msk.tele2.ru/",
+                    "backgroundColor": "#000000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        3400
+                    ],
+                    "downLink": {
+                        "start": 2680,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2560,
+                        "end": 2570
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "MTS",
+                    "longName": "Mobile TeleSystems",
+                    "homePage": "https://moskva.mts.ru/personal",
+                    "backgroundColor": "#ff0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+					"arfcn": [
+                        38100
+                    ],
+                    "downLink": {
+                        "start": 2595,
+                        "end": 2620
+                    },
+                    "upLink": {
+                        "start": 2595,
+                        "end": 2620
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Use of frequency bands by mobile cellular networks",
+                        "url": "https://www.rcc.org.ru/netcat_files/873/1101/h_bbfc6f0d7b64513fd3e888c46233c908"
+                    }
+                ]
+            }
+        ]
+    }
+]
