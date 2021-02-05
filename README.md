@@ -2,7 +2,7 @@
 
 MobileSpectrum is OpenSource website showing many different contries spectrum allocations. 
 
-## Enviroments
+## Environments
 
 Production: https://mobilespectrum.org
 
@@ -11,6 +11,12 @@ Stage: https://stage.mobilespectrum.org
 ## Build and Deploy to production
 
 Install Docker: https://docs.docker.com/get-docker/
+
+Clone Repository
+
+```
+git clone https://gitlab.com/mobilespectrum/MobileSpectrum.git
+```
 
 ### Docker
 
@@ -31,12 +37,6 @@ Requirements:
 * Angular CLI
 * Yarn
 
-Clone Repository
-
-```
-git clone https://gitlab.com/mobilespectrum/MobileSpectrum.git
-```
-
 Use yarn to build Node modules and build to production
 
 ```
@@ -49,6 +49,8 @@ And copy static `dist/MobileSpectrum` to webserver root directory.
 ## Development
 
 We recommend use Gitpod to setup development enviroment. You can also install it to locally.
+
+Full Documentation: https://docs.mobilespectrum.org/
 
 ### Gitpod
 
@@ -63,12 +65,6 @@ Requirements:
 * NodeJS 14.15
 * Angular CLI
 * Yarn
-
-Clone repository
-
-```
-git clone https://gitlab.com/mobilespectrum/MobileSpectrum.git
-```
 
 Run `yarn` to install Node-modules
 
