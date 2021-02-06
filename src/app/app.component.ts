@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { faGitlab } from '@fortawesome/free-brands-svg-icons';
+import { environment } from 'src/environments/environment';
 
 /**
  * App Component
@@ -13,6 +14,8 @@ import { faGitlab } from '@fortawesome/free-brands-svg-icons';
 export class AppComponent {
   /** Title on navigation bar and footer */
   title = 'MobileSpectrum';
+
+  version = environment.version;
 
   /** Navigation Collapse */
   navbarCollapsed = true;

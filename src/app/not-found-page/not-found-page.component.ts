@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { HttpStatusCodeService } from '../http-status-code.service';
 
 /**
@@ -20,6 +20,7 @@ export class NotFoundPageComponent implements OnInit {
    */
   constructor(
     private titleService: Title,
+    private metaTagService: Meta,
     private statusCodeService: HttpStatusCodeService
   ) { }
 
@@ -31,6 +32,13 @@ export class NotFoundPageComponent implements OnInit {
   ngOnInit(): void {
 
     this.titleService.setTitle('Not Found | MobileSpectrum');
+    this.metaTagService.updateTag({ name: 'description', content: 'Check here your country mobile network spectrum allocation' });
+
+    this.metaTagService.updateTag({ property: 'og:title', content: 'Not Found | MobileSpectrum' });
+    this.metaTagService.updateTag({ property: 'og:description', content: 'Check here your country mobile network spectrum allocation'  });
+
+    this.metaTagService.updateTag({ name: 'twitter:title', content: 'Not Found | MobileSpectrum' });
+    this.metaTagService.updateTag({ name: 'twitter:description', content: 'Check here your country mobile network spectrum allocation' });
 
     this.statusCodeService.setStatus(404, 'Not Found');
   }

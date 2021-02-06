@@ -1,6 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { CommonServiceService, Frequencies, Provider } from '../common-service.service';
@@ -44,6 +44,7 @@ export class SpectrumPagesComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private titleService: Title,
+    private metaTagService: Meta,
     private modalService: NgbModal
   ) {
   }
@@ -66,6 +67,13 @@ export class SpectrumPagesComponent implements OnInit {
    */
   ngOnInit(): void {
     this.titleService.setTitle('MobileSpectrum');
+    this.metaTagService.updateTag({ name: 'description', content: 'Check here your country mobile network spectrum allocation' });
+
+    this.metaTagService.updateTag({ property: 'og:title', content: 'MobileSpectrum' });
+    this.metaTagService.updateTag({ property: 'og:description', content: 'Check here your country mobile network spectrum allocation' });
+
+    this.metaTagService.updateTag({ name: 'twitter:title', content: 'MobileSpectrum' });
+    this.metaTagService.updateTag({ name: 'twitter:description', content: 'Check here your country mobile network spectrum allocation' });
     this.route.params.subscribe(params => {
       this.country = params['country'];
       this.region = params['region'];
@@ -73,11 +81,28 @@ export class SpectrumPagesComponent implements OnInit {
       if (this.country != null) {
         this.country = this.country.split('_').join(' ');
         this.country = this.country.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+
         this.titleService.setTitle(this.country + ' | MobileSpectrum');
+        this.metaTagService.updateTag({ name: 'description', content: 'Mobile Spectrum allocation of ' + this.country});
+
+        this.metaTagService.updateTag({ property: 'og:title', content: this.country + ' | MobileSpectrum' });
+        this.metaTagService.updateTag({ property: 'og:description', content: 'Mobile Spectrum allocation of ' + this.country });
+
+        this.metaTagService.updateTag({ name: 'twitter:title', content: this.country + ' | MobileSpectrum'  });
+        this.metaTagService.updateTag({ name: 'twitter:description', content: 'Mobile Spectrum allocation of ' + this.country });
+
         if (this.region != null) {
           this.region = this.region.split('_').join(' ');
           this.region = this.region.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+
           this.titleService.setTitle(this.country + ' / ' + this.region + ' | MobileSpectrum');
+          this.metaTagService.updateTag({ name: 'description', content: 'Mobile Spectrum allocation of ' + this.country + ' / ' + this.region});
+
+          this.metaTagService.updateTag({ property: 'og:title', content: this.country + ' / ' + this.region + ' | MobileSpectrum' });
+          this.metaTagService.updateTag({ property: 'og:description', content: 'Mobile Spectrum allocation of ' + this.country + ' / ' + this.region});
+
+          this.metaTagService.updateTag({ name: 'twitter:title', content: this.country + ' / ' + this.region + ' | MobileSpectrum'  });
+          this.metaTagService.updateTag({ name: 'twitter:description', content: 'Mobile Spectrum allocation of ' + this.country + ' /( ' + this.region});
         }
       }
     })
