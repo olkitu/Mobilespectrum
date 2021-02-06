@@ -1,7 +1,7 @@
 {
   "name": "MobileSpectrum",
   "short_name": "MobileSpectrum",
-  "theme_color": "#1976d2",
+  "theme_color": "#343434",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
