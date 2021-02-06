@@ -70,14 +70,6 @@ build:
   only:
     refs:
     - main
-    changes:
-    - Dockerfile
-    - ./*.json
-    - yarn.lock
-    - .editorconfig
-    - .browserslistrc
-    - nginx.conf
-    - src/**/*
 
 deploy:stage:
   stage: staging
