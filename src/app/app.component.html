@@ -9,20 +9,6 @@
   </button>
   <div [ngbCollapse]="navbarCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li ngbDropdown class="nav-item dropdown">
-        <a ngbDropdownToggle class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Usefull sites
-        </a>
-        <div ngbDropdownMenu aria-labelledby="navbarDropdown">
-          <a ngbDropdownItem target="_blank" rel="noopener" href="https://cacombos.com/"
-            (click)="navbarCollapsed = true"> 4G & 5G Bands and Combos</a>
-          <a ngbDropdownItem target="_blank" rel="noopener" href="https://tools.pedroc.co.uk/4g-speed/"
-            (click)="navbarCollapsed = true"> 4G Speed Calculator</a>
-          <a ngbDropdownItem target="_blank" rel="noopener" href="https://tools.pedroc.co.uk/5g-speed/"
-            (click)="navbarCollapsed = true"> 5G Speed Calculator</a>
-        </div>
-      </li>
     </ul>
     <ul class="nav navbar-nav">
       <li><a class="nav-link" target="_blank" rel="noopener" title="Contribute in Gitlab"
