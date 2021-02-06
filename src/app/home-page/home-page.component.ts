@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 
 /**
  * Home Page component
@@ -17,7 +17,8 @@ export class HomePageComponent implements OnInit {
    * @param titleService Load Title Service
    */
   constructor(
-    private titleService: Title
+    private titleService: Title,
+    private metaTagService: Meta
   ) { }
 
   /**
@@ -25,6 +26,13 @@ export class HomePageComponent implements OnInit {
   */
   ngOnInit(): void {
     this.titleService.setTitle('MobileSpectrum');
+    this.metaTagService.updateTag({ name: 'description', content: 'Check here your country mobile network spectrum allocation' });
+
+    this.metaTagService.updateTag({ property: 'og:title', content: 'MobileSpectrum' });
+    this.metaTagService.updateTag({ property: 'og:description', content: 'Check here your country mobile network spectrum allocation'  });
+
+    this.metaTagService.updateTag({ name: 'twitter:title', content: 'MobileSpectrum' });
+    this.metaTagService.updateTag({ name: 'twitter:description', content: 'Check here your country mobile network spectrum allocation' });
   }
 
 }
