@@ -32,13 +32,13 @@ export class NotFoundPageComponent implements OnInit {
   ngOnInit(): void {
 
     this.titleService.setTitle('Not Found | MobileSpectrum');
-    this.metaTagService.updateTag({ name: 'description', content: 'Check here your\'s country mobile network spectrum allocation' });
+    this.metaTagService.updateTag({ name: 'description', content: 'Check here your country\'s mobile network spectrum allocation' });
 
     this.metaTagService.updateTag({ property: 'og:title', content: 'Not Found | MobileSpectrum' });
-    this.metaTagService.updateTag({ property: 'og:description', content: 'Check here your\'s country mobile network spectrum allocation'  });
+    this.metaTagService.updateTag({ property: 'og:description', content: 'Check here your country\'s mobile network spectrum allocation'  });
 
     this.metaTagService.updateTag({ name: 'twitter:title', content: 'Not Found | MobileSpectrum' });
-    this.metaTagService.updateTag({ name: 'twitter:description', content: 'Check here your\'s country mobile network spectrum allocation' });
+    this.metaTagService.updateTag({ name: 'twitter:description', content: 'Check here your country\'s mobile network spectrum allocation' });
 
     this.statusCodeService.setStatus(404, 'Not Found');
   }
