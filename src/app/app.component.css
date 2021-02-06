@@ -1,3 +1,7 @@
+.bg-dark {
+    background-color: #343434!important;
+}
+
 footer {
     position: fixed;
     bottom: 0;
