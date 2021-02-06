@@ -80,7 +80,7 @@ export class SpectrumPagesComponent implements OnInit {
       this.doGetCountryData(this.country, this.region);
       if (this.country != null) {
         this.country = this.country.split('_').join(' ');
-        this.country = this.country.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+        this.country = this.country.replace(/(^.|\s\w)/g, m => m.toUpperCase());
 
         this.titleService.setTitle(this.country + ' | MobileSpectrum');
         this.metaTagService.updateTag({ name: 'description', content: 'Mobile Spectrum allocation of ' + this.country});
@@ -93,7 +93,7 @@ export class SpectrumPagesComponent implements OnInit {
 
         if (this.region != null) {
           this.region = this.region.split('_').join(' ');
-          this.region = this.region.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+          this.region = this.region.replace(/(^.|\s\w)/g, m => m.toUpperCase());
 
           this.titleService.setTitle(this.country + ' / ' + this.region + ' | MobileSpectrum');
           this.metaTagService.updateTag({ name: 'description', content: 'Mobile Spectrum allocation of ' + this.country + ' / ' + this.region});
