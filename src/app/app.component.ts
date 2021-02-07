@@ -17,9 +17,6 @@ export class AppComponent {
 
   version = environment.version;
 
-  /** Navigation Collapse */
-  navbarCollapsed = true;
-
   /** Gitlab Icon */
   faGitlab = faGitlab;
 }
