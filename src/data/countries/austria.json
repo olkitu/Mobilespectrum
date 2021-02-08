@@ -1,0 +1,798 @@
+[
+    {
+        "band": 31,
+        "providers": [
+            {
+                "provider": {
+                    "name": "ArgoNET",
+                    "longName": "ArgoNET",
+                    "homePage": "https://www.argonet.at/",
+                    "backgroundColor": "#fdc300",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 461.3,
+                        "end": 465.74
+                    },
+                    "upLink": {
+                        "start": 451.3,
+                        "end": 455.74
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/450MHz/Spektrum450MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 703,
+                        "end": 713
+                    },
+                    "downLink": {
+                        "start": 758,
+                        "end": 768
+                    }
+                },
+                "technology": [
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/700MHz/Spectrum700MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "upLink": {
+                        "start": 713,
+                        "end": 733
+                    },
+                    "downLink": {
+                        "start": 768,
+                        "end": 788
+                    }
+                },
+                "technology": [
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/700MHz/Spectrum700MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 852
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/800MHz/Spektrum800MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/800MHz/Spektrum800MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925,
+                        "end": 940
+                    },
+                    "upLink": {
+                        "start": 880,
+                        "end": 895
+                    }
+                },
+                "valid": {
+                    "start": "2018-01-01",
+                    "end": "2034-12-31"
+                },
+                "technology": [
+                    "GSM",
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/900MHz/Spectrum900MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 940,
+                        "end": 945
+                    },
+                    "upLink": {
+                        "start": 895,
+                        "end": 900
+                    }
+                },
+                "valid": {
+                    "start": "2018-01-01",
+                    "end": "2034-12-31"
+                },
+                "technology": [
+                    "GSM",
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/900MHz/Spectrum900MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 915
+                    }
+                },
+                "valid": {
+                    "start": "2018-01-01",
+                    "end": "2034-12-31"
+                },
+                "technology": [
+                    "GSM",
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/900MHz/Spectrum900MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 75,
+        "providers": [
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1437,
+                        "end": 1457
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/1500MHz/Spectrum1500MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1457,
+                        "end": 1487
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/1500MHz/Spectrum1500MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1487,
+                        "end": 1517
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/1500MHz/Spectrum1500MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1825
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1730
+                    }
+                },
+                "valid": {
+                    "start": "2020-01-01",
+                    "end": "2034-12-31"
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/1800MHz/Spectrum1800MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1825,
+                        "end": 1845
+                    },
+                    "upLink": {
+                        "start": 1730,
+                        "end": 1750
+                    }
+                },
+                "valid": {
+                    "start": "2020-01-01",
+                    "end": "2034-12-31"
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/1800MHz/Spectrum1800MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1845,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1750,
+                        "end": 1785
+                    }
+                },
+                "valid": {
+                    "start": "2020-01-01",
+                    "end": "2034-12-31"
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/1800MHz/Spectrum1800MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2135
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1945
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2100MHz/Spectrum2100MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2135,
+                        "end": 2150
+                    },
+                    "upLink": {
+                        "start": 1945,
+                        "end": 1960
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2100MHz/Spectrum2100MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2150,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1960,
+                        "end": 1980
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2100MHz/Spectrum2100MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2640
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2520
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2600MHz_FDD/Spectrum2600MHzFDD.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2640,
+                        "end": 2660
+                    },
+                    "upLink": {
+                        "start": 2520,
+                        "end": 2540
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2600MHz_FDD/Spectrum2600MHzFDD.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2665
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2545
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2600MHz_FDD/Spectrum2600MHzFDD.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2665,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2545,
+                        "end": 2570
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2600MHz_FDD/Spectrum2600MHzFDD.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2595
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2600MHz_TDD/Spectrum2600MHzTDD.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2595,
+                        "end": 2620
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/2600MHz_TDD/Spectrum2600MHzTDD.en.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Regional licenses",
+                    "longName": "Regional licenses",
+                    "homePage": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/3400-3800MHz/Spectrum3400MHz.en.html",
+                    "backgroundColor": "darkgray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3410,
+                        "end": 3490
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/3400-3800MHz/Spectrum3400MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Telekom Austria",
+                    "homePage": "https://www.a1.net/",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3490,
+                        "end": 3590
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/3400-3800MHz/Spectrum3400MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hutchison Drei Austria",
+                    "homePage": "https://www.drei.at/",
+                    "backgroundColor": "#e2e2e2",
+                    "textColor": "black" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3590,
+                        "end": 3690
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/3400-3800MHz/Spectrum3400MHz.en.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "T-Mobile",
+                    "longName": "T-Mobile AU",
+                    "homePage": "https://www.magenta.at/",
+                    "backgroundColor": "#e20074",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3690,
+                        "end": 3800
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Austrian Regulatory Authority for Broadcasting and Telecommunications",
+                        "url": "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/3400-3800MHz/Spectrum3400MHz.en.html"
+                    }
+                ]
+            }
+        ]
+    }
+]
