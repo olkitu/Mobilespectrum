@@ -87,6 +87,8 @@ deploy:stage:
   only:
     refs:
     - main
+    variables:
+    - $DEPLOY_STAGE
 
 deploy:production:
   stage: production
@@ -104,6 +106,8 @@ deploy:production:
   only:
     refs:
     - main
+    variables:
+    - $DEPLOY_PROD
   when: manual
   allow_failure: false
 
@@ -116,5 +120,8 @@ pages:
   artifacts:
     paths:
       - public
-  rules:
-    - if: '$CI_COMMIT_BRANCH == "main"'
+  only:
+    refs:
+    - main
+    variables:
+    - $DEPLOY_PROD
