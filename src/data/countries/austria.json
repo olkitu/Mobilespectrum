@@ -37,8 +37,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "upLink": {
@@ -63,8 +63,8 @@
             },
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
@@ -125,8 +125,8 @@
             },
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
@@ -158,8 +158,8 @@
         "providers": [
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
@@ -195,8 +195,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
@@ -265,8 +265,8 @@
         "providers": [
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
@@ -289,8 +289,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
@@ -333,8 +333,8 @@
         "providers": [
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
@@ -369,8 +369,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
@@ -467,8 +467,8 @@
             },
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
@@ -500,8 +500,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
@@ -560,8 +560,8 @@
             },
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
@@ -619,8 +619,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
@@ -652,8 +652,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
@@ -750,8 +750,8 @@
                     "name": "3",
                     "longName": "Hutchison Drei Austria",
                     "homePage": "https://www.drei.at/",
-                    "backgroundColor": "#e2e2e2",
-                    "textColor": "black" 
+                    "backgroundColor": "#000",
+                    "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
@@ -771,8 +771,8 @@
             },
             {
                 "provider": {
-                    "name": "T-Mobile",
-                    "longName": "T-Mobile AU",
+                    "name": "Magenta",
+                    "longName": "Magenta Telekom",
                     "homePage": "https://www.magenta.at/",
                     "backgroundColor": "#e20074",
                     "textColor": "white" 
