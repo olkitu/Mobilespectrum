@@ -724,66 +724,10 @@
         "frequency": {
           "downLink": {
             "start": 2300,
-            "end": 2350
-          },
-          "upLink": {
-            "start": 2300,
-            "end": 2350
-          }
-        },
-        "source": [
-          {
-            "name": "Ofcom Spectrum Map",
-            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
-          }
-        ]
-      },
-      {
-        "provider": {
-          "name": "O2",
-          "longName": "O2-UK",
-          "homePage": "https://www.o2.co.uk",
-          "backgroundColor": "#0019A5",
-          "textColor": "white"
-        },
-        "frequency": {
-          "arfcn": [
-            39250, 39448
-          ],
-          "downLink": {
-            "start": 2350,
-            "end": 2390
-          },
-          "upLink": {
-            "start": 2350,
-            "end": 2390
-          }
-        },
-        "technology": [
-          "LTE"
-        ],
-        "source": [
-          {
-            "name": "Ofcom Spectrum Map",
-            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
-          }
-        ]
-      },
-      {
-        "provider": {
-          "name": "MOD",
-          "longName": "Ministry of Defence",
-          "homePage": "https://www.gov.uk/government/organisations/ministry-of-defence",
-          "backgroundColor": "#eee",
-          "textColor": "black"
-        },
-        "frequency": {
-          "downLink": {
-            "start": 2390,
             "end": 2400
           },
           "upLink": {
-            "start": 2390,
+            "start": 2300,
             "end": 2400
           }
         },
