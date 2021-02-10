@@ -16,9 +16,9 @@ Merge requests are the best way to propose changes to the codebase. We actively 
 
 All the data is managed throught a series of [Json](https://www.json.org/json-en.html) files. 
 
-To add new (data files)[https://gitlab.com/mobilespectrum/MobileSpectrum/-/tree/main/src/data/countries] to get familiar how to set up. The file name should named as country name example `finland.json`. If there is space between name like United Kingdon, use underscore `united_kingdom.json`.
+To add new [data files](https://gitlab.com/mobilespectrum/MobileSpectrum/-/tree/main/src/data/countries) to get familiar how to set up. The file name should named as country name example `finland.json`. If there is space between name like United Kingdon, use underscore `united_kingdom.json`.
 
-Full JSON schema is documented in (Wiki)[https://gitlab.com/mobilespectrum/MobileSpectrum/-/wikis/JSON-data-format]
+Full JSON schema is documented in [Wiki](https://gitlab.com/mobilespectrum/MobileSpectrum/-/wikis/JSON-data-format)
 
 ### Test schema locally
 
