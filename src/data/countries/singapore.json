@@ -1,0 +1,687 @@
+[
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "StarHub",
+                    "longName": "StarHub",
+                    "homePage": "https://www.starhub.com",
+                    "backgroundColor": "#73c20e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 930,
+                        "end": 935
+                    },
+                    "upLink": {
+                        "start": 885,
+                        "end": 890
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/StarHub-Mobile-Pte-Ltd-900-MHz-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "M1",
+                    "longName": "MobileOne",
+                    "homePage": "https://www.m1.com.sg",
+                    "backgroundColor": "#FF9E1B",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 935,
+                        "end": 940
+                    },
+                    "upLink": {
+                        "start": 890,
+                        "end": 895
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/M1-Ltd-900-MHz-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TPG",
+                    "longName": "TPG",
+                    "homePage": "https://www.tpgmobile.sg",
+                    "backgroundColor": "#561666",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 940,
+                        "end": 950
+                    },
+                    "upLink": {
+                        "start": 895,
+                        "end": 905
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/TPG-Telecom-Pte-Ltd-4G-and-IMT-Advanced-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SingTel",
+                    "longName": "SingTel",
+                    "homePage": "https://www.singtel.com",
+                    "backgroundColor": "#ed1a3d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 950,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 905,
+                        "end": 915
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/Singtel-Mobile-Singapore-Pte-Ltd-900-MHz-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "SingTel",
+                    "longName": "SingTel",
+                    "homePage": "https://www.singtel.com",
+                    "backgroundColor": "#ed1a3d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1835
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1740
+                    }
+                },
+                "valid": {
+                    "start": "2030-06-30",
+                    "end": "2017-04-01"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/1800-MHz-Spectrum-Right-2013-STM.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "StarHub",
+                    "longName": "StarHub",
+                    "homePage": "https://www.starhub.com",
+                    "backgroundColor": "#73c20e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1835,
+                        "end": 1860
+                    },
+                    "upLink": {
+                        "start": 1740,
+                        "end": 1765
+                    }
+                },
+                "valid": {
+                    "start": "2030-06-30",
+                    "end": "2017-04-01"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/1800-MHz-Spectrum-Right-2013-SHM.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "M1",
+                    "longName": "MobileOne",
+                    "homePage": "https://www.m1.com.sg",
+                    "backgroundColor": "#FF9E1B",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1860,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1765,
+                        "end": 1785
+                    }
+                },
+                "valid": {
+                    "start": "2030-06-30",
+                    "end": "2017-04-01"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/1800-MHz-Spectrum-Right-2013-M1.pdf?la=en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "StarHub",
+                    "longName": "StarHub",
+                    "homePage": "https://www.starhub.com",
+                    "backgroundColor": "#73c20e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110.3,
+                        "end": 2125.1
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1935.1
+                    }
+                },
+                "valid": {
+                    "start": "2010-11-01",
+                    "end": "2021-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/StarHub_Mobile_3G_Spectrum_Right.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SingTel",
+                    "longName": "SingTel",
+                    "homePage": "https://www.singtel.com",
+                    "backgroundColor": "#ed1a3d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2125.1,
+                        "end": 2140.1
+                    },
+                    "upLink": {
+                        "start": 1935.1,
+                        "end": 1950.1
+                    }
+                },
+                "valid": {
+                    "start": "2010-11-01",
+                    "end": "2021-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/M13GSpectrumRight2010.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "M1",
+                    "longName": "MobileOne",
+                    "homePage": "https://www.m1.com.sg",
+                    "backgroundColor": "#FF9E1B",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2154.9,
+                        "end": 2159.9
+                    },
+                    "upLink": {
+                        "start": 1964.9,
+                        "end": 1969.9
+                    }
+                },
+                "valid": {
+                    "start": "2010-11-01",
+                    "end": "2021-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/M13GSpectrumRight2010.pdf?la=en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 40,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TPG",
+                    "longName": "TPG",
+                    "homePage": "https://www.tpgmobile.sg",
+                    "backgroundColor": "#561666",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2300,
+                        "end": 2340
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/TPG-Telecom-Pte-Ltd-4G-and-IMT-Advanced-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "StarHub",
+                    "longName": "StarHub",
+                    "homePage": "https://www.starhub.com",
+                    "backgroundColor": "#73c20e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2640
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2520
+                    }
+                },
+                "valid": {
+                    "start": "2015-06-01",
+                    "end": "2030-06-01"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/StarhubSpectrumRight2013.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "M1",
+                    "longName": "MobileOne",
+                    "homePage": "https://www.m1.com.sg",
+                    "backgroundColor": "#FF9E1B",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2640,
+                        "end": 2660
+                    },
+                    "upLink": {
+                        "start": 2520,
+                        "end": 2540
+                    }
+                },
+                "valid": {
+                    "start": "2015-06-01",
+                    "end": "2030-06-01"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/M1SpectrumRight2013.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SingTel",
+                    "longName": "SingTel",
+                    "homePage": "https://www.singtel.com",
+                    "backgroundColor": "#ed1a3d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2680
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2560
+                    }
+                },
+                "valid": {
+                    "start": "2015-06-01",
+                    "end": "2030-06-01"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/SingtelSpectrumRight2013.pdf?la=en"
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TPG",
+                    "longName": "TPG",
+                    "homePage": "https://www.tpgmobile.sg",
+                    "backgroundColor": "#561666",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2580
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/TPG-Telecom-Pte-Ltd-4G-and-IMT-Advanced-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "StarHub",
+                    "longName": "StarHub",
+                    "homePage": "https://www.starhub.com",
+                    "backgroundColor": "#73c20e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2580,
+                        "end": 2600
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/StarHub-Mobile-Pte-Ltd-25-GHz-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SingTel",
+                    "longName": "SingTel",
+                    "homePage": "https://www.singtel.com",
+                    "backgroundColor": "#ed1a3d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2600,
+                        "end": 2615
+                    }
+                },
+                "valid": {
+                    "start": "2017-07-01",
+                    "end": "2033-06-30"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/Singtel-Mobile-Singapore-Pte-Ltd-2,-d-,5-GHz-Spectrum-Right-2017.pdf?la=en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "SingTel",
+                    "longName": "SingTel",
+                    "homePage": "https://www.singtel.com",
+                    "backgroundColor": "#ed1a3d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3450,
+                        "end": 3550
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/Singtel-35-GHz-spectrum-right-2-Nov-2020.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Starhub & M1",
+                    "longName": "Starhub & M1",
+                    "homePage": "http://mobilespectrum.org/singapore",
+                    "backgroundColor": "gray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3550,
+                        "end": 3650
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/M1-and-StarHub-35-GHz-spectrum-right-2-Nov-2020.pdf?la=en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 257,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TPG",
+                    "longName": "TPG",
+                    "homePage": "https://www.tpgmobile.sg",
+                    "backgroundColor": "#561666",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26300,
+                        "end": 26700
+                    }
+                },
+                "valid": {
+                    "start": "2020-11-02",
+                    "end": "2035-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/TPG-mmWave-spectrum-right-2-Nov-2020.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SingTel",
+                    "longName": "SingTel",
+                    "homePage": "https://www.singtel.com",
+                    "backgroundColor": "#ed1a3d",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26700,
+                        "end": 27500
+                    }
+                },
+                "valid": {
+                    "start": "2020-11-02",
+                    "end": "2035-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/Singtel-mmWave-spectrum-right-2-Nov-2020.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "M1",
+                    "longName": "MobileOne",
+                    "homePage": "https://www.m1.com.sg",
+                    "backgroundColor": "#FF9E1B",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 27500,
+                        "end": 28300
+                    }
+                },
+                "valid": {
+                    "start": "2020-11-02",
+                    "end": "2035-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/M1-mmWave-spectrum-right-2-Nov-2020.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "StarHub",
+                    "longName": "StarHub",
+                    "homePage": "https://www.starhub.com",
+                    "backgroundColor": "#73c20e",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 28300,
+                        "end": 29100
+                    }
+                },
+                "valid": {
+                    "start": "2020-11-02",
+                    "end": "2035-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/StarHub-mmWave-spectrum-right-2-Nov-2020.pdf?la=en"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TPG",
+                    "longName": "TPG",
+                    "homePage": "https://www.tpgmobile.sg",
+                    "backgroundColor": "#561666",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 29100,
+                        "end": 29500
+                    }
+                },
+                "valid": {
+                    "start": "2020-11-02",
+                    "end": "2035-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Infocomm Media Development Authority",
+                        "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/TPG-mmWave-spectrum-right-2-Nov-2020.pdf?la=en"
+                    }
+                ]
+            }
+        ]
+    }
+]
