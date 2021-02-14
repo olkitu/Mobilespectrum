@@ -1,0 +1,513 @@
+[
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom Slovenia",
+                    "homePage": "https://www.telekom.si",
+                    "backgroundColor": "#149bec",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                },
+                "valid": {
+                    "start": "2014-05-31",
+                    "end": "2029-05-31"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telemach",
+                    "longName": "Telemach",
+                    "homePage": "https://telemach.si/",
+                    "backgroundColor": "#000416",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                },
+                "valid": {
+                    "start": "2014-05-31",
+                    "end": "2029-05-31"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Slovenia",
+                    "homePage": "https://www.a1.si",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                },
+                "valid": {
+                    "start": "2014-05-31",
+                    "end": "2029-05-31"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telemach",
+                    "longName": "Telemach",
+                    "homePage": "https://telemach.si/",
+                    "backgroundColor": "#000416",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925,
+                        "end": 930
+                    },
+                    "upLink": {
+                        "start": 880,
+                        "end": 885
+                    }
+                },
+                "valid": {
+                    "start": "2016-01-04",
+                    "end": "2031-01-04"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Slovenia",
+                    "homePage": "https://www.a1.si",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 930,
+                        "end": 945
+                    },
+                    "upLink": {
+                        "start": 885,
+                        "end": 900
+                    }
+                },
+                "valid": {
+                    "start": "2016-01-04",
+                    "end": "2031-01-04"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom Slovenia",
+                    "homePage": "https://www.telekom.si",
+                    "backgroundColor": "#149bec",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 915
+                    }
+                },
+                "valid": {
+                    "start": "2016-01-04",
+                    "end": "2031-01-04"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Slovenia",
+                    "homePage": "https://www.a1.si",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1835
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1740
+                    }
+                },
+                "valid": {
+                    "start": "2016-01-04",
+                    "end": "2031-01-04"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom Slovenia",
+                    "homePage": "https://www.telekom.si",
+                    "backgroundColor": "#149bec",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1835,
+                        "end": 1860
+                    },
+                    "upLink": {
+                        "start": 1740,
+                        "end": 1765
+                    }
+                },
+                "valid": {
+                    "start": "2016-01-04",
+                    "end": "2031-01-04"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telemach",
+                    "longName": "Telemach",
+                    "homePage": "https://telemach.si/",
+                    "backgroundColor": "#000416",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1860,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1765,
+                        "end": 1785
+                    }
+                },
+                "valid": {
+                    "start": "2016-08-31",
+                    "end": "2031-01-04"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Slovenia",
+                    "homePage": "https://www.a1.si",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1920,
+                        "end": 1935
+                    },
+                    "upLink": {
+                        "start": 2110,
+                        "end": 2125
+                    }
+                },
+                "valid": {
+                    "start": "2006-09-21",
+                    "end": "2021-09-21"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "T-2",
+                    "longName": "T-2",
+                    "homePage": "https://www.t-2.net",
+                    "backgroundColor": "#f58220",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2125,
+                        "end": 2140
+                    },
+                    "upLink": {
+                        "start": 1935,
+                        "end": 1950
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom Slovenia",
+                    "homePage": "https://www.telekom.si",
+                    "backgroundColor": "#149bec",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2150,
+                        "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1960,
+                        "end": 1980
+                    }
+                },
+                "valid": {
+                    "start": "2013-06-01",
+                    "end": "2021-09-21"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Telemach",
+                    "longName": "Telemach",
+                    "homePage": "https://telemach.si/",
+                    "backgroundColor": "#000416",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2145,
+                        "end": 2155
+                    },
+                    "upLink": {
+                        "start": 1955,
+                        "end": 1965
+                    }
+                },
+                "valid": {
+                    "start": "2016-09-30",
+                    "end": "2021-09-21"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom Slovenia",
+                    "homePage": "https://www.telekom.si",
+                    "backgroundColor": "#149bec",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2655
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2535
+                    }
+                },
+                "valid": {
+                    "start": "2014-05-31",
+                    "end": "2029-05-31"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Slovenia",
+                    "homePage": "https://www.a1.si",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2570
+                    }
+                },
+                "valid": {
+                    "start": "2014-05-31",
+                    "end": "2029-05-31"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Telekom",
+                    "longName": "Telekom Slovenia",
+                    "homePage": "https://www.telekom.si",
+                    "backgroundColor": "#149bec",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2595
+                    }
+                },
+                "valid": {
+                    "start": "2014-05-31",
+                    "end": "2029-05-31"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Slovenia",
+                    "homePage": "https://www.a1.si",
+                    "backgroundColor": "#da291c",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2595,
+                        "end": 2620
+                    }
+                },
+                "valid": {
+                    "start": "2014-05-31",
+                    "end": "2029-05-31"
+                },
+                "source": [
+                    {
+                        "name": "Communications Networks and Services Agency of the Republic of Slovenia",
+                        "url": "https://www.akos-rs.si/registri/seznam-registrov/frekvence"
+                    }
+                ]
+            }
+        ]
+    }
+]
