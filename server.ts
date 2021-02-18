@@ -32,6 +32,14 @@ export function app(): express.Express {
 
   // All regular routes use the Universal engine
   server.get('*', (req, res) => {
+    
+    //Security Headers
+    res.header("X-Frame-Options", "SAMEORIGIN");
+    res.header("X-Content-Type-Options", "nosniff");
+    res.header("X-XSS-Protection", "1; mode=block")
+    res.header("Referrer-Policy", "strict-origin-when-cross-origin");
+    res.header("Permissions-Policy", "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()");
+
     res.render(indexHtml, {
       req,
       providers: [
