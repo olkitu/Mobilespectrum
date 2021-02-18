@@ -558,6 +558,34 @@
 		"providers": [
 			{
 				"provider": {
+					"name": "SoftBank",
+					"longName": "SoftBank",
+					"homePage": "https://www.SoftBank.jp/",
+					"backgroundColor": "#bbbcbe",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3400,
+						"end": 3440
+					},
+					"upLink": {
+						"start": 3400,
+						"end": 3440
+					}
+				},
+				"technology": [
+					"LTE"
+				],
+				"source": [
+					{
+						"name": "総務省 (Ministry of Internal Affairs and Communications)",
+						"url": "https://www.soumu.go.jp/main_content/000660083.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
 					"name": "docomo",
 					"longName": "NTT Docomo",
 					"homePage": "https://www.nttdocomo.co.jp/",
@@ -566,11 +594,11 @@
 				},
 				"frequency": {
 					"downLink": {
-						"start": 3480,
+						"start": 3440,
 						"end": 3520
 					},
 					"upLink": {
-						"start": 3480,
+						"start": 3440,
 						"end": 3520
 					}
 				},
