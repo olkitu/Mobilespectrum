@@ -2,7 +2,7 @@
 FROM node:14.15-alpine AS build
 WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
-RUN apk --no-cache add yarn git
+RUN apk --no-cache add git
 RUN yarn
 COPY . .
 RUN yarn run build:ssr

@@ -63,10 +63,11 @@ build:
   - sed -ri "s|"VERSION"|"$CI_COMMIT_SHORT_SHA"|" src/environments/environment.server.ts
   - sed -ri "s|"VERSION"|"$CI_COMMIT_SHORT_SHA"|" src/environments/environment.ts
   script:
-  - docker build -t $TAG_COMMIT -t $TAG_LATEST .
   - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+  - DOCKER_BUILDKIT=1 docker build --cache-from=registry.gitlab.com/mobilespectrum/mobilespectrum/main:latest -t $TAG_COMMIT -t $TAG_LATEST .
   - docker push $TAG_COMMIT
   - docker push $TAG_LATEST
+  - docker logout
   only:
     refs:
     - main
