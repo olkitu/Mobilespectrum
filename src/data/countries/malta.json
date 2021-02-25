@@ -1,0 +1,356 @@
+[
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "GO",
+                    "longName": "GO",
+                    "homePage": "https://www.go.com.mt/",
+                    "backgroundColor": "#FF6A13",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/04052018GO_licence_800MHz_rev.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "epic",
+                    "longName": "Epic Communications",
+                    "homePage": "https://www.epic.com.mt/",
+                    "backgroundColor": "#ffe500",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                },
+                "valid": {
+                    "start": "2008-04-09",
+                    "end": "2033-04-08"
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/800MHz%20licence_Epic_2020-11-17.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Melita",
+                    "longName": "Melita",
+                    "homePage": "https://www.melita.com/",
+                    "backgroundColor": "#00A3E0",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/04052018Melita_licence_800MHz_rev.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Melita",
+                    "longName": "Melita",
+                    "homePage": "https://www.melita.com/",
+                    "backgroundColor": "#00A3E0",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925,
+                        "end": 930
+                    },
+                    "upLink": {
+                        "start": 880,
+                        "end": 885
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/Licence_Melita_900MHz_2018-09.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "GO",
+                    "longName": "GO",
+                    "homePage": "https://www.go.com.mt/",
+                    "backgroundColor": "#FF6A13",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 930,
+                        "end": 945
+                    },
+                    "upLink": {
+                        "start": 885,
+                        "end": 900
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/Licence_GO_900MHz-1800MHz_2018-09.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "epic",
+                    "longName": "Epic Communications",
+                    "homePage": "https://www.epic.com.mt/",
+                    "backgroundColor": "#ffe500",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 915
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/900MHz-1800MHz_Licence_Epic_2020-11-17.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "GO",
+                    "longName": "GO",
+                    "homePage": "https://www.go.com.mt/",
+                    "backgroundColor": "#FF6A13",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1825
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1730
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/Licence_GO_900MHz-1800MHz_2018-09.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "epic",
+                    "longName": "Epic Communications",
+                    "homePage": "https://www.epic.com.mt/",
+                    "backgroundColor": "#ffe500",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1830,
+                        "end": 1855
+                    },
+                    "upLink": {
+                        "start": 1735,
+                        "end": 1760
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/900MHz-1800MHz_Licence_Epic_2020-11-17.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "GO",
+                    "longName": "GO",
+                    "homePage": "https://www.go.com.mt/",
+                    "backgroundColor": "#FF6A13",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110.3,
+                        "end": 2130.1
+                    },
+                    "upLink": {
+                        "start": 1920.3,
+                        "end": 1940.1
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/Licence_GO_2100MHz_amendment_Aug20.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Melita",
+                    "longName": "Melita",
+                    "homePage": "https://www.melita.com/",
+                    "backgroundColor": "#00A3E0",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2130.1,
+                        "end": 2149.9
+                    },
+                    "upLink": {
+                        "start": 1940.1,
+                        "end": 1959.9
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/Melita%20Mobile_Licence_Nov14_2100MHz.PDF"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "epic",
+                    "longName": "Epic Communications",
+                    "homePage": "https://www.epic.com.mt/",
+                    "backgroundColor": "#ffe500",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1959.9,
+                        "end": 1979.7
+                    },
+                    "upLink": {
+                        "start": 2149.9,
+                        "end": 2169.7
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/2100MHz_Licence_Epic_2020-11-17.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "GO",
+                    "longName": "GO",
+                    "homePage": "https://www.go.com.mt/",
+                    "backgroundColor": "#FF6A13",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2660
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2540
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/04052018GO_licence_2500MHz_rev.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "epic",
+                    "longName": "Epic Communications",
+                    "homePage": "https://www.epic.com.mt/",
+                    "backgroundColor": "#ffe500",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2660,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2540,
+                        "end": 2570
+                    }
+                },
+                "source": [
+                    {
+                        "name":"Malta Communications Authority",
+                        "url": "https://www.mca.org.mt/sites/default/files/pageattachments/2500MHz_Licence_Epic_2020-11-17.pdf#overlay-context=regulatory/authorizations_licensing/spectrum-licensing"
+                    }
+                ]
+            }
+        ]
+    }
+]
