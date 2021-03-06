@@ -1,0 +1,762 @@
+[
+    {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 758,
+                        "end": 763
+                    },
+                    "upLink": {
+                        "start": 703,
+                        "end": 708
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep - Archive",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    },
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 763,
+                        "end": 773
+                    },
+                    "upLink": {
+                        "start": 708,
+                        "end": 718
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep - Archive",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    },
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Bouygues",
+                    "longName": "Bouygues Telecom",
+                    "homePage": "https://www.bouyguestelecom.fr/",
+                    "backgroundColor": "#1b3650",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 773,
+                        "end": 778
+                    },
+                    "upLink": {
+                        "start": 718,
+                        "end": 723
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep - Archive",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    },
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Free",
+                    "longName": "Free",
+                    "homePage": "https://www.free.fr/",
+                    "backgroundColor": "#dc0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
+                    },
+                    "upLink": {
+                        "start": 723,
+                        "end": 733
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep - Archive",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    },
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Bouygues",
+                    "longName": "Bouygues Telecom",
+                    "homePage": "https://www.bouyguestelecom.fr/",
+                    "backgroundColor": "#1b3650",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Bouygues",
+                    "longName": "Bouygues Telecom",
+                    "homePage": "https://www.bouyguestelecom.fr/",
+                    "backgroundColor": "#1b3650",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925,
+                        "end": 934.8
+                    },
+                    "upLink": {
+                        "start": 880,
+                        "end": 889.8
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 935,
+                        "end": 945
+                    },
+                    "upLink": {
+                        "start": 890,
+                        "end": 900
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Free",
+                    "longName": "Free",
+                    "homePage": "https://www.free.fr/",
+                    "backgroundColor": "#dc0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 950
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 905
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 950,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 905,
+                        "end": 915
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1825
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1730
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1825,
+                        "end": 1845
+                    },
+                    "upLink": {
+                        "start": 1730,
+                        "end": 1750
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Free",
+                    "longName": "Free",
+                    "homePage": "https://www.free.fr/",
+                    "backgroundColor": "#dc0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1845,
+                        "end": 1860
+                    },
+                    "upLink": {
+                        "start": 1750,
+                        "end": 1765
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Bouygues",
+                    "longName": "Bouygues Telecom",
+                    "homePage": "https://www.bouyguestelecom.fr/",
+                    "backgroundColor": "#1b3650",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1860,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1765,
+                        "end": 1785
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2124.8
+                    },
+                    "upLink": {
+                        "start": 1920,
+                        "end": 1934.8
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Bouygues",
+                    "longName": "Bouygues Telecom",
+                    "homePage": "https://www.bouyguestelecom.fr/",
+                    "backgroundColor": "#1b3650",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2124.8,
+                        "end": 2139.6
+                    },
+                    "upLink": {
+                        "start": 1934.8,
+                        "end": 1949.6
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2139.6,
+                        "end": 2144.4
+                    },
+                    "upLink": {
+                        "start": 1949.6,
+                        "end": 1954.4
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Free",
+                    "longName": "Free",
+                    "homePage": "https://www.free.fr/",
+                    "backgroundColor": "#dc0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2144.4,
+                        "end": 2149.4
+                    },
+                    "upLink": {
+                        "start": 1954.4,
+                        "end": 1959.4
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2149.4,
+                        "end": 2154.4
+                    },
+                    "upLink": {
+                        "start": 1959.4,
+                        "end": 1964.4
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2154.4,
+                        "end": 2169.2
+                    },
+                    "upLink": {
+                        "start": 1964.4,
+                        "end": 1979.2
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2635
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2515
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2635,
+                        "end": 2655
+                    },
+                    "upLink": {
+                        "start": 2515,
+                        "end": 2535
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Bouygues",
+                    "longName": "Bouygues Telecom",
+                    "homePage": "https://www.bouyguestelecom.fr/",
+                    "backgroundColor": "#1b3650",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2655,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2535,
+                        "end": 2550
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Free",
+                    "longName": "Free",
+                    "homePage": "https://www.free.fr/",
+                    "backgroundColor": "#dc0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2570
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "SFR",
+                    "longName": "SFR",
+                    "homePage": "https://www.sfr.fr/",
+                    "backgroundColor": "#e2001a",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3490,
+                        "end": 3570
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Bouygues",
+                    "longName": "Bouygues Telecom",
+                    "homePage": "https://www.bouyguestelecom.fr/",
+                    "backgroundColor": "#1b3650",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3570,
+                        "end": 3640
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Free",
+                    "longName": "Free",
+                    "homePage": "https://www.free.fr/",
+                    "backgroundColor": "#dc0000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3640,
+                        "end": 3710
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Orange",
+                    "longName": "Orange",
+                    "homePage": "https://www.orange.fr/",
+                    "backgroundColor": "#f16e00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3710,
+                        "end": 3800
+                    }
+                },
+                "source": [
+                    {
+                        "name": "arcep",
+                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                    }
+                ]
+            }
+        ]
+    }
+]
