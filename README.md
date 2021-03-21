@@ -1,12 +1,10 @@
 # MobileSpectrum
 
-MobileSpectrum is OpenSource website showing many different contries spectrum allocations. 
+MobileSpectrum is OpenSource website showing many different contries mobile spectrum allocations. 
 
 ## Environments
 
 Production: https://mobilespectrum.org
-
-Stage: https://stage.mobilespectrum.org
 
 ## Build and Deploy to production
 
@@ -15,7 +13,7 @@ Install Docker: https://docs.docker.com/get-docker/
 Clone Repository
 
 ```
-git clone https://gitlab.com/mobilespectrum/MobileSpectrum.git
+git clone https://github.com/olkitu/Mobilespectrum.git
 ```
 
 ### Docker
@@ -27,7 +25,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-The site will available on port 80.
+The site will available on port 4000.
 
 ### Without Docker
 
@@ -56,7 +54,7 @@ Full Documentation: https://docs.mobilespectrum.org/
 
 Just click below to start development in Gitpod. You must register to service with your Gitlab account. 
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/mobilespectrum/MobileSpectrum)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olkitu/Mobilespectrum)
 
 #### Local
 
