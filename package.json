@@ -11,7 +11,7 @@
     "dev:ssr": "ng run MobileSpectrum:serve-ssr",
     "serve:ssr": "node dist/MobileSpectrum/server/main.js",
     "build:ssr": "ng build --prod && ng run MobileSpectrum:server:production",
-    "prerender": "VERSION=$(git rev-parse --short HEAD) && sed -ri \"s|\"VERSION\"|\"$VERSION\"|\" src/environments/environmen*.ts && ng run MobileSpectrum:prerender",
+    "prerender": "export VERSION=$(git rev-parse --short HEAD) && sed -ri \"s|\"VERSION\"|\"$VERSION\"|\" src/environments/environmen*.ts && ng run MobileSpectrum:prerender",
     "compodoc": "npx compodoc -p tsconfig.json -n \"MobileSpectrum Documentation\" src"
   },
   "private": true,
