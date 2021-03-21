@@ -1,0 +1,24 @@
+name: "Tests"
+on: [push]
+jobs:
+  karma:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '14.15'
+    - run: wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+    - run: echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee -a /etc/apt/sources.list.d/google.list
+    - run: DEBIAN_FRONTEND=noninteractive sudo apt-get update && sudo apt-get install google-chrome-stable -y -qq
+    - run: yarn
+    - run: ./node_modules/@angular/cli/bin/ng test --browsers=ChromeHeadlessCI --no-watch --no-progress
+  jsonvalidation:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '14.15'
+    - run: npm install -g ajv-cli ajv-formats
+    - run: cd ./src/data && ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
