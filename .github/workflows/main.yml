@@ -21,5 +21,4 @@ jobs:
       with:
         node-version: '14.15'
     - run: npm install -g ajv-cli ajv-formats
-    - run: cd ./src/data
-    - run: ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
+    - run: cd ./src/data && ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
