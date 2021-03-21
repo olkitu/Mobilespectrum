@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faGitlab } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faGitlab } from '@fortawesome/free-brands-svg-icons';
 import { environment } from 'src/environments/environment';
 
 /**
@@ -19,4 +19,5 @@ export class AppComponent {
 
   /** Gitlab Icon */
   faGitlab = faGitlab;
+  faGithub = faGithub;
 }
