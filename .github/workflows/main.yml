@@ -20,6 +20,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '14.15'
-    - run: npm install ajv-cli ajv-formats
+    - run: npm install -g ajv-cli ajv-formats
     - run: cd ./src/data
     - run: ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
