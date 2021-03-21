@@ -11,7 +11,6 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [],
           "downLink": {
             "start": 738,
             "end": 758
