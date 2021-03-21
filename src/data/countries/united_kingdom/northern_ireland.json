@@ -1,5 +1,35 @@
 [
   {
+    "band": 67,
+    "providers": [
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 738,
+            "end": 758
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          },
+          {
+            "name": "Ofcom 700MHz Award",
+            "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "band": 20,
     "providers": [
       {
