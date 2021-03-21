@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>MobileSpectrum Documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	      <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">MobileSpectrum Documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="contributing">Contributing</h1>
+<p>Thank you already to contributing to project! We trying make contributing as easier as possible. </p>
+<h2 id="use-git-flow">Use Git Flow</h2>
+<p>Merge requests are the best way to propose changes to the codebase. We actively welcome your merge requests:</p>
+<ol>
+<li>Fork the repo and create your branch from <code>main</code></li>
+<li>If you&#39;ve added code that should be tested, add tests.</li>
+<li>Ensure the tests pass. </li>
+<li>Make sure your code lints. </li>
+<li>Merge request</li>
+</ol>
+<h2 id="adding-new-data-and-update-exist">Adding new data and update exist</h2>
+<p>All the data is managed throught a series of <a href="https://www.json.org/json-en.html">Json</a> files. </p>
+<p>To add new <a href="https://github.com/olkitu/Mobilespectrum/tree/main/src/data/countries">data files</a> to get familiar how to set up. The file name should named as country name example <code>finland.json</code>. If there is space between name like United Kingdon, use underscore <code>united_kingdom.json</code>.</p>
+<p>Full JSON schema is documented in <a href="https://github.com/olkitu/Mobilespectrum/wiki/JSON-data-format">Wiki</a></p>
+<h3 id="test-schema-locally">Test schema locally</h3>
+<p>To test locally the schema, you need install some NodeJS packages</p>
+<div><pre class="line-numbers"><code class="language-none">yarn global add ajv-cli ajv-formats</code></pre></div><p>Move to <code>src/data</code> directory and run command to test JSON files against schema. </p>
+<div><pre class="line-numbers"><code class="language-none">cd src/data
+ajv test -s schemas/country.schema -d &quot;countries/*.json&quot; -c ajv-formats --valid --verbose --all-errors</code></pre></div><p>This should return something like <code>countries/finland.json</code> passed test.</p>
+<h2 id="report-bugs">Report Bugs</h2>
+<p>Report bugs in <a href="https://github.com/olkitu/Mobilespectrum/issues">issues</a>. Just create new issue and report details and steps to repeat the issue.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'contributing.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="./js/libs/custom-elements.min.js"></script>
+       <script src="./js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="./js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="./js/menu-wc.js" defer></script>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/clipboard.min.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+          <script src="./js/search/search.js"></script>
+          <script src="./js/search/lunr.min.js"></script>
+          <script src="./js/search/search-lunr.js"></script>
+          <script src="./js/search/search_index.js"></script>
+       <script src="./js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

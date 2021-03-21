@@ -1,0 +1,443 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>MobileSpectrum Documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">MobileSpectrum Documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content interface">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Interfaces</li>
+  <li>DownLink</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/common-service.service.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Description</h3>
+            </p>
+            <p class="comment">
+                <p>DownLink Frequency</p>
+
+            </p>
+
+
+        <section>
+            <h3 id="index">Index</h3>
+            <table class="table table-sm table-bordered index-table">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Properties</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                        <a href="#end">end</a>
+                                </li>
+                                <li>
+                                        <a href="#start">start</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+            <section>
+                <h3 id="inputs">Properties</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <a name="end"></a>
+                                        <span class="name"><b>end</b><a href="#end"><span class="icon ion-ios-link"></span></a></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <code>end:         <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                                    </td>
+                                </tr>
+
+
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                                        </td>
+                                    </tr>
+
+
+
+
+
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-description"><p>End Download Frequency</p>
+</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <a name="start"></a>
+                                        <span class="name"><b>start</b><a href="#start"><span class="icon ion-ios-link"></span></a></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <code>start:         <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                                    </td>
+                                </tr>
+
+
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                                        </td>
+                                    </tr>
+
+
+
+
+
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-description"><p>Start Download Frequency</p>
+</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { HttpClient } from &#x27;@angular/common/http&#x27;;
+import { Injectable } from &#x27;@angular/core&#x27;;
+import { Observable, throwError } from &#x27;rxjs&#x27;;
+import { catchError } from &#x27;rxjs/operators&#x27;;
+import { environment } from &#x27;src/environments/environment&#x27;;
+
+/**
+ * Details of Providers
+ */
+
+export interface Provider2 {
+  /**
+   * Short Name
+   */
+  name: string;
+  /**
+   * Long Name
+   */
+  longName: string;
+  /**
+   * Home Page
+   */
+  homePage: string;
+  /**
+   * Background Color
+   */
+  backgroundColor: string;
+  /**
+   * Text Color
+   */
+  textColor: string;
+}
+
+/**
+ * DownLink Frequency
+ */
+
+export interface DownLink {
+  /**
+   * Start Download Frequency
+   */
+  start: number;
+  /**
+   * End Download Frequency
+   */
+  end: number;
+}
+
+/**
+ * Uplink Frequency
+ */
+
+export interface UpLink {
+  /**
+   * Start Uplink Frequency
+   */
+  start: number;
+  /**
+   * End Uplink Frequency
+   */
+  end: number;
+}
+
+/**
+ * Frequencies
+ */
+
+export interface Frequency {
+  /** Downlink Frequency */
+  downLink: DownLink;
+  /** Uplink Frequency */
+  upLink: UpLink;
+}
+
+/**
+ * Provider Inteface, contains data of provider
+ */
+
+export interface Provider {
+  /**
+   * Provider Object
+   */
+  provider: Provider2;
+  /**
+   * Frequency Object
+   */
+  frequency: Frequency;
+  /**
+   * Technology Array
+   * example: [&quot;NR&quot;, &quot;LTE&quot;]
+   */
+  technology?: string[];
+  /**
+   * Source Array
+   */
+  source: Source[];
+  /**
+   * Valid date Object
+   */
+  valid?: Valid;
+}
+
+/**
+ * Source of Data
+ */
+
+export interface Source {
+  /**
+   * Source link name shown as link text
+   */
+  name: string;
+  /**
+   * Source link url
+   */
+  url: string;
+}
+
+/**
+ * Spectrum valid time
+ */
+export interface Valid {
+  /**
+   * Start date, in #RFC3339 compliant format
+   */
+  start: string;
+  /**
+   * End date, in #RFC3339 compliant format
+   */
+  end: string;
+}
+
+/**
+ * Frequencies
+ */
+export interface Frequencies {
+  /**
+   * Band Number
+   */
+  band: number;
+  /**
+   * Providers in Array
+   */
+  providers: Provider[];
+}
+
+/**
+ * Common Service
+ */
+
+@Injectable({
+  providedIn: &#x27;root&#x27;
+})
+export class CommonServiceService {
+
+  /** API URL depends environment */
+  apiUrl &#x3D; environment.api_url;
+
+  constructor(
+    private http: HttpClient,
+  ) { }
+
+  /**
+   * Get JSON formated data
+   * @param {string} country Country Name
+   * @param {string} [region] Region Name
+   * @returns {Array} Country or Region Frequency Data
+   */
+
+  doGetFrequencyData(country: string, region?: string): Observable&lt;Frequencies[]&gt; {
+    let frequencyData &#x3D; this.http.get&lt;Frequencies[]&gt;(this.apiUrl + &#x27;/countries/&#x27; + country + &#x27;.json&#x27;);
+    if (region !&#x3D; null) {
+      frequencyData &#x3D; this.http.get&lt;Frequencies[]&gt;(this.apiUrl + &#x27;/countries/&#x27; + country + &#x27;/&#x27; + region + &#x27;.json&#x27;);
+    }
+    return frequencyData
+      .pipe(
+        catchError(this.handleError())
+      );
+  }
+
+  /**
+    * Handle Http operation that failed.
+    * Let the app continue.
+    * @param operation - name of the operation that failed
+    * @param result - optional value to return as the observable result
+    */
+  private handleError() {
+    return (error: any): Observable&lt;any&gt; &#x3D;&gt; {
+
+      // TODO: send the error to remote logging infrastructure
+      console.error(error); // log to console instead
+
+      return throwError(
+        &#x27;Something bad happened; please try again later.&#x27;);
+    };
+  }
+
+  /** Log a ApiService message with the MessageService */
+  private log(message: string) {
+    console.log(&#x60;ApiService: ${message}&#x60;);
+  }
+
+}
+
+
+</code></pre>
+    </div>
+</div>
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'interface';
+            var COMPODOC_CURRENT_PAGE_URL = 'DownLink.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

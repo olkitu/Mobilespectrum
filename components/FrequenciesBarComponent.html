@@ -1,0 +1,753 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>MobileSpectrum Documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">MobileSpectrum Documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>FrequenciesBarComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/frequencies-bar.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Frequency Bar component</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>frequencies-bar</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./frequencies-bar.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./frequencies-bar.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#closeResult">closeResult</a>
+                            </li>
+                            <li>
+                                <a href="#totalBandwidth">totalBandwidth</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#open">open</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#frequencyBand">frequencyBand</a>
+                            </li>
+                            <li>
+                                <a href="#linkType">linkType</a>
+                            </li>
+                            <li>
+                                <a href="#providers">providers</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(modalService: NgbModal)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/components/frequencies-bar.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>modalService</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgbModal</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="frequencyBand"></a>
+                        <b>frequencyBand</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/frequencies-bar.component.ts:34</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Frequency </p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="linkType"></a>
+                        <b>linkType</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/frequencies-bar.component.ts:32</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>LinkType, downLink or Uplink </p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="providers"></a>
+                        <b>providers</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/frequencies-bar.component.ts:30</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Provider Name </p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="16"
+                            class="link-to-prism">src/app/components/frequencies-bar.component.ts:16</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="open"></a>
+                    <span class="name">
+                        <b>
+                            open
+                        </b>
+                        <a href="#open"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>open(content: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="26"
+                            class="link-to-prism">src/app/components/frequencies-bar.component.ts:26</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Modal Opening</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>content</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="closeResult"></a>
+                        <span class="name">
+                            <b>
+                            closeResult</b>
+                            <a href="#closeResult"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/components/frequencies-bar.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Modal close result </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="totalBandwidth"></a>
+                        <span class="name">
+                            <b>
+                            totalBandwidth</b>
+                            <a href="#totalBandwidth"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/frequencies-bar.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Total Bandwidth, default 0 </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Input } from &#x27;@angular/core&#x27;;
+import { NgbModal } from &#x27;@ng-bootstrap/ng-bootstrap&#x27;;
+
+/**
+ * Frequency Bar component
+*/
+
+@Component({
+    selector: &#x27;frequencies-bar&#x27;,
+    templateUrl: &#x27;./frequencies-bar.component.html&#x27;,
+    styleUrls: [&#x27;./frequencies-bar.component.css&#x27;],
+})
+export class FrequenciesBarComponent implements OnInit {
+    constructor(private modalService: NgbModal) { }
+
+    ngOnInit(): void {
+        this.providers &amp;&amp; this.providers.forEach((element: any) &#x3D;&gt; {
+            this.totalBandwidth +&#x3D; element.frequency[this.linkType].end - element.frequency[this.linkType].start;
+        });
+    }
+
+    /**
+     * Modal Opening
+     * @param content 
+     */
+    open(content: any) {
+        this.modalService.open(content, { ariaLabelledBy: &#x27;modal-basic-title&#x27; });
+    }
+    /** Provider Name */
+    @Input() providers: any;
+    /** LinkType, downLink or Uplink */
+    @Input() linkType: any;
+    /** Frequency */
+    @Input() frequencyBand: any;
+    /** Total Bandwidth, default 0 */
+    totalBandwidth &#x3D; 0;
+    /** Modal close result */
+    closeResult &#x3D; &#x27;&#x27;;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div *ngFor&#x3D;&quot;let provider of providers&quot; class&#x3D;&quot;div__container&quot;&gt;
+    &lt;div class&#x3D;&quot;div__child&quot; title&#x3D;&quot;{{provider.provider.name}}&quot;  (click)&#x3D;&quot;open(content)&quot; [ngStyle]&#x3D;&quot;{&#x27;background-color&#x27;: provider.provider.backgroundColor, &#x27;color&#x27;: provider.provider.textColor, &#x27;width&#x27;: ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + &#x27;%&#x27;}&quot;&gt;
+        &lt;span [ngStyle]&#x3D;&quot;{&#x27;color&#x27;: provider.provider.textColor}&quot;&gt;{{provider.provider.name}}&lt;/span&gt;
+        &lt;br /&gt;
+        &lt;span&gt;&lt;small&gt;&lt;ng-container *ngIf&#x3D;&quot;provider.frequency.downLink !&#x3D; null&quot; else &gt;{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}&lt;/ng-container&gt;
+        &lt;ng-container *ngIf&#x3D;&quot;provider.frequency.downLink &#x3D;&#x3D; null &amp;&amp; provider.frequency.upLink !&#x3D; null&quot;&gt;{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}&lt;/ng-container&gt; MHz&lt;/small&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;ng-template #content let-modal&gt;
+        &lt;div class&#x3D;&quot;modal-header&quot;&gt;
+          &lt;h4 class&#x3D;&quot;modal-title&quot; id&#x3D;&quot;modal-basic-title&quot;&gt;{{provider.provider.name}} - Band {{frequencyBand}}&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;modal-body&quot;&gt;
+            &lt;table class&#x3D;&quot;table table-borderless&quot;&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Provider&lt;/th&gt;&lt;td&gt;&lt;a rel&#x3D;&quot;noopener&quot; target&#x3D;&quot;_blank&quot; href&#x3D;&quot;{{provider.provider.homePage}}&quot;&gt;{{provider.provider.longName}}&lt;/a&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr *ngIf&#x3D;&quot;provider.technology !&#x3D; null&quot;&gt;
+                    &lt;th&gt;Technology&lt;/th&gt;&lt;td&gt;{{provider.technology.join(&quot;, &quot;)}}&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr *ngIf&#x3D;&quot;provider.frequency.downLink !&#x3D; null&quot;&gt;
+                    &lt;th&gt;Download Frequency Range&lt;/th&gt;&lt;td&gt;{{provider.frequency.downLink.start}} - {{provider.frequency.downLink.end}} MHz&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr *ngIf&#x3D;&quot;provider.frequency.upLink !&#x3D; null&quot;&gt;
+                    &lt;th&gt;Upload Frequency Range&lt;/th&gt;&lt;td&gt;{{provider.frequency.upLink.start}} - {{provider.frequency.upLink.end}} MHz&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Bandwidth&lt;/th&gt;&lt;td&gt;
+                        &lt;ng-container *ngIf&#x3D;&quot;provider.frequency.downLink !&#x3D; null&quot; else &gt;{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}&lt;/ng-container&gt;
+                        &lt;ng-container *ngIf&#x3D;&quot;provider.frequency.downLink &#x3D;&#x3D; null &amp;&amp; provider.frequency.upLink !&#x3D; null&quot;&gt;{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}&lt;/ng-container&gt; MHz
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr *ngIf&#x3D;&quot;provider.valid !&#x3D; null&quot;&gt;
+                    &lt;th&gt;Valid&lt;/th&gt;&lt;td&gt;{{provider.valid.start | date}} - {{provider.valid.end | date}}&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;ng-container *ngIf&#x3D;&quot;provider.source !&#x3D; null&quot;&gt;
+                &lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li *ngFor&#x3D;&quot;let source of provider.source&quot;&gt;&lt;a rel&#x3D;&quot;noopener&quot; target&#x3D;&quot;_blank&quot; href&#x3D;&quot;{{source.url}}&quot;&gt;{{source.name}}&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/ng-container&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;modal-footer&quot;&gt;
+          &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-outline-dark&quot; (click)&#x3D;&quot;modal.close(&#x27;Save click&#x27;)&quot; ngbAutofocus&gt;Close&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/ng-template&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./frequencies-bar.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.div__container {
+    height: 50px;
+    /* border: 1px solid #000000; */
+    font-size: medium;
+    display: inherit;
+}
+
+.div__child {
+    float: left;
+    height: 50px;
+    display: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.div__child span {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.div__container a {
+    color: inherit;
+    text-decoration: none;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div *ngFor="let provider of providers" class="div__container">    <div class="div__child" title="{{provider.provider.name}}"  (click)="open(content)" [ngStyle]="{\'background-color\': provider.provider.backgroundColor, \'color\': provider.provider.textColor, \'width\': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + \'%\'}">        <span [ngStyle]="{\'color\': provider.provider.textColor}">{{provider.provider.name}}</span>        <br />        <span><small><ng-container *ngIf="provider.frequency.downLink != null" else >{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container>        <ng-container *ngIf="provider.frequency.downLink == null && provider.frequency.upLink != null">{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container> MHz</small></span>    </div>    <ng-template #content let-modal>        <div class="modal-header">          <h4 class="modal-title" id="modal-basic-title">{{provider.provider.name}} - Band {{frequencyBand}}</h4>        </div>        <div class="modal-body">            <table class="table table-borderless">                <tr>                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{provider.provider.homePage}}">{{provider.provider.longName}}</a></td>                </tr>                <tr *ngIf="provider.technology != null">                    <th>Technology</th><td>{{provider.technology.join(", ")}}</td>                </tr>                <tr *ngIf="provider.frequency.downLink != null">                    <th>Download Frequency Range</th><td>{{provider.frequency.downLink.start}} - {{provider.frequency.downLink.end}} MHz</td>                </tr>                <tr *ngIf="provider.frequency.upLink != null">                    <th>Upload Frequency Range</th><td>{{provider.frequency.upLink.start}} - {{provider.frequency.upLink.end}} MHz</td>                </tr>                <tr>                    <th>Bandwidth</th><td>                        <ng-container *ngIf="provider.frequency.downLink != null" else >{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container>                        <ng-container *ngIf="provider.frequency.downLink == null && provider.frequency.upLink != null">{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container> MHz                    </td>                </tr>                <tr *ngIf="provider.valid != null">                    <th>Valid</th><td>{{provider.valid.start | date}} - {{provider.valid.end | date}}</td>                </tr>            </table>            <ng-container *ngIf="provider.source != null">                <p><strong>Sources:</strong></p>                <ul>                    <li *ngFor="let source of provider.source"><a rel="noopener" target="_blank" href="{{source.url}}">{{source.name}}</a></li>                </ul>            </ng-container>        </div>        <div class="modal-footer">          <button type="button" class="btn btn-outline-dark" (click)="modal.close(\'Save click\')" ngbAutofocus>Close</button>        </div>    </ng-template></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'FrequenciesBarComponent', 'selector': 'frequencies-bar'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'NotFoundPageComponent', 'selector': 'app-not-found-page'},{'name': 'SpectrumPagesComponent', 'selector': 'app-spectrum-pages'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'FrequenciesBarComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'FrequenciesBarComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
