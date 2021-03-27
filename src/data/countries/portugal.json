@@ -1,0 +1,539 @@
+[
+    {
+        "band": 20,
+        "providers": [
+            {
+                "provider": {
+                    "name": "MEO",
+                    "longName": "MEO",
+                    "homePage": "http://www.meo.pt/",
+                    "backgroundColor": "#34a8eb",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
+                    },
+                    "upLink": {
+                        "start": 832,
+                        "end": 842
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
+                    },
+                    "upLink": {
+                        "start": 842,
+                        "end": 852
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "NOS",
+                    "longName": "NOS",
+                    "homePage": "http://www.nos.pt/",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
+                    },
+                    "upLink": {
+                        "start": 852,
+                        "end": 862
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 8,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 930,
+                        "end": 940.1
+                    },
+                    "upLink": {
+                        "start": 885,
+                        "end": 895.1
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "NOS",
+                    "longName": "NOS",
+                    "homePage": "http://www.nos.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 943.1,
+                        "end": 950.9
+                    },
+                    "upLink": {
+                        "start": 898.1,
+                        "end": 905.9
+                    }
+                },
+                "technology": [
+                    "GSM"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MEO",
+                    "longName": "MEO",
+                    "homePage": "http://www.meo.pt",
+                    "backgroundColor": "#34a8eb",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 950.9,
+                        "end": 958.9
+                    },
+                    "upLink": {
+                        "start": 905.9,
+                        "end": 913.9
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 3,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1825
+                    },
+                    "upLink": {
+                        "start": 1710,
+                        "end": 1730
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "NOS",
+                    "longName": "NOS",
+                    "homePage": "http://www.nos.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1825,
+                        "end": 1845
+                    },
+                    "upLink": {
+                        "start": 1730,
+                        "end": 1750
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MEO",
+                    "longName": "MEO",
+                    "homePage": "http://www.meo.pt",
+                    "backgroundColor": "#34a8eb",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1845,
+                        "end": 1865
+                    },
+                    "upLink": {
+                        "start": 1750,
+                        "end": 1770
+                    }
+                },
+                "technology": [
+                    "GSM",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Nowo",
+                    "longName": "Nowo",
+                    "homePage": "http://www.nowo.pt",
+                    "backgroundColor": "#f76e11",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1865,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1770,
+                        "end": 1785
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 1,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2110.3,
+                        "end": 2130.1
+                    },
+                    "upLink": {
+                        "start": 1920.3,
+                        "end": 1940.1
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "NOS",
+                    "longName": "NOS",
+                    "homePage": "http://www.nos.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2130.1,
+                        "end": 2144.9
+                    },
+                    "upLink": {
+                        "start": 1940.1,
+                        "end": 1954.9
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MEO",
+                    "longName": "MEO",
+                    "homePage": "http://www.meo.pt",
+                    "backgroundColor": "#34a8eb",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2149.9,
+                        "end": 2169.7
+                    },
+                    "upLink": {
+                        "start": 1959.9,
+                        "end": 1979.7
+                    }
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 7,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2630,
+                        "end": 2650
+                    },
+                    "upLink": {
+                        "start": 2510,
+                        "end": 2530
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "NOS",
+                    "longName": "NOS",
+                    "homePage": "http://www.nos.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2650,
+                        "end": 2670
+                    },
+                    "upLink": {
+                        "start": 2530,
+                        "end": 2550
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MEO",
+                    "longName": "MEO",
+                    "homePage": "http://www.meo.pt",
+                    "backgroundColor": "#34a8eb",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2570
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 38,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2570,
+                        "end": 2595
+                    }
+                },
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "Dense Air",
+                    "longName": "Dense Air",
+                    "homePage": "https://denseair.net",
+                    "backgroundColor": "#c2c0be",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3400,
+                        "end": 3500
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/streaming/SPD_Alteracao_DUF_DenseAir22102019.pdf?contentId=1488362&field=ATTACHED_FILE"
+                    }
+                ]
+            }
+        ]
+    }
+]
