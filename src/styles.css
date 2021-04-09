@@ -35,3 +35,63 @@ fa-icon svg {
     left: 50%;
     margin: 0 auto;
 }
+
+.table {
+  background-color: rgba(240, 238, 238, 0.685);
+}
+
+frequencies-bar {
+  box-shadow: 2px 2px 2px darkgray;
+}
+
+
+/*
+Dark Theme
+*/
+
+@media (prefers-color-scheme: dark) {
+  body, .modal-content {
+      background-color: #192734;
+      color: #FAFAFA;
+  }
+  .loader {
+      background:#192734;
+  }
+  a, .btn-link {
+      color: #a3c8f0;
+  }
+  a:hover, .btn-link:hover {
+      color: #5b8dc2;
+  }
+  .jumbotron {
+      background-color: #303030;
+      color: #FAFAFA;
+  }
+  .table {
+      background-color: #22303C;
+      color: #FAFAFA;
+  }
+  caption {
+      color:#dad5d5;
+  }
+  .card {
+      background-color: #22303C;
+  }
+  footer {
+      background-color: #303030 !important;
+  }
+  .text-muted {
+      color: #dad5d5!important
+  }
+  .tooltip-button {
+      color:#FAFAFA;
+  }
+
+  frequencies-bar {
+    box-shadow: 2px 2px 2px lightgray;
+  }
+
+  .btn-outline-dark {
+    background-color: #FAFAFA;
+  }
+}
