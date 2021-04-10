@@ -225,14 +225,14 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/localize@~11.1.2":
-  version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@angular/localize/-/localize-11.1.2.tgz#221e689523092631c87298bec2dbe33cf5ffb26b"
-  integrity sha512-oiYUeutZPiWJwtaw6i/tR+HQ6joN9dD/AAsBH9kE/rpwEWTO7iSwS1PVATp5jU205RFVrAQbEqPWYTZVmIP2QA==
+"@angular/localize@~11.2.6":
+  version "11.2.9"
+  resolved "https://registry.yarnpkg.com/@angular/localize/-/localize-11.2.9.tgz#653a18bc01b4ce8e3dfa8637b9163fb9ee594904"
+  integrity sha512-uizKA4AWJ3IAZFv9tY5VrD//nhucg+kmppC6ZxBdsl6DNH4C9Tihc5JATwaO6H9TKkFY/xSxZsJLxWmDEOWwVA==
   dependencies:
     "@babel/core" "7.8.3"
     glob "7.1.2"
-    yargs "^16.1.1"
+    yargs "^16.2.0"
 
 "@angular/platform-browser-dynamic@~11.1.2":
   version "11.1.2"
@@ -10966,7 +10966,7 @@ yargs-parser@^20.2.2:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.2.4.tgz#b42890f14566796f85ae8e3a25290d205f154a54"
   integrity sha512-WOkpgNhPTlE73h4VFAFsOnomJVaovO8VqLDzy5saChRBFQFBoMYirowyW+Q9HB4HFF4Z7VZTiG3iSzJJA29yRA==
 
-yargs@16.2.0, yargs@^16.1.1:
+yargs@16.2.0, yargs@^16.1.1, yargs@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
