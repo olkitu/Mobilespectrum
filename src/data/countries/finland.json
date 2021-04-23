@@ -508,7 +508,7 @@
                 "provider": {
                     "name": "Regional licenses",
                     "longName": "Regional licenses",
-                    "homePage": "https://www.traficom.fi/en/communications/communications-networks/use-frequency-band-2300-2320-mhz",
+                    "homePage": "https://www.traficom.fi/fi/viestinta/viestintaverkot/paikalliset-4g5g-verkot",
                     "backgroundColor": "darkgray",
                     "textColor": "white"
                 },
@@ -524,7 +524,7 @@
                 "source": [
                     {
                         "name":"Finnish Transport and Communications Agency - Traficom",
-                        "url": "https://www.traficom.fi/en/communications/communications-networks/use-frequency-band-2300-2320-mhz"
+                        "url": "https://www.traficom.fi/fi/viestinta/viestintaverkot/paikalliset-4g5g-verkot"
                     }
                 ]
             }
@@ -750,6 +750,27 @@
     {
         "band": 258,
         "providers": [
+            {
+                "provider": {
+                    "name": "Regional licenses",
+                    "longName": "Regional licenses",
+                    "homePage": "https://www.traficom.fi/fi/viestinta/viestintaverkot/paikalliset-4g5g-verkot",
+                    "backgroundColor": "darkgray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 24250,
+                        "end": 25100
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Finnish Transport and Communications Agency - Traficom",
+                        "url": "https://www.traficom.fi/fi/viestinta/viestintaverkot/paikalliset-4g5g-verkot"
+                    }
+                ]
+            },
             {
                 "provider": {
                     "name": "Elisa",
