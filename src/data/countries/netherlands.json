@@ -1,5 +1,42 @@
 [
   {
+    "band": 72,
+    "providers": [
+      {
+        "provider": {
+          "name": "UtilityConnect",
+          "longName": "UtilityConnect",
+          "homePage": "https://www.utilityconnect.nl/",
+          "backgroundColor": "#6786a1",
+          "textColor": "white"
+        },
+        "frequency": {
+          "upLink": {
+            "start": 451.76875,
+            "end": 454.76875
+          },
+          "downLink": {
+            "start": 461.76875,
+            "end": 464.76875
+          }
+        },
+        "technology": [
+          "CDMA"
+        ],
+        "valid": {
+          "start": "2018-11-13",
+          "end": "2024-11-17"
+        },
+        "source": [
+          {
+            "name": "Antennekaart.nl",
+            "url": "https://antennekaart.nl/page/frequencies"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "band": 28,
     "providers": [
       {
@@ -20,6 +57,9 @@
             "end": 713
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -45,6 +85,9 @@
             "end": 723
           }
         },
+        "technology": [
+          "NR"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -70,6 +113,9 @@
             "end": 733
           }
         },
+        "technology": [
+          "NR"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -100,6 +146,9 @@
             "end": 842
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -125,6 +174,9 @@
             "end": 852
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -150,6 +202,9 @@
             "end": 862
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -180,6 +235,9 @@
             "end": 890
           }
         },
+        "technology": [
+          "GSM"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -205,6 +263,10 @@
             "end": 900
           }
         },
+        "technology": [
+          "GSM",
+          "UMTS"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -230,6 +292,11 @@
             "end": 915
           }
         },
+        "technology": [
+          "GSM",
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -256,6 +323,9 @@
             "end": 1467
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -277,6 +347,9 @@
             "end": 1482
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -298,6 +371,9 @@
             "end": 1492
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -307,7 +383,6 @@
       }
     ]
   },
-
   {
     "band": 3,
     "providers": [
@@ -329,6 +404,9 @@
             "end": 1730
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -354,6 +432,10 @@
             "end": 1750
           }
         },
+        "technology": [
+          "LTE",
+          "NR"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -379,6 +461,9 @@
             "end": 1780
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -409,6 +494,9 @@
             "end": 1940
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -434,6 +522,10 @@
             "end": 1960
           }
         },
+        "technology": [
+          "UMTS",
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -459,6 +551,11 @@
             "end": 1980
           }
         },
+        "technology": [
+          "UMTS",
+          "LTE",
+          "NR"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -489,6 +586,9 @@
             "end": 2590
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -514,6 +614,9 @@
             "end": 2620
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -544,6 +647,9 @@
             "end": 2530
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -569,6 +675,9 @@
             "end": 2535
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -594,6 +703,9 @@
             "end": 2545
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
@@ -619,6 +731,9 @@
             "end": 2565
           }
         },
+        "technology": [
+          "LTE"
+        ],
         "source": [
           {
             "name": "Antennekaart.nl",
