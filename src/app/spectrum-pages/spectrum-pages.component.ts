@@ -144,6 +144,7 @@ export class SpectrumPagesComponent implements OnInit {
     { band: 66, type: 'FDD', frequency: 1700, name: '1700/2100 MHz' },
     { band: 67, type: 'SDL', frequency: 700, name: '700 MHz' },
     { band: 71, type: 'FDD', frequency: 600, name: '600 MHz' },
+    { band: 72, type: 'FDD', frequency: 450, name: '450 MHz' },
     { band: 75, type: 'SDL', frequency: 1500, name: '1500 MHz'},
     { band: 77, type: 'TDD', frequency: 3700, name: '3.7 GHz' },
     { band: 78, type: 'TDD', frequency: 3500, name: '3.5 GHz' },
