@@ -30,6 +30,92 @@
     ]
   },
   {
+    "band": 28,
+    "providers": [
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 758,
+            "end": 768
+          },
+          "upLink": {
+            "start": 703,
+            "end": 713
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 768,
+            "end": 778
+          },
+          "upLink": {
+            "start": 713,
+            "end": 723
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            156510
+          ],
+          "downLink": {
+            "start": 778,
+            "end": 788
+          },
+          "upLink": {
+            "start": 723,
+            "end": 733
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "band": 20,
     "providers": [
       {
