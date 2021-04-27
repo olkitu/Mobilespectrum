@@ -24,6 +24,120 @@
           {
             "name": "Ofcom 700MHz Award",
             "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          },
+          {
+            "name": "Ofcom 700MHz Allocations",
+            "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/217954/notice-reg-121.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 28,
+    "providers": [
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 758,
+            "end": 768
+          },
+          "upLink": {
+            "start": 703,
+            "end": 713
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          },
+          {
+            "name": "Ofcom 700MHz Award",
+            "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          },
+          {
+            "name": "Ofcom 700MHz Allocations",
+            "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/217954/notice-reg-121.pdf"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Three",
+          "longName": "Three UK",
+          "homePage": "http://www.three.co.uk/",
+          "backgroundColor": "#000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 768,
+            "end": 778
+          },
+          "upLink": {
+            "start": 713,
+            "end": 723
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          },
+          {
+            "name": "Ofcom 700MHz Award",
+            "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          },
+          {
+            "name": "Ofcom 700MHz Allocations",
+            "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/217954/notice-reg-121.pdf"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": [
+            156510
+          ],
+          "downLink": {
+            "start": 778,
+            "end": 788
+          },
+          "upLink": {
+            "start": 723,
+            "end": 733
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          },
+          {
+            "name": "Ofcom 700MHz Award",
+            "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          },
+          {
+            "name": "Ofcom 700MHz Allocations",
+            "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/217954/notice-reg-121.pdf"
           }
         ]
       }
@@ -960,6 +1074,105 @@
           {
             "name": "Ofcom Spectrum Map",
             "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "EE",
+          "longName": "Everything Everywhere",
+          "homePage": "https://ee.co.uk",
+          "backgroundColor": "#007b85",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3680,
+            "end": 3720
+          },
+          "upLink": {
+            "start": 3680,
+            "end": 3720
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          },
+          {
+            "name": "Ofcom 3.6-3.8GHz Award",
+            "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          },
+          {
+            "name": "Ofcom 3.6-3.8GHz Allocations",
+            "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/217954/notice-reg-121.pdf"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Vodafone",
+          "longName": "Vodafone UK",
+          "homePage": "https://www.vodafone.co.uk",
+          "backgroundColor": "#e60000",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3720,
+            "end": 3760
+          },
+          "upLink": {
+            "start": 3720,
+            "end": 3760
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          },
+          {
+            "name": "Ofcom 3.6-3.8GHz Award",
+            "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          },
+          {
+            "name": "Ofcom 3.6-3.8GHz Allocations",
+            "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/217954/notice-reg-121.pdf"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "O2",
+          "longName": "O2-UK",
+          "homePage": "https://www.o2.co.uk",
+          "backgroundColor": "#0019A5",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3760,
+            "end": 3800
+          },
+          "upLink": {
+            "start": 3760,
+            "end": 3800
+          }
+        },
+        "source": [
+          {
+            "name": "Ofcom Spectrum Map",
+            "url": "https://static.ofcom.org.uk/static/spectrum/map.html"
+          },
+          {
+            "name": "Ofcom 3.6-3.8GHz Award",
+            "url": "https://www.ofcom.org.uk/spectrum/spectrum-management/spectrum-awards/awards-in-progress/700-mhz-and-3.6-3.8-ghz-auction"
+          },
+          {
+            "name": "Ofcom 3.6-3.8GHz Allocations",
+            "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/217954/notice-reg-121.pdf"
           }
         ]
       }
