@@ -39,8 +39,7 @@
 <p>Clone Repository</p>
 <div><pre class="line-numbers"><code class="language-none">git clone https://github.com/olkitu/Mobilespectrum.git</code></pre></div><h3 id="docker">Docker</h3>
 <p>Use Docker and Docker Compose to set up production enviroment.</p>
-<div><pre class="line-numbers"><code class="language-none">docker-compose build
-docker-compose up -d</code></pre></div><p>The site will available on port 4000.</p>
+<div><pre class="line-numbers"><code class="language-none">docker build -t olkitu/mobilespectrum .</code></pre></div><p>The site will available on port 4000.</p>
 <h3 id="without-docker">Without Docker</h3>
 <p>Requirements:</p>
 <ul>
@@ -57,7 +56,12 @@ ng build --prod</code></pre></div><p>And copy static <code>dist/MobileSpectrum</
 <h3 id="gitpod">Gitpod</h3>
 <p>Just click below to start development in Gitpod. You must register to service with your Gitlab account. </p>
 <p><a href="https://gitpod.io/#https://github.com/olkitu/Mobilespectrum"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" alt="Gitpod ready-to-code" class="img-responsive"></a></p>
-<h4 id="local">Local</h4>
+<h3 id="docker-1">Docker</h3>
+<p>Build, install Node-modules and start dev environment. The first setup will take time because node_modules will be installed to persistent volume.</p>
+<div><pre class="line-numbers"><code class="language-none">docker-compose build
+docker-compose up -d</code></pre></div><p>You can then modify files locally and see changes via browser <a href="http://localhost:4200">http://localhost:4200</a></p>
+<p>If you like to reinstall node_modules, stop Docker with <code>-v</code> parameter to remove persistent volume.</p>
+<div><pre class="line-numbers"><code class="language-none">docker-compose down -v</code></pre></div><h3 id="nodejs-locally">NodeJS locally</h3>
 <p>Requirements:</p>
 <ul>
 <li>NodeJS 14.15</li>
