@@ -51,7 +51,7 @@ Full Documentation: https://docs.mobilespectrum.org/
 
 ### Gitpod
 
-Just click below to start development in Gitpod. You must register to service with your Gitlab account. 
+Just click below to start development in Gitpod. You must register to service with your Github account. 
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olkitu/Mobilespectrum)
 
