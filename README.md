@@ -21,8 +21,7 @@ git clone https://github.com/olkitu/Mobilespectrum.git
 Use Docker and Docker Compose to set up production enviroment.
 
 ```
-docker-compose build
-docker-compose up -d
+docker build -t olkitu/mobilespectrum .
 ```
 
 The site will available on port 4000.
@@ -56,7 +55,24 @@ Just click below to start development in Gitpod. You must register to service wi
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olkitu/Mobilespectrum)
 
-#### Local
+### Docker
+
+Build, install Node-modules and start dev environment. The first setup will take time because node_modules will be installed to persistent volume.
+
+```
+docker-compose build
+docker-compose up -d
+```
+
+You can then modify files locally and see changes via browser http://localhost:4200
+
+If you like to reinstall node_modules, stop Docker with `-v` parameter to remove persistent volume.
+
+```
+docker-compose down -v
+```
+
+### NodeJS locally
 
 Requirements:
 
