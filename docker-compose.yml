@@ -1,7 +1,14 @@
-version: '3'
+version: '2.4'
 services:
   mobilespectrum:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
     ports:
-    - 4000:4000
-    container_name: mobilespectrum
+    - 4200:4200
+    volumes:
+    - .:/usr/src/app
+    - mobilespectrum_node_modules:/usr/src/app/node_modules
+
+volumes:
+  mobilespectrum_node_modules:
