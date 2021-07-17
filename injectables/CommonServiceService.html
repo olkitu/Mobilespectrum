@@ -8,7 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-	      <link rel="stylesheet" href="../styles/style.css">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
     </head>
     <body>
 
@@ -38,7 +39,7 @@
 
 <ol class="breadcrumb">
   <li>Injectables</li>
-  <li>CommonServiceService</li>
+  <li >CommonServiceService</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -58,6 +59,7 @@
         <p class="comment">
             <code>src/app/common-service.service.ts</code>
         </p>
+
 
             <p class="comment">
                 <h3>Description</h3>
@@ -82,7 +84,7 @@
                     <td class="col-md-4">
                         <ul class="index-list">
                             <li>
-                                <a href="#apiUrl">apiUrl</a>
+                                <a href="#apiUrl" >apiUrl</a>
                             </li>
                         </ul>
                     </td>
@@ -97,15 +99,15 @@
                     <td class="col-md-4">
                         <ul class="index-list">
                             <li>
-                                <a href="#doGetFrequencyData">doGetFrequencyData</a>
+                                <a href="#doGetFrequencyData" >doGetFrequencyData</a>
                             </li>
                             <li>
                                     <span class="modifier">Private</span>
-                                <a href="#handleError">handleError</a>
+                                <a href="#handleError" >handleError</a>
                             </li>
                             <li>
                                     <span class="modifier">Private</span>
-                                <a href="#log">log</a>
+                                <a href="#log" >log</a>
                             </li>
                         </ul>
                     </td>
@@ -179,9 +181,7 @@
                 <td class="col-md-4">
                     <a name="doGetFrequencyData"></a>
                     <span class="name">
-                        <b>
-                            doGetFrequencyData
-                        </b>
+                        <span ><b>doGetFrequencyData</b></span>
                         <a href="#doGetFrequencyData"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
@@ -273,10 +273,8 @@
                 <td class="col-md-4">
                     <a name="handleError"></a>
                     <span class="name">
-                        <b>
-                            <span class="modifier">Private</span>
-                            handleError
-                        </b>
+                        <span class="modifier">Private</span>
+                        <span ><b>handleError</b></span>
                         <a href="#handleError"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
@@ -317,10 +315,8 @@ Let the app continue.</p>
                 <td class="col-md-4">
                     <a name="log"></a>
                     <span class="name">
-                        <b>
-                            <span class="modifier">Private</span>
-                            log
-                        </b>
+                        <span class="modifier">Private</span>
+                        <span ><b>log</b></span>
                         <a href="#log"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
@@ -343,7 +339,7 @@ Let the app continue.</p>
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-description"><p>Log a ApiService message with the MessageService </p>
+                    <div class="io-description"><p>Log a ApiService message with the MessageService</p>
 </div>
 
                     <div class="io-description">
@@ -388,41 +384,40 @@ Let the app continue.</p>
 </section>
             <section>
     
-        <h3 id="inputs">
-            Properties
-        </h3>
-        <table class="table table-sm table-bordered">
-            <tbody>
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="apiUrl"></a>
+                    <span class="name">
+                        <span ><b>apiUrl</b></span>
+                        <a href="#apiUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
                 <tr>
                     <td class="col-md-4">
-                        <a name="apiUrl"></a>
-                        <span class="name">
-                            <b>
-                            apiUrl</b>
-                            <a href="#apiUrl"><span class="icon ion-ios-link"></span></a>
-                        </span>
+                        <i>Default value : </i><code>environment.api_url</code>
                     </td>
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                            <i>Default value : </i><code>environment.api_url</code>
+                                <div class="io-line">Defined in <a href="" data-line="156" class="link-to-prism">src/app/common-service.service.ts:156</a></div>
                         </td>
                     </tr>
-                        <tr>
-                            <td class="col-md-4">
-                                    <div class="io-line">Defined in <a href="" data-line="156" class="link-to-prism">src/app/common-service.service.ts:156</a></div>
-                            </td>
-                        </tr>
 
-                <tr>
-                    <td class="col-md-4">
-                        <div class="io-description"><p>API URL depends environment </p>
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>API URL depends environment</p>
 </div>
-                    </td>
-                </tr>
+                </td>
+            </tr>
 
-            </tbody>
-        </table>
+        </tbody>
+    </table>
 </section>
 
     </div>
@@ -672,9 +667,9 @@ export class CommonServiceService {
 
        <script src="../js/libs/custom-elements.min.js"></script>
        <script src="../js/libs/lit-html.js"></script>
-       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
-       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
-       <script src="../js/menu-wc.js" defer></script>
+       
+       <script type="module" src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
 
        <script src="../js/libs/bootstrap-native.js"></script>
 

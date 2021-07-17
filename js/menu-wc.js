@@ -62,7 +62,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         </a>
                         <ul class="links collapse " ${ isNormalMode ? 'id="modules-links"' : 'id="xs-modules-links"' }>
                             <li class="link">
-                                <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                                <a href="modules/AppModule.html" data-type="entity-link" >AppModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
                                             'data-target="#components-links-module-AppModule-41222fbfa091dbe190c0a4ab5b3582d2"' : 'data-target="#xs-components-links-module-AppModule-41222fbfa091dbe190c0a4ab5b3582d2"' }>
@@ -73,33 +73,28 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                         <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-41222fbfa091dbe190c0a4ab5b3582d2"' :
                                             'id="xs-components-links-module-AppModule-41222fbfa091dbe190c0a4ab5b3582d2"' }>
                                             <li class="link">
-                                                <a href="components/AppComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                                <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >AppComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/FrequenciesBarComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">FrequenciesBarComponent</a>
+                                                <a href="components/FrequenciesBarComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >FrequenciesBarComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/HomePageComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">HomePageComponent</a>
+                                                <a href="components/HomePageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >HomePageComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/NotFoundPageComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">NotFoundPageComponent</a>
+                                                <a href="components/NotFoundPageComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >NotFoundPageComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/SpectrumPagesComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">SpectrumPagesComponent</a>
+                                                <a href="components/SpectrumPagesComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >SpectrumPagesComponent</a>
                                             </li>
                                         </ul>
                                     </li>
                             </li>
                             <li class="link">
-                                <a href="modules/AppRoutingModule.html" data-type="entity-link">AppRoutingModule</a>
+                                <a href="modules/AppRoutingModule.html" data-type="entity-link" >AppRoutingModule</a>
                             </li>
                             <li class="link">
-                                <a href="modules/AppServerModule.html" data-type="entity-link">AppServerModule</a>
+                                <a href="modules/AppServerModule.html" data-type="entity-link" >AppServerModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
                                             'data-target="#components-links-module-AppServerModule-7af5a252e97af6fdb059ab754264a081"' : 'data-target="#xs-components-links-module-AppServerModule-7af5a252e97af6fdb059ab754264a081"' }>
@@ -110,8 +105,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                         <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppServerModule-7af5a252e97af6fdb059ab754264a081"' :
                                             'id="xs-components-links-module-AppServerModule-7af5a252e97af6fdb059ab754264a081"' }>
                                             <li class="link">
-                                                <a href="components/AppComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                                <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >AppComponent</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -127,10 +121,10 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </div>
                             <ul class="links collapse " ${ isNormalMode ? 'id="injectables-links"' : 'id="xs-injectables-links"' }>
                                 <li class="link">
-                                    <a href="injectables/CommonServiceService.html" data-type="entity-link">CommonServiceService</a>
+                                    <a href="injectables/CommonServiceService.html" data-type="entity-link" >CommonServiceService</a>
                                 </li>
                                 <li class="link">
-                                    <a href="injectables/HttpStatusCodeService.html" data-type="entity-link">HttpStatusCodeService</a>
+                                    <a href="injectables/HttpStatusCodeService.html" data-type="entity-link" >HttpStatusCodeService</a>
                                 </li>
                             </ul>
                         </li>
@@ -143,31 +137,31 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         </div>
                         <ul class="links collapse " ${ isNormalMode ? ' id="interfaces-links"' : 'id="xs-interfaces-links"' }>
                             <li class="link">
-                                <a href="interfaces/Bands.html" data-type="entity-link">Bands</a>
+                                <a href="interfaces/Bands.html" data-type="entity-link" >Bands</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/DownLink.html" data-type="entity-link">DownLink</a>
+                                <a href="interfaces/DownLink.html" data-type="entity-link" >DownLink</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/Frequencies.html" data-type="entity-link">Frequencies</a>
+                                <a href="interfaces/Frequencies.html" data-type="entity-link" >Frequencies</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/Frequency.html" data-type="entity-link">Frequency</a>
+                                <a href="interfaces/Frequency.html" data-type="entity-link" >Frequency</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/Provider.html" data-type="entity-link">Provider</a>
+                                <a href="interfaces/Provider.html" data-type="entity-link" >Provider</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/Provider2.html" data-type="entity-link">Provider2</a>
+                                <a href="interfaces/Provider2.html" data-type="entity-link" >Provider2</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/Source.html" data-type="entity-link">Source</a>
+                                <a href="interfaces/Source.html" data-type="entity-link" >Source</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/UpLink.html" data-type="entity-link">UpLink</a>
+                                <a href="interfaces/UpLink.html" data-type="entity-link" >UpLink</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/Valid.html" data-type="entity-link">Valid</a>
+                                <a href="interfaces/Valid.html" data-type="entity-link" >Valid</a>
                             </li>
                         </ul>
                     </li>

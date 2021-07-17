@@ -8,7 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-	      <link rel="stylesheet" href="../styles/style.css">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
     </head>
     <body>
 
@@ -43,7 +44,9 @@
 
 <ol class="breadcrumb">
   <li>Interfaces</li>
-  <li>Provider</li>
+  <li
+  >
+  Provider</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -63,6 +66,7 @@
         <p class="comment">
             <code>src/app/common-service.service.ts</code>
         </p>
+
 
             <p class="comment">
                 <h3>Description</h3>
@@ -86,21 +90,36 @@
                         <td class="col-md-4">
                             <ul class="index-list">
                                 <li>
-                                        <a href="#frequency">frequency</a>
+                                        <a href="#frequency" 
+>
+                                            frequency
+                                        </a>
                                 </li>
                                 <li>
-                                        <a href="#provider">provider</a>
+                                        <a href="#provider" 
+>
+                                            provider
+                                        </a>
                                 </li>
                                 <li>
-                                        <a href="#source">source</a>
+                                        <a href="#source" 
+>
+                                            source
+                                        </a>
                                 </li>
                                 <li>
                                             <span class="modifier">Optional</span>
-                                        <a href="#technology">technology</a>
+                                        <a href="#technology" 
+>
+                                            technology
+                                        </a>
                                 </li>
                                 <li>
                                             <span class="modifier">Optional</span>
-                                        <a href="#valid">valid</a>
+                                        <a href="#valid" 
+>
+                                            valid
+                                        </a>
                                 </li>
                             </ul>
                         </td>
@@ -118,7 +137,11 @@
                                 <tr>
                                     <td class="col-md-4">
                                         <a name="frequency"></a>
-                                        <span class="name"><b>frequency</b><a href="#frequency"><span class="icon ion-ios-link"></span></a></span>
+                                        <span class="name "><b>frequency</b>
+                                            <a href="#frequency">
+                                                <span class="icon ion-ios-link"></span>
+                                            </a>
+                                        </span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -153,7 +176,11 @@
                                 <tr>
                                     <td class="col-md-4">
                                         <a name="provider"></a>
-                                        <span class="name"><b>provider</b><a href="#provider"><span class="icon ion-ios-link"></span></a></span>
+                                        <span class="name "><b>provider</b>
+                                            <a href="#provider">
+                                                <span class="icon ion-ios-link"></span>
+                                            </a>
+                                        </span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -188,7 +215,11 @@
                                 <tr>
                                     <td class="col-md-4">
                                         <a name="source"></a>
-                                        <span class="name"><b>source</b><a href="#source"><span class="icon ion-ios-link"></span></a></span>
+                                        <span class="name "><b>source</b>
+                                            <a href="#source">
+                                                <span class="icon ion-ios-link"></span>
+                                            </a>
+                                        </span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -223,7 +254,11 @@
                                 <tr>
                                     <td class="col-md-4">
                                         <a name="technology"></a>
-                                        <span class="name"><b>technology</b><a href="#technology"><span class="icon ion-ios-link"></span></a></span>
+                                        <span class="name "><b>technology</b>
+                                            <a href="#technology">
+                                                <span class="icon ion-ios-link"></span>
+                                            </a>
+                                        </span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -264,7 +299,11 @@ example: [&quot;NR&quot;, &quot;LTE&quot;]</p>
                                 <tr>
                                     <td class="col-md-4">
                                         <a name="valid"></a>
-                                        <span class="name"><b>valid</b><a href="#valid"><span class="icon ion-ios-link"></span></a></span>
+                                        <span class="name "><b>valid</b>
+                                            <a href="#valid">
+                                                <span class="icon ion-ios-link"></span>
+                                            </a>
+                                        </span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -541,9 +580,9 @@ export class CommonServiceService {
 
        <script src="../js/libs/custom-elements.min.js"></script>
        <script src="../js/libs/lit-html.js"></script>
-       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
-       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
-       <script src="../js/menu-wc.js" defer></script>
+       
+       <script type="module" src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
 
        <script src="../js/libs/bootstrap-native.js"></script>
 
