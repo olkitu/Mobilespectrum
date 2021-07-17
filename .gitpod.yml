@@ -1,10 +1,11 @@
 # The Docker image to run your workspace in.
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-full
 
 # Command to start on workspace startup
 tasks:
-  - init: yarn
+  - init: |
+      yarn global add @angular/cli ajv-cli ajv-formats
+      yarn
     command: ng serve
 # Ports to expose on workspace startup
 ports:
