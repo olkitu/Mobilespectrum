@@ -6,8 +6,10 @@ tasks:
   - init: |
       npm install -g @angular/cli ajv-cli ajv-formats
       yarn
+    command: |
+      export NG_CLI_ANALYTICS=ci
       ng analytics off
-    command: ng serve
+      ng serve
 # Ports to expose on workspace startup
 ports:
   - port: 4200
