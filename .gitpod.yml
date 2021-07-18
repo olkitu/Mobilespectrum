@@ -4,9 +4,9 @@ image: gitpod/workspace-full
 # Command to start on workspace startup
 tasks:
   - init: |
-      export NG_CLI_ANALYTICS=ci
       npm install -g @angular/cli ajv-cli ajv-formats
       yarn
+      ng analytics off
     command: ng serve
 # Ports to expose on workspace startup
 ports:
