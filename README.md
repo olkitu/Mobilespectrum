@@ -38,7 +38,7 @@ Use yarn to build Node modules and build to production
 
 ```
 yarn
-ng build --prod
+ng build --configuration production
 ```
 
 And copy static `dist/MobileSpectrum` to webserver root directory. 
