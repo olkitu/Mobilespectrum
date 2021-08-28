@@ -133,12 +133,12 @@
                 },
                 "frequency": {
                     "upLink": {
-                        "start": 1875,
-                        "end": 1880
-                    },
-                    "downLink": {
                         "start": 1780,
                         "end": 1785
+                    },
+                    "downLink": {
+                        "start": 1875,
+                        "end": 1880
                     }
                 },
                 "technology": [
@@ -191,12 +191,12 @@
                 },
                 "frequency": {
                     "upLink": {
-                        "start": 1865,
-                        "end": 1875
-                    },
-                    "downLink": {
                         "start": 1770,
                         "end": 1780
+                    },
+                    "downLink": {
+                        "start": 1865,
+                        "end": 1875
                     }
                 },
                 "technology": [
