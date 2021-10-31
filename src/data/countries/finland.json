@@ -4,11 +4,11 @@
         "providers": [
             {
                 "provider": {
-                    "name": "EDZCOM",
-                    "longName": "Edzcom",
-                    "homePage": "https://www.edzcom.com/",
-                    "backgroundColor": "#f6ea50",
-                    "textColor": "black"
+                    "name": "Elisa",
+                    "longName": "Elisa (Digiset Inc)",
+                    "homePage": "https://www.elisa.fi",
+                    "backgroundColor": "#0019af",
+                    "textColor": "white"
                 },
                 "frequency": {
                     "upLink": {
