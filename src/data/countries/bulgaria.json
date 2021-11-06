@@ -21,7 +21,8 @@
                     }
                 },
                 "Valid":  {
-                   "end": "2024-06-08"
+                    "start": "2014-06-08",
+                    "end": "2024-06-08"
                 },
                 "technology": [
                     "GSM",
@@ -53,7 +54,8 @@
                     }
                 },
                 "Valid":  {
-                   "end": "2031-01-23"
+                    "start": "2021-01-23",
+                    "end": "2031-01-23"
                 },
                 "technology": [
                     "GSM"
@@ -117,7 +119,8 @@
                     }
                 },
                 "Valid":  {
-                   "end": "2024-06-08"
+                    "start": "2014-06-08",
+                    "end": "2024-06-08"
                 },
                 "technology": [
                     "GSM",
@@ -150,7 +153,8 @@
                     }
                 },
                 "Valid":  {
-                   "end": "2031-01-23"
+                    "start": "2021-01-23",
+                    "end": "2031-01-23"
                 },
                 "technology": [
                     "GSM",
@@ -191,8 +195,8 @@
                     }
                 },
                 "Valid":  {
-                   "start": "2016-05-01",
-                   "end": "2024-06-08"
+                    "start": "2016-05-01",
+                    "end": "2024-06-08"
                 },
                 "technology": [
                     "LTE"
@@ -226,8 +230,8 @@
                     }
                 },
                 "Valid":  {
-                   "start": "2016-05-01",
-                   "end": "2031-01-23"
+                    "start": "2016-05-01",
+                    "end": "2031-01-23"
                 },
                 "technology": [
                     "LTE"
@@ -261,8 +265,8 @@
                     }
                 },
                 "Valid":  {
-                   "start": "2016-05-01",
-                   "end": "2024-06-07"
+                    "start": "2016-05-01",
+                    "end": "2024-06-07"
                 },
                 "technology": [
                     "LTE",
@@ -297,8 +301,8 @@
                     }
                 },
                 "Valid":  {
-                   "start": "2011-12-15",
-                   "end": "2021-12-15"
+                    "start": "2011-12-15",
+                    "end": "2021-12-15"
                 },
                 "technology": [
                     "LTE"
@@ -332,8 +336,8 @@
                     }
                 },
                 "Valid":  {
-                   "start": "2011-12-15",
-                   "end": "2021-12-15"
+                    "start": "2011-12-15",
+                    "end": "2021-12-15"
                 },
                 "technology": [
                     "LTE"
@@ -350,39 +354,6 @@
     {
         "band": 1,
         "providers": [
-            {
-                "provider": {
-                    "name": "A1",
-                    "longName": "A1 Bulgaria",
-                    "homePage": "https://www.a1.bg/",
-                    "backgroundColor": "#e60000",
-                    "textColor": "white"
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 2130,
-                        "end": 2150
-                    },
-                    "upLink": {
-                        "start": 1940,
-                        "end": 1960
-                    }
-                },
-                "Valid":  {
-                   "start": "2019-07-01",
-                   "end": "2025-04-25"
-                },
-                "technology": [
-                    "UMTS",
-                    "LTE"
-                ],
-                "source": [
-                    {
-                        "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
-                        "url": "https://crc.bg/bg/statii/840/razpredelenie-na-radiochestoten-spektyr-v-obhvati-900-m-hz-1800-m-hz-2100-m-hz-2-6-g-hz-i-3-6-g-hz"
-                    }
-                ]
-            },
             {
                 "provider": {
                     "name": "Telenor",
@@ -404,11 +375,44 @@
                 "Valid":  {
                     "start": "2019-07-01",
                     "end": "2025-04-25"
-                 },
-                 "technology": [
-                     "UMTS",
-                     "LTE"
-                 ],
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
+                        "url": "https://crc.bg/bg/statii/840/razpredelenie-na-radiochestoten-spektyr-v-obhvati-900-m-hz-1800-m-hz-2100-m-hz-2-6-g-hz-i-3-6-g-hz"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Bulgaria",
+                    "homePage": "https://www.a1.bg/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2130,
+                        "end": 2150
+                    },
+                    "upLink": {
+                        "start": 1940,
+                        "end": 1960
+                    }
+                },
+                "Valid":  {
+                    "start": "2019-07-01",
+                    "end": "2025-04-25"
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE"
+                ],
                 "source": [
                     {
                         "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
@@ -437,12 +441,12 @@
                 "Valid":  {
                     "start": "2019-07-01",
                     "end": "2025-04-25"
-                 },
-                 "technology": [
-                     "UMTS",
-                     "LTE",
-                     "NR"
-                 ],
+                },
+                "technology": [
+                    "UMTS",
+                    "LTE",
+                    "NR"
+                ],
                 "source": [
                     {
                         "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
@@ -492,41 +496,6 @@
             },
             {
                 "provider": {
-                    "name": "Telenor",
-                    "longName": "Telenor Bulgaria",
-                    "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
-                    "textColor": "white"
-                },
-                "frequency": {
-                    "arfcn": [
-                        3350
-                    ],
-                    "downLink": {
-                        "start": 2670,
-                        "end": 2690
-                    },
-                    "upLink": {
-                        "start": 2550,
-                        "end": 2570
-                    }
-                },
-                "Valid":  {
-                   "start": "2019-07-01",
-                   "end": "2041-03-01"
-                },
-                "technology": [
-                    "LTE"
-                ],
-                "source": [
-                    {
-                        "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
-                        "url": "https://crc.bg/bg/statii/840/razpredelenie-na-radiochestoten-spektyr-v-obhvati-900-m-hz-1800-m-hz-2100-m-hz-2-6-g-hz-i-3-6-g-hz"
-                    }
-                ]
-            },
-            {
-                "provider": {
                     "name": "Vivacom",
                     "longName": "Bulgarian Telecommunications Company",
                     "homePage": "https://www.vivacom.bg/",
@@ -559,12 +528,81 @@
                         "url": "https://crc.bg/bg/statii/840/razpredelenie-na-radiochestoten-spektyr-v-obhvati-900-m-hz-1800-m-hz-2100-m-hz-2-6-g-hz-i-3-6-g-hz"
                     }
                 ]
+            },
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Bulgaria",
+                    "homePage": "https://www.telenor.bg/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "arfcn": [
+                        3350
+                    ],
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
+                    },
+                    "upLink": {
+                        "start": 2550,
+                        "end": 2570
+                    }
+                },
+                "Valid":  {
+                    "start": "2019-07-01",
+                    "end": "2041-03-01"
+                },
+                "technology": [
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
+                        "url": "https://crc.bg/bg/statii/840/razpredelenie-na-radiochestoten-spektyr-v-obhvati-900-m-hz-1800-m-hz-2100-m-hz-2-6-g-hz-i-3-6-g-hz"
+                    }
+                ]
             }
         ]
     },
     {
         "band": 78,
         "providers": [
+            {
+                "provider": {
+                    "name": "Telenor",
+                    "longName": "Telenor Bulgaria",
+                    "homePage": "https://www.telenor.bg/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3500,
+                        "end": 3600
+                    }
+                    ,
+                    "upLink": {
+                        "start": 3500,
+                        "end": 3600
+                    }
+                },
+                "Valid":  {
+                    "start": "2020-07-01",
+                    "end": "2041-05-11"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
+                        "url": "https://crc.bg/bg/statii/840/razpredelenie-na-radiochestoten-spektyr-v-obhvati-900-m-hz-1800-m-hz-2100-m-hz-2-6-g-hz-i-3-6-g-hz"
+                    }
+                ]
+            },
             {
                 "provider": {
                     "name": "A1",
@@ -580,34 +618,10 @@
                     "downLink": {
                         "start": 3600,
                         "end": 3700
-                    }
-                },
-                "Valid":  {
-                   "start": "2020-07-01",
-                   "end": "2041-05-11"
-                },
-                "technology": [
-                    "NR"
-                ],
-                "source": [
-                    {
-                        "name": "RADIO SPECTRUM DISTRIBUTION IN THE BANDS 900 MHZ, 1800 MHZ, 2100 MHZ, 2.6 GHZ AND 3.6 GHZ",
-                        "url": "https://crc.bg/bg/statii/840/razpredelenie-na-radiochestoten-spektyr-v-obhvati-900-m-hz-1800-m-hz-2100-m-hz-2-6-g-hz-i-3-6-g-hz"
-                    }
-                ]
-            },
-            {
-                "provider": {
-                    "name": "Telenor",
-                    "longName": "Telenor Bulgaria",
-                    "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
-                    "textColor": "white"
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 3500,
-                        "end": 3600
+                    },
+                    "upLink": {
+                        "start": 3600,
+                        "end": 3700
                     }
                 },
                 "Valid":  {
@@ -634,6 +648,10 @@
                 },
                 "frequency": {
                     "downLink": {
+                        "start": 3700,
+                        "end": 3800
+                    },
+                    "upLink": {
                         "start": 3700,
                         "end": 3800
                     }
