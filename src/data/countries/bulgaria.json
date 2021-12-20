@@ -340,12 +340,12 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 1960,
-                        "end": 1980
-                    },
-                    "upLink": {
                         "start": 2150,
                         "end": 2170
+                    },
+                    "upLink": {
+                        "start": 1960,
+                        "end": 1980
                     }
                 },
                 "valid":  {
