@@ -7,7 +7,7 @@
                     "name": "A1",
                     "longName": "A1 Bulgaria",
                     "homePage": "https://www.a1.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#e70022",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -35,7 +35,7 @@
                     "name": "Telenor",
                     "longName": "Telenor Bulgaria",
                     "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#00a3f3",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -63,7 +63,7 @@
                     "name": "Vivacom",
                     "longName": "Bulgarian Telecommunications Company",
                     "homePage": "https://www.vivacom.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#141317",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -93,7 +93,7 @@
                     "name": "A1",
                     "longName": "A1 Bulgaria",
                     "homePage": "https://www.a1.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#e70022",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -123,7 +123,7 @@
                     "name": "Telenor",
                     "longName": "Telenor Bulgaria",
                     "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#00a3f3",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -158,7 +158,7 @@
                     "name": "A1",
                     "longName": "A1 Bulgaria",
                     "homePage": "https://www.a1.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#e70022",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -193,7 +193,7 @@
                     "name": "Telenor",
                     "longName": "Telenor Bulgaria",
                     "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#00a3f3",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -214,7 +214,8 @@
                    "end": "2031-01-23"
                 },
                 "technology": [
-                    "LTE"
+                    "LTE",
+                    "NR"
                 ],
                 "source": [
                     {
@@ -228,7 +229,7 @@
                     "name": "Vivacom",
                     "longName": "Bulgarian Telecommunications Company",
                     "homePage": "https://www.vivacom.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#141317",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -269,7 +270,7 @@
                     "name": "A1",
                     "longName": "A1 Bulgaria",
                     "homePage": "https://www.a1.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#e70022",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -302,7 +303,7 @@
                     "name": "Telenor",
                     "longName": "Telenor Bulgaria",
                     "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#00a3f3",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -335,7 +336,7 @@
                     "name": "Vivacom",
                     "longName": "Bulgarian Telecommunications Company",
                     "homePage": "https://www.vivacom.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#141317",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -354,8 +355,7 @@
                  },
                  "technology": [
                      "UMTS",
-                     "LTE",
-                     "NR"
+                     "LTE"
                  ],
                 "source": [
                     {
@@ -374,7 +374,7 @@
                     "name": "A1",
                     "longName": "A1 Bulgaria",
                     "homePage": "https://www.a1.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#e70022",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -409,7 +409,7 @@
                     "name": "Telenor",
                     "longName": "Telenor Bulgaria",
                     "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#00a3f3",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -444,7 +444,7 @@
                     "name": "Vivacom",
                     "longName": "Bulgarian Telecommunications Company",
                     "homePage": "https://www.vivacom.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#141317",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -484,7 +484,7 @@
                     "name": "A1",
                     "longName": "A1 Bulgaria",
                     "homePage": "https://www.a1.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#e70022",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -515,10 +515,13 @@
                     "name": "Telenor",
                     "longName": "Telenor Bulgaria",
                     "homePage": "https://www.telenor.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#00a3f3",
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        636576
+                    ],
                     "downLink": {
                         "start": 3500,
                         "end": 3600
@@ -543,10 +546,13 @@
                     "name": "Vivacom",
                     "longName": "Bulgarian Telecommunications Company",
                     "homePage": "https://www.vivacom.bg/",
-                    "backgroundColor": "#e60000",
+                    "backgroundColor": "#141317",
                     "textColor": "white"
                 },
                 "frequency": {
+                    "arfcn": [
+                        649920
+                    ],
                     "downLink": {
                         "start": 3700,
                         "end": 3800
