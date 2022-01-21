@@ -32,6 +32,30 @@
                 <tr *ngIf="provider.valid != null">
                     <th>Valid</th><td>{{provider.valid.start | date}} - {{provider.valid.end | date}}</td>
                 </tr>
+                <ng-container *ngIf="provider.frequency.arfcn != null">
+                    <tr *ngIf="provider.frequency.arfcn.GSM != null">
+                        <th>2G ARFCN</th><td>{{provider.frequency.arfcn.GSM.join(", ")}}</td>
+                    </tr>
+                    <tr *ngIf="provider.frequency.arfcn.UMTS != null">
+                        <th>3G UARFCN</th><td>{{provider.frequency.arfcn.UMTS.join(", ")}}</td>
+                    </tr>
+                    <tr *ngIf="provider.frequency.arfcn.LTE != null">
+                        <th>4G EARFCN</th>
+                        <td>
+                            <ng-container *ngFor="let arfcn of provider.frequency.arfcn.LTE">
+                                <p>{{arfcn}} {{getFrequencyLTE(arfcn)}}</p>
+                            </ng-container>
+                        </td>
+                    </tr>
+                    <tr *ngIf="provider.frequency.arfcn.NR != null">
+                        <th>5G NR-ARFCN</th>
+                        <td>
+                            <ng-container *ngFor="let arfcn of provider.frequency.arfcn.NR">
+                                <p>{{arfcn}} {{getFrequencyNR(arfcn)}}</p>
+                            </ng-container>
+                        </td>
+                    </tr>
+                </ng-container>
             </table>
             <ng-container *ngIf="provider.source != null">
                 <p><strong>Sources:</strong></p>
