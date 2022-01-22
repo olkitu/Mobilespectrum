@@ -1,0 +1,16 @@
+  
+FROM node:16.13-alpine
+
+RUN npm install country-code-emoji
+RUN npm install country-code-lookup
+
+RUN apk --no-cache add git \
+    && yarn global add @angular/cli
+
+WORKDIR /usr/src/app
+
+EXPOSE 4200
+
+COPY . .
+ENTRYPOINT [ "sh", "/usr/src/app/docker-entrypoint.dev.sh" ]
+CMD ["ng","serve","--host", "0.0.0.0", "--disable-host-check"]
