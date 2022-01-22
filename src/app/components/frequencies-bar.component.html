@@ -1,7 +1,7 @@
 <div *ngFor="let provider of providers" class="div__container">
-    <div class="div__child" title="{{provider.provider.name}}"  (click)="open(content)" [ngStyle]="{'background-color': provider.provider.backgroundColor, 'color': provider.provider.textColor, 'width': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + '%'}">
-        <span [ngStyle]="{'color': provider.provider.textColor}">{{provider.provider.name}}</span>
-        <br />
+    <div class="div__child" title="{{provider.provider.name}}" (click)="open(content)" [ngStyle]="{'background-image': 'repeating-linear-gradient(135deg, '+provider.provider.backgroundColor+', '+provider.provider.backgroundColor+' 10px, '+(provider.provider.sharedName ? provider.provider.sharedBackgroundColor: provider.provider.backgroundColor)+' 10px, '+(provider.provider.sharedName ? provider.provider.sharedBackgroundColor: provider.provider.backgroundColor)+' 20px)', 'color': provider.provider.textColor, 'width': ((provider.frequency.downLink.end - provider.frequency.downLink.start) * 100) / totalBandwidth + '%'}">
+        <span [ngStyle]="{'color': provider.provider.textColor}">{{provider.provider.name}}<ng-container *ngIf="provider.provider.sharedName">/{{provider.provider.sharedName}}</ng-container></span>
+        <br/>
         <span><small><ng-container *ngIf="provider.frequency.downLink != null" else >{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container>
         <ng-container *ngIf="provider.frequency.downLink == null && provider.frequency.upLink != null">{{provider.frequency.downLink.end - provider.frequency.downLink.start | number}}</ng-container> MHz</small></span>
     </div>
@@ -12,7 +12,8 @@
         <div class="modal-body">
             <table class="table table-borderless">
                 <tr>
-                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{provider.provider.homePage}}">{{provider.provider.longName}}</a></td>
+                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{provider.provider.homePage}}">{{provider.provider.longName}}</a><a *ngIf="provider.provider.sharedName" rel="noopener" target="_blank" href="{{provider.provider.sharedHomePage}}">
+                    {{provider.provider.sharedLongName}}</a></td>
                 </tr>
                 <tr *ngIf="provider.technology != null">
                     <th>Technology</th><td>{{provider.technology.join(", ")}}</td>
