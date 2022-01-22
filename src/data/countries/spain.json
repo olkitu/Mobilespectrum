@@ -1,5 +1,4 @@
-[
-  {
+[{
     "band": 20,
     "providers": [{
         "provider": {
@@ -10,9 +9,9 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            6400
-          ],
+          "arfcn": {
+            "LTE":[6400]
+          },
           "downLink": {
             "start": 811,
             "end": 821
@@ -39,9 +38,9 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            6300
-          ],
+          "arfcn": {
+            "LTE":[6300]
+          },
           "downLink": {
             "start": 801,
             "end": 811
@@ -68,9 +67,9 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            6200
-          ],
+          "arfcn": {
+            "LTE":[6200]
+          },
           "downLink": {
             "start": 791,
             "end": 801
@@ -203,9 +202,9 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            1301
-          ],
+          "arfcn": {
+            "LTE":[1301]
+          },
           "upLink": {
             "start": 1710.1,
             "end": 1730.1
@@ -503,11 +502,11 @@
         "frequency": {
           "upLink": {
             "start": 2540,
-            "end": 2560
+            "end": 2570
           },
           "downLink": {
             "start": 2665,
-            "end": 2685
+            "end": 2695
           }
         },
         "valid": {
@@ -554,39 +553,7 @@
           "url": "https://sedeaplicaciones.minetur.gob.es/RPC_Consulta/"
         }
     ]
-  },
-  {
-        "provider": {
-            "name": "Regional licenses",
-            "longName": "Orange, Movistar, Yoigo (formerly Euskaltel, R Cable, Telecable), Telecom Castilla la mancha",
-            "backgroundColor": "darkgray",
-            "homePage": "https://efis.cept.org/view/rightofuseinfo.do?command=search&applicationterm=&low=2561&high=2569&unit=MHz&sortRadiopost=1&temppost=-1&user=34",
-            "textColor": "white"
-        },
-        "frequency": {
-            "downLink": {
-                "start": 2680,
-                "end": 2690
-            },
-            "upLink": {
-                "start": 2560,
-                "end": 2570
-            }
-        },
-        "valid": {
-            "start": "2011-10-10",
-            "end": "2030-12-31"
-        },
-        "technology": [
-            "LTE"
-        ],
-        "source": [
-            {
-                "name": "EFIS CEPT",
-                "url": "https://efis.cept.org/view/rightofuseinfo.do"
-            }
-        ]
-    }
+      }
     ]
   },
   {
@@ -621,71 +588,7 @@
         "name": "Registro Público de Concesiones",
         "url": "https://sedeaplicaciones.minetur.gob.es/RPC_Consulta/"
       }]
-    },
-    {
-        "provider": {
-          "name": "Regional Licenses",
-          "longName": "Yoigo (formerly Euskaltel, R Cable, Telecable, Iperfibra), Telecom Castilla la mancha, Consorcio de telecomunicaciones avanzadas, Red digital, UTE AIRE ALVI TVHORADADA, Aire Networks, Atrium Telecom",
-          "homePage": "https://efis.cept.org/view/rightofuseinfo.do?command=search&applicationterm=&low=2596&high=2604&unit=MHz&sortRadiopost=1&temppost=-1&user=34",
-          "backgroundColor": "darkgray",
-          "textColor": "white"
-        },
-        "frequency": {
-          "upLink": {
-            "start": 2595,
-            "end": 2605
-          },
-          "downLink": {
-            "start": 2595,
-            "end": 2605
-          }
-        },
-        "valid": {
-            "start": "2011-12-20",
-            "end": "2030-12-31"
-
-        },
-        "technology": [
-          "LTE",
-          "WiMAX"
-        ],
-        "source": [{
-          "name": "EFIS CEPT",
-          "url": "https://efis.cept.org/view/rightofuseinfo.do"
-        }]
-      },
-      {
-          "provider": {
-            "name": "Aire Networks",
-            "longName": "Aire Networks del Mediterraneo, S.L.U.",
-            "homePage": "https://www.airenetworks.es/",
-            "backgroundColor": "black",
-            "textColor": "white"
-          },
-          "frequency": {
-            "upLink": {
-              "start": 2595,
-              "end": 2605
-            },
-            "downLink": {
-              "start": 2595,
-              "end": 2605
-            }
-          },
-          "valid": {
-              "start": "2011-12-20",
-              "end": "2030-12-31"
-
-          },
-          "technology": [
-            "LTE"
-          ],
-          "source": [{
-            "name": "EFIS CEPT",
-            "url": "https://efis.cept.org/view/rightofuseinfo.do"
-          }]
-        }
-    ]
+    }]
   },
   {
     "band": 78,
