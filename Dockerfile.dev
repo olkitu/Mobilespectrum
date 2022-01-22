@@ -1,5 +1,5 @@
   
-FROM node:14.17-alpine
+FROM node:16.13-alpine
 
 RUN apk --no-cache add git \
     && yarn global add @angular/cli
