@@ -44,9 +44,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "arfcn": [
-                        9260
-                    ],
+                    "arfcn": {
+                        "LTE":[9260]
+                    },
                     "upLink": {
                         "start": 703,
                         "end": 713

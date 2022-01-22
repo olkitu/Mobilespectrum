@@ -11,10 +11,10 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            9260,
-            152690
-          ],
+          "arfcn": {
+            "LTE":[9260],
+            "NR":[152690]
+          },
           "downLink": {
             "start": 758,
             "end": 768
@@ -52,10 +52,10 @@
             "start": 713,
             "end": 723
           },
-          "arfcn": [
-            9360,
-			154090
-          ]
+          "arfcn": {
+            "LTE":[9360],
+            "NR":[154090, 154570]
+          }
         },
         "technology": [
           "LTE",
@@ -77,9 +77,10 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            9460
-          ],
+          "arfcn": {
+            "LTE":[9460,9485,9510,9535],
+            "NR":[156030,156050]
+          },
           "downLink": {
             "start": 778,
             "end": 793
@@ -146,13 +147,11 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            10564,
-            10588,
-            10612,
-            76,
-            99
-          ],
+          "arfcn": {
+            "GSM":[76,99],
+            "UMTS":[10564,10588,10612],
+            "LTE":[8715]
+          },
           "downLink": {
             "start": 859,
             "end": 869
@@ -163,6 +162,8 @@
           }
         },
         "technology": [
+          "GSM",
+          "UMTS",
           "LTE"
         ],
         "source": [
@@ -186,11 +187,9 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            4358,
-            4383,
-            4408
-          ],
+          "arfcn": {
+            "UMTS":[4358,4383,4408]
+          },
           "downLink": {
             "start": 869,
             "end": 884
@@ -198,37 +197,6 @@
           "upLink": {
             "start": 824,
             "end": 839
-          }
-        },
-        "technology": [
-          "UMTS"
-        ],
-        "source": [
-          {
-            "name": "Asia-Pacific Telecommunity Report (APT/AWG/REP-15(Rev.6))",
-            "url": "https://www.apt.int/sites/default/files/2019/07/APT-AWG-REP-15Rev.6_Mobile_Frequency_Tech_License.docx"
-          }
-        ]
-      },
-      {
-        "provider": {
-          "name": "dtac",
-          "longName": "Total Access Communication",
-          "homePage": "https://www.dtac.co.th/",
-          "backgroundColor": "#00ace6",
-          "textColor": "white"
-        },
-        "frequency": {
-          "arfcn": [
-            4433
-          ],
-          "downLink": {
-            "start": 884,
-            "end": 889
-          },
-          "upLink": {
-            "start": 839,
-            "end": 844
           }
         },
         "technology": [
@@ -248,6 +216,37 @@
     "providers": [
       {
         "provider": {
+          "name": "dtac",
+          "longName": "Total Access Communication",
+          "homePage": "https://www.dtac.co.th/",
+          "backgroundColor": "#00ace6",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "UMTS":[2987]
+          },
+          "downLink": {
+            "start": 935,
+            "end": 940
+          },
+          "upLink": {
+            "start": 890,
+            "end": 895
+          }
+        },
+        "technology": [
+          "UMTS"
+        ],
+        "source": [
+          {
+            "name": "Asia-Pacific Telecommunity Report (APT/AWG/REP-15(Rev.6))",
+            "url": "https://www.apt.int/sites/default/files/2019/07/APT-AWG-REP-15Rev.6_Mobile_Frequency_Tech_License.docx"
+          }
+        ]
+      },
+      {
+        "provider": {
           "name": "AIS",
           "longName": "Advanced Info Service",
           "homePage": "https://www.ais.co.th/",
@@ -255,9 +254,11 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            3650
-          ],
+          "arfcn": {
+            "GSM":[26,27],
+            "UMTS":[3037],
+            "LTE":[3637,3650]
+          },
           "downLink": {
             "start": 940,
             "end": 950
@@ -268,6 +269,8 @@
           }
         },
         "technology": [
+          "GSM",
+          "UMTS",
           "LTE"
         ],
         "source": [
@@ -286,10 +289,10 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            76,
-            3750
-          ],
+          "arfcn": {
+            "GSM":[76,120],
+            "LTE":[3750]
+          },
           "downLink": {
             "start": 950,
             "end": 960
@@ -332,9 +335,9 @@
             "start": 1710,
             "end": 1725
           },
-          "arfcn": [
-            1275
-          ]
+          "arfcn": {
+            "LTE":[1275]
+          }
         },
         "technology": [
           "LTE"
@@ -363,11 +366,13 @@
             "start": 1725,
             "end": 1745
           },
-          "arfcn": [
-            1450
-          ]
+          "arfcn": {
+            "GSM":[588],
+            "LTE":[1450]
+          }
         },
         "technology": [
+          "GSM",
           "LTE"
         ],
         "source": [
@@ -394,11 +399,10 @@
             "start": 1745,
             "end": 1750
           },
-          "arfcn": [
-            689,
-            706,
-            1575
-          ]
+          "arfcn": {
+            "GSM":[689,706],
+            "LTE":[1575]
+          }
         },
         "technology": [
           "GSM",
@@ -425,10 +429,10 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            10653,
-            100
-          ],
+          "arfcn": {
+            "UMTS":[10653],
+            "LTE":[100]
+          },
           "downLink": {
             "start": 2110,
             "end": 2125
@@ -458,10 +462,10 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            10638,
-            250
-          ],
+          "arfcn": {
+            "UMTS":[10638],
+            "LTE":[250]
+          },
           "downLink": {
             "start": 2125,
             "end": 2140
@@ -491,10 +495,12 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            10762,
-            350
-          ],
+          "arfcn": 
+          {
+            "UMTS":[10762],
+            "LTE":[350,525,550],
+            "NR":[428910]
+          },
           "downLink": {
             "start": 2140,
             "end": 2155
@@ -506,7 +512,8 @@
         },
         "technology": [
           "UMTS",
-          "LTE"
+          "LTE",
+          "NR"
         ],
         "source": [
           {
@@ -524,11 +531,10 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            10788,
-			525,
-            550
-          ],
+          "arfcn": {
+            "UMTS":[10788],
+            "LTE":[550]
+          },
           "downLink": {
             "start": 2155,
             "end": 2170
@@ -563,11 +569,9 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            38852,
-            39050,
-            39258
-          ],
+          "arfcn": {
+            "LTE":[38852,39050,39248]
+          },
           "downLink": {
             "start": 2310,
             "end": 2370
@@ -609,11 +613,10 @@
             "start": 2500,
             "end": 2600
           },
-          "arfcn": [
-            39790,
-            40590,
-            511950
-          ]
+          "arfcn": {
+            "LTE":[39790,39988,40188,40389,40590],
+            "NR":[505950,511950]
+          }
         },
         "source": [
           {
@@ -635,14 +638,10 @@
           "textColor": "white"
         },
         "frequency": {
-          "arfcn": [
-            40790,
-            40988,
-            41159,
-            41330,
-            41501,
-            529950
-          ],
+          "arfcn": {
+            "LTE":[40790,40988,41159,41330,41501],
+            "NR":[529950,535950]
+          },
           "downLink": {
             "start": 2600,
             "end": 2690
