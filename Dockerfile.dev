@@ -1,5 +1,5 @@
   
-FROM node:14.17-alpine
+FROM node:16.13-alpine
 
 RUN npm install country-code-emoji
 RUN npm install country-code-lookup
