@@ -4,6 +4,31 @@
 		"providers": [
 			{
 				"provider": {
+					"name": "Digi",
+					"longName": "Digi Romania",
+					"homePage": "https://www.digi.ro",
+					"backgroundColor": "#0018e5",
+					"textColor": "white"
+				},
+				"frequency": {
+					"upLink": {
+						"start": 832,
+						"end": 837
+					},
+					"downLink": {
+						"start": 791,
+						"end": 796
+					}
+				},
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/licita539ia-din-acest-an-pentru-alocarea-de-spectru-s-a-finalizat_6392"
+					}
+				]
+			},
+			{
+				"provider": {
 					"name": "Vodafone",
 					"longName": "Vodafone Romania",
 					"homePage": "https://www.vodafone.ro",
@@ -370,61 +395,6 @@
 		]
 	},
 	{
-		"band": 38,
-		"providers": [
-			{
-				"provider": {
-					"name": "Digi",
-					"longName": "Digi Romania",
-					"homePage": "https://www.digi.ro",
-					"backgroundColor": "#0018e5",
-					"textColor": "white"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 2570,
-						"end": 2600
-					},
-					"upLink": {
-						"start": 2570,
-						"end": 2600
-					}
-				},
-				"source": [
-					{
-						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
-						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-					}
-				]
-			},
-			{
-				"provider": {
-					"name": "Vodafone",
-					"longName": "Vodafone Romania",
-					"homePage": "https://www.vodafone.ro",
-					"backgroundColor": "#e60000",
-					"textColor": "white"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 2600,
-						"end": 2615
-					},
-					"upLink": {
-						"start": 2600,
-						"end": 2615
-					}
-				},
-				"source": [
-					{
-						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
-						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-					}
-				]
-			}
-		]
-	},
-	{
 		"band": 7,
 		"providers": [
 			{
@@ -476,6 +446,61 @@
 						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 					}
 				]
+			},
+			{
+				"provider": {
+					"name": "Digi",
+					"longName": "Digi Romania",
+					"homePage": "https://www.digi.ro",
+					"backgroundColor": "#0018e5",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2650,
+						"end": 2670
+					},
+					"upLink": {
+						"start": 2530,
+						"end": 2550
+					}
+				},
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/licita539ia-din-acest-an-pentru-alocarea-de-spectru-s-a-finalizat_6392"
+					}
+				]
+			}
+		]
+	},
+	{
+		"band": 38,
+		"providers": [
+			{
+				"provider": {
+					"name": "Digi",
+					"longName": "Digi Romania",
+					"homePage": "https://www.digi.ro",
+					"backgroundColor": "#0018e5",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2570,
+						"end": 2615
+					},
+					"upLink": {
+						"start": 2570,
+						"end": 2615
+					}
+				},
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/licita539ia-din-acest-an-pentru-alocarea-de-spectru-s-a-finalizat_6392"
+					}
+				]
 			}
 		]
 	},
@@ -483,6 +508,27 @@
 		"band": 78,
 		"providers": [
 			{
+				"provider": {
+					"name": "Invite Systems",
+					"longName": "Invite Systems S.R.L.",
+					"homePage": "https://www.invitesys.ro/",
+					"backgroundColor": "#4ea2a4",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 3400,
+						"end": 3405
+					}
+				},
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/licita539ia-din-acest-an-pentru-alocarea-de-spectru-s-a-finalizat_6392"
+					}
+				]
+			},
+      {
 				"provider": {
 					"name": "Vodafone",
 					"longName": "Vodafone Romania",
@@ -499,7 +545,7 @@
 				"source": [
 					{
 						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
-						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+						"url": "https://www.ancom.ro/uploads/forms_files/Caiet_de_sarcini_procedura_01_07_202116251478711633336409.pdf"
 					}
 				]
 			},
@@ -520,8 +566,9 @@
 				"source": [
 					{
 						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
-						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+						"url": "https://www.ancom.ro/uploads/forms_files/Caiet_de_sarcini_procedura_01_07_202116251478711633336409.pdf"
 					}
+
 				]
 			},
 			{
@@ -541,13 +588,13 @@
 				"source": [
 					{
 						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
-						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+						"url": "https://www.ancom.ro/uploads/forms_files/CAIET_SARCINI_LICITATIE_20191564493717.pdf"
 					}
 				]
 			},
 			{
 				"provider": {
-					"name": "SNR",
+					"name": "Radiocom",
 					"longName": "SNR Radiocom",
 					"homePage": "https://www.radiocom.ro",
 					"backgroundColor": "#008c1a",
@@ -562,7 +609,7 @@
 				"source": [
 					{
 						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
-						"url": "http://e-consultare.gov.ro/w/wp-content/plugins/download-attachments/includes/download.php?id=5726"
+						"url": "https://www.ancom.ro/uploads/forms_files/CAIET_SARCINI_LICITATIE_20191564493717.pdf"
 					}
 				]
 			}
