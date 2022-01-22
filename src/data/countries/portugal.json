@@ -496,6 +496,10 @@
                     "downLink": {
                         "start": 2570,
                         "end": 2595
+                    },
+                    "upLink": {
+                        "start": 2570,
+                        "end": 2595
                     }
                 },
                 "technology": [

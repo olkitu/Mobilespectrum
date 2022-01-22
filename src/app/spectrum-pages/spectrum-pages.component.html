@@ -20,6 +20,7 @@
                                 <th [attr.colspan]="frequency.providers.length">FDD Downlink</th>
                             </tr>
                             <tr>
+                                <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band" hidden></frequencies-bar>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
@@ -52,6 +53,7 @@
                                 <th [attr.colspan]="frequency.providers.length">TDD Downlink/Uplink</th>
                             </tr>
                             <tr>
+                                <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band" hidden></frequencies-bar>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
@@ -69,6 +71,7 @@
                                 <th [attr.colspan]="frequency.providers.length">SDL Downlink</th>
                             </tr>
                             <tr>
+                                <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band" hidden></frequencies-bar>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
@@ -86,6 +89,7 @@
                                 <th [attr.colspan]="frequency.providers.length">SDL Downlink</th>
                             </tr>
                             <tr>
+                                <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band" hidden></frequencies-bar>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>

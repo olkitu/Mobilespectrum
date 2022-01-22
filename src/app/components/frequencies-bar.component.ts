@@ -19,7 +19,6 @@ export interface Bands {
   startFrequency: number;
   endFrequency: number;
 }
-
 /**
  * Frequency Bar component
 */
@@ -33,9 +32,37 @@ export class FrequenciesBarComponent implements OnInit {
     constructor(private modalService: NgbModal) { }
 
     ngOnInit(): void {
-        this.providers && this.providers.forEach((element: any) => {
-            this.totalBandwidth += element.frequency[this.linkType].end - element.frequency[this.linkType].start;
+        this.providersFinal=[];
+        this.previousProvider={};
+        let counter=0;
+        let fullLength=this.providers.length;
+        let bandType = this.band.find((item) => item.band == this.frequencyBand);
+        let startFrequency = bandType?.startFrequency as number;
+        let endFrequency = bandType?.endFrequency as number;
+        let duplexSpacing = bandType?.duplexSpacing as number;
+        this.providers && this.providers.forEach((element: any) => {;
+            if(counter==0){
+                if(element.frequency[this.linkType].start>startFrequency){
+                    this.providers.push(JSON.parse('{"provider": {"name": "Unallocated","longName":"Unallocated Spectrum","backgroundColor":"#3d3d3d","sharedBackgroundColor":"#a3a3a3","homePage":"#"},"frequency":{"downLink": {"start": '+startFrequency.toFixed(3)+',"end": '+element.frequency["downLink"].start.toFixed(3)+'},"upLink": {"start": '+(startFrequency-duplexSpacing).toFixed(3)+',"end": '+(element.frequency["downLink"].start-duplexSpacing).toFixed(3)+'}}}'));
+                }
+            }
+            if(counter!=0){
+                if(this.previousProvider.name!="Unallocated"){
+                    if(this.previousProvider.frequency["downLink"].end!=element.frequency["downLink"].start){
+                        this.providers.push(JSON.parse('{"provider": {"name": "Unallocated","longName":"Unallocated Spectrum","backgroundColor":"#3d3d3d","sharedBackgroundColor":"#a3a3a3","homePage":"#"},"frequency":{"downLink": {"start": '+this.previousProvider.frequency["downLink"].end.toFixed(3)+',"end": '+element.frequency["downLink"].start.toFixed(3)+'},"upLink": {"start": '+(this.previousProvider.frequency["downLink"].end-duplexSpacing).toFixed(3)+',"end": '+(element.frequency["downLink"].start-duplexSpacing).toFixed(3)+'}}}'));
+                    }
+                }
+            }
+            this.providersFinal.push(this.providers[counter]);
+            if(counter==(fullLength-1)){
+                if(element.frequency[this.linkType].end<endFrequency){
+                    this.providers.push(JSON.parse('{"provider": {"name": "Unallocated","longName":"Unallocated Spectrum","backgroundColor":"#3d3d3d","sharedBackgroundColor":"#a3a3a3","homePage":"#"},"frequency":{"downLink": {"start": '+element.frequency["downLink"].end.toFixed(1)+',"end": '+endFrequency+'},"upLink": {"start": '+(element.frequency["downLink"].end-duplexSpacing).toFixed(1)+',"end": '+(endFrequency-duplexSpacing).toFixed(1)+'}}}'));
+                }
+            }
+            this.previousProvider=this.providers[counter];
+            counter=counter+1;
         });
+        this.totalBandwidth = endFrequency-startFrequency;
     }
 
     /**
@@ -73,7 +100,7 @@ export class FrequenciesBarComponent implements OnInit {
         { band: 29, type: 'SDL', startARFCN:9660, endARFCN: 9769, duplexSpacing: 0, startFrequency: 717 , endFrequency: 728},
         { band: 31, type: 'FDD', startARFCN:9870, endARFCN: 9919, duplexSpacing: 10, startFrequency: 462.5 , endFrequency: 467.5},
         { band: 32, type: 'SDL', startARFCN:9920, endARFCN: 10359, duplexSpacing: 0, startFrequency: 1452 , endFrequency: 1496},
-        { band: 38, type: 'TDD', startARFCN:37750, endARFCN: 38249, duplexSpacing: 0, startFrequency: 2570 , endFrequency: 2170},
+        { band: 38, type: 'TDD', startARFCN:37750, endARFCN: 38249, duplexSpacing: 0, startFrequency: 2570 , endFrequency: 2620},
         { band: 39, type: 'TDD', startARFCN:38250, endARFCN: 38649, duplexSpacing: 0, startFrequency: 1880 , endFrequency: 1920},
         { band: 40, type: 'TDD', startARFCN:38650, endARFCN: 39649, duplexSpacing: 0, startFrequency: 2300 , endFrequency: 2400},
         { band: 41, type: 'TDD', startARFCN:39650, endARFCN: 41589, duplexSpacing: 0, startFrequency: 2496 , endFrequency: 2690},
@@ -83,13 +110,22 @@ export class FrequenciesBarComponent implements OnInit {
         { band: 67, type: 'SDL', startARFCN:67336, endARFCN: 67535, duplexSpacing: 0, startFrequency: 738 , endFrequency: 758},
         { band: 71, type: 'FDD', startARFCN:68586, endARFCN: 68935, duplexSpacing: -46, startFrequency: 617 , endFrequency: 652},
         { band: 72, type: 'FDD', startARFCN:68936, endARFCN: 68985, duplexSpacing: 10, startFrequency: 461 , endFrequency: 466},
-        { band: 75, type: 'SDL', startARFCN:69466, endARFCN: 70315, duplexSpacing: 0, startFrequency: 1432 , endFrequency: 1517}
+        { band: 75, type: 'SDL', startARFCN:69466, endARFCN: 70315, duplexSpacing: 0, startFrequency: 1432 , endFrequency: 1517},
+        { band: 77, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 3300 , endFrequency: 4200},
+        { band: 78, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 3300 , endFrequency: 3800},
+        { band: 79, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 4400 , endFrequency: 5000},
+        { band: 257, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 26500 , endFrequency: 29500},
+        { band: 258, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 24250 , endFrequency: 27500},
+        { band: 259, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 39500 , endFrequency: 43500},
+        { band: 260, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 37000 , endFrequency: 40000},
+        { band: 261, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 27500 , endFrequency: 28350},
+        { band: 262, type: 'TDD', startARFCN:999999, endARFCN: 999999, duplexSpacing: 0, startFrequency: 47200 , endFrequency: 48200}
     ]
     getFrequencyLTE(arfcn: number) {
         //let bandName = this.band.find((item) => item.band == band)
         //return bandName?.name;
         let bandType = this.band.find((item) => item.startARFCN <= arfcn&&item.endARFCN >= arfcn);
-        console.log(bandType);
+        //console.log(bandType);
         let type = bandType?.type as any;
         let startFrequency = bandType?.startFrequency as number;
         let duplexSpacing = bandType?.duplexSpacing as number;
@@ -146,4 +182,6 @@ export class FrequenciesBarComponent implements OnInit {
     totalBandwidth = 0;
     /** Modal close result */
     closeResult = '';
+    providersFinal: any;
+    previousProvider: any;
 }  
