@@ -80,11 +80,13 @@ export class SpectrumPagesComponent implements OnInit {
     this.metaTagService.updateTag({ name: 'twitter:description', content: 'Check here your country\'s mobile network spectrum allocation' });
     this.route.params.subscribe(params => {
       this.country = params['country'];
-      this.countryCapitalized = this.country.toString();
-      this.countryCapitalized = this.countryCapitalized.split('_').join(' ');
-      this.countryCapitalized = this.countryCapitalized.toLowerCase().replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
+      this.countryCapitalized = params['country'];
+      if(this.countryCapitalized != null){
+        this.countryCapitalized = this.countryCapitalized.split('_').join(' ');
+        this.countryCapitalized = this.countryCapitalized.toLowerCase().replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
+        this.countryTitle = countryCodeEmoji(lookup.byCountry(this.countryCapitalized).iso2) + " " + this.countryCapitalized;
+      }
       //console.log(this.countryCapitalized);
-      this.countryTitle = countryCodeEmoji(lookup.byCountry(this.countryCapitalized).iso2) + " " + this.countryCapitalized;
       this.region = params['region'];
       this.doGetCountryData(this.country, this.region);
       if (this.country != null) {
