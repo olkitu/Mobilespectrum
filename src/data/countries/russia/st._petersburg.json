@@ -11,9 +11,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        9900
-                    ],
+					"arfcn": {
+                        "LTE":[9900]
+                    },
                     "downLink": {
                         "start": 463,
                         "end": 467.4
@@ -75,9 +75,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        3638
-                    ],
+					"arfcn": {
+                        "LTE":[3638]
+                    },
                     "downLink": {
                         "start": 939.8,
                         "end": 948
@@ -166,9 +166,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        3752
-                    ],
+					"arfcn": {
+                        "LTE":[3752]
+                    },
                     "downLink": {
                         "start": 952.6,
                         "end": 960
@@ -204,9 +204,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        6175
-                    ],
+					"arfcn": {
+                        "LTE":[6175]
+                    },
                     "downLink": {
                         "start": 791,
                         "end": 798.5
@@ -235,9 +235,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        6275
-                    ],
+					"arfcn": {
+                        "LTE":[6275]
+                    },
                     "downLink": {
                         "start": 798.5,
                         "end": 806
@@ -266,9 +266,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        6350
-                    ],
+					"arfcn": {
+                        "LTE":[6350]
+                    },
                     "downLink": {
                         "start": 806,
                         "end": 813.5
@@ -297,9 +297,9 @@
                     "textColor": "black"
                 },
                 "frequency": {
-					"arfcn": [
-                        6413
-                    ],
+					"arfcn": {
+                        "LTE":[6413]
+                    },
                     "downLink": {
                         "start": 813.5,
                         "end": 821
@@ -333,9 +333,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        1275
-                    ],
+					"arfcn": {
+                        "LTE":[1275]
+                    },
                     "downLink": {
                         "start": 1805,
                         "end": 1820
@@ -393,9 +393,9 @@
                     "textColor": "black"
                 },
                 "frequency": {
-					"arfcn": [
-                        1414
-                    ],
+					"arfcn": {
+                        "LTE":[1414]
+                    },
                     "downLink": {
                         "start": 1820,
                         "end": 1832.8
@@ -453,9 +453,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        1510
-                    ],
+					"arfcn": {
+                        "LTE":[1510]
+                    },
                     "downLink": {
                         "start": 1832.8,
                         "end": 1839.2
@@ -485,9 +485,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        1721
-                    ],
+					"arfcn": {
+                        "LTE":[1721]
+                    },
                     "downLink": {
                         "start": 1850,
                         "end": 1862.2
@@ -517,9 +517,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        1596
-                    ],
+					"arfcn": {
+                        "LTE":[1596]
+                    },
                     "downLink": {
                         "start": 1839.2,
                         "end": 1850
@@ -548,9 +548,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        1820
-                    ],
+					"arfcn": {
+                        "LTE":[1820]
+                    },
                     "downLink": {
                         "start": 1862.2,
                         "end": 1871.8
@@ -585,9 +585,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        100
-                    ],
+					"arfcn": {
+                        "LTE":[100]
+                    },
                     "downLink": {
                         "start": 2110,
                         "end": 2125
@@ -617,9 +617,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        200
-                    ],
+					"arfcn": {
+                        "LTE":[200]
+                    },
                     "downLink": {
                         "start": 2125,
                         "end": 2140
@@ -649,9 +649,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        350
-                    ],
+					"arfcn": {
+                        "LTE":[350]
+                    },
                     "downLink": {
                         "start": 2140,
                         "end": 2155
@@ -681,9 +681,9 @@
                     "textColor": "black"
                 },
                 "frequency": {
-					"arfcn": [
-                        550
-                    ],
+					"arfcn": {
+                        "LTE":[5500]
+                    },
                     "downLink": {
                         "start": 2155,
                         "end": 2170
@@ -751,9 +751,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        2850, 3048
-                    ],
+					"arfcn": {
+                        "LTE":[2850,3048]
+                    },
                     "downLink": {
                         "start": 2620,
                         "end": 2660
@@ -782,9 +782,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        3200
-                    ],
+					"arfcn": {
+                        "LTE":[3200]
+                    },
                     "downLink": {
                         "start": 2660,
                         "end": 2670
@@ -813,9 +813,9 @@
                     "textColor": "black"
                 },
                 "frequency": {
-					"arfcn": [
-                        3300
-                    ],
+					"arfcn": {
+                        "LTE":[3300]
+                    },
                     "downLink": {
                         "start": 2670,
                         "end": 2680
@@ -844,9 +844,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        3400
-                    ],
+					"arfcn": {
+                        "LTE":[3400]
+                    },
                     "downLink": {
                         "start": 2680,
                         "end": 2690
@@ -880,9 +880,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        37900
-                    ],
+					"arfcn": {
+                        "LTE":[37900]
+                    },
                     "downLink": {
                         "start": 2570,
                         "end": 2595
@@ -911,9 +911,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-					"arfcn": [
-                        38100
-                    ],
+					"arfcn": {
+                        "LTE":[38100]
+                    },
                     "downLink": {
                         "start": 2595,
                         "end": 2620
