@@ -11,9 +11,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "arfcn": [
-                        9410
-                    ],
+                    "arfcn": {
+                        "LTE":[9410]
+                    },
                     "upLink": {
                         "start": 718,
                         "end": 728
@@ -46,9 +46,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "arfcn": [
-                        9510
-                    ],
+                    "arfcn": {
+                        "LTE":[9510]
+                    },
                     "upLink": {
                         "start": 728,
                         "end": 738
@@ -81,9 +81,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "arfcn": [
-                        9610
-                    ],
+                    "arfcn": {
+                        "LTE":[9610]
+                    },
                     "upLink": {
                         "start": 738,
                         "end": 748
@@ -121,9 +121,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "arfcn": [
-                        2950
-                    ],
+                    "arfcn": {
+                        "LTE":[2950]
+                    },
                     "downLink": {
                         "start": 2630,
                         "end": 2650
@@ -157,9 +157,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "arfcn": [
-                        3100
-                    ],
+                    "arfcn": {
+                        "LTE":[3100]
+                    },
                     "downLink": {
                         "start": 2650,
                         "end": 2660
@@ -192,9 +192,9 @@
                     "textColor": "black"
                 },
                 "frequency": {
-                    "arfcn": [
-                        3200
-                    ],
+                    "arfcn": {
+                        "LTE":[3200]
+                    },
                     "downLink": {
                         "start": 2660,
                         "end": 2670
@@ -227,9 +227,9 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "arfcn": [
-                        3350
-                    ],
+                    "arfcn": {
+                        "LTE":[3350]
+                    },
                     "downLink": {
                         "start": 2670,
                         "end": 2690
