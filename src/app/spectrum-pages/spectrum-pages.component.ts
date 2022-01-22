@@ -80,7 +80,7 @@ export class SpectrumPagesComponent implements OnInit {
     this.metaTagService.updateTag({ name: 'twitter:description', content: 'Check here your country\'s mobile network spectrum allocation' });
     this.route.params.subscribe(params => {
       this.country = params['country'];
-      this.countryCapitalized = this.country.toString();
+      this.countryCapitalized = params['country'];
       this.countryCapitalized = this.countryCapitalized.split('_').join(' ');
       this.countryCapitalized = this.countryCapitalized.toLowerCase().replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
       //console.log(this.countryCapitalized);
