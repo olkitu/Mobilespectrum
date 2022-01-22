@@ -22,3 +22,4 @@ jobs:
         node-version: '16.13'
     - run: npm install -g ajv ajv-cli ajv-formats
     - run: cd ./src/data && ajv test -s schemas/country.schema -d "countries/*.json" -c ajv-formats --valid --verbose --all-errors
+    - run: cd ./src/data && ajv test -s schemas/country.schema -d "countries/*/*.json" -c ajv-formats --valid --verbose --all-errors
