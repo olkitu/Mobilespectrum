@@ -1,7 +1,5 @@
 ### STAGE 1: Build ###
 FROM node:14.17-alpine AS build
-RUN npm install country-code-emoji
-RUN npm install country-code-lookup
 WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
 RUN apk --no-cache add git
