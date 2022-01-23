@@ -30,7 +30,7 @@ The site will available on port 4000.
 
 Requirements:
 
-* NodeJS 14.15
+* NodeJS 16.13
 * Angular CLI
 * Yarn
 
@@ -76,7 +76,7 @@ docker-compose down -v
 
 Requirements:
 
-* NodeJS 14.15
+* NodeJS 16.13
 * Angular CLI
 * Yarn
 
