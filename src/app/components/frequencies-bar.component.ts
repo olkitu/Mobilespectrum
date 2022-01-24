@@ -35,15 +35,33 @@ export class FrequenciesBarComponent implements OnInit {
         this.providersFinal=[];
         this.previousProvider={};
         let counter=0;
+        let downLinkMin=0;
+        let downLinkMax=0;
+        let upLinkMin=0;
+        let upLinkMax=0;
         let fullLength=this.providers.length;
         let bandType = this.band.find((item) => item.band == this.frequencyBand);
         let startFrequency = bandType?.startFrequency as number;
         let endFrequency = bandType?.endFrequency as number;
         let duplexSpacing = bandType?.duplexSpacing as number;
+        downLinkMin=startFrequency;
+        downLinkMax=endFrequency;
+        upLinkMin=startFrequency-duplexSpacing;
+        upLinkMax=endFrequency-duplexSpacing;
         this.providers && this.providers.forEach((element: any) => {;
             if(counter==0){
                 if(element.frequency[this.linkType].start>startFrequency){
                     this.providers.push(JSON.parse('{"provider": {"name": "Unallocated","longName":"Unallocated Spectrum","backgroundColor":"#3d3d3d","sharedBackgroundColor":"#a3a3a3","homePage":"#"},"frequency":{"downLink": {"start": '+startFrequency.toFixed(3)+',"end": '+element.frequency["downLink"].start.toFixed(3)+'},"upLink": {"start": '+(startFrequency-duplexSpacing).toFixed(3)+',"end": '+(element.frequency["downLink"].start-duplexSpacing).toFixed(3)+'}}}'));
+                }
+                if(element.frequency["downLink"]){
+                    if(element.frequency["downLink"].start<startFrequency){
+                        downLinkMin=element.frequency["downLink"].start;
+                    }
+                }
+                if(element.frequency["upLink"]){
+                    if(element.frequency["upLink"].start<(startFrequency-duplexSpacing)){
+                        upLinkMin=element.frequency["upLink"].start;
+                    }
                 }
             }
             if(counter!=0){
@@ -56,13 +74,27 @@ export class FrequenciesBarComponent implements OnInit {
             this.providersFinal.push(this.providers[counter]);
             if(counter==(fullLength-1)){
                 if(element.frequency[this.linkType].end<endFrequency){
-                    this.providers.push(JSON.parse('{"provider": {"name": "Unallocated","longName":"Unallocated Spectrum","backgroundColor":"#3d3d3d","sharedBackgroundColor":"#a3a3a3","homePage":"#"},"frequency":{"downLink": {"start": '+element.frequency["downLink"].end.toFixed(1)+',"end": '+endFrequency+'},"upLink": {"start": '+(element.frequency["downLink"].end-duplexSpacing).toFixed(1)+',"end": '+(endFrequency-duplexSpacing).toFixed(1)+'}}}'));
+                    this.providers.push(JSON.parse('{"provider": {"name": "Unallocated","longName":"Unallocated Spectrum","backgroundColor":"#3d3d3d","sharedBackgroundColor":"#a3a3a3","homePage":"#"},"frequency":{"downLink": {"start": '+element.frequency["downLink"].end.toFixed(3)+',"end": '+endFrequency+'},"upLink": {"start": '+(element.frequency["downLink"].end-duplexSpacing).toFixed(3)+',"end": '+(endFrequency-duplexSpacing).toFixed(3)+'}}}'));
+                }
+                if(element.frequency["downLink"]){
+                    if(element.frequency["downLink"].end>endFrequency){
+                        downLinkMax=element.frequency["downLink"].end;
+                    }
+                }
+                if(element.frequency["upLink"]){
+                    if(element.frequency["upLink"].end>(endFrequency-duplexSpacing)){
+                        upLinkMax=element.frequency["upLink"].end;
+                    }
                 }
             }
             this.previousProvider=this.providers[counter];
             counter=counter+1;
         });
-        this.totalBandwidth = endFrequency-startFrequency;
+        if(this.linkType=="downLink"){
+            this.totalBandwidth = downLinkMax-downLinkMin;
+        } else if (this.linkType=="upLink"){
+            this.totalBandwidth = upLinkMax-upLinkMin;
+        }
     }
 
     /**

@@ -12,8 +12,9 @@
         <div class="modal-body">
             <table class="table table-borderless">
                 <tr>
-                    <th>Provider</th><td><a rel="noopener" target="_blank" href="{{provider.provider.homePage}}">{{provider.provider.longName}}</a><a *ngIf="provider.provider.sharedName" rel="noopener" target="_blank" href="{{provider.provider.sharedHomePage}}">
+                    <th>Provider</th><td *ngIf="provider.provider.name!='Unallocated'"><a rel="noopener" target="_blank" href="{{provider.provider.homePage}}">{{provider.provider.longName}}</a><a *ngIf="provider.provider.sharedName" rel="noopener" target="_blank" href="{{provider.provider.sharedHomePage}}">
                     {{provider.provider.sharedLongName}}</a></td>
+                    <td *ngIf="provider.provider.name=='Unallocated'">{{provider.provider.longName}}</td>
                 </tr>
                 <tr *ngIf="provider.technology != null">
                     <th>Technology</th><td>{{provider.technology.join(", ")}}</td>

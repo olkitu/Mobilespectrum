@@ -36,6 +36,7 @@
                                 <th [attr.colspan]="frequency.providers.length">FDD Uplink</th>
                             </tr>
                             <tr>
+                                <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'upLink'" [frequencyBand]="frequency.band" hidden></frequencies-bar>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>
@@ -86,10 +87,10 @@
                         <ng-container *ngFor="let provider of frequency.providers"></ng-container>
                         <table class="table table-sm table-borderless">
                             <tr>
-                                <th [attr.colspan]="frequency.providers.length">SDL Downlink</th>
+                                <th [attr.colspan]="frequency.providers.length">SDL Uplink</th>
                             </tr>
                             <tr>
-                                <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'downLink'" [frequencyBand]="frequency.band" hidden></frequencies-bar>
+                                <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'upLink'" [frequencyBand]="frequency.band" hidden></frequencies-bar>
                                 <td [attr.colspan]="frequency.providers.length">
                                     <frequencies-bar [providers]="sortProviders(frequency.providers, getBandType(frequency.band))" [linkType]="'upLink'" [frequencyBand]="frequency.band"></frequencies-bar>
                                 </td>

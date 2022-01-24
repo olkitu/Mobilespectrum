@@ -555,7 +555,7 @@
         ]
     },
     {
-        "band": 258,
+        "band": 257,
         "providers": [
             {
                 "provider": {
@@ -581,12 +581,7 @@
                         "url": "https://www.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Frameworks-and-Policies/Spectrum-Management-and-Coordination/TPG-mmWave-spectrum-right-2-Nov-2020.pdf?la=en"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "band": 257,
-        "providers": [
+            },
             {
                 "provider": {
                     "name": "Singtel",
