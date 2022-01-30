@@ -246,6 +246,109 @@
             }
         ]
     },
+   {
+        "band": 76,
+        "providers": [
+            {
+               "provider": {
+       "name": "TDC",
+                    "longName": "TDC",
+                    "homePage": "https://tdc.dk",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white" 
+                },
+               "frequency": {
+                    "downLink": {
+                        "start": 1427,
+                        "end": 1452
+                    }
+                } ,
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            }
+        ]
+    },
+  
+    {
+        "band": 32,
+        "providers": [
+            {
+               "provider": {
+       "name": "TDC",
+                    "longName": "TDC",
+                    "homePage": "https://tdc.dk",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white" 
+                },
+               "frequency": {
+                    "downLink": {
+                        "start": 1452,
+                        "end": 1472
+                    }
+                } ,
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TT",
+                    "longName": "TT-Netværket",
+                    "homePage": "https://www.tt-network.dk/",
+                    "backgroundColor": "#663989",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1472,
+                        "end": 1496
+                    }
+                } ,
+                "technology": [
+                    "LTE"
+                ],
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            }
+        ]
+    },
+     {
+        "band": 75,
+        "providers": [
+            {
+                 "provider": {
+                    "name": "TT",
+                    "longName": "TT-Netværket",
+                    "homePage": "https://www.tt-network.dk/",
+                    "backgroundColor": "#663989",
+                    "textColor": "white" 
+                },
+               "frequency": {
+                    "downLink": {
+                        "start": 1496,
+                        "end": 1517
+                    }
+                } ,
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            }
+        ]
+    },
     {
         "band": 3,
         "providers": [
@@ -284,11 +387,11 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 1835,
+                        "start": 1825,
                         "end": 1855
                     },
                     "upLink": {
-                        "start": 1740,
+                        "start": 1730,
                         "end": 1760
                     }
                 },
@@ -340,17 +443,17 @@
                 "frequency": {
                     "downLink": {
                         "start": 2110,
-                        "end": 2125
+                        "end": 2130
                     },
                     "upLink": {
                         "start": 1920,
-                        "end": 1935
+                        "end": 1940
                     }
                 },
                 "source": [
                     {
                         "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
                     }
                 ]
             },
@@ -364,68 +467,43 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 2125,
-                        "end": 2140
+                        "start": 2130,
+                        "end": 2150
                     },
                     "upLink": {
-                        "start": 1935,
-                        "end": 1950
+                        "start": 1940,
+                        "end": 1960
                     }
                 },
                 "source": [
                     {
                         "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT (Telia)",
-                    "longName": "TT-Netværket (Telia)",
+                    "name": "TT",
+                    "longName": "TT-Netværket",
                     "homePage": "https://www.tt-network.dk/",
                     "backgroundColor": "#663989",
                     "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 2140,
-                        "end": 2155
-                    },
-                    "upLink": {
-                        "start": 1950,
-                        "end": 1965
-                    }
-                },
-                "source": [
-                    {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
-                    }
-                ]
-            },
-            {
-                "provider": {
-                    "name": "TT (Telenor)",
-                    "longName": "TT-Netværket (Telenor)",
-                    "homePage": "https://www.tt-network.dk/",
-                    "backgroundColor": "#663989",
-                    "textColor": "white" 
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 2155,
+                        "start": 2150,
                         "end": 2170
                     },
                     "upLink": {
-                        "start": 1965,
+                        "start": 1960,
                         "end": 1980
                     }
                 },
                 "source": [
                     {
                         "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
                     }
                 ]
             }
@@ -445,17 +523,13 @@
                 "frequency": {
                     "downLink": {
                         "start": 2300,
-                        "end": 2360
+                        "end": 2400
                     }
-                },
-                "valid": {
-                    "start": "2019-04-26",
-                    "end": "2041-12-31"
                 },
                 "source": [
                     {
                         "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2300_mhz-tilladelse.pdf"
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
                     }
                 ]
             }
@@ -633,5 +707,166 @@
                 ]
             }
         ]
+    },
+{
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TDC",
+                    "longName": "TDC",
+                    "homePage": "https://tdc.dk",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3410,
+                        "end": 3540
+                    },
+                    "upLink": {
+                        "start": 3410,
+                        "end": 3540
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hi3G Denmark",
+                    "homePage": "https://www.3.dk/",
+                    "backgroundColor": "#f37423",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3540,
+                        "end": 3660
+                    },
+                    "upLink": {
+                        "start": 3540,
+                        "end": 3660
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TT",
+                    "longName": "TT-Netværket",
+                    "homePage": "https://www.tt-network.dk/",
+                    "backgroundColor": "#663989",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3660,
+                        "end": 3800
+                    },
+                    "upLink": {
+                        "start": 3600,
+                        "end": 3800
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            }
+        ]
+    },
+  {
+        "band": 258,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TDC",
+                    "longName": "TDC",
+                    "homePage": "https://tdc.dk",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 24650,
+                        "end": 25900
+                    },
+                    "upLink": {
+                        "start": 24650,
+                        "end": 25900
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            },
+         {
+                "provider": {
+                    "name": "TT",
+                    "longName": "TT-Netværket",
+                    "homePage": "https://www.tt-network.dk/",
+                    "backgroundColor": "#663989",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 25900,
+                        "end": 26500
+                    },
+                    "upLink": {
+                        "start": 25900,
+                        "end": 26500
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hi3G Denmark",
+                    "homePage": "https://www.3.dk/",
+                    "backgroundColor": "#f37423",
+                    "textColor": "white" 
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26500,
+                        "end": 27500
+                    },
+                    "upLink": {
+                        "start": 26500,
+                        "end": 27500
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Danish Energy Agency",
+                        "url": "https://ens.dk/ansvarsomraader/frekvenser/auktioner-og-udbud-frekvenser"
+                    }
+                ]
+            }
+        ]
     }
+
 ]
