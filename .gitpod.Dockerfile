@@ -1,4 +1,4 @@
-FROM node:14.15-alpine
+FROM node:16.13-alpine
 
 RUN apk --no-cache add yarn git 
 

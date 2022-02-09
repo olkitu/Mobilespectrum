@@ -111,6 +111,10 @@
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
           "backgroundColor": "#312783",
+          "sharedName": "True-H",
+          "sharedLongName": "TrueMove H",
+          "sharedHomePage": "https://truemoveh.truecorp.co.th/",
+          "sharedBackgroundColor": "#ff1016",
           "textColor": "white"
         },
         "frequency": {
