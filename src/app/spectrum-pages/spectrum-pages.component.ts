@@ -82,9 +82,15 @@ export class SpectrumPagesComponent implements OnInit {
       this.country = params['country'];
       this.countryCapitalized = params['country'];
       if(this.countryCapitalized != null){
-        this.countryCapitalized = this.countryCapitalized.split('_').join(' ');
-        this.countryCapitalized = this.countryCapitalized.toLowerCase().replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
-        this.countryTitle = countryCodeEmoji(lookup.byCountry(this.countryCapitalized).iso2) + " " + this.countryCapitalized;
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          this.countryCapitalized = this.countryCapitalized.split('_').join(' ');
+          this.countryCapitalized = this.countryCapitalized.toLowerCase().replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
+          this.countryTitle = countryCodeEmoji(lookup.byCountry(this.countryCapitalized).iso2) + " " + this.countryCapitalized;
+        } else{
+          this.countryCapitalized = this.countryCapitalized.split('_').join(' ');
+          this.countryCapitalized = this.countryCapitalized.toLowerCase().replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
+          this.countryTitle = this.countryCapitalized;
+        }
       }
       //console.log(this.countryCapitalized);
       this.region = params['region'];

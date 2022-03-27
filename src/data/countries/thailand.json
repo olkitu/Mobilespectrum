@@ -111,10 +111,6 @@
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
           "backgroundColor": "#312783",
-          "sharedName": "True-H",
-          "sharedLongName": "TrueMove H",
-          "sharedHomePage": "https://truemoveh.truecorp.co.th/",
-          "sharedBackgroundColor": "#ff1016",
           "textColor": "white"
         },
         "frequency": {
@@ -188,6 +184,10 @@
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
           "backgroundColor": "#312783",
+          "sharedName": "True-H",
+          "sharedLongName": "TrueMove H",
+          "sharedHomePage": "https://truemoveh.truecorp.co.th/",
+          "sharedBackgroundColor": "#ff1016",
           "textColor": "white"
         },
         "frequency": {
@@ -532,6 +532,10 @@
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
           "backgroundColor": "#312783",
+          "sharedName": "AIS",
+          "sharedLongName": "Advanced Info Service",
+          "sharedHomePage": "https://www.ais.co.th/",
+          "sharedBackgroundColor": "#c3d601",
           "textColor": "white"
         },
         "frequency": {
@@ -570,6 +574,10 @@
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
           "backgroundColor": "#312783",
+          "sharedName": "dtac",
+          "sharedLongName": "Total Access Communication",
+          "sharedHomePage": "https://www.dtac.co.th/",
+          "sharedBackgroundColor": "#00ace6",
           "textColor": "white"
         },
         "frequency": {

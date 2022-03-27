@@ -1,9 +1,6 @@
   
 FROM node:14.17-alpine
 
-RUN npm install country-code-emoji
-RUN npm install country-code-lookup
-
 RUN apk --no-cache add git \
     && yarn global add @angular/cli
 
