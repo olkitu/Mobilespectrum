@@ -171,6 +171,22 @@
         "backgroundColor": {
           "$ref": "#/definitions/Color"
         },
+        "sharedName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sharedLongName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sharedHomePage": {
+          "type": "string",
+          "format": "uri",
+          "minLength": 1
+        },
+        "sharedBackgroundColor": {
+          "$ref": "#/definitions/Color"
+        },
         "textColor": {
           "$ref": "#/definitions/Color"
         }

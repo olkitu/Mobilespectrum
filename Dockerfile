@@ -1,5 +1,7 @@
 ### STAGE 1: Build ###
-FROM node:16.13-alpine AS build
+FROM node:14.17-alpine AS build
+RUN npm install country-code-emoji
+RUN npm install country-code-lookup
 WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
 RUN apk --no-cache add git
@@ -8,7 +10,7 @@ COPY . .
 RUN yarn run build:ssr
 
 ### STAGE 2: DEPLOY
-FROM node:16.13-alpine
+FROM node:14.17-alpine
 WORKDIR /usr/src/app
 RUN apk --no-cache add curl
 COPY --from=build /usr/src/app/dist/MobileSpectrum ./dist/MobileSpectrum
