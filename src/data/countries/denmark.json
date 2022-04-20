@@ -340,17 +340,17 @@
                 "frequency": {
                     "downLink": {
                         "start": 2110,
-                        "end": 2125
+                        "end": 2130
                     },
                     "upLink": {
                         "start": 1920,
-                        "end": 1935
+                        "end": 1940
                     }
                 },
                 "source": [
                     {
                         "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
+                        "url": "https://ens.dk/sites/ens.dk/files/Tele/hi3g_-_2100_mhz.pdf"
                     }
                 ]
             },
@@ -364,68 +364,43 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 2125,
-                        "end": 2140
+                        "start": 2130,
+                        "end": 2150
                     },
                     "upLink": {
-                        "start": 1935,
-                        "end": 1950
+                        "start": 1940,
+                        "end": 1960
                     }
                 },
                 "source": [
                     {
                         "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
+                        "url": "https://ens.dk/sites/ens.dk/files/Tele/tdc_-_2100_mhz.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT (Telia)",
-                    "longName": "TT-Netværket (Telia)",
+                    "name": "TT",
+                    "longName": "TT-Netværket",
                     "homePage": "https://www.tt-network.dk/",
                     "backgroundColor": "#663989",
                     "textColor": "white" 
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 2140,
-                        "end": 2155
-                    },
-                    "upLink": {
-                        "start": 1950,
-                        "end": 1965
-                    }
-                },
-                "source": [
-                    {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
-                    }
-                ]
-            },
-            {
-                "provider": {
-                    "name": "TT (Telenor)",
-                    "longName": "TT-Netværket (Telenor)",
-                    "homePage": "https://www.tt-network.dk/",
-                    "backgroundColor": "#663989",
-                    "textColor": "white" 
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 2155,
+                        "start": 2150,
                         "end": 2170
                     },
                     "upLink": {
-                        "start": 1965,
+                        "start": 1960,
                         "end": 1980
                     }
                 },
                 "source": [
                     {
                         "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2100_mhz_tilladelser_samlet.pdf"
+                        "url": "https://ens.dk/sites/ens.dk/files/Tele/ttn_-_2100_mhz.pdf"
                     }
                 ]
             }
