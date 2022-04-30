@@ -1,0 +1,941 @@
+[
+  {
+    "band": 67,
+    "providers": [
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 738,
+            "end": 748
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+        
+      },
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 748,
+            "end": 758
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+        
+      }
+    ]
+  },
+  {
+    "band": 28,
+    "providers": [
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 758,
+            "end": 768
+          },
+          "upLink": {
+            "start": 703,
+            "end": 713
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[9360]
+          },
+          "downLink": {
+            "start": 768,
+            "end": 778
+          },
+          "upLink": {
+            "start": 713,
+            "end": 723
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[9460]
+          },
+          "downLink": {
+            "start": 778,
+            "end": 788
+          },
+          "upLink": {
+            "start": 723,
+            "end": 733
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 20,
+    "providers": [
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[6200]
+          },
+          "downLink": {
+            "start": 791,
+            "end": 801
+          },
+          "upLink": {
+            "start": 832,
+            "end": 842
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[6300]
+          },
+          "downLink": {
+            "start": 801,
+            "end": 811
+          },
+          "upLink": {
+            "start": 842,
+            "end": 852
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[6400]
+          },
+          "downLink": {
+            "start": 811,
+            "end": 821
+          },
+          "upLink": {
+            "start": 852,
+            "end": 862
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 8,
+    "providers": [
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 925.2,
+            "end": 934.8
+          },
+          "upLink": {
+            "start": 880.2,
+            "end": 889.8
+          }
+        },
+        "technology": [
+          "GSM",
+          "UMTS"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 935.0,
+            "end": 948.2
+          },
+          "upLink": {
+            "start": 890.0,
+            "end": 903.2
+          }
+        },
+        "technology": [
+          "GSM",
+          "UMTS"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 948.3,
+            "end": 960
+          },
+          "upLink": {
+            "start": 903.3,
+            "end": 915
+          }
+        },
+        "technology": [
+          "GSM",
+          "UMTS"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 75,
+    "providers": [
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1432,
+            "end": 1452
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1452,
+            "end": 1472
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 1492,
+            "end": 1512
+          }
+        },
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 3,
+    "providers": [
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[1300,1417]
+          },
+          "downLink": {
+            "start": 1805,
+            "end": 1829.8
+          },
+          "upLink": {
+            "start": 1710,
+            "end": 1734.8
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[1574]
+          },
+          "downLink": {
+            "start": 1830.2,
+            "end": 1854.8
+          },
+          "upLink": {
+            "start": 1735.2,
+            "end": 1759.8
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[1820]
+          },
+          "downLink": {
+            "start": 1855,
+            "end": 1880
+          },
+          "upLink": {
+            "start": 1760,
+            "end": 1785
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 1,
+    "providers": [
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "UMTS":[10563, 10588],
+            "LTE":[100, 125, 150]
+          },
+          "downLink": {
+            "start": 2110,
+            "end": 2130
+          },
+          "upLink": {
+            "start": 1920,
+            "end": 1940
+          }
+        },
+        "technology": [
+          "UMTS",
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "UMTS":[10663, 10688],
+            "LTE":[300, 326, 350]
+          },
+          "downLink": {
+            "start": 2130,
+            "end": 2150
+          },
+          "upLink": {
+            "start": 1940,
+            "end": 1960
+          }
+        },
+        "technology": [
+          "UMTS",
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "UMTS":[10762, 10787, 10812],
+            "LTE":[500, 525, 550]
+          },
+          "downLink": {
+            "start": 2150,
+            "end": 2170
+          },
+          "upLink": {
+            "start": 1960,
+            "end": 1980
+          }
+        },
+        "technology": [
+          "UMTS",
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 38,
+    "providers": [
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[37900, 38098]
+          },
+          "downLink": {
+            "start": 2570,
+            "end": 2620
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 7,
+    "providers": [
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[2850]
+          },
+          "downLink": {
+            "start": 2620,
+            "end": 2640
+          },
+          "upLink": {
+            "start": 2500,
+            "end": 2520
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[3050]
+          },
+          "downLink": {
+            "start": 2640,
+            "end": 2660
+          },
+          "upLink": {
+            "start": 2520,
+            "end": 2540
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[3250]
+          },
+          "downLink": {
+            "start": 2660,
+            "end": 2680
+          },
+          "upLink": {
+            "start": 2540,
+            "end": 2560
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 40,
+    "providers": [
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[38800]
+          },
+          "downLink": {
+            "start": 2300,
+            "end": 2330
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "LTE":[39150]
+          },
+          "downLink": {
+            "start": 2330,
+            "end": 2360
+          }
+        },
+        "technology": [
+          "LTE"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "band": 78,
+    "providers": [
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "NR":[628608]
+          },
+          "downLink": {
+            "start": 3400,
+            "end": 3450
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija (Unistars)",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3450,
+            "end": 3500
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Tele2",
+          "longName": "Tele2 LV",
+          "homePage": "https://tele2.lv",
+          "backgroundColor": "black",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3500,
+            "end": 3600
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija (Unistars)",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3600,
+            "end": 3650
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "LMT",
+          "longName": "Latvijas Mobilais Telefons",
+          "homePage": "https://lmt.lv",
+          "backgroundColor": "#C8102E",
+          "textColor": "white"
+        },
+        "frequency": {
+          "arfcn": {
+            "NR":[644928]
+          },
+          "downLink": {
+            "start": 3650,
+            "end": 3700
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      },
+      {
+        "provider": {
+          "name": "Bite",
+          "longName": "Bite Latvija (Unistars)",
+          "homePage": "https://bite.lv",
+          "backgroundColor": "#00aa14",
+          "textColor": "white"
+        },
+        "frequency": {
+          "downLink": {
+            "start": 3700,
+            "end": 3750
+          }
+        },
+        "technology": [
+          "NR"
+        ],
+        "source": [
+          {
+            "name": "Sabiedrisko Pakalpojumu Regulēšanas Komisija",
+            "url": "https://www.sprk.gov.lv/sites/default/files/editor/ESPD/Faili/Frekvencu_pieskirumu_kopsavilkums_03Mar2022.xlsx"
+          }
+        ]
+      }
+    ]
+  }
+]
