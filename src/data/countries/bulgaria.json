@@ -488,6 +488,90 @@
                     "textColor": "white"
                 },
                 "frequency": {
+                    "downLink": {
+                        "start": 3460,
+                        "end": 3480
+                    }
+                },
+                "valid":  {
+                   "start": "2022-11-01",
+                   "end": "2041-05-11"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Решение №336 от 13.10.2022",
+                        "url": "https://crc.bg/bg/rubriki/241/reshenija-na-krs?number=&text=&date=2022-10-13&date_from=&date_to="
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Yettel",
+                    "longName": "Yettel Bulgaria",
+                    "homePage": "https://www.yettel.bg/",
+                    "backgroundColor": "#b4ff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3440,
+                        "end": 3460
+                    }
+                },
+                "valid":  {
+                    "start": "2022-11-01",
+                    "end": "2041-05-11"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Решение №336 от 13.10.2022",
+                        "url": "https://crc.bg/bg/rubriki/241/reshenija-na-krs?number=&text=&date=2022-10-13&date_from=&date_to="
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vivacom",
+                    "longName": "Bulgarian Telecommunications Company",
+                    "homePage": "https://www.vivacom.bg/",
+                    "backgroundColor": "#141317",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3480,
+                        "end": 3500
+                    }
+                },
+                "valid":  {
+                    "start": "2022-11-01",
+                    "end": "2041-05-11"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Решение №336 от 13.10.2022",
+                        "url": "https://crc.bg/bg/rubriki/241/reshenija-na-krs?number=&text=&date=2022-10-13&date_from=&date_to="
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Bulgaria",
+                    "homePage": "https://www.a1.bg/",
+                    "backgroundColor": "#e70022",
+                    "textColor": "white"
+                },
+                "frequency": {
                     "arfcn": {
                         "NR":[643296]
                     },
