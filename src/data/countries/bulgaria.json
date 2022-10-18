@@ -234,15 +234,15 @@
                 },
                 "frequency": {
                     "arfcn": {
-                        "LTE":[1575]
+                        "LTE":[1800]
                     },
                     "downLink": {
-                        "start": 1835,
-                        "end": 1850
+                        "start": 1855,
+                        "end": 1875
                     },
                     "upLink": {
-                        "start": 1740,
-                        "end": 1755
+                        "start": 1760,
+                        "end": 1780
                     }
                 },
                 "valid":  {
