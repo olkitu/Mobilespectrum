@@ -163,15 +163,15 @@
                 },
                 "frequency": {
                     "arfcn": {
-                        "LTE":[1275]
+                        "LTE":[1300]
                     },
                     "downLink": {
                         "start": 1805,
-                        "end": 1820
+                        "end": 1825
                     },
                     "upLink": {
                         "start": 1710,
-                        "end": 1725
+                        "end": 1730
                     }
                 },
                 "valid":  {
@@ -198,15 +198,15 @@
                 },
                 "frequency": {
                     "arfcn": {
-                        "LTE":[1425]
+                        "LTE":[1550]
                     },
                     "downLink": {
-                        "start": 1820,
-                        "end": 1835
+                        "start": 1830,
+                        "end": 1850
                     },
                     "upLink": {
-                        "start": 1725,
-                        "end": 1740
+                        "start": 1735,
+                        "end": 1755
                     }
                 },
                 "valid":  {
@@ -214,8 +214,7 @@
                    "end": "2031-01-23"
                 },
                 "technology": [
-                    "LTE",
-                    "NR"
+                    "LTE"
                 ],
                 "source": [
                     {
@@ -234,15 +233,15 @@
                 },
                 "frequency": {
                     "arfcn": {
-                        "LTE":[1575]
+                        "LTE":[1800]
                     },
                     "downLink": {
-                        "start": 1835,
-                        "end": 1850
+                        "start": 1855,
+                        "end": 1875
                     },
                     "upLink": {
-                        "start": 1740,
-                        "end": 1755
+                        "start": 1760,
+                        "end": 1780
                     }
                 },
                 "valid":  {
@@ -288,7 +287,6 @@
                    "end": "2025-04-25"
                 },
                 "technology": [
-                    "UMTS",
                     "LTE"
                 ],
                 "source": [
@@ -479,6 +477,90 @@
     {
         "band": 78,
         "providers": [
+            {
+                "provider": {
+                    "name": "Yettel",
+                    "longName": "Yettel Bulgaria",
+                    "homePage": "https://www.yettel.bg/",
+                    "backgroundColor": "#b4ff00",
+                    "textColor": "black"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3440,
+                        "end": 3460
+                    }
+                },
+                "valid":  {
+                    "start": "2022-11-01",
+                    "end": "2041-05-11"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Решение №336 от 13.10.2022",
+                        "url": "https://crc.bg/bg/rubriki/241/reshenija-na-krs?number=&text=&date=2022-10-13&date_from=&date_to="
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "A1",
+                    "longName": "A1 Bulgaria",
+                    "homePage": "https://www.a1.bg/",
+                    "backgroundColor": "#e70022",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3460,
+                        "end": 3480
+                    }
+                },
+                "valid":  {
+                   "start": "2022-11-01",
+                   "end": "2041-05-11"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Решение №336 от 13.10.2022",
+                        "url": "https://crc.bg/bg/rubriki/241/reshenija-na-krs?number=&text=&date=2022-10-13&date_from=&date_to="
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vivacom",
+                    "longName": "Bulgarian Telecommunications Company",
+                    "homePage": "https://www.vivacom.bg/",
+                    "backgroundColor": "#141317",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3480,
+                        "end": 3500
+                    }
+                },
+                "valid":  {
+                    "start": "2022-11-01",
+                    "end": "2041-05-11"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Решение №336 от 13.10.2022",
+                        "url": "https://crc.bg/bg/rubriki/241/reshenija-na-krs?number=&text=&date=2022-10-13&date_from=&date_to="
+                    }
+                ]
+            },
             {
                 "provider": {
                     "name": "A1",
