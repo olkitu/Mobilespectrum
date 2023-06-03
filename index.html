@@ -13,7 +13,7 @@
     </head>
     <body>
 
-        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
             <a href="./" class="navbar-brand">MobileSpectrum Documentation</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
@@ -31,17 +31,17 @@
                <div class="content getting-started">
                    <div class="content-data">
 
-<h1 id="mobilespectrum">MobileSpectrum</h1>
+<h1>MobileSpectrum</h1>
 <p>MobileSpectrum is OpenSource website showing many different contries mobile spectrum allocations. </p>
-<h2 id="environments">Environments</h2>
+<h2>Environments</h2>
 <p>Production: <a href="https://mobilespectrum.org">https://mobilespectrum.org</a></p>
-<h2 id="build-and-deploy-to-production">Build and Deploy to production</h2>
+<h2>Build and Deploy to production</h2>
 <p>Install Docker: <a href="https://docs.docker.com/get-docker/">https://docs.docker.com/get-docker/</a></p>
 <p>Clone Repository</p>
-<div><pre class="line-numbers"><code class="language-none">git clone https://github.com/olkitu/Mobilespectrum.git</code></pre></div><h3 id="docker">Docker</h3>
+<div><pre class="line-numbers"><code class="language-none">git clone https://github.com/olkitu/Mobilespectrum.git</code></pre></div><h3>Docker</h3>
 <p>Use Docker and Docker Compose to set up production enviroment.</p>
 <div><pre class="line-numbers"><code class="language-none">docker build -t olkitu/mobilespectrum .</code></pre></div><p>The site will available on port 4000.</p>
-<h3 id="without-docker">Without Docker</h3>
+<h3>Without Docker</h3>
 <p>Requirements:</p>
 <ul>
 <li>NodeJS 16.13</li>
@@ -51,18 +51,18 @@
 <p>Use yarn to build Node modules and build to production</p>
 <div><pre class="line-numbers"><code class="language-none">yarn
 ng build --configuration production</code></pre></div><p>And copy static <code>dist/MobileSpectrum</code> to webserver root directory. </p>
-<h2 id="development">Development</h2>
+<h2>Development</h2>
 <p>We recommend use Gitpod to setup development enviroment. You can also install it to locally.</p>
 <p>Full Documentation: <a href="https://docs.mobilespectrum.org/">https://docs.mobilespectrum.org/</a></p>
-<h3 id="gitpod">Gitpod</h3>
+<h3>Gitpod</h3>
 <p>Just click below to start development in Gitpod. You must register to service with your Gitlab account. </p>
 <p><a href="https://gitpod.io/#https://github.com/olkitu/Mobilespectrum"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" alt="Gitpod ready-to-code" class="img-responsive"></a></p>
-<h3 id="docker-1">Docker</h3>
+<h3>Docker</h3>
 <p>Build, install Node-modules and start dev environment. The first setup will take time because node_modules will be installed to persistent volume.</p>
 <div><pre class="line-numbers"><code class="language-none">docker-compose build
 docker-compose up -d</code></pre></div><p>You can then modify files locally and see changes via browser <a href="http://localhost:4200">http://localhost:4200</a></p>
 <p>If you like to reinstall node_modules, stop Docker with <code>-v</code> parameter to remove persistent volume.</p>
-<div><pre class="line-numbers"><code class="language-none">docker-compose down -v</code></pre></div><h3 id="nodejs-locally">NodeJS locally</h3>
+<div><pre class="line-numbers"><code class="language-none">docker-compose down -v</code></pre></div><h3>NodeJS locally</h3>
 <p>Requirements:</p>
 <ul>
 <li>NodeJS 16.13</li>
@@ -70,15 +70,15 @@ docker-compose up -d</code></pre></div><p>You can then modify files locally and 
 <li>Yarn</li>
 </ul>
 <p>Run <code>yarn</code> to install Node-modules</p>
-<h4 id="development-server">Development server</h4>
+<h4>Development server</h4>
 <p>Run <code>ng serve</code> for a dev server. Navigate to <code>http://localhost:4200/</code>. The app will automatically reload if you change any of the source files.</p>
-<h4 id="code-scaffolding">Code scaffolding</h4>
+<h4>Code scaffolding</h4>
 <p>Run <code>ng generate component component-name</code> to generate a new component. You can also use <code>ng generate directive|pipe|service|class|guard|interface|enum|module</code>.</p>
-<h4 id="running-unit-tests">Running unit tests</h4>
+<h4>Running unit tests</h4>
 <p>Run <code>ng test</code> to execute the unit tests via <a href="https://karma-runner.github.io">Karma</a>.</p>
-<h4 id="running-end-to-end-tests">Running end-to-end tests</h4>
+<h4>Running end-to-end tests</h4>
 <p>Run <code>ng e2e</code> to execute the end-to-end tests via <a href="http://www.protractortest.org/">Protractor</a>.</p>
-<h3 id="further-help">Further help</h3>
+<h3>Further help</h3>
 <p>To get more help on the Angular CLI use <code>ng help</code> or go check out the <a href="https://angular.io/cli">Angular CLI Overview and Command Reference</a> page.</p>
 
 

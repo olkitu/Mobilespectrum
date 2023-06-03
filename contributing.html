@@ -13,7 +13,7 @@
     </head>
     <body>
 
-        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
             <a href="./" class="navbar-brand">MobileSpectrum Documentation</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
@@ -31,9 +31,9 @@
                <div class="content getting-started">
                    <div class="content-data">
 
-<h1 id="contributing">Contributing</h1>
+<h1>Contributing</h1>
 <p>Thank you already to contributing to project! We trying make contributing as easier as possible. </p>
-<h2 id="use-git-flow">Use Git Flow</h2>
+<h2>Use Git Flow</h2>
 <p>Merge requests are the best way to propose changes to the codebase. We actively welcome your merge requests:</p>
 <ol>
 <li>Fork the repo and create your branch from <code>main</code></li>
@@ -42,16 +42,16 @@
 <li>Make sure your code lints. </li>
 <li>Merge request</li>
 </ol>
-<h2 id="adding-new-data-and-update-exist">Adding new data and update exist</h2>
+<h2>Adding new data and update exist</h2>
 <p>All the data is managed throught a series of <a href="https://www.json.org/json-en.html">Json</a> files. </p>
 <p>To add new <a href="https://github.com/olkitu/Mobilespectrum/tree/main/src/data/countries">data files</a> to get familiar how to set up. The file name should named as country name example <code>finland.json</code>. If there is space between name like United Kingdon, use underscore <code>united_kingdom.json</code>.</p>
 <p>Full JSON schema is documented in <a href="https://github.com/olkitu/Mobilespectrum/wiki/JSON-data-format">Wiki</a></p>
-<h3 id="test-schema-locally">Test schema locally</h3>
+<h3>Test schema locally</h3>
 <p>To test locally the schema, you need install some NodeJS packages</p>
 <div><pre class="line-numbers"><code class="language-none">yarn global add ajv-cli ajv-formats</code></pre></div><p>Move to <code>src/data</code> directory and run command to test JSON files against schema. </p>
 <div><pre class="line-numbers"><code class="language-none">cd src/data
 ajv test -s schemas/country.schema -d &quot;countries/*.json&quot; -c ajv-formats --valid --verbose --all-errors</code></pre></div><p>This should return something like <code>countries/finland.json</code> passed test.</p>
-<h2 id="report-bugs">Report Bugs</h2>
+<h2>Report Bugs</h2>
 <p>Report bugs in <a href="https://github.com/olkitu/Mobilespectrum/issues">issues</a>. Just create new issue and report details and steps to repeat the issue.</p>
 
 
