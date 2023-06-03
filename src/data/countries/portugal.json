@@ -1,5 +1,123 @@
 [
     {
+        "band": 28,
+        "providers": [
+            {
+                "provider": {
+                    "name": "MEO",
+                    "longName": "MEO",
+                    "homePage": "http://www.meo.pt/",
+                    "backgroundColor": "darkcyan",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 758,
+                        "end": 763
+                    },
+                    "upLink": {
+                        "start": 703,
+                        "end": 708
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "None",
+                    "longName": "Unallocated",
+                    "homePage": "https://www.anacom.pt/render.jsp?contentId=1709636&languageId=1",
+                    "backgroundColor": "darkgray",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 763,
+                        "end": 768
+                    },
+                    "upLink": {
+                        "start": 708,
+                        "end": 713
+                    }
+                },
+                "technology": [
+                    "Not used"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt/",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 768,
+                        "end": 778
+                    },
+                    "upLink": {
+                        "start": 713,
+                        "end": 723
+                    }
+                },
+                "technology": [
+                    "LTE",
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "NOS",
+                    "longName": "NOS",
+                    "homePage": "http://www.nos.pt/",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
+                    },
+                    "upLink": {
+                        "start": 723,
+                        "end": 733
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "band": 20,
         "providers": [
             {
@@ -7,7 +125,7 @@
                     "name": "MEO",
                     "longName": "MEO",
                     "homePage": "http://www.meo.pt/",
-                    "backgroundColor": "#34a8eb",
+                    "backgroundColor": "darkcyan",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -26,7 +144,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -54,7 +172,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -82,7 +200,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             }
@@ -91,6 +209,31 @@
     {
         "band": 8,
         "providers": [
+            {
+                "provider": {
+                    "name": "Digi",
+                    "longName": "Digi Portugal",
+                    "homePage": "https://www.digi-communications.ro/",
+                    "backgroundColor": "blue",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 925,
+                        "end": 930
+                    },
+                    "upLink": {
+                        "start": 880,
+                        "end": 885
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/streaming/Dec14012022Espectro900MHz_traducao.pdf?contentId=1714909&field=ATTACHED_FILE"
+                    }
+                ]
+            },
             {
                 "provider": {
                     "name": "Vodafone",
@@ -102,11 +245,11 @@
                 "frequency": {
                     "downLink": {
                         "start": 930,
-                        "end": 940.1
+                        "end": 940
                     },
                     "upLink": {
                         "start": 885,
-                        "end": 895.1
+                        "end": 895
                     }
                 },
                 "technology": [
@@ -117,7 +260,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/streaming/Dec14012022Espectro900MHz_traducao.pdf?contentId=1714909&field=ATTACHED_FILE"
                     }
                 ]
             },
@@ -131,21 +274,23 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 943.1,
-                        "end": 950.9
+                        "start": 940,
+                        "end": 950
                     },
                     "upLink": {
-                        "start": 898.1,
-                        "end": 905.9
+                        "start": 895,
+                        "end": 905
                     }
                 },
                 "technology": [
-                    "GSM"
+                    "GSM",
+                    "UMTS",
+                    "LTE"
                 ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/streaming/Dec14012022Espectro900MHz_traducao.pdf?contentId=1714909&field=ATTACHED_FILE"
                     }
                 ]
             },
@@ -154,17 +299,17 @@
                     "name": "MEO",
                     "longName": "MEO",
                     "homePage": "http://www.meo.pt",
-                    "backgroundColor": "#34a8eb",
+                    "backgroundColor": "darkcyan",
                     "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 950.9,
-                        "end": 958.9
+                        "start": 950,
+                        "end": 960
                     },
                     "upLink": {
-                        "start": 905.9,
-                        "end": 913.9
+                        "start": 905,
+                        "end": 915
                     }
                 },
                 "technology": [
@@ -174,7 +319,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/streaming/Dec14012022Espectro900MHz_traducao.pdf?contentId=1714909&field=ATTACHED_FILE"
                     }
                 ]
             }
@@ -202,13 +347,13 @@
                     }
                 },
                 "technology": [
-                    "GSM",
-                    "LTE"
+                    "LTE",
+                    "NR"
                 ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -231,12 +376,13 @@
                     }
                 },
                 "technology": [
-                    "LTE"
+                    "LTE",
+                    "NR"
                 ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -245,7 +391,7 @@
                     "name": "MEO",
                     "longName": "MEO",
                     "homePage": "http://www.meo.pt",
-                    "backgroundColor": "#34a8eb",
+                    "backgroundColor": "darkcyan",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -260,12 +406,13 @@
                 },
                 "technology": [
                     "GSM",
-                    "LTE"
+                    "LTE",
+                    "NR"
                 ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -280,20 +427,42 @@
                 "frequency": {
                     "downLink": {
                         "start": 1865,
-                        "end": 1880
+                        "end": 1875
                     },
                     "upLink": {
                         "start": 1770,
-                        "end": 1785
+                        "end": 1780
                     }
                 },
-                "technology": [
-                    "LTE"
-                ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Digi",
+                    "longName": "Digi Portugal",
+                    "homePage": "https://www.digi-communications.ro/",
+                    "backgroundColor": "blue",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1875,
+                        "end": 1880
+                    },
+                    "upLink": {
+                        "start": 1780,
+                        "end": 1785
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
                     }
                 ]
             }
@@ -328,7 +497,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -343,21 +512,25 @@
                 "frequency": {
                     "downLink": {
                         "start": 2130.1,
-                        "end": 2144.9
+                        "end": 2149.9
                     },
                     "upLink": {
                         "start": 1940.1,
-                        "end": 1954.9
+                        "end": 1959.9
                     }
                 },
                 "technology": [
-                    "UMTS",
-                    "LTE"
+                    "LTE",
+                    "NR"
                 ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
+                    },
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
                     }
                 ]
             },
@@ -366,7 +539,7 @@
                     "name": "MEO",
                     "longName": "MEO",
                     "homePage": "http://www.meo.pt",
-                    "backgroundColor": "#34a8eb",
+                    "backgroundColor": "darkcyan",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -381,12 +554,13 @@
                 },
                 "technology": [
                     "UMTS",
-                    "LTE"
+                    "LTE",
+                    "NR"
                 ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             }
@@ -395,6 +569,56 @@
     {
         "band": 7,
         "providers": [
+            {
+                "provider": {
+                    "name": "Digi",
+                    "longName": "Digi Portugal",
+                    "homePage": "https://www.digi-communications.ro/",
+                    "backgroundColor": "blue",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2625
+                    },
+                    "upLink": {
+                        "start": 2500,
+                        "end": 2505
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Nowo",
+                    "longName": "Nowo",
+                    "homePage": "http://www.nowo.pt",
+                    "backgroundColor": "#f76e11",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2625,
+                        "end": 2630
+                    },
+                    "upLink": {
+                        "start": 2505,
+                        "end": 2510
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
             {
                 "provider": {
                     "name": "Vodafone",
@@ -419,7 +643,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -447,7 +671,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             },
@@ -456,7 +680,7 @@
                     "name": "MEO",
                     "longName": "MEO",
                     "homePage": "http://www.meo.pt",
-                    "backgroundColor": "#34a8eb",
+                    "backgroundColor": "darkcyan",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -475,7 +699,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             }
@@ -484,6 +708,27 @@
     {
         "band": 38,
         "providers": [
+            {
+                "provider": {
+                    "name": "Digi",
+                    "longName": "Digi Portugal",
+                    "homePage": "https://www.digi-communications.ro/",
+                    "backgroundColor": "blue",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2595,
+                        "end": 2620
+                    }
+                },
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
             {
                 "provider": {
                     "name": "Vodafone",
@@ -504,7 +749,7 @@
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/render.jsp?categoryId=382989"
+                        "url": "https://www.anacom.pt/render.jsp?categoryId=383094&languageId=1"
                     }
                 ]
             }
@@ -515,6 +760,30 @@
         "providers": [
             {
                 "provider": {
+                    "name": "Digi",
+                    "longName": "Digi Portugal",
+                    "homePage": "https://www.digi-communications.ro/",
+                    "backgroundColor": "blue",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3400,
+                        "end": 3440
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
                     "name": "Dense Air",
                     "longName": "Dense Air",
                     "homePage": "https://denseair.net",
@@ -523,14 +792,113 @@
                 },
                 "frequency": {
                     "downLink": {
-                        "start": 3400,
-                        "end": 3500
+                        "start": 3440,
+                        "end": 3480
                     }
                 },
+                "technology": [
+                    "NR"
+                ],
                 "source": [
                     {
                         "name": "Autoridade Nacional de Comunicações",
-                        "url": "https://www.anacom.pt/streaming/SPD_Alteracao_DUF_DenseAir22102019.pdf?contentId=1488362&field=ATTACHED_FILE"
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Nowo",
+                    "longName": "Nowo",
+                    "homePage": "http://www.nowo.pt",
+                    "backgroundColor": "#f76e11",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3480,
+                        "end": 3520
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "Vodafone",
+                    "longName": "Vodafone",
+                    "homePage": "http://www.vodafone.pt",
+                    "backgroundColor": "#e60000",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3520,
+                        "end": 3610
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "NOS",
+                    "longName": "NOS",
+                    "homePage": "http://www.nos.pt",
+                    "backgroundColor": "#ff9b00",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3610,
+                        "end": 3710
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "MEO",
+                    "longName": "MEO",
+                    "homePage": "http://www.meo.pt",
+                    "backgroundColor": "darkcyan",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3710,
+                        "end": 3800
+                    }
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Autoridade Nacional de Comunicações",
+                        "url": "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1"
                     }
                 ]
             }
