@@ -49,5 +49,6 @@ Thumbs.db
 
 # Documentation
 /documentation
+/docs
 
 docker-entrypoint.dev.sh.bak

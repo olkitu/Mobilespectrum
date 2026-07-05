@@ -3,7 +3,9 @@
         "dockerfile": "Dockerfile"
     },
     "features": {
-        "ghcr.io/devcontainers/features/node:1.2.0": {},
+        "ghcr.io/devcontainers/features/node:1.2.0": {
+            "version": "16.13"
+        },
         "ghcr.io/devcontainers-extra/features/angular-cli:2": {
             "version": "13.1.4"
         }
