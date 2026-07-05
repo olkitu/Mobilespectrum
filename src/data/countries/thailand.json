@@ -74,20 +74,20 @@
           "longName": "Advanced Info Service",
           "homePage": "https://www.ais.co.th/",
           "backgroundColor": "#c3d601",
-          "textColor": "white"
+          "textColor": "black"
         },
         "frequency": {
           "arfcn": {
-            "LTE":[9460,9485,9510,9535],
-            "NR":[156030,156050]
+            "LTE":[9460,9485,9510,9535,9558],
+            "NR":[156030,156050,156250]
           },
           "downLink": {
             "start": 778,
-            "end": 793
+            "end": 798
           },
           "upLink": {
             "start": 723,
-            "end": 738
+            "end": 743
           }
         },
         "technology": [
@@ -96,12 +96,20 @@
         ],
         "source": [
           {
+            "name": "AIS - NT and AIS join forces to increase 4G/5G capability on the 700 MHz spectrum",
+            "url": "https://www.ais.th/en/business/news-and-activity/announcements/nt-and-ais-join-forces-to-increase-4g-5g-capability-on-the-700-mhz-spectrum"
+          },
+          {
             "name": "AIS Newsroom",
             "url": "https://investor-th.ais.co.th/news.html/id/815342/group/newsroom_press"
           },
           {
             "name": "Droidsans - สรุปประมูล 5G สร้างรายได้กว่าแสนล้าน",
             "url": "https://droidsans.com/5g-auction-final-report/"
+          },
+          {
+            "name": "LightReading - AIS bolsters 5G credentials with purchase of 700MHz spectrum license from NT",
+            "url": "https://www.lightreading.com/5g/ais-bolsters-5g-posture-amid-purchase-of-700mhz-spectrum-license-from-nt"
           }
         ]
       },
@@ -110,26 +118,38 @@
           "name": "NT",
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
-          "backgroundColor": "#312783",
-          "textColor": "white"
+          "backgroundColor": "#ffe000",
+          "textColor": "black"
         },
         "frequency": {
           "downLink": {
-            "start": 793,
+            "start": 798,
             "end": 803
           },
           "upLink": {
-            "start": 738,
+            "start": 743,
             "end": 748
+          },
+          "arfcn": {
+            "LTE":[9635]
           }
         },
         "technology": [
+          "LTE",
           "NR"
         ],
         "source": [
           {
+            "name": "AIS - NT and AIS join forces to increase 4G/5G capability on the 700 MHz spectrum",
+            "url": "https://www.ais.th/en/business/news-and-activity/announcements/nt-and-ais-join-forces-to-increase-4g-5g-capability-on-the-700-mhz-spectrum"
+          },
+          {
             "name": "Droidsans - สรุปประมูล 5G สร้างรายได้กว่าแสนล้าน",
             "url": "https://droidsans.com/5g-auction-final-report/"
+          },
+          {
+            "name": "LightReading - AIS bolsters 5G credentials with purchase of 700MHz spectrum license from NT",
+            "url": "https://www.lightreading.com/5g/ais-bolsters-5g-posture-amid-purchase-of-700mhz-spectrum-license-from-nt"
           }
         ]
       }
@@ -183,8 +203,8 @@
           "name": "NT",
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
-          "backgroundColor": "#312783",
-          "textColor": "white"
+          "backgroundColor": "#ffe000",
+          "textColor": "#52595f"
         },
         "frequency": {
           "arfcn": {
@@ -251,7 +271,7 @@
           "longName": "Advanced Info Service",
           "homePage": "https://www.ais.co.th/",
           "backgroundColor": "#c3d601",
-          "textColor": "white"
+          "textColor": "black"
         },
         "frequency": {
           "arfcn": {
@@ -355,7 +375,7 @@
           "longName": "Advanced Info Service",
           "homePage": "https://www.ais.co.th/",
           "backgroundColor": "#c3d601",
-          "textColor": "white"
+          "textColor": "black"
         },
         "frequency": {
           "downLink": {
@@ -492,7 +512,7 @@
           "longName": "Advanced Info Service",
           "homePage": "https://www.ais.co.th/",
           "backgroundColor": "#c3d601",
-          "textColor": "white"
+          "textColor": "black"
         },
         "frequency": {
           "arfcn": 
@@ -527,8 +547,8 @@
           "name": "NT",
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
-          "backgroundColor": "#312783",
-          "textColor": "white"
+          "backgroundColor": "#ffe000",
+          "textColor": "black"
         },
         "frequency": {
           "arfcn": {
@@ -565,8 +585,8 @@
           "name": "NT",
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
-          "backgroundColor": "#312783",
-          "textColor": "white"
+          "backgroundColor": "#ffe000",
+          "textColor": "black"
         },
         "frequency": {
           "arfcn": {
@@ -602,7 +622,7 @@
           "longName": "Advanced Info Service",
           "homePage": "https://www.ais.co.th/",
           "backgroundColor": "#c3d601",
-          "textColor": "white"
+          "textColor": "black"
         },
         "frequency": {
           "downLink": {
@@ -701,7 +721,7 @@
           "longName": "Advanced Info Service",
           "homePage": "https://www.ais.co.th/",
           "backgroundColor": "#c3d601",
-          "textColor": "white"
+          "textColor": "black"
         },
         "frequency": {
           "downLink": {
@@ -728,8 +748,8 @@
           "name": "NT",
           "longName": "National Telecom",
           "homePage": "https://www.ntplc.co.th/",
-          "backgroundColor": "#312783",
-          "textColor": "white"
+          "backgroundColor": "#ffe000",
+          "textColor": "black"
         },
         "frequency": {
           "downLink": {
