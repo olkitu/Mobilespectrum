@@ -11,23 +11,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 758,
-                        "end": 763
-                    },
                     "upLink": {
                         "start": 703,
                         "end": 708
+                    },
+                    "downLink": {
+                        "start": 758,
+                        "end": 763
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep - Archive",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
-                    },
-                    {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -40,23 +36,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 763,
-                        "end": 773
-                    },
                     "upLink": {
                         "start": 708,
                         "end": 718
+                    },
+                    "downLink": {
+                        "start": 763,
+                        "end": 773
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep - Archive",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
-                    },
-                    {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -65,27 +57,23 @@
                     "name": "Bouygues",
                     "longName": "Bouygues Telecom",
                     "homePage": "https://www.bouyguestelecom.fr/",
-                    "backgroundColor": "#1b3650",
+                    "backgroundColor": "#0073cf",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 773,
-                        "end": 778
-                    },
                     "upLink": {
                         "start": 718,
                         "end": 723
+                    },
+                    "downLink": {
+                        "start": 773,
+                        "end": 778
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep - Archive",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
-                    },
-                    {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -94,27 +82,23 @@
                     "name": "Free",
                     "longName": "Free",
                     "homePage": "https://www.free.fr/",
-                    "backgroundColor": "#dc0000",
+                    "backgroundColor": "#00a651",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 778,
-                        "end": 788
-                    },
                     "upLink": {
                         "start": 723,
                         "end": 733
+                    },
+                    "downLink": {
+                        "start": 778,
+                        "end": 788
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep - Archive",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
-                    },
-                    {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/actualites/les-communiques-de-presse/detail/n/larcep-delivre-leurs-autorisations-aux-laureats.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             }
@@ -128,23 +112,23 @@
                     "name": "Bouygues",
                     "longName": "Bouygues Telecom",
                     "homePage": "https://www.bouyguestelecom.fr/",
-                    "backgroundColor": "#1b3650",
+                    "backgroundColor": "#0073cf",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 791,
-                        "end": 801
-                    },
                     "upLink": {
                         "start": 832,
                         "end": 842
+                    },
+                    "downLink": {
+                        "start": 791,
+                        "end": 801
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -157,19 +141,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 801,
-                        "end": 811
-                    },
                     "upLink": {
                         "start": 842,
                         "end": 852
+                    },
+                    "downLink": {
+                        "start": 801,
+                        "end": 811
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -182,19 +166,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 811,
-                        "end": 821
-                    },
                     "upLink": {
                         "start": 852,
                         "end": 862
+                    },
+                    "downLink": {
+                        "start": 811,
+                        "end": 821
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             }
@@ -208,23 +192,23 @@
                     "name": "Bouygues",
                     "longName": "Bouygues Telecom",
                     "homePage": "https://www.bouyguestelecom.fr/",
-                    "backgroundColor": "#1b3650",
+                    "backgroundColor": "#0073cf",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 925,
-                        "end": 934.8
-                    },
                     "upLink": {
                         "start": 880,
                         "end": 889.8
+                    },
+                    "downLink": {
+                        "start": 925,
+                        "end": 934.8
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -237,19 +221,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 935,
-                        "end": 945
-                    },
                     "upLink": {
                         "start": 890,
                         "end": 900
+                    },
+                    "downLink": {
+                        "start": 935,
+                        "end": 945
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -258,23 +242,23 @@
                     "name": "Free",
                     "longName": "Free",
                     "homePage": "https://www.free.fr/",
-                    "backgroundColor": "#dc0000",
+                    "backgroundColor": "#00a651",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 945,
-                        "end": 950
-                    },
                     "upLink": {
                         "start": 900,
                         "end": 905
+                    },
+                    "downLink": {
+                        "start": 945,
+                        "end": 950
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -287,19 +271,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 950,
-                        "end": 960
-                    },
                     "upLink": {
                         "start": 905,
                         "end": 915
+                    },
+                    "downLink": {
+                        "start": 950,
+                        "end": 960
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             }
@@ -317,19 +301,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 1805,
-                        "end": 1825
-                    },
                     "upLink": {
                         "start": 1710,
                         "end": 1730
+                    },
+                    "downLink": {
+                        "start": 1805,
+                        "end": 1825
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -342,19 +326,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 1825,
-                        "end": 1845
-                    },
                     "upLink": {
                         "start": 1730,
                         "end": 1750
+                    },
+                    "downLink": {
+                        "start": 1825,
+                        "end": 1845
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -363,23 +347,23 @@
                     "name": "Free",
                     "longName": "Free",
                     "homePage": "https://www.free.fr/",
-                    "backgroundColor": "#dc0000",
+                    "backgroundColor": "#00a651",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 1845,
-                        "end": 1860
-                    },
                     "upLink": {
                         "start": 1750,
                         "end": 1765
+                    },
+                    "downLink": {
+                        "start": 1845,
+                        "end": 1860
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -388,23 +372,23 @@
                     "name": "Bouygues",
                     "longName": "Bouygues Telecom",
                     "homePage": "https://www.bouyguestelecom.fr/",
-                    "backgroundColor": "#1b3650",
+                    "backgroundColor": "#0073cf",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 1860,
-                        "end": 1880
-                    },
                     "upLink": {
                         "start": 1765,
                         "end": 1785
+                    },
+                    "downLink": {
+                        "start": 1860,
+                        "end": 1880
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             }
@@ -422,19 +406,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2110,
-                        "end": 2124.8
-                    },
                     "upLink": {
                         "start": 1920,
                         "end": 1934.8
+                    },
+                    "downLink": {
+                        "start": 2110,
+                        "end": 2124.8
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -443,23 +427,23 @@
                     "name": "Bouygues",
                     "longName": "Bouygues Telecom",
                     "homePage": "https://www.bouyguestelecom.fr/",
-                    "backgroundColor": "#1b3650",
+                    "backgroundColor": "#0073cf",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2124.8,
-                        "end": 2139.6
-                    },
                     "upLink": {
                         "start": 1934.8,
                         "end": 1949.6
+                    },
+                    "downLink": {
+                        "start": 2124.8,
+                        "end": 2139.6
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -472,19 +456,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2139.6,
-                        "end": 2144.4
-                    },
                     "upLink": {
                         "start": 1949.6,
                         "end": 1954.4
+                    },
+                    "downLink": {
+                        "start": 2139.6,
+                        "end": 2144.4
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -493,23 +477,23 @@
                     "name": "Free",
                     "longName": "Free",
                     "homePage": "https://www.free.fr/",
-                    "backgroundColor": "#dc0000",
+                    "backgroundColor": "#00a651",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2144.4,
-                        "end": 2149.4
-                    },
                     "upLink": {
                         "start": 1954.4,
                         "end": 1959.4
+                    },
+                    "downLink": {
+                        "start": 2144.4,
+                        "end": 2149.4
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -522,19 +506,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2149.4,
-                        "end": 2154.4
-                    },
                     "upLink": {
                         "start": 1959.4,
                         "end": 1964.4
+                    },
+                    "downLink": {
+                        "start": 2149.4,
+                        "end": 2154.4
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -547,19 +531,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2154.4,
-                        "end": 2169.2
-                    },
                     "upLink": {
                         "start": 1964.4,
                         "end": 1979.2
+                    },
+                    "downLink": {
+                        "start": 2154.4,
+                        "end": 2169.2
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             }
@@ -577,19 +561,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2620,
-                        "end": 2635
-                    },
                     "upLink": {
                         "start": 2500,
                         "end": 2515
+                    },
+                    "downLink": {
+                        "start": 2620,
+                        "end": 2635
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -602,19 +586,19 @@
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2635,
-                        "end": 2655
-                    },
                     "upLink": {
                         "start": 2515,
                         "end": 2535
+                    },
+                    "downLink": {
+                        "start": 2635,
+                        "end": 2655
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -623,23 +607,23 @@
                     "name": "Bouygues",
                     "longName": "Bouygues Telecom",
                     "homePage": "https://www.bouyguestelecom.fr/",
-                    "backgroundColor": "#1b3650",
+                    "backgroundColor": "#0073cf",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2655,
-                        "end": 2670
-                    },
                     "upLink": {
                         "start": 2535,
                         "end": 2550
+                    },
+                    "downLink": {
+                        "start": 2655,
+                        "end": 2670
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -648,23 +632,23 @@
                     "name": "Free",
                     "longName": "Free",
                     "homePage": "https://www.free.fr/",
-                    "backgroundColor": "#dc0000",
+                    "backgroundColor": "#00a651",
                     "textColor": "white"
                 },
                 "frequency": {
-                    "downLink": {
-                        "start": 2670,
-                        "end": 2690
-                    },
                     "upLink": {
                         "start": 2550,
                         "end": 2570
+                    },
+                    "downLink": {
+                        "start": 2670,
+                        "end": 2690
                     }
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://archives.arcep.fr/fileadmin/reprise/dossiers/mobile/Repartition_des_frequences_-_decembre_2015.pdf"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             }
@@ -689,8 +673,8 @@
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -699,7 +683,7 @@
                     "name": "Bouygues",
                     "longName": "Bouygues Telecom",
                     "homePage": "https://www.bouyguestelecom.fr/",
-                    "backgroundColor": "#1b3650",
+                    "backgroundColor": "#0073cf",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -710,8 +694,8 @@
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -720,7 +704,7 @@
                     "name": "Free",
                     "longName": "Free",
                     "homePage": "https://www.free.fr/",
-                    "backgroundColor": "#dc0000",
+                    "backgroundColor": "#00a651",
                     "textColor": "white"
                 },
                 "frequency": {
@@ -731,8 +715,8 @@
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             },
@@ -752,8 +736,8 @@
                 },
                 "source": [
                     {
-                        "name": "arcep",
-                        "url": "https://www.arcep.fr/la-regulation/grands-dossiers-reseaux-mobiles/la-5g/frequences-5g-procedure-dattribution-de-la-bande-34-38-ghz-en-metropole.html"
+                        "name": "arcep - 2025 Update",
+                        "url": "https://www.arcep.fr/fileadmin/reprise/dossiers/frequences/attributions-frequences-operateurs-mobiles-metropole-novembre2020.pdf"
                     }
                 ]
             }
