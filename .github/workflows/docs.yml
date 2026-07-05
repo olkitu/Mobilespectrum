@@ -14,7 +14,7 @@ jobs:
         node-version: '16.13'
     - name: Install and Build Docs
       run: |
-        npm install -g @compodoc/compodoc@1.1.12
+        yarn
         npx compodoc -p tsconfig.json -d docs -n "MobileSpectrum Documentation" src
     
     - name: Deploy
