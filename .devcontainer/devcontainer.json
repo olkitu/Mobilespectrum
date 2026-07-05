@@ -1,0 +1,21 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/node:1.2.0": {},
+        "ghcr.io/devcontainers-extra/features/angular-cli:2": {
+            "version": "13.1.4"
+        }
+    },
+    "postCreateCommand": "yarn",
+    "forwardPorts": [4200, 4201, 4205, 4206, 9876],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Angular.ng-template",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
