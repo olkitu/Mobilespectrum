@@ -4,6 +4,31 @@
 		"providers": [
 			{
 				"provider": {
+					"name": "Digi",
+					"longName": "Digi Romania",
+					"homePage": "https://www.digi.ro",
+					"backgroundColor": "#0018e5",
+					"textColor": "white"
+				},
+				"frequency": {
+					"upLink": {
+						"start": 832,
+						"end": 837
+					},
+					"downLink": {
+						"start": 791,
+						"end": 796
+					}
+				},
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
+			},
+			{
+				"provider": {
 					"name": "Vodafone",
 					"longName": "Vodafone Romania",
 					"homePage": "https://www.vodafone.ro",
@@ -383,11 +408,11 @@
 				"frequency": {
 					"downLink": {
 						"start": 2570,
-						"end": 2600
+						"end": 2615
 					},
 					"upLink": {
 						"start": 2570,
-						"end": 2600
+						"end": 2615
 					}
 				},
 				"source": [
@@ -397,31 +422,6 @@
 					}
 				]
 			},
-			{
-				"provider": {
-					"name": "Vodafone",
-					"longName": "Vodafone Romania",
-					"homePage": "https://www.vodafone.ro",
-					"backgroundColor": "#e60000",
-					"textColor": "white"
-				},
-				"frequency": {
-					"downLink": {
-						"start": 2600,
-						"end": 2615
-					},
-					"upLink": {
-						"start": 2600,
-						"end": 2615
-					}
-				},
-				"source": [
-					{
-						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
-						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
-					}
-				]
-			}
 		]
 	},
 	{
@@ -476,7 +476,33 @@
 						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
 					}
 				]
-			}
+			},
+			{
+				"provider": {
+					"name": "Digi",
+					"longName": "Digi Romania",
+					"homePage": "https://www.digi.ro",
+					"backgroundColor": "#0018e5",
+					"textColor": "white"
+				},
+				"frequency": {
+					"downLink": {
+						"start": 2650,
+						"end": 2670
+					},
+					"upLink": {
+						"start": 2530,
+						"end": 2550
+					}
+				},
+				"source": [
+					{
+						"name": "ANCOM - National Authority for Management and Regulation Communications of Romania",
+						"url": "https://www.ancom.ro/uploads/forms_files/Document_de_pozitie_20191559326182.pdf"
+					}
+				]
+			},
+
 		]
 	},
 	{
@@ -547,7 +573,7 @@
 			},
 			{
 				"provider": {
-					"name": "SNR",
+					"name": "Radiocom",
 					"longName": "SNR Radiocom",
 					"homePage": "https://www.radiocom.ro",
 					"backgroundColor": "#008c1a",
