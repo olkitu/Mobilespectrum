@@ -1,5 +1,39 @@
 [
     {
+        "band": 67,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TDC",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 738,
+                        "end": 758
+                    }
+                },
+                "valid": {
+                    "start": "2020-06-02",
+                    "end": "2040-06-01"
+                },
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/aghdshse/tdc-net-as-700-900-mhz-tilladelse-h101693.pdf"
+                    },
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/yqqnvjme/tdc-net-as-700-900-mhz-tilladelse-h101693-tillaeg-3.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "band": 28,
         "providers": [
             {
@@ -8,7 +42,7 @@
                     "longName": "Hi3G Denmark",
                     "homePage": "https://www.3.dk/",
                     "backgroundColor": "#f37423",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -21,23 +55,27 @@
                     }
                 },
                 "valid": {
-                    "start": "2020-04-04",
-                    "end": "2040-04-03"
+                    "start": "2020-06-02",
+                    "end": "2040-06-01"
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/700-900_mhz-tilladelse_-_hi3g.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/3zyfhy3h/hi3g-denmark-aps-700-900-mhz-tilladelse-h101692.pdf"
+                    },
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/zmvii31c/hi3g-denmark-aps-700-900-mhz-tilladelse-h101692-tillaeg-1.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT",
-                    "longName": "TT-Netværket",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -50,23 +88,27 @@
                     }
                 },
                 "valid": {
-                    "start": "2020-04-04",
-                    "end": "2040-04-03"
+                    "start": "2020-06-02",
+                    "end": "2040-06-01"
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/700-900_mhz-tilladelse_-tt-netvaerket.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/wajjbjmr/tt-netvaerket-ps-700-900-mhz-tilladelse-h101690.pdf"
+                    },
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/phjp42if/tt-netvaerket-ps-700-900-mhz-tilladelse-h101690-tillaeg-1.pdf"
                     }
                 ]
             },
             {
                 "provider": {
                     "name": "TDC",
-                    "longName": "TDC",
-                    "homePage": "https://tdc.dk",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
                     "backgroundColor": "#266baf",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -79,13 +121,17 @@
                     }
                 },
                 "valid": {
-                    "start": "2020-04-04",
-                    "end": "2040-04-03"
+                    "start": "2020-06-02",
+                    "end": "2040-06-01"
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/700-900_mhz-tilladelse_-_tdc_net.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/aghdshse/tdc-net-as-700-900-mhz-tilladelse-h101693.pdf"
+                    },
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/yqqnvjme/tdc-net-as-700-900-mhz-tilladelse-h101693-tillaeg-3.pdf"
                     }
                 ]
             }
@@ -96,11 +142,11 @@
         "providers": [
             {
                 "provider": {
-                    "name": "TT",
-                    "longName": "TT-Netværket",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -118,18 +164,18 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/tt-netvaerkets_800_mhz_tilladelse_med_bilag.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/rqglynz0/tt-netvaerket-ps-800-mhz-tilladelse-h100621.pdf"
                     }
                 ]
             },
             {
                 "provider": {
                     "name": "TDC",
-                    "longName": "TDC",
-                    "homePage": "https://tdc.dk",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
                     "backgroundColor": "#266baf",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -147,8 +193,8 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/tdc_800_mhz_tilladelse_med_bilag_og_tillaeg.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/02knn1ll/tdc-net-as-800-mhz-tilladelse-h100620.pdf"
                     }
                 ]
             }
@@ -159,40 +205,11 @@
         "providers": [
             {
                 "provider": {
-                    "name": "3",
-                    "longName": "Hi3G Denmark",
-                    "homePage": "https://www.3.dk/",
-                    "backgroundColor": "#f37423",
-                    "textColor": "white" 
-                },
-                "frequency": {
-                    "downLink": {
-                        "start": 945,
-                        "end": 955
-                    },
-                    "upLink": {
-                        "start": 900,
-                        "end": 910
-                    }
-                },
-                "valid": {
-                    "start": "2020-04-01",
-                    "end": "2034-12-31"
-                },
-                "source": [
-                    {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/700-900_mhz-tilladelse_-_hi3g.pdf"
-                    }
-                ]
-            },
-            {
-                "provider": {
-                    "name": "TT",
-                    "longName": "TT-Netværket",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -210,18 +227,18 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/700-900_mhz-tilladelse_-tt-netvaerket.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/wajjbjmr/tt-netvaerket-ps-700-900-mhz-tilladelse-h101690.pdf"
                     }
                 ]
             },
             {
                 "provider": {
                     "name": "TDC",
-                    "longName": "TDC",
-                    "homePage": "https://tdc.dk",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
                     "backgroundColor": "#266baf",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -239,8 +256,121 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/700-900_mhz-tilladelse_-_tdc_net.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/aghdshse/tdc-net-as-700-900-mhz-tilladelse-h101693.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hi3G Denmark",
+                    "homePage": "https://www.3.dk/",
+                    "backgroundColor": "#f37423",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 945,
+                        "end": 955
+                    },
+                    "upLink": {
+                        "start": 900,
+                        "end": 910
+                    }
+                },
+                "valid": {
+                    "start": "2020-04-01",
+                    "end": "2034-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/3zyfhy3h/hi3g-denmark-aps-700-900-mhz-tilladelse-h101692.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hi3G Denmark",
+                    "homePage": "https://www.3.dk/",
+                    "backgroundColor": "#f37423",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 955,
+                        "end": 960
+                    },
+                    "upLink": {
+                        "start": 910,
+                        "end": 915
+                    }
+                },
+                "valid": {
+                    "start": "2011-01-01",
+                    "end": "2034-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/gm1eguzm/hi3g-900-mhz-tilladelse-h100356.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 75,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TDC",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1427,
+                        "end": 1472
+                    }
+                },
+                "valid": {
+                    "start": "2021-05-26",
+                    "end": "2042-01-31"
+                },
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/fy0jamaw/tdc_-_1500_mhz.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
+                    "backgroundColor": "#663989",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 1472,
+                        "end": 1517
+                    }
+                },
+                "valid": {
+                    "start": "2021-05-26",
+                    "end": "2042-01-31"
+                },
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/gr2ptja3/ttn_-_1500_mhz.pdf"
                     }
                 ]
             }
@@ -252,10 +382,10 @@
             {
                 "provider": {
                     "name": "TDC",
-                    "longName": "TDC",
-                    "homePage": "https://tdc.dk",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
                     "backgroundColor": "#266baf",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -269,8 +399,8 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/tillaeg_nr_2_til_1800_mhz-tilladelsen.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/0zces3fq/tdc-net-1800-mhz-tilladelse-h101099-2016.pdf"
                     }
                 ]
             },
@@ -280,7 +410,7 @@
                     "longName": "Hi3G Denmark",
                     "homePage": "https://www.3.dk/",
                     "backgroundColor": "#f37423",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -294,18 +424,18 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/1800_mhz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/e3qfnmig/hi3g-1800-mhz-tilladelse-h101098-2016.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT",
-                    "longName": "TT-Netværket",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -319,8 +449,8 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/1800_mhz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/ostfjcr2/tt-netvaerket-1800-mhz-tilladelse-h101096.pdf"
                     }
                 ]
             }
@@ -335,7 +465,7 @@
                     "longName": "Hi3G Denmark",
                     "homePage": "https://www.3.dk/",
                     "backgroundColor": "#f37423",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -347,20 +477,24 @@
                         "end": 1940
                     }
                 },
+                "valid": {
+                    "start": "2022-02-01",
+                    "end": "2042-01-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/hi3g_-_2100_mhz.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/e1pjkwru/hi3g_-_2100_mhz.pdf"
                     }
                 ]
             },
             {
                 "provider": {
                     "name": "TDC",
-                    "longName": "TDC",
-                    "homePage": "https://tdc.dk",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
                     "backgroundColor": "#266baf",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -372,20 +506,24 @@
                         "end": 1960
                     }
                 },
+                "valid": {
+                    "start": "2022-02-01",
+                    "end": "2042-01-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/tdc_-_2100_mhz.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/grwfg1gf/tdc_-_2100_mhz.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT",
-                    "longName": "TT-Netværket",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -397,10 +535,14 @@
                         "end": 1980
                     }
                 },
+                "valid": {
+                    "start": "2022-02-01",
+                    "end": "2042-01-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/ttn_-_2100_mhz.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/cihpey00/ttn_-_2100_mhz.pdf"
                     }
                 ]
             }
@@ -412,10 +554,10 @@
             {
                 "provider": {
                     "name": "TDC",
-                    "longName": "TDC",
-                    "homePage": "https://tdc.dk",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
                     "backgroundColor": "#266baf",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -429,8 +571,33 @@
                 },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/2300_mhz-tilladelse.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/oqedvqdd/2300_mhz-tilladelse.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TDC",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 2360,
+                        "end": 2400
+                    }
+                },
+                "valid": {
+                    "start": "2021-05-26",
+                    "end": "2041-12-31"
+                },
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/1vihh41o/tdc_-_2300_mhz.pdf"
                     }
                 ]
             }
@@ -442,10 +609,10 @@
             {
                 "provider": {
                     "name": "TDC",
-                    "longName": "TDC",
-                    "homePage": "https://tdc.dk",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
                     "backgroundColor": "#266baf",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -457,10 +624,14 @@
                         "end": 2520
                     }
                 },
+                "valid": {
+                    "start": "2010-06-01",
+                    "end": "2030-05-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/26_ghz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/lswcgez4/tdc-net-as-2-6-ghz-tilladelse-h100276-28-05-2010-parrede.pdf"
                     }
                 ]
             },
@@ -470,7 +641,7 @@
                     "longName": "Hi3G Denmark",
                     "homePage": "https://www.3.dk/",
                     "backgroundColor": "#f37423",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -482,20 +653,24 @@
                         "end": 2530
                     }
                 },
+                "valid": {
+                    "start": "2010-06-01",
+                    "end": "2030-05-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/26_ghz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/mmsm40sf/hi3g-denmark-aps-2-6-ghz-tilladelse-h100272-28-05-2010-parrede.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT (Telia)",
-                    "longName": "TT-Netværket (Telia)",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN (Norlys)",
+                    "longName": "TN-Network (Norlys)",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -507,20 +682,24 @@
                         "end": 2550
                     }
                 },
+                "valid": {
+                    "start": "2010-06-01",
+                    "end": "2030-05-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/26_ghz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/0ntfssux/telia-naettjaenster-norden-ab-2-6-ghz-tilladelse-h100270-28-05-2010-parrede.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT (Telenor)",
-                    "longName": "TT-Netværket (Telenor)",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN (Telenor)",
+                    "longName": "TN-Network (Telenor)",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -532,10 +711,14 @@
                         "end": 2570
                     }
                 },
+                "valid": {
+                    "start": "2010-06-01",
+                    "end": "2030-05-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/26_ghz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/jjqn1ukp/telenor-as-2-6-ghz-tilladelse-h100274-28-05-2010-parrede.pdf"
                     }
                 ]
             }
@@ -550,7 +733,7 @@
                     "longName": "Hi3G Denmark",
                     "homePage": "https://www.3.dk/",
                     "backgroundColor": "#f37423",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -558,20 +741,24 @@
                         "end": 2595
                     }
                 },
+                "valid": {
+                    "start": "2010-06-01",
+                    "end": "2030-05-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/26_ghz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/vt4p03rh/hi3g-denmark-aps-2-6-ghz-tilladelse-h100273-28-05-2010-uparrede.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT (Telenor)",
-                    "longName": "TT-Netværket (Telenor)",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN (Telenor)",
+                    "longName": "TN-Network (Telenor)",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -579,20 +766,24 @@
                         "end": 2605
                     }
                 },
+                "valid": {
+                    "start": "2010-06-01",
+                    "end": "2030-05-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/26_ghz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/3hsbfub3/telenor-as-2-6-ghz-tilladelse-h100275-28-05-2010-uparrede.pdf"
                     }
                 ]
             },
             {
                 "provider": {
-                    "name": "TT (Telia)",
-                    "longName": "TT-Netværket (Telia)",
-                    "homePage": "https://www.tt-network.dk/",
+                    "name": "TN (Norlys)",
+                    "longName": "TN-Network (Norlys)",
+                    "homePage": "https://www.tn-network.dk/",
                     "backgroundColor": "#663989",
-                    "textColor": "white" 
+                    "textColor": "white"
                 },
                 "frequency": {
                     "downLink": {
@@ -600,10 +791,192 @@
                         "end": 2620
                     }
                 },
+                "valid": {
+                    "start": "2010-06-01",
+                    "end": "2030-05-31"
+                },
                 "source": [
                     {
-                        "name": "Danish Energy Agency",
-                        "url": "https://ens.dk/sites/ens.dk/files/Tele/26_ghz_tilladelser_samlet.pdf"
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/5byd3w53/telia-naettjaenster-norden-ab-2-6-ghz-tilladelse-h100271-28-05-2010-uparrede.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 78,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TDC",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3410,
+                        "end": 3540
+                    }
+                },
+                "valid": {
+                    "start": "2021-06-01",
+                    "end": "2042-01-31"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/chnhx3ug/tdc_-_35_ghz.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hi3G Denmark",
+                    "homePage": "https://www.3.dk/",
+                    "backgroundColor": "#f37423",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3540,
+                        "end": 3660
+                    }
+                },
+                "valid": {
+                    "start": "2021-06-01",
+                    "end": "2042-01-31"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/4anjvxcl/hi3g_-_35_ghz.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
+                    "backgroundColor": "#663989",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 3660,
+                        "end": 3800
+                    }
+                },
+                "valid": {
+                    "start": "2021-06-01",
+                    "end": "2042-01-31"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/chkbrzxu/ttn_-_35_ghz.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "band": 258,
+        "providers": [
+            {
+                "provider": {
+                    "name": "TDC",
+                    "longName": "TDC Net",
+                    "homePage": "https://tdcnet.dk/",
+                    "backgroundColor": "#266baf",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 24650,
+                        "end": 25900
+                    }
+                },
+                "valid": {
+                    "start": "2021-05-26",
+                    "end": "2042-01-31"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/fxxbqifo/tdc_-_26_ghz.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "TN",
+                    "longName": "TN-Network",
+                    "homePage": "https://www.tn-network.dk/",
+                    "backgroundColor": "#663989",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 25900,
+                        "end": 26500
+                    }
+                },
+                "valid": {
+                    "start": "2021-05-26",
+                    "end": "2042-01-31"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/sbmhioey/ttn_-_26_ghz.pdf"
+                    }
+                ]
+            },
+            {
+                "provider": {
+                    "name": "3",
+                    "longName": "Hi3G Denmark",
+                    "homePage": "https://www.3.dk/",
+                    "backgroundColor": "#f37423",
+                    "textColor": "white"
+                },
+                "frequency": {
+                    "downLink": {
+                        "start": 26500,
+                        "end": 27500
+                    }
+                },
+                "valid": {
+                    "start": "2021-05-26",
+                    "end": "2042-01-31"
+                },
+                "technology": [
+                    "NR"
+                ],
+                "source": [
+                    {
+                        "name": "Danish Agency for Digital Government",
+                        "url": "https://digst.dk/media/403pjpax/hi3g_-_26_ghz.pdf"
                     }
                 ]
             }
